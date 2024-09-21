@@ -1,0 +1,97 @@
+<!-- myapp/templates/myapp/explore.html -->
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block title %}Explore More Features{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Explore More Features</h1>
+    <hr class="my-4">
+    <form id="exploreForm">
+        <div class="form-group">
+            <label for="category1">Category 1</label>
+            <select class="form-control" id="category1">
+                <option value="">Select an option</option>
+                <option value="Class 9th">Class 9th</option>
+                <option value="Class 10th">Class 10th</option>
+                <option value="Class 11th">Class 11th</option>
+                <option value="Class 12th">Class 12th</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="category2">Category 2</label>
+            <select class="form-control" id="category2" disabled>
+                <option value="">Select an option</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="category3">Category 3</label>
+            <select class="form-control" id="category3" disabled>
+                <option value="">Select an option</option>
+            </select>
+        </div>
+        <button type="button" class="btn btn-success" id="runBtn">Run</button>
+    </form>
+    <div id="output" style="margin-top: 20px;"></div>
+</div>
+
+<script>
+document.getElementById('category1').addEventListener('change', function() {
+    var category1 = this.value;
+    fetch(`/get-dynamic-options/?category1=${category1}`)
+        .then(response => response.json())
+        .then(data => {
+            var category2 = document.getElementById('category2');
+            category2.innerHTML = '<option value="">Select an option</option>';
+            data.category2.forEach(function(option) {
+                var opt = document.createElement('option');
+                opt.value = option;
+                opt.innerHTML = option;
+                category2.appendChild(opt);
+            });
+            category2.disabled = false;
+
+            // Clear and disable category3
+            var category3 = document.getElementById('category3');
+            category3.innerHTML = '<option value="">Select an option</option>';
+            category3.disabled = true;
+        });
+});
+
+document.getElementById('category2').addEventListener('change', function() {
+    var category1 = document.getElementById('category1').value;
+    var category2 = this.value;
+    fetch(`/get-dynamic-options/?category1=${category1}&category2=${category2}`)
+        .then(response => response.json())
+        .then(data => {
+            var category3 = document.getElementById('category3');
+            category3.innerHTML = '<option value="">Select an option</option>';
+            data.category3.forEach(function(option) {
+                var opt = document.createElement('option');
+                opt.value = option;
+                opt.innerHTML = option;
+                category3.appendChild(opt);
+            });
+            category3.disabled = false;
+        });
+});
+
+document.getElementById('runBtn').addEventListener('click', function() {
+    var category1 = document.getElementById('category1').value;
+    var category2 = document.getElementById('category2').value;
+    var category3 = document.getElementById('category3').value;
+
+    fetch(`/get-static-values/?category1=${category1}&category2=${category2}&category3=${category3}`)
+        .then(response => response.json())
+        .then(data => {
+            var output = `
+                <p>Category 1: ${data.category1}</p>
+                <p>Category 2: ${data.category2}</p>
+                <p>Category 3: ${data.category3}</p>
+            `;
+            document.getElementById('output').innerHTML = output;
+        });
+});
+</script>
+{% endblock %}

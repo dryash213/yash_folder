@@ -1,0 +1,43 @@
+<!-- myapp/templates/myapp/home.html -->
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to the Home Page</h1>
+    {% if user.is_authenticated %}
+        <p class="lead">Hello, {{ user.username }}!</p>
+        <hr class="my-4"> 
+        <p>You are logged in. <a href="{% url 'custom_logout' %}" class="btn btn-danger">Logout</a></p>
+    {% else %}
+        <p class="lead">You are not logged in.</p>
+        <hr class="my-4">
+        <p>
+            <a href="{% url 'account_login' %}" class="btn btn-primary">Login</a>
+            <a href="{% url 'account_signup' %}" class="btn btn-success">Signup</a>
+        </p>
+    {% endif %}
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <a href="{% if user.is_authenticated %}{% url 'thumbnail_detail' 1 %}{% else %}{% url 'account_login' %}{% endif %}" class="thumbnail">
+                <img src="{% static 'myapp/download.png' %}" class="img-thumbnail" alt="Thumbnail 1">
+                <p>Thumbnail 1</p>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% if user.is_authenticated %}{% url 'thumbnail_detail' 2 %}{% else %}{% url 'account_login' %}{% endif %}" class="thumbnail">
+                <img src="{% static 'myapp/thumbnail2.jpg' %}" class="img-thumbnail" alt="Thumbnail 2">
+                <p>Thumbnail 2</p>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% if user.is_authenticated %}{% url 'thumbnail_detail' 3 %}{% else %}{% url 'account_login' %}{% endif %}" class="thumbnail">
+                <img src="{% static 'myapp/thumbnail3.jpg' %}" class="img-thumbnail" alt="Thumbnail 3">
+                <p>Thumbnail 3</p>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
