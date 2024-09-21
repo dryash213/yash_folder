@@ -2,17 +2,18 @@ from myapp.models import Prompt
 
 # Add data
 Prompt.objects.create(
-    id = 9090100,
+    id = 9999999,
     Type="Mock Paper",
+    Class="Class 9th",
     system_prompt="You are a Expert teacher and you teach the students of ninth grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
     prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
-    Guideline for Question paper:- {Sample_Question_guidelines}
+    Guideline for Question paper:- {Mock Paper}
 
     Document Content:- {Document_content}
     """,
     model="llama-3.1-70b-versatile"
 )
 
-
+9090100
 class,Type,category
 id:- 09-01-00

@@ -5,14 +5,28 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout as auth_logout
 from django.http import JsonResponse
 # from myapp.genai
+
+
+from django.conf import settings
+
 # myapp/views.py
+from myapp.models import Prompt
+
+import os
 from django.shortcuts import render, get_object_or_404
 from .models import Prompt
 from .genai import generate_response
 
-def prompt_detail(prompt_id):
-    prompt = get_object_or_404(Prompt, id=prompt_id)  # Fetch the row by id or return 404
-    return prompt
+def prompt_detail(class_no,prompt_type):
+    # print(class_no,prompt_type,"********************************")
+    results = Prompt.objects.get(Class=prompt_type, Type=class_no)
+    print(results)
+    # prompt = get_object_or_404(Prompt, id=prompt_id)  # Fetch the row by id or return 404
+    return results
+
+
+# Filtering with multiple conditions (AND)
+
 
 def home(request):
     return render(request, 'myapp/home.html')
@@ -40,1017 +54,1085 @@ def custom_logout(request):
 def get_dynamic_options(request):
     category1 = request.GET.get('category1')
     category2 = request.GET.get('category2')
+    category3 = request.GET.get('category3')
 
     options = {
         'category1':category1,
         'category2': [],
-        'category3': []
+        'category3': [],
+        'category4': [],
+
     }
 
+
+    
     if category1:
         if category1 == 'Class 9th':
-            options['category2'] = ["Class 9th", "Chemical Reactions and Equations","Acids, Bases and Salts","Metals and Non-metals","Carbon and its Compounds","Life Processes",
-                                "Control and Coordination","How do Organisms Reproduce","Heredity","Light – Reflection and Refraction","The Human Eye and the Colourful World",
-                                "Electricity","Magnetic Effects of Electric Current","Our Environment"]
-        elif category1 == 'Class 10th':
-            options['category2'] = ["Class 10th", "Chemical Reactions and Equations","Acids, Bases and Salts","Metals and Non-metals","Carbon and its Compounds","Life Processes",
-                                "Control and Coordination","How do Organisms Reproduce","Heredity","Light – Reflection and Refraction","The Human Eye and the Colourful World",
-                                "Electricity","Magnetic Effects of Electric Current","Our Environment"]
-        elif category1 == 'Class 11th':
-            options['category2'] = ["Class 11th", "Chemical Reactions and Equations","Acids, Bases and Salts","Metals and Non-metals","Carbon and its Compounds","Life Processes",
-                                "Control and Coordination","How do Organisms Reproduce","Heredity","Light – Reflection and Refraction","The Human Eye and the Colourful World",
-                                "Electricity","Magnetic Effects of Electric Current","Our Environment"]
-        elif category1 == 'Class 12th':
-            options['category2'] = ["Class 12th", "Chemical Reactions and Equations","Acids, Bases and Salts","Metals and Non-metals","Carbon and its Compounds","Life Processes",
-                                "Control and Coordination","How do Organisms Reproduce","Heredity","Light – Reflection and Refraction","The Human Eye and the Colourful World",
-                                "Electricity","Magnetic Effects of Electric Current","Our Environment"]
+            options['category2'] = ['Maths','Science']
 
     if category2:
-        # if category2 == 'Option 2.1.1':
-        #     options['category3'] = ['Option 3.1.1', 'Option 3.1.2', 'Option 3.1.3']
-        # elif category2 == 'Option 2.2.1':
-        #     options['category3'] = ['Option 3.2.1', 'Option 3.2.2', 'Option 3.2.3']
-        # elif category2 == 'Option 2.3.1':
-        options['category3'] = ['Mock Paper', 'Test Questions', 'MCQ']
+        if category2 == 'Science':
+            options['category3'] = ["MATTER IN OUR SURROUNDINGS","Acids, Bases and Salts","Metals and Non-metals","Carbon and its Compounds","Life Processes",
+                                "Control and Coordination","How do Organisms Reproduce","Heredity","Light – Reflection and Refraction","The Human Eye and the Colourful World",
+                                "Electricity","Magnetic Effects of Electric Current"]
+
+
+    if category3:
+
+        options['category4'] = ['Mock Paper', 'Test Questions', 'MCQ']
         
     
     print(options)      
     return JsonResponse(options)
+from django.conf import settings
+import os
+from django.http import HttpResponse
+
+def load_text_file_view():
+    # Construct the path to the static file
+    file_path = os.path.join(settings.BASE_DIR, 'myapp/static/myapp/Class 9th/Science/MATTER IN OUR SURROUNDINGS.txt')
+
+    # Check if the file exists
+    if os.path.exists(file_path):
+        # Open and read the file
+        with open(file_path, 'r', encoding='utf-8') as file:
+            file_content = file.read()
+        
+        print("%%%%%$$$$$$$")
+        # Return the file content as an HTTP response (or use as needed)
+        # return HttpResponse(file_content, content_type="text/plain")
+    else:
+        return HttpResponse("File not found", status=404)
+
+
 
 @login_required
 def get_static_values(request):
     category1 = request.GET.get('category1')
     category2 = request.GET.get('category2')
     category3 = request.GET.get('category3')
-
-    print(category1, category2, category3)
+    category4 = request.GET.get('category4')
+    load_text_file_view()
+    # print(category1, category2, category3,category4)
     # Define static values based on dropdown selections
 
     result = {
         'category1': category1,
-        'category2': category2,
+        'category2': category2, 
         'category3': category3,
+        'category4': category4,
     }
+    place_holder = {}
 
-    __process_call__()
+    # Construct the path to the category3.txt file
+    # base_folder = os.path.join("k_genai/myproject/myapp/static/myapp/",result['category1'])
+    # print(base_folder)
+    # subfolder = result['category2']
+    # print(subfolder)
+    file_name_category3 = result['category3'] + ".txt"  # Append .txt to category3
+    file_name_category4 = result['category4'] + ".txt"  # Append .txt to category3
+    file_path = os.path.join(settings.BASE_DIR, f'myapp/static/myapp/{result['category1']}/{result['category2']}')
 
-    return JsonResponse(result)
+    file_name_category3 = os.path.join(file_path,file_name_category3)
+    file_name_category4 = os.path.join(file_path,file_name_category3)
+    # file_name_category4 = base_folder+"/"+subfolder+"/"+file_name_category4
+
+    # Check if the file exists and read its content
+    # file_path = os.path.join(settings.BASE_DIR, 'myapp/static/myapp/Class 9th/Science/MATTER IN OUR SURROUNDINGS.txt')
+    # print(file_path)
+    if os.path.exists(file_name_category3):
+        with open(file_name_category3, 'r',encoding='utf-8') as file:
+            file_content = file.read().strip()
+        place_holder["Document_content"] = file_content
+
+    else:
+        print(f"File not found: {file_name_category3}")
+      # Read and clean up the content
+        # file_path = os.path.join(base_folder, subfolder, file_name)
+
+    if os.path.exists(file_name_category4):
+        with open(file_name_category4, 'r',encoding='utf-8') as file:
+            file_content = file.read().strip()
+            print("********************************",result['category4'])
+        place_holder[result['category4']] = file_content
+
+    else:
+        print(f"File not found: {file_name_category4}")
+
+    print(place_holder)
+
+    get_prompt = prompt_detail(result['category4'],result['category1'])
+
+    # response = generate_response(get_prompt.system_prompt,get_prompt.prompt.format(**place_holder),get_prompt.model)
+    # print(re  sponse)
+    
+
+
+    # __process_call__()
+
+    return JsonResponse({'output': "response"})
 
 # def fetch_docs(category1, category2, category3):
 
+def load_sub_docs():
+    pass
 
-def __process_call__():
-    get_prompt = prompt_detail(9999)
-    dict1 = {"Sample_Question_guidelines":"""
 
-The question paper comprises of two sections, A and B, You are to attempt both the sections.
-All questions are compulsory.
+# def __process_call__():
+#     get_prompt = prompt_detail(9090100)
+#     # load_sub_docs()
+#     dict1 = {"Sample_Question_guidelines":"""
 
-There is no overall choice. However internal choice has been provided in all the five
-questions of five marks category. Only one option in such questions is to be attempted.
+# The question paper comprises of two sections, A and B, You are to attempt both the sections.
+# All questions are compulsory.
 
-All questions of section A and all questions of section B are to be attempted separately.
+# There is no overall choice. However internal choice has been provided in all the five
+# questions of five marks category. Only one option in such questions is to be attempted.
 
-Question numbers 1 to 3 in section A are one mark questions. These are to be answered in
-one word or one sentence.
+# All questions of section A and all questions of section B are to be attempted separately.
 
-Question numbers 4 to 7 are two mark questions, to be answered in about 30 words each.
+# Question numbers 1 to 3 in section A are one mark questions. These are to be answered in
+# one word or one sentence.
 
-Question numbers 8 to 19 are three mark questions, to be answered in about 50 words
-each.
+# Question numbers 4 to 7 are two mark questions, to be answered in about 30 words each.
 
-Question numbers 20 to 24 are five mark questions, to be answered in about 70 words
-each.
+# Question numbers 8 to 19 are three mark questions, to be answered in about 50 words
+# each.
 
-Question number 25 to 42 in section B are multiple choice questions based on practical
-skills. Each question is a one mark question. You are to choose one most appropriate
-response out of the four provided to you.       
-""","Document_content":"""
+# Question numbers 20 to 24 are five mark questions, to be answered in about 70 words
+# each.
 
+# Question number 25 to 42 in section B are multiple choice questions based on practical
+# skills. Each question is a one mark question. You are to choose one most appropriate
+# response out of the four provided to you.       
+# ""","Document_content":"""
 
-SECTION -A
 
-A gas jar containing air is inverted over another containing NO, gas which is brown in colour
-and heavier than air. After some time brown colour is seen in the inverted gas jar too. Identify
-the phenomenon associated with this observation.
+# SECTION -A
 
-Apassenger in a moving train tosses a coin which falls behind him. State the type of motion
-of the train.
+# A gas jar containing air is inverted over another containing NO, gas which is brown in colour
+# and heavier than air. After some time brown colour is seen in the inverted gas jar too. Identify
+# the phenomenon associated with this observation.
 
-Name the plastid involved in conversion of a green tomato to red.
-List four reasons to support that water is a compound and not a mixture.
+# Apassenger in a moving train tosses a coin which falls behind him. State the type of motion
+# of the train.
 
-A man weighs 600N on the surface of earth. What would be his mass and weight on the
-surface of moon? (take of g._., = 10m/s?).
+# Name the plastid involved in conversion of a green tomato to red.
+# List four reasons to support that water is a compound and not a mixture.
 
-earth
+# A man weighs 600N on the surface of earth. What would be his mass and weight on the
+# surface of moon? (take of g._., = 10m/s?).
 
-State one feature that is similar and one feature that is dissimilar with respect to mitochondria
-and plastids.
+# earth
 
-Show the location of meristematic tissues in a plant diagramatically. Which meristem is
-responsible for the transformation of the stem of a plant into the trunk when it grows into a
-tree?
+# State one feature that is similar and one feature that is dissimilar with respect to mitochondria
+# and plastids.
 
-(a) | Aspoonful of sugar is added to a beaker containing 500 ml of water and stirred for a
-while. State any two observations that you will make.
+# Show the location of meristematic tissues in a plant diagramatically. Which meristem is
+# responsible for the transformation of the stem of a plant into the trunk when it grows into a
+# tree?
 
-(b) Account for your observations.
+# (a) | Aspoonful of sugar is added to a beaker containing 500 ml of water and stirred for a
+# while. State any two observations that you will make.
 
-Distinguish between homogeneous and heterogeneous mixture. Classify the following mixtures
-as homogeneous and heterogeneous -
+# (b) Account for your observations.
 
-(i) Tincture of iodine
-(ii) Smoke
+# Distinguish between homogeneous and heterogeneous mixture. Classify the following mixtures
+# as homogeneous and heterogeneous -
 
-(iii) Brass
+# (i) Tincture of iodine
+# (ii) Smoke
 
-(iv) — Sugar solution
+# (iii) Brass
 
-Derive graphically the equation for position-time relation for an object travelling a distance ‘s’
-in time ‘t’ under uniform acceleration.
+# (iv) — Sugar solution
 
-State the law of inertia. Why do we fall in the forward direction if a moving bus stops suddenly
-and fall in the backward direction if it suddenly accelerates from rest?
-42.
+# Derive graphically the equation for position-time relation for an object travelling a distance ‘s’
+# in time ‘t’ under uniform acceleration.
 
-13.
+# State the law of inertia. Why do we fall in the forward direction if a moving bus stops suddenly
+# and fall in the backward direction if it suddenly accelerates from rest?
+# 42.
 
-14.
+# 13.
 
-15.
+# 14.
 
-16.
+# 15.
 
-Ait.
+# 16.
 
-18.
+# Ait.
 
-19.
+# 18.
 
-20.
+# 19.
 
-What happens to the magnitude of the force of gravitation between two objects if -
-(i) Distance between the objects is tripled?
+# 20.
 
-(il) Mass of both objects doubled?
+# What happens to the magnitude of the force of gravitation between two objects if -
+# (i) Distance between the objects is tripled?
 
-(ili) | Mass of both objects as well as the distance between them is doubled?
-Derive the relation between force and acceleration. Define one unit of force.
+# (il) Mass of both objects doubled?
 
-A stone dropped from a window reaches the ground in 0.5 seconds -
+# (ili) | Mass of both objects as well as the distance between them is doubled?
+# Derive the relation between force and acceleration. Define one unit of force.
 
-(i) Calculate its speed just before it hits the ground.
+# A stone dropped from a window reaches the ground in 0.5 seconds -
 
-(il) What is its average speed during 0.5 s?
+# (i) Calculate its speed just before it hits the ground.
 
-(iii) | Calculate the height of window from the ground.
+# (il) What is its average speed during 0.5 s?
 
-.(a) State two ways in which phloem is functionally different from xylem.
+# (iii) | Calculate the height of window from the ground.
 
-(b) Draw a neat diagram of a section of phloem and label four parts.
+# .(a) State two ways in which phloem is functionally different from xylem.
 
-Give one important functional difference amongst the muscle tissues and draw a labelled
-diagram of the muscle tissue which never shows fatigue.
+# (b) Draw a neat diagram of a section of phloem and label four parts.
 
-Which cell organelle would you associate with elimination of old and worn out cells? Why?
+# Give one important functional difference amongst the muscle tissues and draw a labelled
+# diagram of the muscle tissue which never shows fatigue.
 
-State one difference between dugwells and tubewells. Explain any two fresh initiatives taken
-to increase the water available for agriculture.
+# Which cell organelle would you associate with elimination of old and worn out cells? Why?
 
-(a) Which two factors bring about loss of food grains during storage? Give one example for
-each.
+# State one difference between dugwells and tubewells. Explain any two fresh initiatives taken
+# to increase the water available for agriculture.
 
-(b) State any two control measures to be taken before grains are stored.
+# (a) Which two factors bring about loss of food grains during storage? Give one example for
+# each.
 
-(a) Distinguish among true solution, suspension and colloid in a tabular form under the following
-heads:
-(i) Stability (ii) Filterability
+# (b) State any two control measures to be taken before grains are stored.
 
-(ili) — Type of mixture
+# (a) Distinguish among true solution, suspension and colloid in a tabular form under the following
+# heads:
+# (i) Stability (ii) Filterability
 
-(b) What is meant by concentration of a solution? How will you prepare a 10% solution of glucose
-in water?
-OR
+# (ili) — Type of mixture
 
-(a) Draw a neat and labelled diagram of the apparatus used to separate components of blue-
+# (b) What is meant by concentration of a solution? How will you prepare a 10% solution of glucose
+# in water?
+# OR
 
-black ink. Name the process and state the principle involved.
+# (a) Draw a neat and labelled diagram of the apparatus used to separate components of blue-
 
-(b) Identify the physical and chemical changes from the following:
+# black ink. Name the process and state the principle involved.
 
-(i) Burning of magnesium in air.
-(ii) Tarnishing of silver spoon.
-(iii) | Sublimation of iodine.
+# (b) Identify the physical and chemical changes from the following:
 
-(iv) electrolysis of water.
+# (i) Burning of magnesium in air.
+# (ii) Tarnishing of silver spoon.
+# (iii) | Sublimation of iodine.
 
-21. (a) State one similarity and one difference between evaporation and boiling.
+# (iv) electrolysis of water.
 
-22.
+# 21. (a) State one similarity and one difference between evaporation and boiling.
 
-(b) List four factors which affect the rate of evaporation.
+# 22.
 
-(c) Describe an activity to show that water vapour is present in air.
+# (b) List four factors which affect the rate of evaporation.
 
-OR
-Distinguish solids, liquids and gases in a tabular form under the following characteristics-
-(i) Rigidity
-(ii) Compressibility
-(iii) Inter-particle forces of attraction
-(iv)  Inter-particle spaces
-(v) Kinetic energy of particles
-Define momentum. State its S.1. unit.
-An object of mass 50 kg. is accelerated uniformly from a velocity of 4ms"' to 8ms" in 8s.
+# (c) Describe an activity to show that water vapour is present in air.
 
-Calculate the initial and final momentum of the object. Also find the magnitude of the force
-exerted on the object.
+# OR
+# Distinguish solids, liquids and gases in a tabular form under the following characteristics-
+# (i) Rigidity
+# (ii) Compressibility
+# (iii) Inter-particle forces of attraction
+# (iv)  Inter-particle spaces
+# (v) Kinetic energy of particles
+# Define momentum. State its S.1. unit.
+# An object of mass 50 kg. is accelerated uniformly from a velocity of 4ms"' to 8ms" in 8s.
 
-OR
+# Calculate the initial and final momentum of the object. Also find the magnitude of the force
+# exerted on the object.
 
-State the law of conservation of momentum. Why is a person hit harder when he falls on a
-hard floor than when he falls on sand from the same height?
+# OR
 
-A bullet of mass 20g is fired horizontally with a velocity 100ms"' from a pistol of mass 1.5 kg.
-Calculate the recoil velocity of the pistol.
-23.
+# State the law of conservation of momentum. Why is a person hit harder when he falls on a
+# hard floor than when he falls on sand from the same height?
 
-The velocity time graph for an object is shown in the following figure.
+# A bullet of mass 20g is fired horizontally with a velocity 100ms"' from a pistol of mass 1.5 kg.
+# Calculate the recoil velocity of the pistol.
+# 23.
 
-50--
-PO ene ic
-30-- :
-~ 20-+- :
-& Hl
-3S :
-2 :
-o 1
-7! 9 t , ; i t
-5 10 15 20 25
-Time (s)
-———>
+# The velocity time graph for an object is shown in the following figure.
 
-(i) State the kind of motion that the above graph represents.
-(ii) What does the slope of the graph represent?
-(iii) | What does the area under the graph represent?
-(iv) | Calculate the distance travelled by the object in 15s.
-OR
+# 50--
+# PO ene ic
+# 30-- :
+# ~ 20-+- :
+# & Hl
+# 3S :
+# 2 :
+# o 1
+# 7! 9 t , ; i t
+# 5 10 15 20 25
+# Time (s)
+# ———>
 
-The velocity time graph of a body is given as follows-
+# (i) State the kind of motion that the above graph represents.
+# (ii) What does the slope of the graph represent?
+# (iii) | What does the area under the graph represent?
+# (iv) | Calculate the distance travelled by the object in 15s.
+# OR
 
-40--
+# The velocity time graph of a body is given as follows-
 
-N
-c—}
-J
-T
+# 40--
 
-Velocity ms”
-—_>
+# N
+# c—}
+# J
+# T
 
-o
+# Velocity ms”
+# —_>
 
-Time (s)
+# o
 
-—>
-(i) State the kind of motion represented by OA; AB.
-(ii) What is the velocity of the body after 10s and after 40s?
-(iii) | Calculate the retardaton of the body.
+# Time (s)
 
-(iv) | Calculate the distance covered by the body between 10th and 30th second.
-24.
+# —>
+# (i) State the kind of motion represented by OA; AB.
+# (ii) What is the velocity of the body after 10s and after 40s?
+# (iii) | Calculate the retardaton of the body.
 
-25.
+# (iv) | Calculate the distance covered by the body between 10th and 30th second.
+# 24.
 
-26.
+# 25.
 
-27.
+# 26.
 
-How can crop variety improvement methods come to the rescue of farmers facing repeated
-crop failures? Describe three factors for which they could do crop improvement.
+# 27.
 
-Which is the most common method of obtaining improved variety of crops? Explain briefly.
-OR
+# How can crop variety improvement methods come to the rescue of farmers facing repeated
+# crop failures? Describe three factors for which they could do crop improvement.
 
-A poultry farmer wants to increase his broiler production. Explain three management practices
-he must follow to enhance the yield.
+# Which is the most common method of obtaining improved variety of crops? Explain briefly.
+# OR
 
-In what way is the daily food requirement of broilers different from those of egg layers?
+# A poultry farmer wants to increase his broiler production. Explain three management practices
+# he must follow to enhance the yield.
 
-SECTION B
-Four students prepared mixtures in water by taking sugar, sand, chalk power and starch
-respectively, in four different test tubes. After stirring, the mixture that appeared clear and
-transparent was that of
-a) starch and water
-b) chalk powder and water
-c) sand and water
+# In what way is the daily food requirement of broilers different from those of egg layers?
 
-d) sugar and water
+# SECTION B
+# Four students prepared mixtures in water by taking sugar, sand, chalk power and starch
+# respectively, in four different test tubes. After stirring, the mixture that appeared clear and
+# transparent was that of
+# a) starch and water
+# b) chalk powder and water
+# c) sand and water
 
-Rohit mixed starch with water, boiled the mixture well and stirred it. He observed that -
+# d) sugar and water
 
-ow
+# Rohit mixed starch with water, boiled the mixture well and stirred it. He observed that -
 
-) starch floats on the surface of water
+# ow
 
-b) starch settles down at the bottom
+# ) starch floats on the surface of water
 
-ig)
+# b) starch settles down at the bottom
 
-) starch forms a translucent mixture
+# ig)
 
-a
+# ) starch forms a translucent mixture
 
-) starch forms a transparent mixture
+# a
 
-You are provided with a mixture of iron filings and sulphur powder. When you add carbon-di-
-sulphide to the mixture, you would observe
+# ) starch forms a transparent mixture
 
-a) iron particles dissolve and the solution turns black
+# You are provided with a mixture of iron filings and sulphur powder. When you add carbon-di-
+# sulphide to the mixture, you would observe
 
-b) sulphur powder dissolves and the solution turns colourless
-c) sulphur powder dissolves and the solution turns yellow
+# a) iron particles dissolve and the solution turns black
 
-d) iron particles dissolve and the solution turns grey
-28.
+# b) sulphur powder dissolves and the solution turns colourless
+# c) sulphur powder dissolves and the solution turns yellow
 
-29.
+# d) iron particles dissolve and the solution turns grey
+# 28.
 
-30.
+# 29.
 
-31.
+# 30.
 
-A strip of Magnesium metal is burnt in the flame. It is observed that
+# 31.
 
-a) a yellow light appears
+# A strip of Magnesium metal is burnt in the flame. It is observed that
 
-b) awhite dazzling light appears
+# a) a yellow light appears
 
-c) magnesium starts melting
+# b) awhite dazzling light appears
 
-d) lot of black smoke is produced
+# c) magnesium starts melting
 
-For determining the melting point of ice, the thermometer should be kept-
+# d) lot of black smoke is produced
 
-a) with its bulb in the ice cubes
+# For determining the melting point of ice, the thermometer should be kept-
 
-b) in contact with the inner wall of the beaker
+# a) with its bulb in the ice cubes
 
-c) alittle above the ice cubes
+# b) in contact with the inner wall of the beaker
 
-d) in touch with the beaker from outside
+# c) alittle above the ice cubes
 
-A student takes some water in a beaker and heats it over a flame for determining its boiling
-point. He keeps on taking its temperature reading. He observes that the temperature of the
-water
+# d) in touch with the beaker from outside
 
-a) keeps on increasing regularly
+# A student takes some water in a beaker and heats it over a flame for determining its boiling
+# point. He keeps on taking its temperature reading. He observes that the temperature of the
+# water
 
-b) keeps on increasing irregularly
+# a) keeps on increasing regularly
 
-c) first increases slowly, then decreases rapidly and eventually becomes constant
-d) first increases gradually and then becomes constant
+# b) keeps on increasing irregularly
 
-The colour of sodium chloride and ammonium chloride respectively is-
+# c) first increases slowly, then decreases rapidly and eventually becomes constant
+# d) first increases gradually and then becomes constant
 
-a) yellow and white
+# The colour of sodium chloride and ammonium chloride respectively is-
 
-b) white and yellow
+# a) yellow and white
 
-c) both are white
+# b) white and yellow
 
-d) grey and yellow
-32.
+# c) both are white
 
-33:
+# d) grey and yellow
+# 32.
 
-34.
+# 33:
 
-35.
+# 34.
 
-In the laboratory, carbon-di-sulphide is used as a solvent to separate a mixture of iron filings
-and sulphur powder. What precaution has to be taken with carbon-di-sulphide?
+# 35.
 
-a) Keep away from water
+# In the laboratory, carbon-di-sulphide is used as a solvent to separate a mixture of iron filings
+# and sulphur powder. What precaution has to be taken with carbon-di-sulphide?
 
-b) Keep away from flame
+# a) Keep away from water
 
-Cc) Keep away from air
+# b) Keep away from flame
 
-d) Keep away from iron-sulphide
+# Cc) Keep away from air
 
-When iron nails are placed in copper-sulphate solution, after 10 minutes, its blue colour
-disappears and the solution appears
+# d) Keep away from iron-sulphide
 
-a) reddish Brown
+# When iron nails are placed in copper-sulphate solution, after 10 minutes, its blue colour
+# disappears and the solution appears
 
-b) blue
-c) light blue
-d) greenish
+# a) reddish Brown
 
-In an experiment to separate the components of a mixture of sand, common salt and ammonium
-chloride, the component which will be removed by filteration is
+# b) blue
+# c) light blue
+# d) greenish
 
-a) sand
+# In an experiment to separate the components of a mixture of sand, common salt and ammonium
+# chloride, the component which will be removed by filteration is
 
-b) common salt
+# a) sand
 
-Cc) ammonium chloride
+# b) common salt
 
-d) none of these
+# Cc) ammonium chloride
 
-To study the third law of motion, following sets of apparatus are available in a laboratory.
+# d) none of these
 
-set (i) Onespring balance, two weight boxes, inextensible thread, one pulley with a clamp,
-two pans of known mass.
+# To study the third law of motion, following sets of apparatus are available in a laboratory.
 
-set (ii) Two identical spring balances, one weight box, inextensible thread, one frictionless
-pulley with a clamp, one pan of known mass, arigid support.
+# set (i) Onespring balance, two weight boxes, inextensible thread, one pulley with a clamp,
+# two pans of known mass.
 
-set (iii) Four identical spring balances, two pulleys, inextensible thread, two clamps, two
-pans of known masses, two rigid support.
+# set (ii) Two identical spring balances, one weight box, inextensible thread, one frictionless
+# pulley with a clamp, one pan of known mass, arigid support.
 
-set (iv) Two identical spring balances, two weight boxes, two rigid supports, two pans of
-known masses, inextensible thread, two frictionless pulleys with clamps.
-To perform the experiment successfully by using minimum apparatus, the best choice would
-be:
+# set (iii) Four identical spring balances, two pulleys, inextensible thread, two clamps, two
+# pans of known masses, two rigid support.
 
-a) set (i)
-b) set (ii)
-c) set (iii)
-d) _set(iv)
+# set (iv) Two identical spring balances, two weight boxes, two rigid supports, two pans of
+# known masses, inextensible thread, two frictionless pulleys with clamps.
+# To perform the experiment successfully by using minimum apparatus, the best choice would
+# be:
 
-For doing the experiment, “to study the third law of motion using two spring balances’, four
-students A,B,C and D set up their apparatus as shown below. The best set up is that of
-student -
+# a) set (i)
+# b) set (ii)
+# c) set (iii)
+# d) _set(iv)
 
-a) Student A b) Student B
-Cc) Student C d) Student D
-(A)
+# For doing the experiment, “to study the third law of motion using two spring balances’, four
+# students A,B,C and D set up their apparatus as shown below. The best set up is that of
+# student -
 
-(B)
+# a) Student A b) Student B
+# Cc) Student C d) Student D
+# (A)
 
-P VV EE >) Pulley
+# (B)
 
-Pan
+# P VV EE >) Pulley
 
-Pulley (>) (+) Pulley
+# Pan
 
->a} —p— i} —+t
+# Pulley (>) (+) Pulley
 
-Pan
+# >a} —p— i} —+t
 
-(D)
-37.
+# Pan
 
-38.
+# (D)
+# 37.
 
-39.
+# 38.
 
-40.
+# 39.
 
-The appearance of magenta colour, on adding conc. HCI to a given sample of solution of dal
-confirms the presence of
+# 40.
 
-a) agremone oil in the dal
+# The appearance of magenta colour, on adding conc. HCI to a given sample of solution of dal
+# confirms the presence of
 
-b) Potassium dichromate in the dal
+# a) agremone oil in the dal
 
-c) saw dust in the dal
+# b) Potassium dichromate in the dal
 
-d) Metanil yellow in the dal
+# c) saw dust in the dal
 
-The steps for conducting the starch test on the given sample of rice grains are
-a) crush the rice grains
+# d) Metanil yellow in the dal
 
-b) add water to the test tube
+# The steps for conducting the starch test on the given sample of rice grains are
+# a) crush the rice grains
 
-c) add few drops of iodine
+# b) add water to the test tube
 
-d) boil the contents and filter
+# c) add few drops of iodine
 
-The most appropriate order in which the steps should be followed are:
+# d) boil the contents and filter
 
-a) ii, ili, i, Iv
-b) i, 1, il, IV
-Cc) ili, tv, i, i
-d) i, di, iv, iii
+# The most appropriate order in which the steps should be followed are:
 
-While preparing a temporary mount of the cheek cells, the reason behind staining the cells is
-a) to prevent the cells from drying quickly
+# a) ii, ili, i, Iv
+# b) i, 1, il, IV
+# Cc) ili, tv, i, i
+# d) i, di, iv, iii
 
-b) to preserve them
+# While preparing a temporary mount of the cheek cells, the reason behind staining the cells is
+# a) to prevent the cells from drying quickly
 
-Cc) to disinfect them
+# b) to preserve them
 
-d) to make the organelles clearly visible
+# Cc) to disinfect them
 
-Which of the observations noted by Arun about the parenchyma tissue is not correct?
+# d) to make the organelles clearly visible
 
-a) The cells are thin walled.
+# Which of the observations noted by Arun about the parenchyma tissue is not correct?
 
-b) Large cells placed together with intercellular spaces
-41.
+# a) The cells are thin walled.
 
-42.
+# b) Large cells placed together with intercellular spaces
+# 41.
 
-Cc) The cells are loosely packed
-d) The cells are thick walled
-The formula used to calculate the percentage of water absorbed by raisins is
+# 42.
 
-W, - W,
-wW1
+# Cc) The cells are loosely packed
+# d) The cells are thick walled
+# The formula used to calculate the percentage of water absorbed by raisins is
 
-x 100
+# W, - W,
+# wW1
 
-W, in the formula refers to:
+# x 100
 
-a) mass of raisins before absorption of water
-b) mass of raisins after absorption of water
-Cc) mass of water left in the beaker at the end
-d) mass of water absorbed by the raisins
+# W, in the formula refers to:
 
-One of the following shows the correct diagramatic representation of a striped muscle fibre
+# a) mass of raisins before absorption of water
+# b) mass of raisins after absorption of water
+# Cc) mass of water left in the beaker at the end
+# d) mass of water absorbed by the raisins
 
-when seen under the low power of a microscope?
+# One of the following shows the correct diagramatic representation of a striped muscle fibre
 
-+,
+# when seen under the low power of a microscope?
 
-7
-aN
+# +,
 
-oO
+# 7
+# aN
 
-I
-xx
+# oO
 
-5
+# I
+# xx
 
-+,
+# 5
 
-a
-?,
-*.
+# +,
 
-?
+# a
+# ?,
+# *.
 
-‘S
-~
+# ?
 
-¢.
+# ‘S
+# ~
 
-%
-0%
-gs
+# ¢.
 
-XX
+# %
+# 0%
+# gs
 
-ane
-RNS
-$505
+# XX
 
-oO
+# ane
+# RNS
+# $505
 
-s
-©
+# oO
 
-SX
-LS
+# s
+# ©
 
-xx
+# SX
+# LS
 
-o MAM
+# xx
 
-The correct answer is
+# o MAM
 
-a) A
-b)  B
-Cc) Cc
-d) OD
-N
+# The correct answer is
 
-- &
+# a) A
+# b)  B
+# Cc) Cc
+# d) OD
+# N
 
-MARKING SCHEAME
+# - &
 
-IX - SCIENCE
-SECTION-A
-Diffusion 1 !
-Motion is accelerated | 1
-Chromoplast I |
+# MARKING SCHEAME
 
-(i) The composition of water is fixed.
-(H:0= 1:8 by mass)
-(ii) Melting point and boiling point of water is fixed,
-(iii) Water cannot be separated into its constituent elements by physical methods.
+# IX - SCIENCE
+# SECTION-A
+# Diffusion 1 !
+# Motion is accelerated | 1
+# Chromoplast I |
 
-(iv) Water has entirely different properties from those of its constituent elements,
+# (i) The composition of water is fixed.
+# (H:0= 1:8 by mass)
+# (ii) Melting point and boiling point of water is fixed,
+# (iii) Water cannot be separated into its constituent elements by physical methods.
 
-W.=600N, g.= 10 ms* Vox 2
-a= = 600 N= 100 N 1
-m 6 © 6 x ~
-W=ing =~. ow Ok 1 2
-~ms = g. 10 m/s" ~00kg ~
+# (iv) Water has entirely different properties from those of its constituent elements,
 
-«. Mass on moonis also = 60 kg.
+# W.=600N, g.= 10 ms* Vox 2
+# a= = 600 N= 100 N 1
+# m 6 © 6 x ~
+# W=ing =~. ow Ok 1 2
+# ~ms = g. 10 m/s" ~00kg ~
 
-W 100N
-Alternatively, M, = g, = 1 ue ms? ~00kg
-Similar feature :- Both have their own DNA & ribosome to make their own protein |
+# «. Mass on moonis also = 60 kg.
 
-Dissimilar feature :- Mitochondria is the site of cellular respiration and releases energy, while plastids
+# W 100N
+# Alternatively, M, = g, = 1 ue ms? ~00kg
+# Similar feature :- Both have their own DNA & ribosome to make their own protein |
 
-with chlorophyll are centre for photosynthesis and store energy. I 2
-Fig 6.2 page 69 NCERT
-(4% mark for each meristem labelled) = 114
+# Dissimilar feature :- Mitochondria is the site of cellular respiration and releases energy, while plastids
 
-Lateral meristem Wy 2
-a) Observations
+# with chlorophyll are centre for photosynthesis and store energy. I 2
+# Fig 6.2 page 69 NCERT
+# (4% mark for each meristem labelled) = 114
 
-(i) Sugar disappears in water. 1
+# Lateral meristem Wy 2
+# a) Observations
 
-(i) The volume of water does not increase. I
-(b) Inference/interpretation:
+# (i) Sugar disappears in water. 1
 
-There is lot of space between water molecules into which the sugar molecules disappear. I 3
+# (i) The volume of water does not increase. I
+# (b) Inference/interpretation:
 
-14
-9, Homogeneous Mixture Heterogeneous Mixture
-1. | Uniform composition throughout its mass Does not have a uniform compostion throughout
-its mass
-2. | No visible boundaries of separation between Visible boundaries of separation between the
-the constituents constituents
-(any one) I
+# There is lot of space between water molecules into which the sugar molecules disappear. I 3
 
-(i) Homogeneous
-(ii) Heterogeneous
-(iii) Homogeneous
+# 14
+# 9, Homogeneous Mixture Heterogeneous Mixture
+# 1. | Uniform composition throughout its mass Does not have a uniform compostion throughout
+# its mass
+# 2. | No visible boundaries of separation between Visible boundaries of separation between the
+# the constituents constituents
+# (any one) I
 
-(iv) Homogeneous Wyx4=2 3
+# (i) Homogeneous
+# (ii) Heterogeneous
+# (iii) Homogeneous
 
-© page erent rrr etter eee n ee
+# (iv) Homogeneous Wyx4=2 3
 
-° t
+# © page erent rrr etter eee n ee
 
-Distance travelled by the object = Area of graph under the curve
-= area of trapez OABC
-=area of rectangle OADC + area of triangle ABD
-=OAxO0C+%(ADx BD)
-=uxt+4(txat) l
+# ° t
 
-“ s  =ut+ Yat? ] 3
+# Distance travelled by the object = Area of graph under the curve
+# = area of trapez OABC
+# =area of rectangle OADC + area of triangle ABD
+# =OAxO0C+%(ADx BD)
+# =uxt+4(txat) l
 
-11. Law of inertia : An object remains in its state of rest or of uniform motion in a straight line until and
-unless acted upon by an external unbalanced force . I
+# “ s  =ut+ Yat? ] 3
 
-When a moving bus stops suddenly, the bus slows down but our body tends to remain in state of
-motion due to inertia of motion, Hence we get a forward jerk. |
+# 11. Law of inertia : An object remains in its state of rest or of uniform motion in a straight line until and
+# unless acted upon by an external unbalanced force . I
 
-15
-Sudden start of the bus brings motion to the bus as well as our feet but the rest of the body still has inertia of
+# When a moving bus stops suddenly, the bus slows down but our body tends to remain in state of
+# motion due to inertia of motion, Hence we get a forward jerk. |
 
-motion so we fall / get jerked in the backward direction. l 3
-I
-12. Fam, m, and F @ rr
-Gm, m,
-= 2
-th
-(i) The force of gravitation becomes 7 the earlier value 1
-(ii) The force of gravitation becomes 4 times its earlier value 1
-(ii) The force of gravitation remains unchanged I 3
+# 15
+# Sudden start of the bus brings motion to the bus as well as our feet but the rest of the body still has inertia of
 
-13, Suppose an object of mass ‘m’ is moving along a straight line with an initial velocity “u’. It is uniformly
-accelerated to velocity 'y' in time ‘t’ by the application ofa constant force “F’ throughout the time ‘t’.
+# motion so we fall / get jerked in the backward direction. l 3
+# I
+# 12. Fam, m, and F @ rr
+# Gm, m,
+# = 2
+# th
+# (i) The force of gravitation becomes 7 the earlier value 1
+# (ii) The force of gravitation becomes 4 times its earlier value 1
+# (ii) The force of gravitation remains unchanged I 3
 
-According to the second law of motion,
+# 13, Suppose an object of mass ‘m’ is moving along a straight line with an initial velocity “u’. It is uniformly
+# accelerated to velocity 'y' in time ‘t’ by the application ofa constant force “F’ throughout the time ‘t’.
 
-Rate of change of momenturm is directly propotional to the applied force.
+# According to the second law of motion,
 
-Change in momenturm
-Fo
+# Rate of change of momenturm is directly propotional to the applied force.
 
-time taken
+# Change in momenturm
+# Fo
 
-my-mu
-t
+# time taken
 
-m(v-u)
-t
+# my-mu
+# t
 
-. F=km ma
+# m(v-u)
+# t
 
-F=kma 2
+# . F=km ma
 
-One unit of force is defined as the amount of force that produces an acceleration of 1ms* in an object of
-1 kg mass. 1 3
+# F=kma 2
 
-14.u=0 t=0.5s g=10ms*
+# One unit of force is defined as the amount of force that produces an acceleration of 1ms* in an object of
+# 1 kg mass. 1 3
 
-@) v=u+gt =0+10ms?x0.5s=5 ms! 1
+# 14.u=0 t=0.5s g=10ms*
 
-uty (OFS) Os! _9.5 me!
-5 5 =2.5 ms l
+# @) v=u+gt =0+10ms?x0.5s=5 ms! 1
 
-(ii) Average speed =
-l
-(iii) h=utt+> gt
+# uty (OFS) Os! _9.5 me!
+# 5 5 =2.5 ms l
 
-a)
+# (ii) Average speed =
+# l
+# (iii) h=utt+> gt
 
-b)
+# a)
 
-|
-=O+ Tx 10ms* x (0.5s)°= 1.25m
+# b)
 
-(i) Phloem unlike xylem allows movement of materials in both the directions
-Gi) Phloem tranports food from leaves to other parts of the plant body.
-Fig. 6.7 pg 73 NCERT four Labels
+# |
+# =O+ Tx 10ms* x (0.5s)°= 1.25m
 
-. Striated muscle - Brings about all voluntary movements of the body
+# (i) Phloem unlike xylem allows movement of materials in both the directions
+# Gi) Phloem tranports food from leaves to other parts of the plant body.
+# Fig. 6.7 pg 73 NCERT four Labels
 
-Smooth muscle - helps in movement of food in alimentary canal
+# . Striated muscle - Brings about all voluntary movements of the body
 
-Cardiac muscle - helps the heart to pump blood to all parts of the body
+# Smooth muscle - helps in movement of food in alimentary canal
 
-Fig. 6.11, p77, NCERT book diag. 2 labels
+# Cardiac muscle - helps the heart to pump blood to all parts of the body
 
-They are capable of breaking down all organic material and keep the cell clear by digesting worn out cell
+# Fig. 6.11, p77, NCERT book diag. 2 labels
 
-. Lysosomes
+# They are capable of breaking down all organic material and keep the cell clear by digesting worn out cell
 
-organelles,
+# . Lysosomes
 
-Y%
-Y%
-x4
-4%
-“%
-“
+# organelles,
 
-Vox2
+# Y%
+# Y%
+# x4
+# 4%
+# “%
+# “
 
-I
+# Vox2
 
-ies)
+# I
 
-They are membrane bound sacs filled with powerful digestive enzymes. When the cell is worn out and needs
-to be destroyed, the lysosomes burst and the enzymes digest the cell.
+# ies)
 
-a)
+# They are membrane bound sacs filled with powerful digestive enzymes. When the cell is worn out and needs
+# to be destroyed, the lysosomes burst and the enzymes digest the cell.
 
-b)
+# a)
 
-a)
+# b)
 
-b)
+# a)
 
-Dugwell - Water is collected from water bearing strata
-Tubewell - taps water from deeper strata
+# b)
 
-Rain water harvesting and water shed management which involves building check
-dams.
-Biotic factors - Insects/rodents/fungi/mites (any one)
+# Dugwell - Water is collected from water bearing strata
+# Tubewell - taps water from deeper strata
 
-Abiotic factors - Inappropriate temperature/ Inappropriate moisture
-Any two of the following measures-
+# Rain water harvesting and water shed management which involves building check
+# dams.
+# Biotic factors - Insects/rodents/fungi/mites (any one)
 
-- strict cleaning of produce before storage
+# Abiotic factors - Inappropriate temperature/ Inappropriate moisture
+# Any two of the following measures-
 
-- proper sundrying and then drying it in shade
+# - strict cleaning of produce before storage
 
-- Fumigation
+# - proper sundrying and then drying it in shade
 
-- systematic management of warehouses
+# - Fumigation
 
-I
-wy
-VA
+# - systematic management of warehouses
 
-11
+# I
+# wy
+# VA
 
-VV
-VV
+# 11
 
-3
-b)
+# VV
+# VV
 
-a)
+# 3
+# b)
 
-b)
+# a)
 
-21. a)
+# b)
 
-PROPERTY SOLUTION SUSPENSION COLLOID
+# 21. a)
 
-Stable, i.e particles Not stable, ie Stable, i.e,
+# PROPERTY SOLUTION SUSPENSION COLLOID
 
-do not settle down particles settle down particles do not
-Stability on keeping on keeping settle down on keeping
-Filterability Passes through the Suspended particles passes through the filter
+# Stable, i.e particles Not stable, ie Stable, i.e,
 
-filter paper-particle
-size is very small.
+# do not settle down particles settle down particles do not
+# Stability on keeping on keeping settle down on keeping
+# Filterability Passes through the Suspended particles passes through the filter
 
-do not pass through
-the filter paper -
-particle size is large
+# filter paper-particle
+# size is very small.
 
-paper-particle size is
-small
+# do not pass through
+# the filter paper -
+# particle size is large
 
-Type of mixture | Homogenous
+# paper-particle size is
+# small
 
-Heterogeneous
+# Type of mixture | Homogenous
 
-Heterogeneous but appears|
+# Heterogeneous
 
-to be homogeneous
+# Heterogeneous but appears|
 
-1x3=3
+# to be homogeneous
 
-Concentration of a solution is the amount of the solute present in a given amount (mass or
+# 1x3=3
 
-volume) of solution (or solvent)
+# Concentration of a solution is the amount of the solute present in a given amount (mass or
 
-Dissolve 10 g of glucose in 100g-10g = 90g of water
+# volume) of solution (or solvent)
 
-OR
+# Dissolve 10 g of glucose in 100g-10g = 90g of water
 
-l
-I
+# OR
 
-Fig. 2.8 (b), p-21, NCERT Book. (Separation of dyes in blue blank ink) I
+# l
+# I
 
-Process : Chromatography
+# Fig. 2.8 (b), p-21, NCERT Book. (Separation of dyes in blue blank ink) I
 
-Principle : The coloured component that is more soluble in water rises faster and in this way, the
-colours of different dyes present in blue black ink get separated.
+# Process : Chromatography
 
-(i) Chemical change
-(ii) Chemical change
-(ii) Physical change
+# Principle : The coloured component that is more soluble in water rises faster and in this way, the
+# colours of different dyes present in blue black ink get separated.
 
-(iv) Chemical change
+# (i) Chemical change
+# (ii) Chemical change
+# (ii) Physical change
 
-Similarity : Liquid state changes into the gaseous state.
+# (iv) Chemical change
 
-Difference :
+# Similarity : Liquid state changes into the gaseous state.
 
-l
+# Difference :
 
-1
+# l
 
-Vox4=2
+# 1
 
-Ww
+# Vox4=2
 
-EVAPORATION
+# Ww
 
-BOILING
+# EVAPORATION
 
-It is a suface phenomenon, i.e, water
-molecules at the surface gain energy to
-change their state
+# BOILING
 
-It is a bulk phenomenon, All (bulk) the
-water molecules of water gain energy to
-change their state
+# It is a suface phenomenon, i.e, water
+# molecules at the surface gain energy to
+# change their state
 
-Can take place at all temperatures.
+# It is a bulk phenomenon, All (bulk) the
+# water molecules of water gain energy to
+# change their state
 
-Take place at a fixed temperature.
+# Can take place at all temperatures.
 
-(or any other)
+# Take place at a fixed temperature.
 
-1+1=2
-b) Four factors:
-(i) surface area of the liquid exposed to atmosphere.
-(ii) Temperature of the liquid
-(ii) +~Humidity
-(iv) Wind velocity
-(v) Vapour pressure of the liquid (any four) ax4=2
+# (or any other)
 
-c) When ice cold water or crushed ice is taken in a tumbler, water droplets soon appear on the outer
-surface of the tumbler./ Anhydrous calcium chloride turns wet on keeping exposed to air. 1 5
+# 1+1=2
+# b) Four factors:
+# (i) surface area of the liquid exposed to atmosphere.
+# (ii) Temperature of the liquid
+# (ii) +~Humidity
+# (iv) Wind velocity
+# (v) Vapour pressure of the liquid (any four) ax4=2
 
-OR
-Characteristics SOLID LIQUID GAS
-Rigidity Rigid Fluid Fluid
--maintains hardness -flows easily -capable of infinite
-and shape expansion
-Compressibility Almost Relatively Highly
-incompressible incompressible compressible
-Inter-particle Strongest Comparatively Extremely weak
-forces of attraction (keep the particles Weaker -particles are free
-together) (but keep the to move in all
-particles within the | directions
-bulk of liquid
-Inter particle Nearly negligible Intermediate Very large
-spaces
-Kinetic energy Very low Low High
-of particles.
-22. Mometum of a body is defined as the product of its mass and velocity. 1
-m
-S.] unit - kilogram-meter per second (kg) I
-.. m
-Initial momentum = m w = 50kg x 4= = 200 kg ms! I
-, m
-Final momentum = m v =50kg x 8 ee 400 kg m s" I
-mv-mu — (400-200)
-Force = ———— = ——,——~kg ms! = 25N 1] 5
+# c) When ice cold water or crushed ice is taken in a tumbler, water droplets soon appear on the outer
+# surface of the tumbler./ Anhydrous calcium chloride turns wet on keeping exposed to air. 1 5
 
-t 8s
-OR
-Law of conservation of momentum:-
-The sum of momenta of the two objects before collision is equal to the sum of momenta after collision,
-provided there is no external unbalanced force acting on them l
+# OR
+# Characteristics SOLID LIQUID GAS
+# Rigidity Rigid Fluid Fluid
+# -maintains hardness -flows easily -capable of infinite
+# and shape expansion
+# Compressibility Almost Relatively Highly
+# incompressible incompressible compressible
+# Inter-particle Strongest Comparatively Extremely weak
+# forces of attraction (keep the particles Weaker -particles are free
+# together) (but keep the to move in all
+# particles within the | directions
+# bulk of liquid
+# Inter particle Nearly negligible Intermediate Very large
+# spaces
+# Kinetic energy Very low Low High
+# of particles.
+# 22. Mometum of a body is defined as the product of its mass and velocity. 1
+# m
+# S.] unit - kilogram-meter per second (kg) I
+# .. m
+# Initial momentum = m w = 50kg x 4= = 200 kg ms! I
+# , m
+# Final momentum = m v =50kg x 8 ee 400 kg m s" I
+# mv-mu — (400-200)
+# Force = ———— = ——,——~kg ms! = 25N 1] 5
 
-When a person falls on the hard floor, he is brought to rest in a very short interval of time so greater force is
-called into play
+# t 8s
+# OR
+# Law of conservation of momentum:-
+# The sum of momenta of the two objects before collision is equal to the sum of momenta after collision,
+# provided there is no external unbalanced force acting on them l
 
-Whereas when he falls on a heap of sand, he is brought to rest in a longer time, so lesser force is called into
+# When a person falls on the hard floor, he is brought to rest in a very short interval of time so greater force is
+# called into play
 
-play/ explanation in terms of momentum l
-Total momentum before firing (pistol & bullet) =0 ’%
+# Whereas when he falls on a heap of sand, he is brought to rest in a longer time, so lesser force is called into
 
-Total momentum after firing (of pistol & bullet) is-
-= 0.02kg x (100 ms") + 1.5kg x v ms" A
-=(2+1.5v)kg mst
+# play/ explanation in terms of momentum l
+# Total momentum before firing (pistol & bullet) =0 ’%
 
-Total momenta after firing = total momenta before firing %
-2+1.5v=0
-LS5v=-2
- V=-1,33 m/s
-Negative sign indicates that the direction of recoil of pistol is opposite to that of bullet 1
-23. (i) Uniformly accelerated motion l
-(ii) Acceleration of the object 1
-(iii) Distance travelled by the object 1
-(iv)
-4ot y
-ee) eee es is
-iw : ;
-207 a
-10} a
-(rio is
+# Total momentum after firing (of pistol & bullet) is-
+# = 0.02kg x (100 ms") + 1.5kg x v ms" A
+# =(2+1.5v)kg mst
 
-5 10 15 20
+# Total momenta after firing = total momenta before firing %
+# 2+1.5v=0
+# LS5v=-2
+#  V=-1,33 m/s
+# Negative sign indicates that the direction of recoil of pistol is opposite to that of bullet 1
+# 23. (i) Uniformly accelerated motion l
+# (ii) Acceleration of the object 1
+# (iii) Distance travelled by the object 1
+# (iv)
+# 4ot y
+# ee) eee es is
+# iw : ;
+# 207 a
+# 10} a
+# (rio is
 
-—-+t (s)
+# 5 10 15 20
 
-Distance = area oft. triangle ODC
+# —-+t (s)
 
-bxh
+# Distance = area oft. triangle ODC
 
-Nil—
-(15 s)x 30 ms"
+# bxh
 
-wl
+# Nil—
+# (15 s)x 30 ms"
 
-Distances =225m 2 5
-OR
-(i) OA-uniformacceleration , AB zero acceleration / constant velocity YW Vs
-(ii) 20 ms" ; zero / body comes to rest ’% V2
-. ‘a (0—20)ms’ ‘nora ;
-(ii) ~retardation= (40 ~30)s ms! =-10ms
-(iv) distance between 10th and 30th second = area of fig. shaded
-= (30-10) s x 20 mst
-= 20s x 20 ms!
-V (m/s)
-= 400m 2
-20+ A B
-ZZ .
-0 T T a T
-10 20 30 40
-t(s)
-(i) develop biotic and abiotic resistance
-(ii) wider adaptability
-(iii) early and uniform maturity
-elaborate each of these factors 3
+# wl
 
-Most common method is Hybridisation, which involves crossing two varities having genes for desired
-characteristics and bringing them together into a new variety called hybrid I 5
+# Distances =225m 2 5
+# OR
+# (i) OA-uniformacceleration , AB zero acceleration / constant velocity YW Vs
+# (ii) 20 ms" ; zero / body comes to rest ’% V2
+# . ‘a (0—20)ms’ ‘nora ;
+# (ii) ~retardation= (40 ~30)s ms! =-10ms
+# (iv) distance between 10th and 30th second = area of fig. shaded
+# = (30-10) s x 20 mst
+# = 20s x 20 ms!
+# V (m/s)
+# = 400m 2
+# 20+ A B
+# ZZ .
+# 0 T T a T
+# 10 20 30 40
+# t(s)
+# (i) develop biotic and abiotic resistance
+# (ii) wider adaptability
+# (iii) early and uniform maturity
+# elaborate each of these factors 3
 
-OR
-(i) Maintenace of temperature
-(ii) provision of hygienic conditions in housing and poultry feed.
-(iii) Prevention and control of diseases and pests Vox3
+# Most common method is Hybridisation, which involves crossing two varities having genes for desired
+# characteristics and bringing them together into a new variety called hybrid I 5
 
-The broiler’s food must be rich in protein, fat, vitamin A and vitamin K, as the feed should help in good
-growth rate, to develop more muscles and to maintain feathering and carcass quality
+# OR
+# (i) Maintenace of temperature
+# (ii) provision of hygienic conditions in housing and poultry feed.
+# (iii) Prevention and control of diseases and pests Vox3
 
-(d)
-(d)
-(d)
+# The broiler’s food must be rich in protein, fat, vitamin A and vitamin K, as the feed should help in good
+# growth rate, to develop more muscles and to maintain feathering and carcass quality
 
-(a)
+# (d)
+# (d)
+# (d)
 
-SECTION-B
+# (a)
 
-ta
-No
+# SECTION-B
 
-Yax3
-
-"""}
-    response = generate_response(get_prompt.system_prompt,get_prompt.prompt,get_prompt.model)
-    print(response)
+# ta
+# No
+
+# Yax3
+# 
+# """}
+#     response = generate_response(get_prompt.system_prompt,get_prompt.prompt.format(**dict1),get_prompt.model)
+#     print(response)
+
+
