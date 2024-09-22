@@ -32,15 +32,29 @@
             </select>
         </div>
         <div class="form-group"></div>
-            <label for="category4">Category 3</label>
+            <label for="category4">Category 4</label>
             <select class="form-control" id="category4" disabled>
                 <option value="">Select an option</option>
             </select>
         </div>
-        <button type="button" class="btn btn-success" id="runBtn">Run</button>
+                <!-- Wrap Run button and loader in a flex container for side-by-side alignment -->
+                <div class="d-flex align-items-center">
+                    <button type="button" class="btn btn-success" id="runBtn">Run</button>
+                    <div id="loader" style="display: none; margin-left: 10px;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading...</span>
+                            
+                        </div>
+                        <p>Here</p>
+                    </div>
+                </div>  
     </form>
     <div id="output" style="margin-top: 20px;"></div>
 </div>
+
+
+
+
 
 <script>
 document.getElementById('category1').addEventListener('change', function() {
@@ -107,9 +121,16 @@ document.getElementById('runBtn').addEventListener('click', function() {
     var category3 = document.getElementById('category3').value;
     var category4 = document.getElementById('category4').value;
 
+    // Show the loader when the button is clicked
+    document.getElementById('loader').style.display = 'block';
+    document.getElementById('output').innerHTML = '';  // Clear previous output
+
     fetch(`/get-static-values/?category1=${category1}&category2=${category2}&category3=${category3}&category4=${category4}`)
         .then(response => response.json())
         .then(data => {
+            // Hide the loader when the response is received
+            document.getElementById('loader').style.display = 'none';
+
             if (data.output) {
                 // Convert the output to a formatted string for display
                 var output = JSON.stringify(data.output, null, 2);  // Pretty-print JSON
@@ -120,9 +141,16 @@ document.getElementById('runBtn').addEventListener('click', function() {
         })
         .catch(error => {
             console.error('Error fetching data:', error);
+            // Hide the loader if there's an error
+            document.getElementById('loader').style.display = 'none';
             document.getElementById('output').innerHTML = `<p style="color:red;">Error fetching data.</p>`;
         });
 });
 
 </script>
 {% endblock %}
+
+
+
+
+

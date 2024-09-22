@@ -1,4 +1,3 @@
-<!-- myapp/templates/myapp/home.html -->
 {% extends 'myapp/base.html' %}
 {% load static %}
 
@@ -21,23 +20,30 @@
     {% endif %}
     <div class="row mt-4">
         <div class="col-md-4">
-            <a href="{% if user.is_authenticated %}{% url 'thumbnail_detail' 1 %}{% else %}{% url 'account_login' %}{% endif %}" class="thumbnail">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
                 <img src="{% static 'myapp/download.png' %}" class="img-thumbnail" alt="Thumbnail 1">
                 <p>Thumbnail 1</p>
             </a>
         </div>
         <div class="col-md-4">
-            <a href="{% if user.is_authenticated %}{% url 'thumbnail_detail' 2 %}{% else %}{% url 'account_login' %}{% endif %}" class="thumbnail">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
                 <img src="{% static 'myapp/thumbnail2.jpg' %}" class="img-thumbnail" alt="Thumbnail 2">
                 <p>Thumbnail 2</p>
             </a>
         </div>
         <div class="col-md-4">
-            <a href="{% if user.is_authenticated %}{% url 'thumbnail_detail' 3 %}{% else %}{% url 'account_login' %}{% endif %}" class="thumbnail">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
                 <img src="{% static 'myapp/thumbnail3.jpg' %}" class="img-thumbnail" alt="Thumbnail 3">
                 <p>Thumbnail 3</p>
             </a>
         </div>
     </div>
 </div>
+
+<script>
+    function handleThumbnailClick() {
+        // Redirect to the Explore More Features page
+        window.location.href = "{% url 'explore' %}";
+    }
+</script>
 {% endblock %}
