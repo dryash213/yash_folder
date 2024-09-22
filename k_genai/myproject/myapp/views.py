@@ -16,7 +16,6 @@ from .models import Prompt
 from .genai import generate_response
 
 def prompt_detail(class_no,prompt_type):
-    # print(class_no,prompt_type,"********************************")
     results = Prompt.objects.get(Class=prompt_type, Type=class_no)
     # print(results)
     return results
