@@ -13,5 +13,6 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),  # Contact Us page
     path('submissions/', views.view_submissions, name='view_submissions'),  # View all submissions
+    path('generate-pdf/', views.generate_pdf, name='generate_pdf'),
 
 ]

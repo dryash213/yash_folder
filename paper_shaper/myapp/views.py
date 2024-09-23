@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout as auth_logout
 from django.http import JsonResponse
+import markdown
 
 from django.conf import settings
 
@@ -166,28 +167,65 @@ def get_static_values(request):
     else:
         print(f"File not found: {file_name_category4}")
 
-    print(place_holder,"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
+    # print(place_holder,"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 
     get_prompt = prompt_detail(result['category4'],result['category1'])
 
-    # response = generate_response(get_prompt.system_prompt,get_prompt.prompt.format(**place_holder),get_prompt.model)
-    
+    response = generate_response(get_prompt.system_prompt,get_prompt.prompt.format(**place_holder),get_prompt.model)
+    # html_content = markdown.markdown(response)
 
-    return JsonResponse({'output': "response"})
-
-
+    return JsonResponse({'output': response})
 
 
+from django.http import HttpResponse
+from fpdf import FPDF
+import io
+import json
 
+def generate_pdf(request):
+    if request.method == 'POST':
+        # Parse the JSON data sent from the frontend
+        data = json.loads(request.body)
+        output_text = data.get('output', '')
+        print(type(output_text))
 
+        # Split the text into lines
+        all_text = output_text.split('\\n')
+        print(all_text)
 
+        # Create an instance of FPDF class
+        pdf = FPDF()
 
+        # Add a page
+        pdf.add_page()
 
+        # Set font style and size
+        pdf.set_font("Arial", size=15)
 
+        # Insert the texts from the variable into the PDF
+        for line in all_text:
+            # Use encode to handle special characters
+            pdf.cell(200, 10, txt=line.encode('latin-1', 'replace').decode('latin-1'), ln=1, align='C')
 
+        # Create a BytesIO buffer to store the PDF
+        buffer = io.BytesIO()
 
+        # Output the PDF into the buffer as a string (set dest='S')
+        pdf_data = pdf.output(dest='S').encode('latin1')  # Encode the string as binary for HTTP response
 
+        # Write the binary data to the buffer
+        buffer.write(pdf_data)
 
+        # Move the buffer's cursor to the beginning
+        buffer.seek(0)
+
+        # Return the PDF as an HttpResponse
+        response = HttpResponse(buffer, content_type='application/pdf')
+        response['Content-Disposition'] = 'attachment; filename="output.pdf"'
+
+        return response
+    else:
+        return HttpResponse(status=405)  # Method not allowed
 
 
 
