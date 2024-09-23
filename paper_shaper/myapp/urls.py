@@ -12,5 +12,6 @@ urlpatterns = [
     path('get-static-values/', views.get_static_values, name='get_static_values'),
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),  # Contact Us page
+    path('submissions/', views.view_submissions, name='view_submissions'),  # View all submissions
 
 ]

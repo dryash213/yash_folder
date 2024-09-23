@@ -133,7 +133,7 @@ document.getElementById('runBtn').addEventListener('click', function() {
 
             if (data.output) {
                 // Convert the output to a formatted string for display
-                var output = JSON.stringify(data.output, null, 2);  // Pretty-print JSON
+                var output = JSON.stringify(data.output, null, 2);  // Pretty-#print JSON
                 document.getElementById('output').innerHTML = `<pre style="color: white;">${output}</pre>`;
             } else {
                 document.getElementById('output').innerHTML = `<p style="color:red;">No data found.</p>`;

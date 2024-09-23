@@ -1,0 +1,36 @@
+<!-- myapp/templates/myapp/view_submissions.html -->
+{% extends 'myapp/base.html' %}
+
+{% block title %}Contact Submissions{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center text-primary">Contact Submissions</h1>
+    <div class="table-responsive mt-4">
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Message</th>
+                    <th>Submitted At</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for submission in submissions %}
+                    <tr>
+                        <td>{{ submission.name }}</td>
+                        <td>{{ submission.email }}</td>
+                        <td>{{ submission.message }}</td>
+                        <td>{{ submission.submitted_at }}</td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="4" class="text-center">No submissions found.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
