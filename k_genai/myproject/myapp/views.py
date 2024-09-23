@@ -5,19 +5,24 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout as auth_logout
 from django.http import JsonResponse
 
-
 from django.conf import settings
 
-from myapp.models import Prompt
-
 import os
-from django.shortcuts import render, get_object_or_404
 from .models import Prompt
 from .genai import generate_response
 
+def about(request):
+    return render(request, 'myapp/about.html')
+
+# myapp/views.py
+from django.shortcuts import render
+
+def contact(request):
+    return render(request, 'myapp/contact.html')
+
+
 def prompt_detail(class_no,prompt_type):
     results = Prompt.objects.get(Class=prompt_type, Type=class_no)
-    # print(results)
     return results
 
 
@@ -79,7 +84,6 @@ def get_dynamic_options(request):
     
     print(options)      
     return JsonResponse(options)
-from django.conf import settings
 
 
 
