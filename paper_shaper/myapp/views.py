@@ -72,9 +72,14 @@ def get_dynamic_options(request):
 
     if category2:
         if category2 == 'Science':
-            options['category3'] = ["MATTER IN OUR SURROUNDINGS","Acids, Bases and Salts","Metals and Non-metals","Carbon and its Compounds","Life Processes",
-                                "Control and Coordination","How do Organisms Reproduce","Heredity","Light – Reflection and Refraction","The Human Eye and the Colourful World",
-                                "Electricity","Magnetic Effects of Electric Current"]
+            options['category3'] = ["MATTER IN OUR SURROUNDINGS","IS MATTER AROUND US PURE?","ATOMS AND MOLECULES","STRUCTURE OF THE ATOM","THE FUNDAMENTAL UNIT OF LIFE",
+                                "TISSUES","MOTION","FORCE AND LAWS OF MOTION","GRAVITATION","WORK AND ENERGY",
+                                "SOUND","IMPROVEMENT IN FOOD RESOURCES"]
+            
+        if category2 == 'Maths':
+            options['category3'] = ["NUMBER SYSTEMS","POLYNOMIALS","COORDINATE GEOMETRY","LINEAR EQUATIONS IN TWO VARIABLES","INTRODUCTION TO EUCLID’S GEOMETRY",
+                                "LINES AND ANGLES","TRIANGLES","QUADRILATERALS","CIRCLES","HERON’S FORMULA",
+                                "SURFACE AREAS AND VOLUMES","STATISTICS"]
 
 
     if category3:
