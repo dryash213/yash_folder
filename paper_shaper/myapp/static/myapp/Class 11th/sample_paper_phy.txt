@@ -1,0 +1,35 @@
+Class 11 Physics Sample Paper
+Section A: (1 mark each)
+Define velocity.
+Write the SI unit of force.
+What is the formula for acceleration?
+State Newton's First Law of Motion.
+What is the principle of conservation of energy?
+Define work done.
+Section B: (2 marks each)
+Calculate the weight of an object of mass 10 kg on the surface of the Earth (g = 9.8 m/s²).
+Explain the difference between scalar and vector quantities.
+A car accelerates from rest to a speed of 20 m/s in 10 seconds. Find its acceleration.
+Write the equation of motion for uniformly accelerated motion.
+A ball is thrown vertically upward. What is its velocity at the highest point?
+Explain the concept of momentum and its formula.
+Section C: (3 marks each)
+Derive the equation of motion using the graphical method.
+State and explain the laws of reflection.
+Calculate the work done when a force of 5 N moves an object 10 m in the direction of the force.
+Explain the concept of projectile motion with an example.
+A body moves with uniform acceleration. If its initial velocity is 5 m/s and it travels 50 m in 10 seconds, find the acceleration.
+Define kinetic energy and give its formula.
+Explain the law of conservation of momentum with an example.
+Calculate the potential energy of an object of mass 2 kg at a height of 10 m (g = 9.8 m/s²).
+Discuss the motion of an object in free fall.
+Explain the concept of inertia.
+Section D: (4 marks each)
+State and explain Bernoulli’s principle.
+Derive the expression for gravitational potential energy.
+A car traveling at 60 km/h applies brakes and stops in 5 seconds. Calculate the deceleration.
+Explain the different types of friction.
+Discuss the factors affecting the motion of an object.
+Derive the equation for the height of a projectile.
+Explain the concept of simple harmonic motion with examples.
+A block of mass 5 kg is placed on a frictionless surface. If a force of 10 N is applied, what will be its acceleration?

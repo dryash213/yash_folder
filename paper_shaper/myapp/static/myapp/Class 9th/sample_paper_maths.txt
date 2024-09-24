@@ -1,0 +1,114 @@
+Class 9 Maths Sample Paper
+General Instructions:
+All questions are compulsory.
+The question paper consists of 30 questions divided into four sections A, B, C, and D.
+Section A comprises 6 questions of 1 mark each.
+Section B comprises 6 questions of 2 marks each.
+Section C comprises 10 questions of 3 marks each.
+Section D comprises 8 questions of 4 marks each.
+Section A: (1 mark each)
+Find the value of 
+𝑥
+x if 
+2
+𝑥
++
+3
+=
+7
+2x+3=7.
+Write the quadratic equation whose roots are 
+−
+1
+−1 and 
+3
+3.
+If the radius of a circle is 7 cm, what is its diameter?
+Find the HCF of 24 and 36.
+What is the probability of rolling a number greater than 4 on a dice?
+Write the formula for the area of a triangle.
+Section B: (2 marks each)
+Solve for 
+𝑥
+x: 
+3
+𝑥
+−
+5
+=
+16
+3x−5=16.
+Find the sum of the first 5 even numbers.
+Calculate the circumference of a circle with a radius of 14 cm.
+A bag contains 5 red balls and 3 green balls. What is the probability of drawing a green ball?
+If the perimeter of a square is 48 cm, find the length of one side.
+Solve the equation: 
+𝑥
+2
+−
+5
+𝑥
++
+6
+=
+0
+x 
+2
+ −5x+6=0.
+Section C: (3 marks each)
+Prove that the sum of the angles of a triangle is 180 degrees.
+Find the LCM of 12 and 15.
+A car travels 150 km in 2.5 hours. Find its average speed.
+Find the mode of the following data: 4, 5, 6, 5, 4, 5, 3, 6, 5.
+Solve the pair of equations using substitution method:
+2
+𝑥
++
+3
+𝑦
+=
+6
+2x+3y=6
+𝑥
+−
+𝑦
+=
+2
+x−y=2
+Calculate the area of a triangle with base 10 cm and height 8 cm.
+If the angles of a triangle are in the ratio 2:3:5, find the angles.
+Find the distance between the points (2, 3) and (5, 7).
+Factorize the expression: 
+𝑥
+2
+−
+9
+x 
+2
+ −9.
+A number is increased by 20% and then decreased by 20%. What is the net change?
+Section D: (4 marks each)
+A cube has a volume of 216 cm³. Find the length of one edge.
+Prove that the diagonals of a rectangle bisect each other.
+A cylinder has a height of 10 cm and a radius of 3 cm. Find its volume.
+Show that 
+2
+2
+​
+  is an irrational number.
+A coin is tossed 50 times, resulting in 30 heads. Find the experimental probability of getting a head.
+Calculate the mean of the following data: 2, 4, 6, 8, 10.
+Find the roots of the quadratic equation 
+𝑥
+2
++
+4
+𝑥
++
+4
+=
+0
+x 
+2
+ +4x+4=0 using the quadratic formula.
+If the perimeter of a rectangle is 50 cm and the length is 15 cm, find the width.

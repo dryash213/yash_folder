@@ -1,0 +1,250 @@
+Class 12 Mathematics Sample Paper
+Section A: (1 mark each)
+Find the value of 
+𝑥
+x if 
+2
+𝑥
++
+3
+=
+11
+2x+3=11.
+Write the value of 
+tan
+⁡
+4
+5
+∘
+tan45 
+∘
+ .
+If 
+𝐴
+=
+{
+1
+,
+2
+,
+3
+}
+A={1,2,3}, how many subsets does 
+𝐴
+A have?
+Find the slope of the line joining the points (2, 3) and (4, 5).
+Calculate 
+log
+⁡
+10
+100
+log 
+10
+​
+ 100.
+Write the quadratic formula.
+Section B: (2 marks each)
+Solve the equation: 
+𝑥
+2
+−
+5
+𝑥
++
+6
+=
+0
+x 
+2
+ −5x+6=0.
+Find the value of 
+sin
+⁡
+3
+0
+∘
+sin30 
+∘
+ .
+If 
+𝑓
+(
+𝑥
+)
+=
+2
+𝑥
+2
++
+3
+𝑥
++
+1
+f(x)=2x 
+2
+ +3x+1, find 
+𝑓
+(
+1
+)
+f(1).
+Determine the number of zeroes of the polynomial 
+𝑃
+(
+𝑥
+)
+=
+𝑥
+3
+−
+4
+𝑥
+P(x)=x 
+3
+ −4x.
+Write the general term of the arithmetic sequence where 
+𝑎
+1
+=
+3
+a 
+1
+​
+ =3 and 
+𝑑
+=
+2
+d=2.
+Find the area of a triangle with vertices at (0, 0), (4, 0), and (0, 3).
+Section C: (3 marks each)
+Prove that 
+2
+2
+​
+  is an irrational number.
+Find the sum of the first 10 terms of the arithmetic series: 2, 5, 8, ...
+Differentiate 
+𝑦
+=
+5
+𝑥
+3
+−
+2
+𝑥
+2
++
+7
+𝑥
+−
+1
+y=5x 
+3
+ −2x 
+2
+ +7x−1.
+Find the inverse of the matrix 
+(
+1
+2
+3
+4
+)
+( 
+1
+3
+​
+  
+2
+4
+​
+ ).
+Calculate the mean of the following data: 1, 3, 5, 7, 9.
+If 
+𝛼
+α and 
+𝛽
+β are the roots of 
+𝑥
+2
+−
+6
+𝑥
++
+8
+=
+0
+x 
+2
+ −6x+8=0, find 
+𝛼
++
+𝛽
+α+β and 
+𝛼
+𝛽
+αβ.
+Prove that the sum of the angles in a triangle is 180 degrees.
+Find the distance between the points (1, 2) and (4, 6).
+If 
+𝐴
+A is the event of rolling a number greater than 4 on a die, find 
+𝑃
+(
+𝐴
+)
+P(A).
+Evaluate 
+∫
+(
+3
+𝑥
+2
++
+2
+)
+ 
+𝑑
+𝑥
+∫(3x 
+2
+ +2)dx.
+Section D: (4 marks each)
+Solve for 
+𝑥
+x: 
+3
+𝑥
++
+5
+=
+11
+3x+5=11 and 
+2
+𝑥
+−
+4
+=
+0
+2x−4=0.
+Show that the points (1, 2), (2, 3), and (3, 4) are collinear.
+Find the area of a circle with a radius of 7 cm.
+A card is drawn from a standard deck of 52 cards. What is the probability that it is a diamond?
+Prove that the diagonals of a rectangle bisect each other.
+A polynomial of degree 5 has 4 roots. What can you say about the number of zeroes?
+If the sum of the roots of the quadratic equation 
+𝑥
+2
+−
+7
+𝑥
++
+𝑘
+=
+0
+x 
+2
+ −7x+k=0 is 7, find 
+𝑘
+k.
+Discuss the significance of the Fundamental Theorem of Algebra.

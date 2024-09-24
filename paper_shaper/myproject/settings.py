@@ -184,13 +184,19 @@ SITE_ID = 1
 # settings.py
 
 # Email configuration for development
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'harshkushwaha7x@gmail.com'  # Replace with your email
+EMAIL_HOST_PASSWORD = 'pfuy hciq mvaf rjik'  # Replace with your email password
 
-# settings.py
+# Allauth settings
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 
-ACCOUNT_EMAIL_VERIFICATION = 'none'
-# settings.py
-
+# Authentication settings
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
