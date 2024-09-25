@@ -23,7 +23,7 @@ def contact(request):
 
 
 def prompt_detail(class_no,prompt_type):
-    #print(class_no,prompt_type)
+    print(class_no,prompt_type)             
     results = Prompt.objects.get(Class=prompt_type, Type=class_no)
     #print(results)
     return results
@@ -84,59 +84,55 @@ def get_dynamic_options(request):
     options = {} 
 
     # Class and subject selection logic for Class 9
-    if category1:
-        if category1 == 'Class 9th':
-            options['category2'] = ['Maths', 'Science']
+    if category1 == 'Class 9th':
+        options['category2'] = ['Maths', 'Science',"English-Moments","English-Beehive","English-Words and Expressions"]
 
-    if category2:
-        if category2 == 'Science':
-<<<<<<< HEAD
-            options['category3'] = [
-                "MATTER IN OUR SURROUNDINGS", "IS MATTER AROUND US PURE?", "ATOMS AND MOLECULES", 
-                "STRUCTURE OF THE ATOM", "THE FUNDAMENTAL UNIT OF LIFE", "TISSUES", 
-                "MOTION", "FORCE AND LAWS OF MOTION", "GRAVITATION", "WORK AND ENERGY", 
-                "SOUND", "IMPROVEMENT IN FOOD RESOURCES"
-            ]
-        elif category2 == 'Maths':
-            options['category3'] = [
-                "Number Systems", "Polynomials", "Coordinate Geometry", "Linear Equations in Two Variables", 
-                "Introduction to Euclid's Geometry", "Lines and Angles", "Triangles", "Quadrilaterals", 
-                "Areas of Parallelograms and Triangles", "Circles", "Constructions", "Heron's Formula", 
-                "Surface Areas and Volumes", "Statistics", "Probability"
-            ]
-=======
-            options['category3'] = ["MATTER IN OUR SURROUNDINGS","IS MATTER AROUND US PURE","ATOMS AND MOLECULES","STRUCTURE OF THE ATOM","THE FUNDAMENTAL UNIT OF LIFE",
-                                "TISSUES","MOTION","FORCE AND LAWS OF MOTION","GRAVITATION","WORK AND ENERGY",
-                                "SOUND","IMPROVEMENT IN FOOD RESOURCES"]
-            
-        if category2 == 'Maths':
-            options['category3'] = ["NUMBER SYSTEMS","POLYNOMIALS","COORDINATE GEOMETRY","LINEAR EQUATIONS IN TWO VARIABLES","INTRODUCTION TO EUCLID’S GEOMETRY",
-                                "LINES AND ANGLES","TRIANGLES","QUADRILATERALS","CIRCLES","HERON’S FORMULA",
-                                "SURFACE AREAS AND VOLUMES","STATISTICS"]
->>>>>>> 7f3e19e66d4fa3403fe5a50477f1e6c3c97373e1
+        if category2:
+            if category2 == 'Science':
+                options['category3'] = ["MATTER IN OUR SURROUNDINGS","IS MATTER AROUND US PURE","ATOMS AND MOLECULES","STRUCTURE OF THE ATOM","THE FUNDAMENTAL UNIT OF LIFE",
+                                    "TISSUES","MOTION","FORCE AND LAWS OF MOTION","GRAVITATION","WORK AND ENERGY",
+                                    "SOUND","IMPROVEMENT IN FOOD RESOURCES"]
+                
+            if category2 == 'Maths':
+                options['category3'] = ["NUMBER SYSTEMS","POLYNOMIALS","COORDINATE GEOMETRY","LINEAR EQUATIONS IN TWO VARIABLES","INTRODUCTION TO EUCLID’S GEOMETRY",
+                                    "LINES AND ANGLES","TRIANGLES","QUADRILATERALS","CIRCLES","HERON’S FORMULA",
+                                    "SURFACE AREAS AND VOLUMES","STATISTICS"]
+                
+
+            if category2 == 'English-Moments':
+                options['category3'] = ["The Lost Child","The Adventures of Toto","Iswaran the Storyteller","In the Kingdom of Fools","The Happy Prince","Weathering the Storm in Ersama","The Last Leaf","A House Is Not a Home","The Beggar"]
+
+
+            if category2 == 'English-Beehive':
+                options['category3'] = ["The Sound of Music","The Little Girl","A Truly Beautiful Mind","The Snake and the Mirror","My Childhood","Reach for the Top","Kathmandu","If I Were You","The Fun They Had "]
+
+
+            if category2 == 'English-Words and Expressions':
+                options['category3'] = ["Unit1","Unit2","Unit3","Unit4","Unit5","Unit6","Unit7","Unit8","Unit9"]
 
     # For Class 10
-    if category1:
-        if category1 == 'Class 10th':
-            options['category2'] = ['Maths', 'Science']
+    if category1 == 'Class 10th':
+        options['category2'] = ['Maths', 'Science',"English-First Flight"]
 
-    if category2:
-        if category2 == 'Science':
-            options['category3'] = [
-                "Chemical Reactions and Equations", "Acids, Bases and Salts", "Metals and Non-metals", 
-                "Carbon and its Compounds", "Periodic Classification of Elements", "Life Processes", 
-                "Control and Coordination", "How do Organisms Reproduce", "Heredity and Evolution", 
-                "Light – Reflection and Refraction", "The Human Eye and the Colourful World", 
-                "Electricity", "Magnetic Effects of Electric Current", "Sources of Energy", 
-                "Our Environment", "Sustainable Management of Natural Resources"
-            ]
-        elif category2 == 'Maths':
-            options['category3'] = [
-                "Real Numbers", "Polynomials", "Pair of Linear Equations in Two Variables", "Quadratic Equations", 
-                "Arithmetic Progressions", "Triangles", "Coordinate Geometry", "Introduction to Trigonometry", 
-                "Some Applications of Trigonometry", "Circles", "Constructions", "Areas Related to Circles", 
-                "Surface Areas and Volumes", "Statistics", "Probability"
-            ]
+        if category2:
+            if category2 == 'Science':
+                options['category3'] = [
+                    "Chemical Reactions and Equations", "Acids, Bases and Salts", "Metals and Non-metals", 
+                    "Carbon and its Compounds", "Periodic Classification of Elements", "Life Processes", 
+                    "Control and Coordination", "How do Organisms Reproduce", "Heredity and Evolution", 
+                    "Light – Reflection and Refraction", "The Human Eye and the Colourful World", 
+                    "Electricity", "Magnetic Effects of Electric Current", "Sources of Energy", 
+                    "Our Environment", "Sustainable Management of Natural Resources"
+                ]
+            elif category2 == 'Maths':
+                options['category3'] = [
+                    "Real Numbers", "Polynomials", "Pair of Linear Equations in Two Variables", "Quadratic Equations", 
+                    "Arithmetic Progressions", "Triangles", "Coordinate Geometry", "Introduction to Trigonometry", 
+                    "Some Applications of Trigonometry", "Circles", "Constructions", "Areas Related to Circles", 
+                    "Surface Areas and Volumes", "Statistics", "Probability"
+                ]
+            elif category2 == 'English-First Flight':
+                options['category3'] = ["A Letter to God","Nelson Mandela: Long Walk to Freedom","Two Stories about Flying","From the Diary of Anne Frank","Glimpses of India","Mijbil the Otter","Madam Rides the Bus","The Sermon at Benares","The Proposal"]
 
     # For Class 11
     if category1 == 'Class 11th':
@@ -202,14 +198,8 @@ def get_dynamic_options(request):
     # Add options for the fourth category
     if category3:
         options['category4'] = ['Mock Paper', 'Test Questions', 'MCQ']
-<<<<<<< HEAD
 
     # Return the options as a JsonResponse
-=======
-        
-    
-    #print(options)      
->>>>>>> 7f3e19e66d4fa3403fe5a50477f1e6c3c97373e1
     return JsonResponse(options)
 
 
@@ -306,11 +296,9 @@ def generate_pdf(request):
         # Parse the JSON data sent from the frontend
         data = json.loads(request.body)
         output_text = data.get('output', '')
-        print(type(output_text))
 
         # Split the text into lines
         all_text = output_text.split('\\n')
-        print(all_text)
 
         # Create an instance of FPDF class
         pdf = FPDF()
@@ -319,12 +307,16 @@ def generate_pdf(request):
         pdf.add_page()
 
         # Set font style and size
-        pdf.set_font("Arial", size=15)
+        pdf.set_font("Arial", size=12)  # Adjust font size to better fit text
+
+        # Set margins
+        pdf.set_left_margin(10)
+        pdf.set_right_margin(10)
 
         # Insert the texts from the variable into the PDF
         for line in all_text:
-            # Use encode to handle special characters
-            pdf.cell(200, 10, txt=line.encode('latin-1', 'replace').decode('latin-1'), ln=1, align='C')
+            # Use multi_cell for text wrapping
+            pdf.multi_cell(0, 10, txt=line.encode('latin-1', 'replace').decode('latin-1'), align='L')
 
         # Create a BytesIO buffer to store the PDF
         buffer = io.BytesIO()
@@ -344,7 +336,5 @@ def generate_pdf(request):
 
         return response
     else:
-        return HttpResponse(status=405)  # Method not allowed
-
-
+        return HttpResponse(status=405)  # Method not allowed   
 

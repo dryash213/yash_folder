@@ -1,3 +1,64 @@
+1
+GUIDELINES FOR QUESTIONS
+IN
+SCIENCE
+General instructions
+1. Objective/task of the question school be well difined.
+2. Value points should be stated clearly in the marking scheme.
+3. If the expected answer is based on a diagram given in NCERT text book, its reference be given with fig no.
+and page no.
+4. In numerical based questions emphasis should be given on scientific concepts rather than computational skills.
+5. Numerical problem should have all possible information required for the solution. For example, value of g,
+Avagrado number, atomic masses etc. should be mentioned.
+6. The data given in the numerical problems should be practicable.
+7. No question should be lifted directly from any help book.
+8. Language of the questions should be simple and unnecessary detail should be avoided.
+9. Multicoulured diagram for printing in question paper should be avoided.
+10. Syllabus prescribed by CBSE should be followed strictly. However, for depth of the content, NCERT book
+may be considered as reference.
+GUIEDELINES (SCIENCE PAPER)
+VSA
+1. Questions should be precise and pin pointed.
+2. Action verbs like define, explain, describe and discuss should be avoided.
+3. The anwer should not be of more than 2 value points.
+4. The answer should be of one word or one sentence.
+5. In diagram based questions instead of asking “to draw the diagram”, “to label” can be asked.
+2
+MCQ
+1. The questions should be strictly based on testing the skills required for doing practicals and these should not be
+theory based.
+2. The questions should be such that it can be answered by only those students who have actually performed the
+practicals in schools.
+3. All the four options should be relevent.
+4. Options like ‘all the above’ and ‘none o the above’ should be avoided.
+5. The stem of question should not be too long.
+6. As far as possible the language of the stem should be such that on adding the option it makes the sentence
+complete.
+7. The objective to be tested should be clear while framing the question.
+8. Irrelevant hypothetical data/diagram should not given in the question.
+SA-1 (2MARKS)
+1. Question should not be of more than 4 value points.
+2. Questions asking comparision, differents definitions, simple diagrams with two labels can be asked.
+3. Question should be from different units.
+4. Question should not be divided into parts.
+SA-II(3MARKS)
+1. Complete diagram with 4 to 6 labels can be asked based questions.
+2. Numerical based questions can be asked.
+3. Explanations, reasonings, prediction, interpretation type question can be asked.
+4. Maximum value points should not be more than 6 and not less than 3.
+5. If the question is divided into parts, the parts should be inter related and not unrelated.
+3
+FOR LA (5MARKS)
+1. The question should not be divided into parts that are not related or are from different units/chapters of the
+same unit.
+2. There should be minimum 5 value points and maximum 10 value points.
+3. Diagram based descriptive question can be asked.
+4. The answer of the question should also reflect the descriptive skill of the child.
+5. The internal choice question should be from the same unit and be of same difficulty level testing the same
+objective.
+
+
+
 The question paper comprises of two sections, A and B, You are to attempt both the sections.
 All questions are compulsory.
 

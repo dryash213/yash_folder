@@ -1,22 +1,18 @@
-The question paper comprises of two sections, A and B, You are to attempt both the sections.
-All questions are compulsory.
-
-There is no overall choice. However internal choice has been provided in all the five
-questions of five marks category. Only one option in such questions is to be attempted.
-
-All questions of section A and all questions of section B are to be attempted separately.
-
-Question numbers 1 to 3 in section A are one mark questions. These are to be answered in
-one word or one sentence.
-
-Question numbers 4 to 7 are two mark questions, to be answered in about 30 words each.
-
-Question numbers 8 to 19 are three mark questions, to be answered in about 50 words
-each.
-
-Question numbers 20 to 24 are five mark questions, to be answered in about 70 words
-each.
-
-Question number 25 to 42 in section B are multiple choice questions based on practical
-skills. Each question is a one mark question. You are to choose one most appropriate
-response out of the four provided to you.
+GUIDELINES FOR QUESTIONS IN MATHEMATICS
+ MCQ
+  1. Alternate answers should be as (A), (B), (C) and (D) and not as 1, 2, 3, 4 or a, b, c, d.
+  2. The alternatives should not be written at random. They must be the probable answers For Example:- The surface area of a solid hemisphere of diameter 14cm is (A) 147元 (B) 98元 (C) 392元 (D) 588π The correct answer is 3(7)² = 147π ί.ε. (Α) But taking corved surface area = 2π(7) = 98 i.e. (B) taking r= 14 instead of 7 and surface area = 2(14)² = 392 i.e. (C) and r=14 and surface area 2tr588 ie. (D)
+ 3. The stem of the question should not be interogative type. e.g. "What does the Congruence rule SAS mean?" instead of should be witten as, "The Congruence rule SAS means" (A) (B) (C) (D)
+  4. The questions should be such that the answer may be in one word or one sentence. Questions of the type, "show that", "verify that" etc. should be avoided
+   5. The questions should not have multiple answers. e.g. Ifx=36, the value of x is (A) 6 (B) -6 (C) +6 (D) 36 Options A, B and C can be said as correct. 
+   6. Syllabus, Design and blue print must be striclty followed. 
+   7. The questions should not involve long calculations.
+   8. Proper units should be mentioned in the questions, wherever required. 1 FOR QUESTIONS OTHER THAN MCQ 
+   9. The questions of different weightages should be so framed that an average student can solve the question in less than 2 minutes for every one mark. i.e a 3 marks question should not take more than 6 minutes.
+    10. Questions should be framed to test different skills like computation, drawing, reasoning etc. 
+   11. The questions framed should have value points as per the weightage of the question ie. a 2 marks questions must not have more than 2 important value points. 
+   12. The language of the question should be such that it conveys specific meaning. e.g. The surface area of a cylinder is - here, the language can mean curved surface area or total surface area, if cylinder is solid.
+    13. The figures given must be properly labelled and according to dimensions. 
+   14. Sub-parts in a questions should be avoided. 
+   15. In questions on constructions in geometry, proper data must be given. For Example: Draw tangents to a circle from an external point. Here, readius of circle and the distance of external point from the centre of circle should be given.
+    16. The same concept should not be tested again and again e.g. The following three questions should not be in the same paper. (i) Find the area of triangle with given three points 2 marks (ii) Show that the given three points are collinear 3 marks (iii) Find the area of quadrilateral with four given points 4 marks

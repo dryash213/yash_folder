@@ -14,6 +14,48 @@ Prompt.objects.create(
     model="llama-3.1-70b-versatile"
 )
 
+Prompt.objects.create(
+    id = 9999999,
+    Type="Mock Paper",
+    Class="Class 10th",
+    system_prompt="You are a Expert teacher and you teach the students of ninth grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
+    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    Guideline for Question paper:- {Mock Paper}
+
+    Document Content:- {Document_content}
+    """,
+    model="llama-3.1-70b-versatile"
+)
+
+Prompt.objects.create(
+    id = 9999999,
+    Type="Mock Paper",
+    Class="Class 11th",
+    system_prompt="You are a Expert teacher and you teach the students of ninth grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
+    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    Guideline for Question paper:- {Mock Paper}
+
+    Document Content:- {Document_content}
+    """,
+    model="llama-3.1-70b-versatile"
+)
+
+
+Prompt.objects.create(
+    id = 9999999,
+    Type="Mock Paper",
+    Class="Class 12th",
+    system_prompt="You are a Expert teacher and you teach the students of Senior highschool grade 12th of a school. Your aim is to help them in their query with atmost precision and clearity.",
+    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    Guideline for Question paper:- {Mock Paper}
+
+    Document Content:- {Document_content}
+    """,
+    model="llama-3.1-70b-versatile"
+)
+
+
+
 9090100
 class,Type,category
 id:- 09-01-00
