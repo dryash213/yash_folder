@@ -5,6 +5,9 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('icse/',views.icse, name='icse'),
+    path('cbse/',views.cbse, name='cbse'),
+    path('others/',views.others, name='others'),
     path('explore/', views.explore, name='explore'),
     path('thumbnail/<int:thumbnail_id>/', views.thumbnail_detail, name='thumbnail_detail'),
     path('logout/', views.custom_logout, name='custom_logout'),

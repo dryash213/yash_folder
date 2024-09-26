@@ -18,40 +18,33 @@
             <a href="{% url 'account_signup' %}" class="btn btn-success">Signup</a>
         </p>
     {% endif %}
+    <h3>CBSE</h3>
     <div class="row mt-4">
         <div class="col-md-4">
-            <a href="#" class="thumbnail" onclick="icseClick()">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
                 <img src="{% static 'myapp/download.png' %}" class="img-thumbnail" alt="Thumbnail 1">
-                <p>Icse</p>
+                <p>Thumbnail 1</p>
             </a>
         </div>
         <div class="col-md-4">
-            <a href="#" class="thumbnail" onclick="cbseClick()">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
                 <img src="{% static 'myapp/thumbnail2.jpg' %}" class="img-thumbnail" alt="Thumbnail 2">
-                <p>Cbse</p>
+                <p>Thumbnail 2</p>
             </a>
         </div>
         <div class="col-md-4">
-            <a href="#" class="thumbnail" onclick="othersClick()">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
                 <img src="{% static 'myapp/thumbnail3.jpg' %}" class="img-thumbnail" alt="Thumbnail 3">
-                <p>Others</p>
+                <p>Thumbnail 3</p>
             </a>
         </div>
     </div>
 </div>
 
 <script>
-    function icseClick() {
+    function handleThumbnailClick() {
         // Redirect to the Explore More Features page
-        window.location.href = "{% url 'icse' %}";
-    }
-    function cbseClick() {
-        // Redirect to the Explore More Features page
-        window.location.href = "{% url 'cbse' %}";
-    }
-    function othersClick() {
-        // Redirect to the Explore More Features page
-        window.location.href = "{% url 'others' %}";
+        window.location.href = "{% url 'explore' %}";
     }
 </script>
 {% endblock %}

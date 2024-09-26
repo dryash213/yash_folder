@@ -36,6 +36,18 @@ def explore(request):
     return render(request, 'myapp/explore.html')
 
 @login_required
+def icse(request):
+    return render(request, 'myapp/icse.html')
+
+@login_required
+def cbse(request):
+    return render(request, 'myapp/cbse.html')
+
+@login_required
+def others(request):
+    return render(request, 'myapp/others.html')
+
+@login_required
 def thumbnail_detail(request, thumbnail_id):
     context = {
         'thumbnail_id': thumbnail_id,
@@ -135,27 +147,12 @@ def get_static_values(request):
         print(f"File not found: {file_name_category4}")
 
     print(place_holder)
+    # print(result['category4'],result['category1'])
 
     get_prompt = prompt_detail(result['category4'],result['category1'])
-
+    print("prompt is here: ",get_prompt)
     response = generate_response(get_prompt.system_prompt,get_prompt.prompt.format(**place_holder),get_prompt.model)
     
 
     return JsonResponse({'output': response})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

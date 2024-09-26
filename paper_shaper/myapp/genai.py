@@ -17,7 +17,7 @@ def prepare_message(system_prompt=str, user_prompt=str) -> list:
 
 
 def generate_response(system_prompt=str, user_prompt=str, model=str):
-    print(model, system_prompt, user_prompt)
+    # print(model, system_prompt, user_prompt)
 
     client = Groq(
         api_key="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",
