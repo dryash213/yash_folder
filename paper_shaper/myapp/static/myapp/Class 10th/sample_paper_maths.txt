@@ -1,0 +1,153 @@
+Class 10 Mathematics Sample Paper
+Section A: (1 mark each)
+Find the value of 
+7
+0
+7 
+0
+ .
+Write the quadratic formula.
+What is the sum of the angles in a triangle?
+Define a polynomial.
+If 
+𝐴
+=
+{
+2
+,
+4
+,
+6
+}
+A={2,4,6}, find 
+∣
+𝐴
+∣
+∣A∣.
+Calculate the mean of the following data: 2, 4, 6, 8.
+Section B: (2 marks each)
+Solve the equation: 
+2
+𝑥
++
+3
+=
+11
+2x+3=11.
+Find the LCM of 12 and 15.
+Calculate the distance between the points (2, 3) and (5, 7).
+Write the value of 
+sin
+⁡
+3
+0
+∘
+sin30 
+∘
+ .
+If 
+𝑓
+(
+𝑥
+)
+=
+𝑥
+2
++
+3
+𝑥
++
+2
+f(x)=x 
+2
+ +3x+2, find 
+𝑓
+(
+−
+1
+)
+f(−1).
+Find the area of a triangle with base 10 cm and height 5 cm.
+Section C: (3 marks each)
+Factorize the polynomial 
+𝑥
+2
+−
+9
+x 
+2
+ −9.
+Prove that the sum of the interior angles of a quadrilateral is 360 degrees.
+A die is rolled. What is the probability of getting an even number?
+Solve the quadratic equation 
+𝑥
+2
+−
+5
+𝑥
++
+6
+=
+0
+x 
+2
+ −5x+6=0.
+Find the median of the following data: 1, 3, 3, 6, 7, 8, 9.
+A rectangle has a length of 8 cm and a width of 5 cm. Find its perimeter.
+If the roots of the equation 
+𝑥
+2
++
+𝑝
+𝑥
++
+𝑞
+=
+0
+x 
+2
+ +px+q=0 are 3 and 4, find 
+𝑝
+p and 
+𝑞
+q.
+Show that the diagonals of a parallelogram bisect each other.
+Calculate the area of a circle with a radius of 7 cm.
+Determine the coordinates of the midpoint of the line segment joining (1, 2) and (4, 6).
+Section D: (4 marks each)
+Solve for 
+𝑥
+x: 
+3
+𝑥
+−
+4
+=
+5
+3x−4=5.
+Prove that 
+3
+3
+​
+  is an irrational number.
+A bag contains 5 red, 7 blue, and 3 green balls. What is the probability of drawing a red ball?
+Find the zeros of the polynomial 
+𝑝
+(
+𝑥
+)
+=
+𝑥
+2
+−
+4
+𝑥
++
+3
+p(x)=x 
+2
+ −4x+3 and plot the graph.
+Explain the difference between simple interest and compound interest with examples.
+A triangle has sides of lengths 7 cm, 8 cm, and 9 cm. Use Heron’s formula to find its area.
+If the perimeter of a square is 40 cm, find the length of one side and the area.
+Discuss the significance of the Pythagorean theorem in right-angled triangles.

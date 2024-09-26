@@ -1,0 +1,262 @@
+Class 11 Maths Sample Paper
+Section A: (1 mark each)
+Find the value of 
+𝑥
+x if 
+3
+𝑥
+−
+7
+=
+11
+3x−7=11.
+What is the value of 
+sin
+⁡
+3
+0
+∘
+sin30 
+∘
+ ?
+Write the quadratic formula.
+If 
+𝐴
+=
+{
+1
+,
+2
+,
+3
+}
+A={1,2,3}, how many subsets does 
+𝐴
+A have?
+Find the slope of the line joining the points (1, 2) and (3, 4).
+Calculate 
+log
+⁡
+10
+1000
+log 
+10
+​
+ 1000.
+Section B: (2 marks each)
+Solve the equation: 
+𝑥
+2
+−
+4
+𝑥
+−
+5
+=
+0
+x 
+2
+ −4x−5=0.
+Find the value of 
+tan
+⁡
+4
+5
+∘
+tan45 
+∘
+ .
+If 
+𝑓
+(
+𝑥
+)
+=
+3
+𝑥
+2
++
+2
+𝑥
+−
+5
+f(x)=3x 
+2
+ +2x−5, find 
+𝑓
+(
+2
+)
+f(2).
+Determine the number of zeroes of the polynomial 
+𝑃
+(
+𝑥
+)
+=
+𝑥
+3
+−
+4
+𝑥
+P(x)=x 
+3
+ −4x.
+Write the general term of the arithmetic sequence where 
+𝑎
+1
+=
+2
+a 
+1
+​
+ =2 and 
+𝑑
+=
+3
+d=3.
+Find the area of a triangle with vertices at (0, 0), (4, 0), and (0, 3).
+Section C: (3 marks each)
+Prove that 
+3
+3
+​
+  is an irrational number.
+Find the sum of the first 10 terms of the arithmetic series: 3, 7, 11, ...
+Differentiate 
+𝑦
+=
+4
+𝑥
+3
+−
+5
+𝑥
+2
++
+6
+𝑥
+−
+7
+y=4x 
+3
+ −5x 
+2
+ +6x−7.
+Find the inverse of the matrix 
+(
+1
+2
+3
+4
+)
+( 
+1
+3
+​
+  
+2
+4
+​
+ ).
+Calculate the mean of the following data: 2, 4, 6, 8, 10.
+If 
+𝛼
+α and 
+𝛽
+β are the roots of 
+𝑥
+2
+−
+3
+𝑥
++
+2
+=
+0
+x 
+2
+ −3x+2=0, find 
+𝛼
++
+𝛽
+α+β and 
+𝛼
+𝛽
+αβ.
+Prove that the sum of the angles in a triangle is 180 degrees.
+Find the distance between the points (1, 2) and (4, 6).
+If 
+𝐴
+A is the event of rolling an even number on a dice, find 
+𝑃
+(
+𝐴
+)
+P(A).
+Evaluate 
+∫
+(
+2
+𝑥
++
+3
+)
+ 
+𝑑
+𝑥
+∫(2x+3)dx.
+Section D: (4 marks each)
+Solve for 
+𝑥
+x: 
+2
+𝑥
++
+3
+=
+7
+2x+3=7 and 
+4
+𝑥
+−
+5
+=
+3
+4x−5=3.
+Show that the points (1, 2), (2, 3), and (3, 4) are collinear.
+Find the area of a circle with a radius of 7 cm.
+A card is drawn from a standard deck of 52 cards. What is the probability that it is a heart?
+Prove that the diagonals of a rectangle bisect each other.
+A polynomial of degree 4 has 3 roots. What can you say about the number of zeroes?
+Find the value of 
+𝑘
+k if 
+2
+𝑥
+2
++
+𝑘
+𝑥
++
+3
+=
+0
+2x 
+2
+ +kx+3=0 has no real roots.
+If the sum of the roots of the quadratic equation 
+𝑥
+2
+−
+5
+𝑥
++
+𝑘
+=
+0
+x 
+2
+ −5x+k=0 is 5, find 
+𝑘
+k.

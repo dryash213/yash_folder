@@ -1,10 +1,10 @@
-<!-- myapp/templates/myapp/explore.html -->
 {% extends 'myapp/base.html' %}
 {% load static %}
 
 {% block title %}Explore More Features{% endblock %}
 
 {% block content %}
+
 <div class="jumbotron">
     <h1 class="display-4">Explore More Features</h1>
     <hr class="my-4">
@@ -31,28 +31,32 @@
                 <option value="">Select an option</option>
             </select>
         </div>
-        <div class="form-group"></div>
+        <div class="form-group">
             <label for="category4">Category 4</label>
             <select class="form-control" id="category4" disabled>
                 <option value="">Select an option</option>
             </select>
         </div>
-                <!-- Wrap Run button and loader in a flex container for side-by-side alignment -->
-                <div class="d-flex align-items-center">
-                    <button type="button" class="btn btn-success" id="runBtn">Run</button>
-                    <div id="loader" style="display: none; margin-left: 10px;">
-                        <div class="spinner-border text-primary" role="status">
-                            <span class="sr-only">Loading...</span>
-                            
-                        </div>
-                        <p>Here</p>
-                    </div>
-                </div>  
+
+        <!-- Run button and loader -->
+        <div class="d-flex align-items-center">
+            <button type="button" class="btn btn-success" id="runBtn">Run</button>
+            <div id="loader" style="display: none; margin-left: 10px;">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
     </form>
-    <div id="output" style="margin-top: 20px;"></div>
+
+    <!-- Fixed-size output text area with vertical scrolling -->
+    <div id="output" style="display: none; margin-top: 20px; height: 300px; overflow-y: scroll; overflow-x: hidden; background: #2c2c2c; color: white; padding: 15px; border-radius: 10px; white-space: pre-wrap; font-size: 1rem;"></div>
+    
+    <!-- Download button (hidden initially) -->
+    <button id="downloadBtn" class="btn btn-primary mt-3" style="display: none;">Download as PDF</button>
 </div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
 
 
@@ -121,31 +125,116 @@ document.getElementById('runBtn').addEventListener('click', function() {
     var category3 = document.getElementById('category3').value;
     var category4 = document.getElementById('category4').value;
 
-    // Show the loader when the button is clicked
+    // Show loader and hide output
     document.getElementById('loader').style.display = 'block';
-    document.getElementById('output').innerHTML = '';  // Clear previous output
+    document.getElementById('output').style.display = 'none';  // Hide the output initially
 
     fetch(`/get-static-values/?category1=${category1}&category2=${category2}&category3=${category3}&category4=${category4}`)
         .then(response => response.json())
         .then(data => {
-            // Hide the loader when the response is received
+            // Hide loader
             document.getElementById('loader').style.display = 'none';
 
             if (data.output) {
-                // Convert the output to a formatted string for display
                 var output = JSON.stringify(data.output, null, 2);  // Pretty-print JSON
-                document.getElementById('output').innerHTML = `<pre style="color: white;">${output}</pre>`;
+                document.getElementById('output').innerText = output;
+
+                // Show the output and the Download button
+                document.getElementById('output').style.display = 'block';
+                document.getElementById('downloadBtn').style.display = 'block';
             } else {
                 document.getElementById('output').innerHTML = `<p style="color:red;">No data found.</p>`;
+                document.getElementById('output').style.display = 'block';  // Show error message in output div
             }
         })
         .catch(error => {
             console.error('Error fetching data:', error);
-            // Hide the loader if there's an error
             document.getElementById('loader').style.display = 'none';
             document.getElementById('output').innerHTML = `<p style="color:red;">Error fetching data.</p>`;
+            document.getElementById('output').style.display = 'block';  // Show error message in output div
         });
 });
+
+
+// document.getElementById('downloadBtn').addEventListener('click', function() {
+//     var output = document.getElementById('output').innerText;
+
+//     if (output) {
+//         const { jsPDF } = window.jspdf;
+//         const doc = new jsPDF();
+
+//         // Split text into multiple lines if necessary
+//         var lines = doc.splitTextToSize(output, 180);  // 180 defines the width of the text block
+
+//         // Add text to the PDF, starting at coordinates (10, 10)
+//         doc.text(lines, 10, 10);
+
+//         // Save the PDF
+//         doc.save('output.pdf');
+
+//         // Show a toast message on successful download
+//         alert('PDF Download Successful!');
+        
+//         // Optionally refresh the page after download
+//         window.location.reload();
+//     }
+// });
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    var output = document.getElementById('output').innerText;
+
+    // Make a POST request to send the output data to the Django view
+    fetch('/generate-pdf/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': getCookie('csrftoken') // Include CSRF token for security
+        },
+        body: JSON.stringify({ output: output }) // Send the output data as JSON
+    })
+    .then(response => {
+        if (response.ok) {
+            // Handle successful download
+            return response.blob();
+        } else {
+            throw new Error('Failed to generate PDF');
+        }
+    })
+    .then(blob => {
+        var url = window.URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = 'output.pdf';
+        document.body.appendChild(a); // Append to body
+        a.click();
+        a.remove(); // Remove after download
+
+        // Show a toast message on successful download
+        alert('PDF Download Successful!');
+    })
+    .catch(error => {
+        console.error('Error generating PDF:', error);
+        alert('Error generating PDF');
+    });
+});
+
+// Helper function to get CSRF token
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
 
 </script>
 {% endblock %}
