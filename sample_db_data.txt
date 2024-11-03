@@ -6,7 +6,7 @@ Prompt.objects.create(
     Type="Mock Paper",
     Class="Class 9th",
     system_prompt="You are a Expert teacher and you teach the students of ninth grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
-    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    prompt="""You are provided with a sample paper format from previous year/s your task is to generate new questions/sample paper from the guidelines and document content provided below.
     Guideline for Question paper:- {Mock Paper}
 
     Document Content:- {Document_content}
@@ -15,11 +15,11 @@ Prompt.objects.create(
 )
 
 Prompt.objects.create(
-    id = 9999999,
+    id = 111111,
     Type="Mock Paper",
     Class="Class 10th",
-    system_prompt="You are a Expert teacher and you teach the students of ninth grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
-    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    system_prompt="You are a Expert teacher and you teach the students of 10th grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
+    prompt="""You are provided with a sample paper format from previous year/s your task is to generate new questions/sample paper from the guidelines and document content provided below.
     Guideline for Question paper:- {Mock Paper}
 
     Document Content:- {Document_content}
@@ -28,11 +28,11 @@ Prompt.objects.create(
 )
 
 Prompt.objects.create(
-    id = 9999999,
+    id = 1234,
     Type="Mock Paper",
     Class="Class 11th",
-    system_prompt="You are a Expert teacher and you teach the students of ninth grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
-    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    system_prompt="You are a Expert teacher and you teach the students of class 11th grade of a school. Your aim is to help them in their query with atmost precision and clearity.",
+    prompt="""You are provided with a sample paper format from previous year/s your task is to generate new questions/sample paper from the guidelines and document content provided below.
     Guideline for Question paper:- {Mock Paper}
 
     Document Content:- {Document_content}
@@ -42,11 +42,11 @@ Prompt.objects.create(
 
 
 Prompt.objects.create(
-    id = 9999999,
+    id = 1111,
     Type="Mock Paper",
     Class="Class 12th",
     system_prompt="You are a Expert teacher and you teach the students of Senior highschool grade 12th of a school. Your aim is to help them in their query with atmost precision and clearity.",
-    prompt="""You are provided with a sample paper from previous year/s your task is to generate new questions/sample paper from the document content provided below.
+    prompt="""You are provided with a sample paper format from previous year/s your task is to generate new questions/sample paper from the guidelines and document content provided below.
     Guideline for Question paper:- {Mock Paper}
 
     Document Content:- {Document_content}

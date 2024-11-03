@@ -1,0 +1,109 @@
+<!-- main/templates/main/profile.html -->
+{% extends "main/base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block extra_head %}
+<style>
+    .sidebar {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f8f9fa;
+        padding-top: 20px;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #333;
+        display: block;
+    }
+    .sidebar a:hover {
+        background-color: #ddd;
+    }
+    .sidebar .home-link {
+        font-size: 24px;
+        font-weight: bold;
+        background-color: #3498db;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .sidebar .home-link:hover {
+        background-color: #2980b9;
+    }
+    .content {
+        margin-left: 260px;
+        padding: 20px;
+    }
+    .card {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: none;
+        border-radius: 10px;
+    }
+    .card-header {
+        background-color: #3498db;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="sidebar">
+    <a href="{% url 'index' %}" class="home-link">Home</a>
+    <a href="{% url 'profile' %}">Profile</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'need_help' %}">Need Help</a>
+    <a href="{% url 'contact_us' %}">Contact Us</a>
+</div>
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Welcome, {{ user.username }}!</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Email: {{ user.email }}</p>
+                        <p>Join Date: {{ user.date_joined }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Need Help?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>If you need any assistance, please don't hesitate to reach out to our support team.</p>
+                        <a href="{% url 'need_help' %}" class="btn btn-primary">Get Help</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Feel free to contact us for any inquiries or feedback.</p>
+                        <a href="{% url 'contact_us' %}" class="btn btn-primary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

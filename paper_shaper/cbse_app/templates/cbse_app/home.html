@@ -1,0 +1,100 @@
+{% extends 'cbse_app/base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}         
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to Our Services</h1>
+    
+    <!-- Explore Button -->
+    <p class="lead">Discover more of what we offer.</p>
+    <p>
+        <a href="{% url 'explore' %}" class="btn btn-primary">Explore Now</a>
+    </p>
+</div>
+
+<!-- Cascading Scroll Window to Showcase Functionalities -->
+<div class="container mt-5">
+    <h2 class="text-center">Our Features</h2>
+    <div id="scrolling-wrapper" class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static '/feature1.jpg' %}" alt="Feature 1">
+                <div class="card-body">
+                    <h5 class="card-title">Feature 1</h5>
+                    <p class="card-text">Description of Feature 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static '/feature2.jpg' %}" alt="Feature 2">
+                <div class="card-body">
+                    <h5 class="card-title">Feature 2</h5>
+                    <p class="card-text">Description of Feature 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static '/feature3.jpg' %}" alt="Feature 3">
+                <div class="card-body">
+                    <h5 class="card-title">Feature 3</h5>
+                    <p class="card-text">Description of Feature 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static '/feature4.jpg' %}" alt="Feature 4">
+                <div class="card-body">
+                    <h5 class="card-title">Feature 4</h5>
+                    <p class="card-text">Description of Feature 4</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static '/feature5.jpg' %}" alt="Feature 5">
+                <div class="card-body">
+                    <h5 class="card-title">Feature 5</h5>
+                    <p class="card-text">Description of Feature 5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        display: flex;
+        flex-wrap: nowrap;
+        scroll-behavior: smooth;
+    }
+    .card {
+        margin: 0 15px;
+        min-width: 250px; /* Ensure cards have a fixed width to enable horizontal scrolling */
+    }
+</style>
+
+<script>
+    function autoSlide() {
+        const container = document.getElementById('scrolling-wrapper');
+        const scrollAmount = container.scrollWidth / container.childElementCount; // Amount to scroll for each slide
+
+        setInterval(() => {
+            container.scrollLeft += scrollAmount; // Scroll to the next slide
+
+            // If we reach the end, reset to the start
+            if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+                container.scrollLeft = 0;
+            }
+        }, 3000); // 3 seconds interval
+    }
+
+    window.onload = autoSlide; // Start auto-slide when the window loads
+</script>
+
+{% endblock %}

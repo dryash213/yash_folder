@@ -1,0 +1,50 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to the Home Page</h1>
+    {% if user.is_authenticated %}
+        <p class="lead">Hello, {{ user.username }}!</p>
+        <hr class="my-4"> 
+        <p>You are logged in. <a href="{% url 'custom_logout' %}" class="btn btn-danger">Logout</a></p>
+    {% else %}
+        <p class="lead">You are not logged in.</p>
+        <hr class="my-4">
+        <p>
+            <a href="{% url 'account_login' %}" class="btn btn-primary">Login</a>
+            <a href="{% url 'account_signup' %}" class="btn btn-success">Signup</a>
+        </p>
+    {% endif %}
+
+    <h3>OTHER States</h3>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
+                <img src="{% static 'myapp/download.png' %}" class="img-thumbnail" alt="Thumbnail 1">
+                <p>Thumbnail 1</p>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
+                <img src="{% static 'myapp/thumbnail2.jpg' %}" class="img-thumbnail" alt="Thumbnail 2">
+                <p>Thumbnail 2</p>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="thumbnail" onclick="handleThumbnailClick()">
+                <img src="{% static 'myapp/thumbnail3.jpg' %}" class="img-thumbnail" alt="Thumbnail 3">
+                <p>Thumbnail 3</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function handleThumbnailClick() {
+        // Redirect to the Explore More Features page
+        window.location.href = "{% url 'explore' %}";
+    }
+</script>
+{% endblock %}

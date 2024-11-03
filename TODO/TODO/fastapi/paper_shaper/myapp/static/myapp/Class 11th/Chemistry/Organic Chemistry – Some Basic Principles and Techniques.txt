@@ -1,0 +1,2184 @@
+256 chemistry
+uniT 8
+Organic chemistry – sOme Basic
+PrinciPles and Techniques
+In the previous unit you have learnt that the element
+carbon has the unique property called catenation due to
+which it forms covalent bonds with other carbon atoms.
+After studying this unit, you will It also forms covalent bonds with atoms of other elements
+be able to
+like hydrogen, oxygen, nitrogen, sulphur, phosphorus
+• understand reasons for and halogens. The resulting compounds are studied
+tetravalence of carbon and under a separate branch of chemistry called organic
+shapes of organic molecules; chemistry. This unit incorporates some basic principles
+• write structures of organic and techniques of analysis required for understanding the
+molecules in various ways; formation and properties of organic compounds.
+• classify the organic compounds;
+• name the compounds according
+8.1 General inTroducTion
+to IUPAC system of nomenclature
+Organic compounds are vital for sustaining life on earth
+and also derive their structures
+from the given names; and include complex molecules like genetic information
+• understand the concept of bearing deoxyribonucleic acid (DNA) and proteins that
+organic reaction mechanism; constitute essential compounds of our blood, muscles and
+• explain the influence of electronic skin. Organic compounds appear in materials like clothing,
+displacements on structure and fuels, polymers, dyes and medicines. These are some of
+reactivity of organic compounds; the important areas of application of these compounds.
+• recognise the types of organic Science of organic chemistry is about two hundred
+reactions; years old. Around the year 1780, chemists began to
+• learn the techniques of distinguish between organic compounds obtained from
+purification of organic plants and animals and inorganic compounds prepared
+compounds;
+from mineral sources. Berzilius, a Swedish chemist
+• write the chemical reactions
+proposed that a ‘vital force’ was responsible for the
+involved in the qualitative
+formation of organic compounds. However, this notion
+analysis of organic compounds;
+was rejected in 1828 when F. Wohler synthesised an
+• understand the principles
+organic compound, urea from an inorganic compound,
+involved in quantitative analysis
+ammonium cyanate.
+of organic compounds.
+NH CNO NH CONH
+4 2 2
+Ammonium cyanate Urea
+The pioneering synthesis of acetic acid by Kolbe
+(1845) and that of methane by Berthelot (1856) showed
+conclusively that organic compounds could be synthesised
+from inorganic sources in a laboratory.
+2024-25
+Unit 8.indd 256 2/24/2023 16:52:17organic chemistry – some basic principles and techniques 257
+The development of electronic theory of Thus, in H C=CH molecule all the atoms
+2 2
+covalent bonding ushered organic chemistry must be in the same plane. The p orbitals are
+into its modern shape. mutually parallel and both the p orbitals are
+perpendicular to the plane of the molecule.
+8.2 tetraValence OF carBOn:
+Rotation of one CH fragment with respect
+shaPes OF Organic cOmPOunds 2
+to other interferes with maximum overlap
+8.2.1 The Shapes of Carbon Compounds of p orbitals and, therefore, such rotation
+The knowledge of fundamental concepts of about carbon-carbon double bond (C=C) is
+molecular structure helps in understanding restricted. The electron charge cloud of the π
+and predicting the properties of organic bond is located above and below the plane of
+compounds. You have already learnt theories bonding atoms. This results in the electrons
+of valency and molecular structure in Unit 4. being easily available to the attacking
+Also, you already know that tetravalence of reagents. In general, π bonds provide the most
+reactive centres in the molecules containing
+carbon and the formation of covalent bonds
+multiple bonds.
+by it are explained in terms of its electronic
+configuration and the hybridisation of s and p
+orbitals. It may be recalled that formation and
+Problem 8.1
+the shapes of molecules like methane (CH ),
+4
+ethene (C H ), ethyne (C H ) are explained How many σ and π bonds are present in
+2 4 2 2
+in terms of the use of sp3, sp2 and sp hybrid each of the following molecules?
+orbitals by carbon atoms in the respective
+(a) HC≡CCH=CHCH (b) CH =C=CHCH
+molecules. 3 2 3
+solution
+Hybridisation influences the bond length
+and bond enthalpy (strength) in compounds. (a) σ : 4; σ : 6; π :1; π C≡C:2
+C – C C–H C=C
+The sp hybrid orbital contains more s
+(b) σ : 3; σ : 6; π : 2.
+character and hence it is closer to its nucleus C – C C–H C=C
+and forms shorter and stronger bonds than Problem 8.2
+the sp3 hybrid orbital. The sp2 hybrid orbital What is the type of hybridisation of each
+is intermediate in s character between sp carbon in the following compounds?
+and sp3 and, hence, the length and enthalpy
+(a) CH Cl, (b) (CH ) CO, (c) CH CN,
+of the bonds it forms, are also intermediate 3 3 2 3
+between them. The change in hybridisation (d) HCONH , (e) CH CH=CHCN
+2 3
+affects the electronegativity of carbon. The
+solution
+greater the s character of the hybrid orbitals,
+the greater is the electronegativity. Thus, a (a) sp3, (b) sp3, sp2, (c) sp3, sp, (d) sp2, (e)
+carbon atom having an sp hybrid orbital with sp3, sp2, sp2, sp
+50% s character is more electronegative than
+Problem 8.3
+that possessing sp2 or sp3 hybridised orbitals.
+Write the state of hybridisation of carbon
+This relative electronegativity is reflected in
+in the following compounds and shapes
+several physical and chemical properties of
+of each of the molecules.
+the molecules concerned, about which you
+will learn in later units. (a) H C=O, (b) CH F, (c) HC≡N.
+2 3
+8.2.2 some characteristic Features of π solution
+Bonds
+(a) sp2 hybridised carbon, trigonal planar;
+In a π (pi) bond formation, parallel orientation (b) sp3 hybridised carbon, tetrahedral; (c)
+of the two p orbitals on adjacent atoms is sp hybridised carbon, linear.
+necessary for a proper sideways overlap.
+2024-25
+Unit 8.indd 257 10/10/2022 10:37:28 AM258 chemistry
+8.3 structural rePresentatiOns Similarly, CH CH CH CH CH CH CH CH
+3 2 2 2 2 2 2 3
+OF Organic cOmPOunds can be further condensed to CH (CH ) CH .
+3 2 6 3
+8.3.1 complete, condensed and Bond-line For further simplification, organic chemists
+structural Formulas use another way of representing the
+structures, in which only lines are used.
+Structures of organic compounds are
+In this bond-line structural representation
+represented in several ways. The Lewis
+of organic compounds, carbon and
+structure or dot structure, dash structure,
+hydrogen atoms are not shown and the
+condensed structure and bond line structural
+lines representing carbon-carbon bonds are
+formulas are some of the specific types. The
+drawn in a zig-zag fashion. The only atoms
+Lewis structures, however, can be simplified
+specifically written are oxygen, chlorine,
+by representing the two-electron covalent
+nitrogen etc. The terminals denote methyl
+bond by a dash (–). Such a structural formula
+(–CH ) groups (unless indicated otherwise by
+focuses on the electrons involved in bond 3
+a functional group), while the line junctions
+formation. A single dash represents a single
+denote carbon atoms bonded to appropriate
+bond, double dash is used for double bond
+number of hydrogens required to satisfy the
+and a triple dash represents triple bond. Lone-
+valency of the carbon atoms. Some of the
+pairs of electrons on heteroatoms (e.g., oxygen,
+examples are represented as follows:
+nitrogen, sulphur, halogens etc.) may or may
+(i) 3-Methyloctane can be represented in
+not be shown. Thus, ethane (C H ), ethene
+2 6 various forms as:
+(C H ), ethyne (C H ) and methanol (CH OH)
+2 4 2 2 3
+can be represented by the following structural
+(a) CH CH CHCH CH CH CH CH
+formulas. Such structural representations are 3 2 | 2 2 2 2 3
+called complete structural formulas. CH
+3
+(b)
+Ethane Ethene
+(c)
+Ethyne Methanol
+These structural formulas can be further
+abbreviated by omitting some or all of the
+dashes representing covalent bonds and by
+(ii) Various ways of representing 2-bromo
+indicating the number of identical groups
+butane are:
+attached to an atom by a subscript. The
+resulting expression of the compound is
+called a condensed structural formula. Thus,
+(a) CH CHBrCH CH (b)
+ethane, ethene, ethyne and methanol can be 3 2 3
+written as:
+CH CH H C=CH HC≡CH CH OH
+3 3 2 2 3
+(c)
+Ethane Ethene Ethyne Methanol
+2024-25
+Unit 8.indd 258 10/10/2022 10:37:29 AMorganic chemistry – some basic principles and techniques 259
+In cyclic compounds, the bond-line formulas
+may be given as follows:
+(b)
+solution
+Condensed formula:
+Cyclopropane (a) HO(CH ) CH(CH )CH(CH )
+2 3 3 3 2
+(b) HOCH(CN)
+2
+Bond-line formula:
+(a)
+Cyclopentane
+(b)
+chlorocyclohexane
+Problem 8.6
+Problem 8.4
+Expand each of the following bond-line
+Expand each of the following condensed formulas to show all the atoms including
+formulas into their complete structural carbon and hydrogen
+formulas. (a)
+(a) CH CH COCH CH
+3 2 2 3
+(b) CH CH=CH(CH ) CH
+3 2 3 3
+solution (b)
+(a)
+(c)
+(b) (d)
+solution
+Problem 8.5
+For each of the following compounds,
+write a condensed formula and also their
+bond-line formula.
+(a) HOCH CH CH CH(CH )CH(CH )CH
+2 2 2 3 3 3
+2024-25
+Unit 8.indd 259 10/10/2022 10:37:30 AM260 chemistry
+Molecular Models
+Molecular models are physical devices
+that are used for a better visualisation and
+perception of three-dimensional shapes
+of organic molecules. These are made of
+wood, plastic or metal and are commercially
+available. Commonly three types of molecular
+models are used: (1) Framework model, (2)
+Ball-and-stick model, and (3) Space filling
+model. In the framework model only the
+bonds connecting the atoms of a molecule
+and not the atoms themselves are shown.
+This model emphasizes the pattern of
+bonds of a molecule while ignoring the size
+of atoms. In the ball-and-stick model, both
+the atoms and the bonds are shown. Balls
+represent atoms and the stick denotes a
+bond. Compounds containing C=C (e.g.,
+ethene) can best be represented by using
+8.3.2 Three-Dimensional
+springs in place of sticks. These models are
+Representation of Organic
+referred to as ball-and-spring model. The
+Molecules
+space-filling model emphasises the relative
+The three-dimensional (3-D) structure of size of each atom based on its van der Waals
+organic molecules can be represented on radius. Bonds are not shown in this model.
+paper by using certain conventions. For It conveys the volume occupied by each atom
+in the molecule. In addition to these models,
+example, by using solid ( ) and dashed
+computer graphics can also be used for
+( ) wedge formula, the 3-D image of a
+molecular modelling.
+molecule from a two-dimensional picture
+can be perceived. In these formulas the
+solid-wedge is used to indicate a bond
+projecting out of the plane of paper, towards
+the observer. The dashed-wedge is used to
+depict the bond projecting out of the plane of
+the paper and away from the observer. Wedges
+are shown in such a way that the broad end of
+the wedge is towards the observer. The bonds
+Framework model Ball and stick model
+lying in plane of the paper are depicted by
+using a normal line (—). 3-D representation of
+methane molecule on paper has been shown
+in Fig. 8.1
+Space filling model
+Fig. 8.2
+Fig. 8.1 Wedge-and-dash representation of CH
+4
+2024-25
+Unit 8.indd 260 11/10/2022 15:19:57organic chemistry – some basic principles and techniques 261
+8.4 ClassifiCation of organiC (homocyclic).
+Compounds
+The existing large number of organic
+compounds and their ever-increasing
+numbers has made it necessary to classify
+them on the basis of their structures. Organic Cyclopropane Cyclohexene Cyclohexane
+compounds are broadly classified as follows:
+Sometimes atoms other than carbon are
+also present in the ring (heterocylic).
+Tetrahydrofuran given below is an example
+of this type of compound:
+Tetrahydrofuran
+These exhibit some of the properties similar
+to those of aliphatic compounds.
+(b) aromatic compounds
+Aromatic compounds are special types of
+compounds. You will learn about these
+compounds in detail in Unit 9. These include
+benzene and other related ring compounds
+(benzenoid). Like alicyclic compounds,
+aromatic comounds may also have hetero
+atom in the ring. Such compounds are called
+i. Acyclic or open chain compounds hetrocyclic aromatic compounds. Some of
+the examples of various types of aromatic
+These compounds are also called as aliphatic
+compounds are:
+compounds and consist of straight or
+branched chain compounds, for example: Benzenoid aromatic compounds
+CH CH
+3 3
+Ethane
+Isobutane
+Benzene Aniline Naphthalene
+Non-benzenoid compound
+Acetaldehyde Acetic acid
+ii Cyclic or closed chain or ring
+compounds
+(a) alicyclic compounds
+Tropone
+Alicyclic (aliphatic cyclic) compounds contain
+carbon atoms joined in the form of a ring
+2024-25
+Unit 8.indd 261 11/10/2022 15:20:58262 chemistry
+Heterocyclic aromatic compounds so because it is found in citrus fruits and the
+acid found in red ant is named formic acid
+since the Latin word for ant is formica. These
+names are traditional and are considered
+as trivial or common names. Some common
+Furan Thiophene Pyridine names are followed even today. For example,
+Organic compounds can also be classified Buckminsterfullerene is a common name
+on the basis of functional groups, into families given to the newly discovered C cluster (a
+60
+or homologous series. form of carbon) noting its structural similarity
+to the geodesic domes popularised by the
+8.4.1 functional group
+famous architect R. Buckminster Fuller.
+The functional group is an atom or a group
+Common names are useful and in many
+of atoms joined to the carbon chain which is
+cases indispensable, particularly when the
+responsible for the characteristic chemical
+alternative systematic names are lengthy and
+properties of the organic compounds. The
+complicated. Common names of some organic
+examples are hydroxyl group (–OH), aldehyde
+compounds are given in Table 8.1.
+group (–CHO) and carboxylic acid group (–
+COOH) etc. table 8.1 Common or trivial names of some
+organic Compounds
+8.4.2 Homologous series
+A group or a series of organic compounds each
+containing a characteristic functional group
+forms a homologous series and the members of
+the series are called homologues. The members
+of a homologous series can be represented by
+general molecular formula and the successive
+members differ from each other in molecular
+formula by a –CH unit. There are a number
+2
+of homologous series of organic compounds.
+Some of these are alkanes, alkenes, alkynes,
+haloalkanes, alkanols, alkanals, alkanones,
+alkanoic acids, amines etc.
+It is also possible that a compound contains
+two or more identical or different functional
+groups. This gives rise to polyfunctional
+compounds.
+8.5 nomEnClaturE of organiC
+Compounds
+Organic chemistry deals with millions of
+8.5.1 the iupaC system of nomenclature
+compounds. In order to clearly identify
+A systematic name of an organic compound
+them, a systematic method of naming has
+is generally derived by identifying the parent
+been developed and is known as the iupaC
+hydrocarbon and the functional group(s)
+(international union of pure and applied
+attached to it. See the example given below.
+Chemistry) system of nomenclature. In this
+systematic nomenclature, the names are
+correlated with the structure such that the
+reader or listener can deduce the structure
+from the name.
+Before the IUPAC system of nomenclature,
+however, organic compounds were assigned
+names based on their origin or certain
+properties. For instance, citric acid is named
+2024-25
+Unit 8.indd 262 11/10/2022 15:20:58organic chemistry – some basic principles and techniques 263
+By further using prefixes and suffixes, the In order to name such compounds, the names
+parent name can be modified to obtain the of alkyl groups are prefixed to the name of
+actual name. Compounds containing carbon parent alkane. An alkyl group is derived
+and hydrogen only are called hydrocarbons. from a saturated hydrocarbon by removing
+A hydrocarbon is termed saturated if it a hydrogen atom from carbon. Thus, CH
+4
+contains only carbon-carbon single bonds. becomes -CH and is called methyl group. An
+3
+The IUPAC name for a homologous series of alkyl group is named by substituting ‘yl’ for
+such compounds is alkane. Paraffin (Latin: ‘ane’ in the corresponding alkane. Some alkyl
+little affinity) was the earlier name given to groups are listed in Table 8.3.
+these compounds. Unsaturated hydrocarbons table 8.3 some alkyl groups
+are those, which contain at least one carbon-
+carbon double or triple bond.
+8.5.2 iuPac nomenclature of alkanes
+Straight chain hydrocarbons: The names
+of such compounds are based on their chain
+structure, and end with suffix ‘-ane’ and carry
+a prefix indicating the number of carbon
+atoms present in the chain (except from CH
+4
+to C H , where the prefixes are derived from
+4 10
+trivial names). The IUPAC names of some
+straight chain saturated hydrocarbons are
+Abbreviations are used for some alkyl
+given in Table 8.2. The alkanes in Table
+groups. For example, methyl is abbreviated as
+8.2 differ from each other by merely the
+Me, ethyl as Et, propyl as Pr and butyl as Bu.
+number of -CH groups in the chain. They are
+2 The alkyl groups can be branched also. Thus,
+homologues of alkane series.
+propyl and butyl groups can have branched
+table 8.2 iuPac names of some unbranched structures as shown below.
+Saturated Hydrocarbons CH -CH- CH -CH -CH- CH -CH-CH -
+3 3 2 3 2
+  
+CH CH CH
+3 3 3
+Isopropyl- sec-Butyl- Isobutyl-
+CH CH
+3 3
+ 
+CH -C- CH -C-CH -
+3 3 2
+ 
+CH CH
+3 3
+tert-Butyl- Neopentyl-
+Branched chain hydrocarbons: In a Common branched groups have specific
+branched chain compound small chains of trivial names. For example, the propyl groups
+carbon atoms are attached at one or more can either be n-propyl group or isopropyl
+carbon atoms of the parent chain. The small group. The branched butyl groups are called
+carbon chains (branches) are called alkyl sec-butyl, isobutyl and tert-butyl group.
+groups. For example: We also encounter the structural unit,
+–CH C(CH ) , which is called neopentyl group.
+CH –CH–CH –CH CH –CH–CH –CH–CH 2 33
+3 2 3 3 2 3
+Nomenclature of branched chain alkanes:
+  
+We encounter a number of branched chain
+CH CH CH CH
+3 2 3 3 alkanes. The rules for naming them are given
+(a) (b)
+below.
+2024-25
+Unit 8.indd 263 10/10/2022 10:37:31 AM264 chemistry
+1. First of all, the longest carbon chain in separated from the groups by hyphens
+the molecule is identified. In the example and there is no break between methyl
+(I) given below, the longest chain has nine and nonane.]
+carbons and it is considered as the parent
+4. If two or more identical substituent
+or root chain. Selection of parent chain as
+groups are present then the numbers
+shown in (II) is not correct because it has
+are separated by commas. The names of
+only eight carbons.
+identical substituents are not repeated,
+instead prefixes such as di (for 2), tri
+(for 3), tetra (for 4), penta (for 5), hexa (for
+6) etc. are used. While writing the name
+of the substituents in alphabetical order,
+these prefixes, however, are not considered.
+Thus, the following compounds are
+named as:
+CH CH CH CH
+3 3 3 3
+   
+CH -CH-CH -CH-CH CH  C CH CH CH
+3 2 3 3 2 3
+1 2 3 4 5 1 2 3 4 5
+2,4-Dimethylpentane 2,2,4-Trimethylpentane
+2. The carbon atoms of the parent chain are
+numbered to identify the parent alkane H C H C CH
+3 2 3
+and to locate the positions of the carbon  
+atoms at which branching takes place due CH CH CHCCH CH CH
+3 2 2 2 3
+to the substitution of alkyl group in place 1 2 3 4 5 6 7
+of hydrogen atoms. The numbering is CH
+3
+done in such a way that the branched 3-Ethyl-4,4-dimethylheptane
+carbon atoms get the lowest possible
+numbers. Thus, the numbering in the 5. If the two substituents are found in
+above example should be from left to right equivalent positions, the lower number
+(branching at carbon atoms 2 and 6) and is given to the one coming first in the
+not from right to left (giving numbers
+alphabetical listing. Thus, the following
+4 and 8 to the carbon atoms at which
+compound is 3-ethyl-6-methyloctane and
+branches are attached).
+not 6-ethyl-3-methyloctane.
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8
+C  C  C  C  C  C  C  C  C
+CH — CH —CH—CH —CH —CH—CH —CH
+  3 2 2 2 2 3
+ 
+C CC
+CH CH CH
+9 8 7 6 5 4 3 2 1 2 3 3
+C  C  C  C  C  C  C  C  C 6. The branched alkyl groups can be
+  named by following the above mentioned
+C C  C procedures. However, the carbon atom
+3. The names of alkyl groups attached of the branch that attaches to the root
+as a branch are then prefixed to the alkane is numbered 1 as exemplified
+name of the parent alkane and position below.
+of the substituents is indicated by the
+4 3 2 1
+appropriate numbers. If different alkyl
+CH –CH–CH –CH–
+groups are present, they are listed in 3 2
+alphabetical order. Thus, name for the  
+compound shown above is: 6-ethyl-2- CH CH
+3 3
+1,3-Dimethylbutyl-
+methylnonane. [Note: the numbers are
+2024-25
+Unit 8.indd 264 10/10/2022 10:37:31 AMorganic chemistry – some basic principles and techniques 265
+The name of such branched chain alkyl group Cyclic Compounds: A saturated monocyclic
+is placed in parenthesis while naming the compound is named by prefixing ‘cyclo’ to the
+compound. While writing the trivial names corresponding straight chain alkane. If side
+of substituents’ in alphabetical order, the chains are present, then the rules given above
+prefixes iso- and neo- are considered to be are applied. Names of some cyclic compounds
+the part of the fundamental name of alkyl are given below.
+group. The prefixes sec- and tert- are not
+considered to be the part of the fundamental
+name. The use of iso and related common
+prefixes for naming alkyl groups is also
+allowed by the IUPAC nomenclature as long
+as these are not further substituted. In multi-
+substituted compounds, the following rules
+may aso be remembered:
+• If there happens to be two chains of equal
+size, then that chain is to be selected which
+contains more number of side chains.
+3-Ethyl-1,1-dimethylcyclohexane
+• After selection of the chain, numbering
+(not 1-ethyl-3,3-dimethylcyclohexane)
+is to be done from the end closer to the
+substituent. Problem 8.7
+Structures and IUPAC names of some
+hydrocarbons are given below. Explain
+why the names given in the parentheses
+are incorrect.
+2,5,6- Trimethyloctane
+[and not 3,4,7-Trimethyloctane]
+5-(2-Ethylbutyl)-3,3-dimethyldecane
+[and not 5-(2,2-Dimethylbutyl)-3-ethyldecane]
+3-Ethyl-5-methylheptane
+[and not 5-Ethyl-3-methylheptane]
+Solution
+(a) Lowest locant number, 2,5,6 is
+lower than 3,5,7, (b) substituents are
+5-sec-Butyl-4-isopropyldecane in equivalent position; lower number is
+given to the one that comes first in the
+name according to alphabetical order.
+8.5.3 Nomenclature of Organic
+Compounds having Functional
+Group(s)
+A functional group, as defined earlier, is an
+atom or a group of atoms bonded together in
+5-(2,2-Dimethylpropyl)nonane a unique manner which is usually the site of
+2024-25
+Unit 8.indd 265 10/27/2022 2:13:15 PM266 chemistry
+chemical reactivity in an organic molecule. class suffix. In such cases the full name of the
+Compounds having the same functional parent alkane is written before the class suffix.
+group undergo similar reactions. For example, For example CH (OH)CH (OH) is named as
+2 2
+CH OH, CH CH OH, and (CH ) CHOH — ethane–1,2–diol. However, the ending – ne of
+3 3 2 3 2
+all having -OH functional group liberate the parent alkane is dropped in the case of
+hydrogen on reaction with sodium metal. compounds having more than one double or
+The presence of functional groups enables triple bond; for example, CH =CH-CH=CH is
+2 2
+systematisation of organic compounds into named as buta–1,3–diene.
+different classes. Examples of some functional
+groups with their prefixes and suffixes along Problem 8.8
+with some examples of organic compounds Write the IUPAC names of the compounds
+possessing these are given in Table 8.4. i-iv from their given structures.
+First of all, the functional group present
+in the molecule is identified which determines
+the choice of appropriate suffix. The longest
+chain of carbon atoms containing the
+functional group is numbered in such a way
+solution
+that the functional group is attached at the
+carbon atom possessing lowest possible • The functional group present is an
+number in the chain. By using the suffix as alcohol (OH). Hence the suffix is ‘-ol’.
+given in Table 8.4, the name of the compound • The longest chain containing -OH
+is arrived at. has eight carbon atoms. Hence the
+In the case of polyfunctional compounds, corresponding saturated hydrocar-
+one of the functional groups is chosen as the bon is octane.
+principal functional group and the compound • The -OH is on carbon atom 3. In
+is then named on that basis. The remaining addition, a methyl group is attached
+functional groups, which are subordinate at 6th carbon.
+functional groups, are named as substituents Hence, the systematic name of this
+using the appropriate prefixes. The choice of compound is 6-Methyloctan-3-ol.
+principal functional group is made on the basis
+of order of preference. The order of decreasing
+priority for some functional groups is:
+-cOOh, –sO h, -cOOr (r=alkyl group), cOcl,
+3
+-CONH , -cn,-hc=O, >c=O, -Oh, -nh , >
+2 2
+c=c<, -c≡C- . solution
+The –R, C H -, halogens (F, Cl, Br, I), –NO , The functional group present is ketone
+6 5 2
+alkoxy (–OR) etc. are always prefix (>C=O), hence suffix ‘-one’. Presence
+substituents. Thus, a compound containing of two keto groups is indicated by ‘di’,
+both an alcohol and a keto group is named hence suffix becomes ‘dione’. The two
+as hydroxyalkanone since the keto group is keto groups are at carbons 2 and 4.
+preferred to the hydroxyl group. The longest chain contains 6 carbon
+For example, HOCH (CH ) CH COCH will atoms, hence, parent hydrocarbon is
+2 2 3 2 3
+be named as 7-hydroxyheptan-2-one and not hexane. Thus, the systematic name is
+as 2-oxoheptan -7-ol. Similarly, BrCH CH=CH Hexane-2,4-dione.
+2 2
+is named as 3-bromoprop-1-ene and not
+1-bromoprop-2-ene.
+If more than one functional group of the
+same type are present, their number is
+indicated by adding di, tri, etc. before the
+2024-25
+Unit 8.indd 266 10/10/2022 10:37:32 AMorganic chemistry – some basic principles and techniques 267
+table 8.4 some Functional groups and classes of Organic compounds
+2024-25
+Unit 8.indd 267 10/10/2022 10:37:32 AM268 chemistry
+solution (iii) Six membered ring containing a
+carbon-carbon double bond is implied
+Here, two functional groups namely
+by cyclohexene, which is numbered as
+ketone and carboxylic acid are present.
+shown in (I). The prefix 3-nitro means
+The principal functional group is the
+that a nitro group is present on C-3.
+carboxylic acid group; hence the parent
+Thus, complete structural formula of the
+chain will be suffixed with ‘oic’ acid.
+compound is (II). Double bond is suffixed
+Numbering of the chain starts from
+functional group whereas NO is prefixed
+carbon of – COOH functional group. 2
+functional group therefore double bond
+The keto group in the chain at carbon
+gets preference over –NO group:
+5 is indicated by ‘oxo’. The longest 2
+chain including the principal functional
+group has 6 carbon atoms; hence the
+parent hydrocarbon is hexane. The
+compound is, therefore, named as
+5-Oxohexanoic acid.
+(iv) ‘1-ol’ means that a -OH group is
+solution
+present at C-1. OH is suffixed functional
+The two C=C functional groups are group and gets preference over C=C
+present at carbon atoms 1 and 3, while bond. Thus the structure is as shown
+the C≡C functional group is present at in (II):
+carbon 5. These groups are indicated by
+suffixes ‘diene’ and ‘yne’ respectively. The
+longest chain containing the functional
+groups has 6 carbon atoms; hence the
+parent hydrocarbon is hexane. The name
+of compound, therefore, is Hexa-1,3-
+dien-5-yne.
+(v) ‘heptanal’ indicates the compound
+Problem 8.9
+to be an aldehyde containing 7 carbon
+Derive the structure of (i) 2-Chlorohexane, atoms in the parent chain. The
+(ii) Pent-4-en-2-ol, (iii) 3- Nitrocyclohexene, ‘6-hydroxy’ indicates that -OH group is
+(iv) Cyclohex-2-en-1-ol, (v) 6-Hydroxy- present at carbon 6. Thus, the structural
+heptanal. formula of the compound is: CH CH(OH)
+3
+solution CH CH CH CH CHO. Carbon atom of –
+2 2 2 2
+CHO group is included while numbering
+(i) ‘hexane’ indicates the presence of
+the carbon chain.
+6 carbon atoms in the chain. The
+functional group chloro is present at
+carbon 2. Hence, the structure of the
+8.5.4 nomenclature of substituted
+compound is CH CH CH CH CH(Cl)CH .
+3 2 2 2 3 Benzene compounds
+(ii) ‘pent’ indicates that parent
+For IUPAC nomenclature of substituted
+hydrocarbon contains 5 carbon atoms
+benzene compounds, the substituent is
+in the chain. ‘en’ and ‘ol’ correspond to
+placed as prefix to the word benzene as shown
+the functional groups C=C and -OH at
+in the following examples. However, common
+carbon atoms 4 and 2 respectively. Thus,
+names (written in bracket below) of many
+the structure is
+substituted benzene compounds are also
+CH =CHCH CH (OH)CH .
+2 2 3 universally used.
+2024-25
+Unit 8.indd 268 10/10/2022 10:37:32 AMorganic chemistry – some basic principles and techniques 269
+Substituent of the base compound is
+assigned number1 and then the direction
+of numbering is chosen such that the
+next substituent gets the lowest number.
+The substituents appear in the name in
+Methylbenzene Methoxybenzene Aminobenzene
+alphabetical order. Some examples are given
+(Toluene) (Anisole) (Aniline)
+below.
+Nitrobenzene Bromobenzene 1-Chloro-2,4-dinitrobenzene
+(not 4-chloro,1,3-dinitrobenzene)
+If benzene ring is disubstituted,
+the position of substituents is defined
+by numbering the carbon atoms of the
+ring such that the substituents are
+located at the lowest numbers possible.
+For example, the compound(b) is named
+as 1,3-dibromobenzene and not as
+1,5-dibromobenzene.
+2-Chloro-1-methyl-4-nitrobenzene
+(not 4-methyl-5-chloro-nitrobenzene)
+(a) (b) (c)
+1,2-Dibromo- 1,3-Dibromo- 1,4-Dibromo-
+benzene benzene benzene
+In the trivial system of nomenclature
+2-Chloro-4-methylanisole 4-Ethyl-2-methylaniline
+the terms ortho (o), meta (m) and para (p)
+are used as prefixes to indicate the relative
+positions 1,2;1,3 and 1,4 respectively. Thus,
+1,3-dibromobenzene (b) is named as
+m-dibromobenzene (meta is abbreviated as
+m-) and the other isomers of dibromobenzene
+1,2-(a) and 1,4-(c), are named as ortho (or
+just o-) and para (or just p-)-dibromobenzene,
+respectively.
+For tri - or higher substituted benzene
+3,4-Dimethylphenol
+derivatives, these prefixes cannot be used
+and the compounds are named by identifying When a benzene ring is attached to an
+substituent positions on the ring by following alkane with a functional group, it is considered
+the lowest locant rule. In some cases, common as substituent, instead of a parent. The name
+name of benzene derivatives is taken as the for benzene as substituent is phenyl (C H -,
+6 5
+base compound. also abbreviated as Ph).
+2024-25
+Unit 8.indd 269 10/10/2022 10:37:33 AM270 chemistry
+different carbon skeletons, these are referred
+Problem 8.10
+to as chain isomers and the phenomenon is
+Write the structural formula of: termed as chain isomerism. For example,
+(a) o-Ethylanisole, (b) p-Nitroaniline, C H represents three compounds:
+(c) 2,3 - Dibromo -1 - phenylpentane, 5 12
+(d) 4-Ethyl-1-fluoro-2-nitrobenzene. CH
+3
+
+solution
+CH CH CH CH CH CH −CHCH CH
+3 2 2 2 3 3 2 3
+Pentane Isopentane
+(2-Methylbutane)
+CH
+3
+
+CH  C CH
+3 3
+(a) (b) 
+CH
+3
+Neopentane
+(2,2-Dimethylpropane)
+(ii) Position isomerism: When two or
+more compounds differ in the position of
+(c) (d) substituent atom or functional group on
+the carbon skeleton, they are called position
+8.6 isOmerism isomers and this phenomenon is termed
+as position isomerism. For example, the
+The phenomenon of existence of two or more
+molecular formula C H O represents two
+compounds possessing the same molecular 3 8
+alcohols:
+formula but different properties is known
+as isomerism. Such compounds are called OH
+as isomers. The following flow chart shows 
+CH CH CH OH CH −CH-CH
+different types of isomerism. 3 2 2 3 3
+Propan-1-ol Propan-2-ol
+8.6.1 structural isomerism
+Compounds having the same molecular (iii) Functional group isomerism: Two or
+formula but different structures (manners more compounds having the same molecular
+in which atoms are linked) are classified as formula but different functional groups
+structural isomers. Some typical examples are called functional isomers and this
+of different types of structural isomerism are phenomenon is termed as functional group
+given below: isomerism. For example, the molecular
+(i) Chain isomerism: When two or more formula C H O represents an aldehyde and
+3 6
+compounds have similar molecular formula but a ketone:
+Isomerism
+Structural isomerism Stereoisomerism
+Chain Position Functional Metamerism Geometrical Optical
+isomerism isomerism group isomerism isomerism
+isomerism
+2024-25
+Unit 8.indd 270 10/10/2022 10:37:33 AMorganic chemistry – some basic principles and techniques 271
+in understanding the reactivity of organic
+O H
+compounds and in planning strategy for their
+ 
+synthesis.
+CH −C-CH CH −CH —C= O
+3 3 3 2 In the following sections, we shall learn
+Propanone Propanal
+some of the principles that explain how these
+(iv) Metamerism: It arises due to different reactions take place.
+alkyl chains on either side of the functional
+8.7.1 Fission of a Covalent Bond
+group in the molecule. For example, C H O
+4 10
+represents methoxypropane (CH OC H ) and A covalent bond can get cleaved either by : (i)
+3 3 7
+ethoxyethane (C H OC H ). heterolytic cleavage, or by (ii) homolytic
+2 5 2 5
+cleavage.
+8.6.2 Stereoisomerism
+In heterolytic cleavage, the bond breaks
+The compounds that have the same in such a fashion that the shared pair of
+constitution and sequence of covalent bonds electrons remains with one of the fragments.
+but differ in relative positions of their atoms
+After heterolysis, one atom has a sextet
+or groups in space are called stereoisomers.
+electronic structure and a positive charge and
+This special type of isomerism is called as
+the other, a valence octet with at least one lone
+stereoisomerism and can be classified as
+pair and a negative charge. Thus, heterolytic
+geometrical and optical isomerism. +
+cleavage of bromomethane will give CH and
+3
+8.7 FUNDAMENTAL CONCEPTS IN Br– as shown below.
+ORGANIC REACTION MECHANISM
+In an organic reaction, the organic molecule
+A species having a carbon atom possessing
+(also referred as a substrate) reacts with an
+sextext of electrons and a positive charge is
+appropriate attacking reagent and leads to
+the formation of one or more intermediate(s) called a carbocation (earlier called carbonium
+and finally product(s) ion). The H ion is known as a methyl cation
+3
+or methyl carbonium ion. Carbocations are
+The general reaction is depicted as follows :
+classified as primary, secondary or tertiary
+Attacking depending on whether one, two or three
+OrganicReagent [Intermediate] Product(s) carbons are directly attached to the positively
+molecule charged carbon. Some other examples of
+Byproducts +
+(Substrate) carbocations are: CH CH (ethyl cation, a
+3 2 +
+primary carbocation), (CH ) CH (isopropyl
+3 2 +
+Substrate is that reactant which supplies cation, a secondary carbocation), and (CH ) C
+3 3
+carbon to the new bond and the other reactant (tert-butyl cation, a tertiary carbocation).
+is called reagent. If both the reactants Carbocations are highly unstable and
+supply carbon to the new bond then choice reactive species. Alkyl groups directly
+is arbitrary and in that case the molecule on attached to the positively charged carbon
+which attention is focused is called substrate. stabilise the carbocations due to inductive
+In such a reaction a covalent bond and hyperconjugation effects, which you will
+between two carbon atoms or a carbon and be studying in the sections 8.7.5 and 8.7.9.
+some other atom is broken and a new bond is The observed order of carbocation stability
++ + + +
+formed. A sequential account of each step, is: CH < CH CH < (CH ) CH < (CH ) C. These
+3 3 2 3 2 3 3
+describing details of electron movement, carbocations have trigonal planar shape
+energetics during bond cleavage and bond with positively charged carbon being sp2
++
+formation, and the rates of transformation hybridised. Thus, the shape of CH may be
+3
+of reactants into products (kinetics) is considered as being derived from the overlap
+referred to as reaction mechanism. The of three equivalent C(sp2) hybridised orbitals
+knowledge of reaction mechanism helps with 1s orbital of each of the three hydrogen
+2024-25
+Unit 8.indd 271 12/13/2022 10:12:45272 chemistry
+atoms. Each bond may be represented as curved arrow. Such cleavage results in
+C(sp2)–H(1s) sigma bond. The remaining the formation of neutral species (atom or
+carbon orbital is perpendicular to the group) which contains an unpaired electron.
+molecular plane and contains no electrons. These species are called free radicals. Like
+[Fig. 8.3(a)]. carbocations and carbanions, free radicals are
+also very reactive. A homolytic cleavage can be
+shown as:
+Alkyl
+free radical
+Alkyl radicals are classified as primary,
+secondary, or tertiary. Alkyl radical stability
+increases as we proceed from primary to
+Fig. 8.3 (a) Shape of methyl carbocation tertiary:
+The heterolytic cleavage can also give a
+,
+species in which carbon gets the shared
+Methyl Ethyl Isopropyl Tert-butyl
+pair of electrons. For example, when group
+free free free free
+Z attached to the carbon leaves without
+radical radical radical radical
+Organic reactions, which proceed by
+homolytic fission are called free radical or
+electron pair, the methyl anion is homopolar or nonpolar reactions.
+formed. Such a carbon species carrying a 8.7.2 substrate and reagent
+negative charge on carbon atom is called
+Ions are generally not formed in the reactions
+carbanion. Carbon in carbanion is generally
+of organic compounds. Molecules as such
+sp3 hybridised and its structure is distorted
+participate in the reaction. It is convenient to
+tetrahedron as shown in Fig. 8.3(b).
+name one reagent as substrate and other as
+reagent. In general, a molecule whose carbon
+is involved in new bond formation is called
+substrate and the other one is called reagent.
+When carbon-carbon bond is formed, the
+choice of naming the reactants as substrate
+and reagent is arbitrary and depends on
+molecule under observation. Example:
+Fig. 8.3 (b) Shape of methyl carbanion →
+(i) CH = CH + Br CH Br – CH Br
+2 2 2 2 2
+Substrate Reagent Product
+Carbanions are also unstable and reactive
+species. The organic reactions which proceed
+through heterolytic bond cleavage are called (ii)
+ionic or heteropolar or just polar reactions.
+In homolytic cleavage, one of the electrons
+of the shared pair in a covalent bond goes
+with each of the bonded atoms. Thus, in
+homolytic cleavage, the movement of a
+Nucleophiles and Electrophiles
+single electron takes place instead of an
+electron pair. The single electron movement Reagents attack the reactive site of the
+is shown by ‘half-headed’ (fish hook: ) substrate. The reactive site may be electron
+2024-25
+Unit 8.indd 272 10/10/2022 10:37:34 AMorganic chemistry – some basic principles and techniques 273
+deficient portion of the molecule (a positive
+Problem 8.11
+reactive site) e.g., an atom with incomplete
+electron shell or the positive end of the dipole Using curved-arrow notation, show the
+in the molecule. If the attacking species is formation of reactive intermediates when
+electron rich, it attacks these sites. If attacking the following covalent bonds undergo
+heterolytic cleavage.
+species is electron deficient, the reactive site
+for it is that part of the substrate molecule (a) CH –SCH , (b) CH –CN, (c) CH –Cu
+3 3 3 3
+which can supply electrons, e.g., π electrons Solution
+in a double bond.
+A reagent that brings an electron pair to
+the reactive site is called a nucleophile (Nu:)
+i.e., nucleus seeking and the reaction is then
+called nucleophilic. A reagent that takes away
+an electron pair from reactive site is called
+electrophile (E+) i.e., electron seeking and the
+reaction is called electrophilic. Problem 8.12
+During a polar organic reaction, a Giving justification, categorise the
+nucleophile attacks an electrophilic centre following molecules/ions as nucleophile
+of the substrate which is that specific atom or electrophile:
+or part of the substrate which is electron
+deficient. Similarly, the electrophiles attack
+at nucleophilic centre, which is the electron
+rich centre of the substrate. Thus, the
+electrophiles receive electron pair from the Solution
+substrate when the two undergo bonding Nucleophiles: HS–,C H O–,(CH ) N:H N:–
+2 5 3 3 2
+interaction. A curved-arrow notation is used These species have unshared pair of
+to show the movement of an electron pair electrons, which can be donated and
+from the nucleophile to the electrophile. Some shared with an electrophile.
+examples of nucleophiles are the negatively + + +
+Electrophiles: BF ,C1 H –C=O,NO .
+charged ions with lone pair of electrons such 3 3 2
+Reactive sites have only six valence
+as hydroxide (HO– ), cyanide (NC–) ions and
+electrons; can accept electron pair from
+carbanions (R C:–). Neutral molecules such
+3 a nucleophile.
+as etc., can also act as
+Problem 8.13
+nucleophiles due to the presence of lone
+Identify electrophilic centre in the
+pair of electrons. Examples of electrophiles
++ following: CH CH=O, CH CN, CH I.
+include carbocations (CH ) and neutral 3 3 3
+3
+molecules having functional groups like Solution
+carbonyl group (>C=O) or alkyl halides * *
+Among CH HC=O, H CC ≡N, and
+(R C-X, where X is a halogen atom). The * 3 3
+3 H C –I, the starred carbon atoms are
+carbon atom in carbocations has sextet 3
+electrophilic centers as they will have
+configuration; hence, it is electron deficient
+partial positive charge due to polarity of
+and can receive a pair of electrons from the
+the bond.
+nucleophiles. In neutral molecules such as
+alkyl halides, due to the polarity of the C-X
+8.7.3 Electron Movement in Organic
+bond a partial positive charge is generated
+Reactions
+on the carbon atom and hence the carbon
+atom becomes an electrophilic centre at which The movement of electrons in organic
+a nucleophile can attack. reactions can be shown by curved-arrow
+2024-25
+Unit 8.indd 273 11/10/2022 15:21:53274 chemistry
+notation. It shows how changes in bonding 8.7.5 inductive effect
+occur due to electronic redistribution during
+When a covalent bond is formed between
+the reaction. To show the change in position
+atoms of different electronegativity, the
+of a pair of electrons, curved arrow starts
+electron density is more towards the more
+from the point from where an electron pair is
+electronegative atom of the bond. Such a shift
+shifted and it ends at a location to which the
+of electron density results in a polar covalent
+pair of electron may move.
+bond. Bond polarity leads to various electronic
+Presentation of shifting of electron pair is effects in organic compounds.
+given below :
+Let us consider cholorethane (CH CH Cl)
+3 2
+in which the C–Cl bond is a polar covalent
+(i) from π bond to
+bond. It is polarised in such a way that the
+adjacent bond position
+carbon-1 gains some positive charge (δ+)
+(ii) from π bond to
+and the chlorine some negative charge (δ–).
+adjacent atom
+The fractional electronic charges on the two
+(iii) from atom to adjacent atoms in a polar covalent bond are denoted
+bond position by symbol δ (delta) and the shift of electron
+density is shown by an arrow that points from
+Movement of single electron is indicated by
+δ+ to δ– end of the polar bond.
+a single barbed ‘fish hooks’ (i.e. half headed
+curved arrow). For example, in transfer of δδ+ δ+ δ−
+hydroxide ion giving ethanol and in the CH →CH →Cl
+3 2
+dissociation of chloromethane, the movement 2 1
+In turn carbon-1, which has developed
+of electron using curved arrows can be
+depicted as follows:
+partial positive charge (δ+) draws some
+electron density towards it from the adjacent
+C-C bond. Consequently, some positive charge
+(δδ+) develops on carbon-2 also, where δδ+
+symbolises relatively smaller positive charge
+as compared to that on carbon – 1. In other
+words, the polar C – Cl bond induces polarity
+in the adjacent bonds. Such polarisation of
+8.7.4 electron displacement effects in
+σ-bond caused by the polarisation of adjacent
+covalent Bonds
+σ-bond is referred to as the inductive effect.
+The electron displacement in an organic This effect is passed on to the subsequent
+molecule may take place either in the ground bonds also but the effect decreases rapidly
+state under the influence of an atom or a as the number of intervening bonds increases
+substituent group or in the presence of an and becomes vanishingly small after three
+appropriate attacking reagent. The electron bonds. The inductive effect is related to the
+displacements due to the influence of ability of substituent(s) to either withdraw or
+an atom or a substituent group present in donate electron density to the attached carbon
+the molecule cause permanent polarlisation atom. Based on this ability, the substitutents
+of the bond. Inductive effect and resonance can be classified as electron-withdrawing or
+effects are examples of this type of electron electron donating groups relative to hydrogen.
+displacements. Temporary electron Halogens and many other groups such as
+displacement effects are seen in a molecule nitro (- NO ), cyano (- CN), carboxy (- COOH),
+2
+when a reagent approaches to attack it. ester (COOR), aryloxy (-OAr, e.g. – OC H ), etc.
+6 5
+This type of electron displacement is called are electron-withdrawing groups. On the other
+electromeric effect or polarisability effect. hand, the alkyl groups like methyl (–CH ) and
+3
+In the following sections we will learn about ethyl (–CH –CH ) are usually considered as
+2 3
+these types of electronic displacements. electron donating groups.
+2024-25
+Unit 8.indd 274 10/10/2022 10:37:34 AMorganic chemistry – some basic principles and techniques 275
+benzene cannot be adequately represented
+Problem 8.14 by any of these structures, rather it is
+Which bond is more polar in the following a hybrid of the two structures (I and II)
+pairs of molecules: (a) H C-H, H C-Br called resonance structures. The resonance
+3 3
+(b) H C-NH , H C-OH (c) H C-OH, structures (canonical structures or
+3 2 3 3
+H C-SH contributing structures) are hypothetical
+3
+and individually do not represent any
+solution
+real molecule. They contribute to the actual
+(a) C–Br, since Br is more electronegative structure in proportion to their stability.
+than H, (b) C–O, (c) C–O
+Another example of resonance is provided
+Problem 8.15 by nitromethane (CH NO ) which can be
+3 2
+represented by two Lewis structures, (I and
+In which C–C bond of CH CH CH Br, the
+3 2 2 II). There are two types of N-O bonds in these
+inductive effect is expected to be the least?
+structures.
+solution
+Magnitude of inductive effect diminishes
+as the number of intervening bonds
+increases. Hence, the effect is least in the
+bond between carbon-3 and hydrogen.
+however, it is known that the two n–O
+bonds of nitromethane are of the same
+8.7.6 resonance structure
+length (intermediate between a n–O single
+There are many organic molecules whose bond and a n=O double bond). the actual
+behaviour cannot be explained by a single Lewis structure of nitromethane is therefore
+structure. An example is that of a resonance hybrid of the two canonical
+benzene. Its cyclic structure forms I and II.
+containing alternating C–C single The energy of actual structure of the molecule
+and C=C double bonds shown (the resonance hybrid) is lower than that of
+is inadequate for explaining its Benzene any of the canonical structures. The difference
+characteristic properties. in energy between the actual structure and the
+As per the above representation, benzene lowest energy resonance structure is called the
+should exhibit two different bond lengths, resonance stabilisation energy or simply
+the resonance energy. The more the number
+due to C–C single and C=C double bonds.
+of important contributing structures, the
+However, as determined experimentally
+more is the resonance energy. Resonance is
+benzene has a uniform C–C bond distances
+particularly important when the contributing
+of 139 pm, a value intermediate between the
+structures are equivalent in energy.
+C–C single(154 pm) and C=C double (134
+The following rules are applied while writing
+pm) bonds. Thus, the structure of benzene
+resonance structures:
+cannot be represented adequately by the
+The resonance structures have (i) the same
+above structure. Further, benzene can be
+positions of nuclei and (ii) the same number of
+represented equally well by the energetically
+unpaired electrons. Among the resonance
+identical structures I and II.
+structures, the one which has more number
+of covalent bonds, all the atoms with octet
+of electrons (except hydrogen which has a
+duplet), less separation of opposite charges, (a
+negative charge if any on more electronegative
+atom, a positive charge if any on more
+Therefore, according to the resonance electropositive atom) and more dispersal of
+theory (Unit 4) the actual structure of charge, is more stable than others.
+2024-25
+Unit 8.indd 275 10/10/2022 10:37:34 AM276 chemistry
+Problem 8.16 solution
+Write resonance structures of CH COO– The two structures are less important
+3
+and show the movement of electrons by contributors as they involve charge
+curved arrows. separation. Additionally, structure
+I contains a carbon atom with an
+solution
+incomplete octet.
+First, write the structure and put
+unshared pairs of valence electrons on
+8.7.7 resonance effect
+appropriate atoms. Then draw the arrows
+The resonance effect is defined as ‘the polarity
+one at a time moving the electrons to get
+produced in the molecule by the interaction
+the other structures.
+of two π-bonds or between a π-bond and
+lone pair of electrons present on an adjacent
+atom’. The effect is transmitted through the
+chain. There are two types of resonance or
+mesomeric effect designated as R or M effect.
+Problem 8.17 (i) Positive Resonance Effect (+R effect)
+Write resonance structures of In this effect, the transfer of electrons is away
+CH =CH–CHO. Indicate relative stability from an atom or substituent group attached
+2
+of the contributing structures. to the conjugated system. This electron
+displacement makes certain positions in the
+solution
+molecule of high electron densities. This effect
+in aniline is shown as :
+Stability: I > II > III (ii) Negative Resonance Effect (- R effect)
+[I: Most stable, more number of covalent This effect is observed when the transfer of
+bonds, each carbon and oxygen atom has electrons is towards the atom or substituent
+an octet and no separation of opposite group attached to the conjugated system.
+charge II: negative charge on more For example in nitrobenzene this electron
+electronegative atom and positive charge displacement can be depicted as :
+on more electropositive atom; III: does
+not contribute as oxygen has positive
+charge and carbon has negative charge,
+hence least stable].
+Problem 8.18
+Explain why the following two structures,
+I and II cannot be the major contributors The atoms or substituent groups, which
+to the real structure of CH COOCH . represent +R or –R electron displacement
+3 3
+effects are as follows :
++R effect: – halogen, –OH, –OR, –OCOR, –NH ,
+2
+–NHR, –NR , –NHCOR,
+2
+– R effect: – COOH, –CHO, >C=O, – CN, –NO
+2
+2024-25
+Unit 8.indd 276 10/10/2022 10:37:35 AMorganic chemistry – some basic principles and techniques 277
+The presence of alternate single and system or to an atom with an unshared
+double bonds in an open chain or cyclic system p orbital. The σ electrons of C—H bond of the
+is termed as a conjugated system. These alkyl group enter into partial conjugation with
+systems often show abnormal behaviour. the attached unsaturated system or with the
+The examples are 1,3- butadiene, aniline unshared p orbital. Hyperconjugation is a
+and nitrobenzene etc. In such systems, the permanent effect.
+π-electrons are delocalised and the system
+To understand hyperconjugation effect, let
+develops polarity. +
+us take an example of CH CH (ethyl cation) in
+3 2
+8.7.8 electromeric effect (e effect) which the positively charged carbon atom has
+an empty p orbital. One of the C-H bonds of
+It is a temporary effect. The organic compounds
+the methyl group can align in the plane of this
+having a multiple bond (a double or triple
+empty p orbital and the electrons constituting
+bond) show this effect in the presence of
+the C-H bond in plane with this p orbital can
+an attacking reagent only. It is defined as
+then be delocalised into the empty p orbital
+the complete transfer of a shared pair of
+as depicted in Fig. 8.4 (a).
+π-electrons to one of the atoms joined by a
+multiple bond on the demand of an attacking
+reagent. The effect is annulled as soon as the
+attacking reagent is removed from the domain
+of the reaction. It is represented by E and the
+shifting of the electrons is shown by a curved
+arrow ( ). There are two distinct types of
+electromeric effect.
+(i) Positive Eelctromeric Effect (+E effect) In
+this effect the π−electrons of the multiple
+bond are transferred to that atom to which
+the reagent gets attached. For example:
+Fig. 8.4(a) Orbital diagram showing
+hyperconjugation in ethyl cation
+This type of overlap stabilises the
+carbocation because electron density from
+(ii) Negative Electromeric Effect (–E effect) In the adjacent σ bond helps in dispersing the
+this effect the π - electrons of the multiple positive charge.
+bond are transferred to that atom to which
+the attacking reagent does not get attached.
+For example:
+When inductive and electromeric effects
+operate in opposite directions, the electomeric
+effect predominates.
+In general, greater the number of alkyl
+8.7.9 hyperconjugation
+groups attached to a positively charged carbon
+Hyperconjugation is a general stabilising atom, the greater is the hyperconjugation
+interaction. It involves delocalisation of interaction and stabilisation of the cation.
+σ electrons of C—H bond of an alkyl group Thus, we have the following relative stability
+directly attached to an atom of unsaturated of carbocations :
+2024-25
+Unit 8.indd 277 10/10/2022 10:37:35 AM278 chemistry
+Problem 8.19
++
+Explain why (CH ) C is more stable
+3 3
++ +
+than CH CH and CH is the least stable
+3 2 3
+cation.
+Hyperconjugation is also possible in
+solution
+alkenes and alkylarenes. +
+Hyperconjugation interaction in (CH ) C is
+Delocalisation of electrons by + 33 +
+greater than in CH CH as the (CH ) C
+hyperconjugation in the case of alkene can 3 2 + 3 3
+has nine C-H bonds. In CH , vacant p
+be depicted as in Fig. 8.4(b). 3
+orbital is perpendicular to the plane
+in which C-H bonds lie; hence cannot
++
+overlap with it. Thus, CH lacks
+3
+hyperconjugative stability.
+8.7.10 types of Organic reactions and
+Mechanisms
+Organic reactions can be classified into the
+Fig. 8.4(b) Orbital diagram showing following categories:
+hyperconjugation in propene (i) Substitution reactions
+(ii) Addition reactions
+There are various ways of looking at the (iii) Elimination reactions
+hyperconjugative effect. One of the way is to
+(iv) Rearrangement reactions
+regard C—H bond as possessing partial ionic
+You will be studying these reactions in
+character due to resonance.
+Unit 9 and later in class XII.
+8.8 methOds OF PuriFicatiOn OF
+Organic cOmPOunds
+Once an organic compound is extracted
+from a natural source or synthesised in the
+laboratory, it is essential to purify it. Various
+methods used for the purification of organic
+compounds are based on the nature of the
+compound and the impurity present in it.
+The common techniques used for
+purification are as follows :
+(i) Sublimation
+(ii) Crystallisation
+(iii) Distillation
+(iv) Differential extraction and
+(v) Chromatography
+Finally, the purity of a compound is
+ascertained by determining its melting or
+boiling point. Most of the pure compounds
+have sharp melting points and boiling points.
+The hyperconjugation may also be New methods of checking the purity of an
+regarded as no bond resonance. organic compound are based on different
+2024-25
+Unit 8.indd 278 10/10/2022 10:37:35 AMorganic chemistry – some basic principles and techniques 279
+types of chromatographic and spectroscopic carefully. On boiling, the vapours of lower
+techniques. boiling component are formed first. The
+vapours are condensed by using a condenser
+8.8.1 sublimation
+and the liquid is collected in a receiver.
+You have learnt earlier that on heating, some
+The vapours of higher boiling component
+solid substances change from solid to vapour
+form later and the liquid can be collected
+state without passing through liquid state.
+separately.
+The purification technique based on the above
+principle is known as sublimation and is used
+to separate sublimable compounds from non-
+sublimable impurities.
+8.8.2 crystallisation
+This is one of the most commonly used
+techniques for the purification of solid organic
+compounds. It is based on the difference in
+the solubilities of the compound and the
+impurities in a suitable solvent. The impure
+compound is dissolved in a solvent in which it
+is sparingly soluble at room temperature but
+appreciably soluble at higher temperature.
+The solution is concentrated to get a nearly
+saturated solution. On cooling the solution,
+pure compound crystallises out and is
+removed by filtration. The filtrate (mother
+liquor) contains impurities and small quantity
+of the compound. If the compound is highly
+soluble in one solvent and very little soluble
+in another solvent, crystallisation can be Fig.8.5 Simple distillation. The vapours of a
+substance formed are condensed and
+satisfactorily carried out in a mixture of these
+the liquid is collected in conical flask.
+solvents. Impurities, which impart colour to
+the solution are removed by adsorbing over
+Fractional Distillation: If the difference
+activated charcoal. Repeated crystallisation
+in boiling points of two liquids is not much,
+becomes necessary for the purification
+of compounds containing impurities of simple distillation cannot be used to separate
+comparable solubilities. them. The vapours of such liquids are formed
+within the same temperature range and are
+8.8.3 distillation condensed simultaneously. The technique of
+This important method is used to separate fractional distillation is used in such cases. In
+(i) volatile liquids from nonvolatile impurities this technique, vapours of a liquid mixture are
+and (ii) the liquids having sufficient difference passed through a fractionating column before
+in their boiling points. Liquids having condensation. The fractionating column is
+different boiling points vaporise at different fitted over the mouth of the round bottom
+temperatures. The vapours are cooled and flask (Fig.8.6, page 280).
+the liquids so formed are collected separately. Vapours of the liquid with higher boiling
+Chloroform (b.p 334 K) and aniline (b.p. 457 point condense before the vapours of the
+K) are easily separated by the technique of liquid with lower boiling point. The vapours
+distillation (Fig 8.5). The liquid mixture is rising up in the fractionating column become
+taken in a round bottom flask and heated richer in more volatile component. By the
+2024-25
+Unit 8.indd 279 10/10/2022 10:37:35 AM280 chemistry
+unit in the fractionating column is called a
+theoretical plate. Commercially, columns
+with hundreds of plates are available.
+One of the technological applications of
+fractional distillation is to separate different
+fractions of crude oil in petroleum industry.
+Distillation under reduced
+pressure: This method is
+used to purify liquids having
+very high boiling points and
+those, which decompose at
+or below their boiling points.
+Such liquids are made to boil
+at a temperature lower than
+their normal boiling points
+by reducing the pressure on
+their surface. A liquid boils
+at a temperature at which its
+vapour pressure is equal to
+the external pressure. The
+pressure is reduced with
+the help of a water pump
+or vacuum pump (Fig.8.8).
+Glycerol can be separated from
+Fig.8.6 Fractional distillation. The vapours of lower boiling spent-lye in soap industry by
+fraction reach the top of the column first followed by using this technique.
+vapours of higher boiling fractions.
+time the vapours reach to the top of the
+fractionating column, these are rich in the
+more volatile component. Fractionating
+columns are available in various sizes and
+designs as shown in Fig.8.7. A fractionating
+column provides many surfaces for heat
+exchange between the ascending vapours
+and the descending condensed liquid. Some
+of the condensing liquid in the fractionating
+column obtains heat from the ascending
+vapours and revaporises. The vapours thus
+become richer in low boiling component. The
+vapours of low boiling component ascend
+to the top of the column. On reaching the
+top, the vapours become pure in low boiling
+component and pass through the condenser
+and the pure liquid is collected in a receiver.
+After a series of successive distillations, the
+remaining liquid in the distillation flask gets
+enriched in high boiling component. Each
+Fig.8.7 Different types of fractionating columns.
+successive condensation and vaporisation
+2024-25
+Unit 8.indd 280 10/10/2022 10:37:35 AMorganic chemistry – some basic principles and techniques 281
+Fig.8.8 Distillation under reduced pressure. A liquid boils at a temperature below its
+vapour pressure by reducing the pressure.
+Steam Distillation: This technique is 8.8.4 differential extraction
+applied to separate substances which are When an organic compound is present in an
+steam volatile and are immiscible with water. aqueous medium, it is separated by shaking
+In steam distillation, steam from a steam it with an organic solvent in which it is more
+generator is passed through a heated flask soluble than in water. The organic solvent and
+containing the liquid to be distilled. The the aqueous solution should be immiscible
+mixture of steam and the volatile organic with each other so that they form two distinct
+compound is condensed and collected. The layers which can be separated by separatory
+compound is later separated from water using funnel. The organic solvent is later removed
+a separating funnel. In steam distillation, by distillation or by evaporation to get back
+the liquid boils when the sum of vapour the compound. Differential extraction is
+pressures due to the organic liquid (p ) carried out in a separatory funnel as shown in
+1
+and that due to water (p ) becomes equal to Fig. 8.10 (Page 282). If the organic compound
+2
+the atmospheric pressure (p), i.e. p =p + p . is less soluble in the organic solvent, a very
+1 2
+Since p is lower than p, the organic liquid large quantity of solvent would be required
+1
+vaporises at lower temperature than its to extract even a very small quantity of the
+boiling point. compound. The technique of continuous
+extraction is employed in such cases. In this
+Thus, if one of the substances in the
+technique same solvent is repeatedly used for
+mixture is water and the other, a water
+extraction of the compound.
+insoluble substance, then the mixture will boil
+close to but below, 373K. A mixture of water 8.8.5 chromatography
+and the substance is obtained which can Chromatography is an important technique
+be separated by using a separating funnel. extensively used to separate mixtures into
+Aniline is separated by this technique from their components, purify compounds and
+aniline – water mixture (Fig.8.9, Page 282). also to test the purity of compounds. The
+2024-25
+Unit 8.indd 281 10/10/2022 10:37:36 AM282 chemistry
+Fig.8.9 Steam distillation. Steam volatile component volatilizes, the vapours condense
+in the condenser and the liquid collects in conical flask.
+name chromatography is based on the Greek
+word chroma, for colour since the method
+was first used for the separation of coloured
+substances found in plants. In this technique,
+the mixture of substances is applied onto a
+stationary phase, which may be a solid or a
+liquid. A pure solvent, a mixture of solvents,
+or a gas is allowed to move slowly over the
+stationary phase. The components of the
+mixture get gradually separated from one
+another. The moving phase is called the
+mobile phase.
+Based on the principle involved,
+chromatography is classified into different
+categories. Two of these are:
+(a) Adsorption chromatography, and Fig.8.10 Differential extraction. Extraction of com-
+(b) Partition chromatography. pound takes place based on difference
+in solubility
+a) Adsorption Chromatography: Adsor-
+ption chromatography is based on the fact
+distances over the stationary phase. Following
+that different compounds are adsorbed on
+are two main types of chromatographic
+an adsorbent to different degrees. Commonly
+techniques based on the principle of differential
+used adsorbents are silica gel and alumina.
+adsorption.
+When a mobile phase is allowed to move
+over a stationary phase (adsorbent), the (a) Column chromatography, and
+components of the mixture move by varying (b) Thin layer chromatography.
+2024-25
+Unit 8.indd 282 10/10/2022 10:37:36 AMorganic chemistry – some basic principles and techniques 283
+Column Chromatography: Column The glass plate is then placed in a closed jar
+chromatography involves separation of containing the eluant (Fig. 8.12a). As the
+a mixture over a column of adsorbent eluant rises up the plate, the components of
+(stationary phase) packed in a glass tube. the mixture move up along with the eluant to
+The column is fitted with a stopcock at its different distances depending on their degree
+lower end (Fig. 8.11). The mixture adsorbed of adsorption and separation takes place.
+on adsorbent is placed on the top of the The relative adsorption of each component
+adsorbent column packed in a glass tube. of the mixture is expressed in terms of its
+An appropriate eluant which is a liquid or a retardation factor i.e. R value (Fig.8.12 b).
+f
+mixture of liquids is allowed to flow down the
+R = Distance moved by the substance from base line (x)
+f
+column slowly. Depending upon the degree to
+Distance moved by the solvent from base line (y)
+which the compounds are adsorbed, complete
+separation takes place. The most readily
+adsorbed substances are retained near the top
+and others come down to various distances
+in the column (Fig.8.11).
+Fig.8.12 (a) Thin layer chromatography.
+Chromatogram being developed.
+Fig.8.11 Column chromatography. Different
+stages of separation of components Fig.8.12 (b) Developed chromatogram.
+of a mixture.
+The spots of coloured compounds are
+Thin Layer Chromatography: Thin layer visible on TLC plate due to their original colour.
+chromatography (TLC) is another type of The spots of colourless compounds, which are
+adsorption chromatography, which involves invisible to the eye but fluoresce in ultraviolet
+separation of substances of a mixture over light, can be detected by putting the plate under
+a thin layer of an adsorbent coated on glass ultraviolet light. Another detection technique
+plate. A thin layer (about 0.2mm thick) of is to place the plate in a covered jar containing
+an adsorbent (silica gel or alumina) is spread a few crystals of iodine. Spots of compounds,
+over a glass plate of suitable size. The plate which adsorb iodine, will show up as brown
+is known as thin layer chromatography plate spots. Sometimes an appropriate reagent
+or chromaplate. The solution of the mixture may also be sprayed on the plate. For example,
+to be separated is applied as a small spot amino acids may be detected by spraying the
+about 2 cm above one end of the TLC plate. plate with ninhydrin solution (Fig.8.12b).
+2024-25
+Unit 8.indd 283 11/10/2022 15:22:47284 chemistry
+Partition Chromatography: Partition spot on the chromatogram. The spots of the
+chromatography is based on continuous separated colourless compounds may be
+differential partitioning of components of observed either under ultraviolet light or by
+a mixture between stationary and mobile the use of an appropriate spray reagent as
+phases. Paper chromatography is a type discussed under thin layer chromatography.
+of partition chromatography. In paper
+8.9 qualitatiVe analysis OF Organic
+chromatography, a special quality paper
+cOmPOunds
+known as chromatography paper is used.
+The elements present in organic compounds
+Chromatography paper contains water trapped
+are carbon and hydrogen. In addition to
+in it, which acts as the stationary phase.
+these, they may also contain oxygen, nitrogen,
+A strip of chromatography paper spotted
+sulphur, halogens and phosphorus.
+at the base with the solution of the mixture is
+suspended in a suitable solvent or a mixture 8.9.1 detection of carbon and hydrogen
+of solvents (Fig. 8.13). This solvent acts as the
+Carbon and hydrogen are detected by heating
+mobile phase. The solvent rises up the paper
+the compound with copper(II) oxide. Carbon
+by capillary action and flows over the spot. The
+present in the compound is oxidised to
+paper selectively retains different components
+carbon dioxide (tested with lime-water, which
+according to their differing partition in the
+develops turbidity) and hydrogen to water
+two phases. The paper strip so developed is
+(tested with anhydrous copper sulphate,
+known as a chromatogram. The spots of the
+which turns blue).
+separated coloured compounds are visible at
+C + 2CuO 2Cu + CO
+different heights from the position of initial 2
+2H + CuO Cu + H O
+2
+CO + Ca(OH) CaCO ↓ + H O
+2 2 3 2
+5H O + CuSO CuSO .5H O
+2 4 4 2
+White Blue
+8.9.2 detection of Other elements
+Nitrogen, sulphur, halogens and phosphorus
+present in an organic compound are detected
+by “lassaigne’s test”. The elements present
+in the compound are converted from covalent
+form into the ionic form by fusing the
+compound with sodium metal. Following
+reactions take place:
+Na + C + N NaCN
+2Na + S Na S
+2
+Na + X Na X
+(X = Cl, Br or I)
+C, N, S and X come from organic compound.
+Cyanide, sulphide and halide of sodium so
+formed on sodium fusion are extracted from
+the fused mass by boiling it with distilled
+water. This extract is known as sodium fusion
+extract.
+(A) Test for Nitrogen
+Fig.8.13 Paper chromatography.
+The sodium fusion extract is boiled with
+Chromatography paper in two different
+shapes. iron(II) sulphate and then acidified with
+2024-25
+Unit 8.indd 284 10/10/2022 10:37:37 AMorganic chemistry – some basic principles and techniques 285
+concentrated sulphuric acid. The formation bromine and a yellow precipitate, insoluble
+of Prussian blue colour confirms the presence in ammonium hydroxide shows the presence
+of nitrogen. Sodium cyanide first reacts of iodine.
+with iron(II)sulphate and forms sodium X– + Ag+ → AgX
+hexacyanidoferrate(II). On heating with X represents a halogen – Cl, Br or I.
+concentrated sulphuric acid some iron(II)
+If nitrogen or sulphur is also present in the
+ions are oxidised to iron(III) ions which
+compound, the sodium fusion extract is
+react with sodium hexacyanidoferrate(II)
+first boiled with concentrated nitric acid to
+to produce iron(III) hexacyanidoferrate(II)
+decompose cyanide or sulphide of sodium
+(ferriferrocyanide) which is Prussian blue in
+formed during Lassaigne’s test. These ions
+colour.
+would otherwise interfere with silver nitrate
+6CN– + Fe2+ → [Fe(CN) ]4– test for halogens.
+6
+3[Fe(CN) ]4– + 4Fe3+ Fe [Fe(CN) ] .xH O (D) Test for Phosphorus
+6 4 6 3 2
+Prussian blue The compound is heated with an oxidising
+(B) Test for Sulphur agent (sodium peroxide). The phosphorus
+(a) The sodium fusion extract is acidified present in the compound is oxidised to
+with acetic acid and lead acetate is added phosphate. The solution is boiled with nitric
+to it. A black precipitate of lead sulphide acid and then treated with ammonium
+indicates the presence of sulphur. molybdate. A yellow colouration or precipitate
+indicates the presence of phosphorus.
+S2– + Pb2+ → PbS
+Black Na PO + 3HNO → H PO +3NaNO
+3 4 3 3 4 3
+H PO + 12(NH ) MoO + 21HNO →
+(b) On treating sodium fusion extract with 3 4 4 2 4 3
+sodium nitroprusside, appearance of Ammonium
+a violet colour further indicates the molybdate
+presence of sulphur. (NH ) PO .12MoO + 21NH NO + 12H O
+4 3 4 3 4 3 2
+Ammonium
+S2– + [Fe(CN) NO]2– → [Fe(CN) NOS]4–
+5 5 phosphomolybdate
+Violet
+In case, nitrogen and sulphur both are 8.10 quantitatiVe analysis
+present in an organic compound, sodium
+Quantitative analysis of compounds is very
+thiocyanate is formed. It gives blood red colour
+important in organic chemistry. It helps
+and no Prussian blue since there are no free
+chemists in the determination of mass per
+cyanide ions.
+cent of elements present in a compound. You
+Na + C + N + S → NaSCN
+have learnt in Unit-1 that mass per cent of
+Fe3+ +SCN– → [Fe(SCN)]2+
+elements is required for the determination of
+Blood red emperical and molecular formula.
+If sodium fusion is carried out with excess The percentage composition of elements
+of sodium, the thiocyanate decomposes to
+present in an organic compound is determined
+yield cyanide and sulphide. These ions give
+by the following methods:
+their usual tests.
+8.10.1 carbon and Hydrogen
+NaSCN + 2Na → NaCN+Na S
+2
+(C) Test for Halogens Both carbon and hydrogen are estimated in
+one experiment. A known mass of an organic
+The sodium fusion extract is acidified with
+compound is burnt in the presence of excess
+nitric acid and then treated with silver nitrate.
+of oxygen and copper(II) oxide. Carbon and
+A white precipitate, soluble in ammonium
+hydrogen in the compound are oxidised to
+hydroxide shows the presence of chlorine,
+carbon dioxide and water respectively.
+a yellowish precipitate, sparingly soluble in
+ammonium hydroxide shows the presence of C H + (x + y/4) O → x CO + (y/2) H O
+x y 2 2 2
+2024-25
+Unit 8.indd 285 10/10/2022 10:37:37 AM286 chemistry
+Fig.8.14 Estimation of carbon and hydrogen. Water and carbon dioxide formed on oxidation of substance
+are absorbed in anhydrous calcium chloride and potassium hydroxide solutions respectively
+contained in U tubes.
+The mass of water produced is determined 8.10.2 nitrogen
+by passing the mixture through a weighed There are two methods for estimation of
+U-tube containing anhydrous calcium chloride. nitrogen: (i) Dumas method and (ii) Kjeldahl’s
+Carbon dioxide is absorbed in another U-tube method.
+containing concentrated solution of potassium (i) Dumas method: The nitrogen containing
+hydroxide. These tubes are connected in series organic compound, when heated with copper
+(Fig. 8.14). The increase in masses of calcium oxide in an atmosphere of carbon dioxide,
+chloride and potassium hydroxide gives the yields free nitrogen in addition to carbon
+amounts of water and carbon dioxide from dioxide and water.
+which the percentages of carbon and hydrogen
+C H N + (2x + y/2) CuO →
+are calculated. x y z
+Let the mass of organic compound be x CO + y/2 H O + z/2 N + (2x + y/2) Cu
+2 2 2
+m g, mass of water and carbon dioxide
+Traces of nitrogen oxides formed, if
+produced be m and m g respectively;
+1 2 any, are reduced to nitrogen by passing the
+12×m ×100
+Percentage of carbon= 2 gaseous mixture over a heated copper gauze.
+44×m The mixture of gases so produced is collected
+over an aqueous solution of potassium
+2×m ×100
+Percentage of hydrogen = 1 hydroxide which absorbs carbon dioxide.
+18×m
+Nitrogen is collected in the upper part of the
+Problem 8.20 graduated tube (Fig.8.15).
+On complete combustion, 0.246 g of an Let the mass of organic compound = m g
+organic compound gave 0.198g of carbon Volume of nitrogen collected = V mL
+1
+dioxide and 0.1014g of water. Determine
+Room temperature = T K
+the percentage composition of carbon 1
+and hydrogen in the compound. PV ×273
+Volumeof nitrogenatSTP= 1 1
+solution
+760×T
+1
+12×0.198×100 (LetitbeV mL)
+Percentageof carbon=
+44×0.246 Where p and V are the pressure and
+1 1
+= 21.95% volume of nitrogen, p is different from the
+1
+atmospheric pressure at which nitrogen gas
+2×0.1014×100 is collected. The value of p is obtained by
+Percentage of hydrogen = 1
+18×0.246 the relation;
+=4.58% p = Atmospheric pressure – Aqueous tension
+1
+22400 mL N at STP weighs 28 g.
+2
+2024-25
+Unit 8.indd 286 10/10/2022 10:37:38 AMorganic chemistry – some basic principles and techniques 287
+Fig. 8.15 Dumas method. The organic compound yields nitrogen gas on heating it with
+copper(II) oxide in the presence of CO gas. The mixture of gases is collected over
+2
+potassium hydroxide solution in which CO is absorbed and volume of nitrogen
+2
+gas is determined.
+28×V
+V mLN atSTPweighs= g 28×41.9
+2 22400 41.9mLof nitrogenweighs= g
+22400
+28×V ×100
+Percentage of nitrogen = 28×41.9×100
+22400×m Percentageof nitrogen=
+22400×0.3
+Problem 8.21 =17.46%
+In Dumas’ method for estimation of
+nitrogen, 0.3g of an organic compound
+gave 50mL of nitrogen collected at 300K
+(ii) Kjeldahl’s method: The compound
+temperature and 715mm pressure.
+containing nitrogen is heated with concentrated
+Calculate the percentage composition
+sulphuric acid. Nitrogen in the compound
+of nitrogen in the compound. (Aqueous
+gets converted to ammonium sulphate
+tension at 300K=15 mm)
+(Fig. 8.16). The resulting acid mixture is then
+solution
+heated with excess of sodium hydroxide.
+Volume of nitrogen collected at 300K and The liberated ammonia gas is absorbed in
+715mm pressure is 50 mL an excess of standard solution of sulphuric
+Actual pressure = 715-15 =700 mm acid. The amount of ammonia produced is
+273×700×50 determined by estimating the amount of
+Volumeof nitrogenatSTP
+300×760 sulphuric acid consumed in the reaction. It
+is done by estimating unreacted sulphuric
+41.9mL
+acid left after the absorption of ammonia by
+22,400 mL of N at STP weighs = 28 g titrating it with standard alkali solution. The
+2
+difference between the initial amount of acid
+2024-25
+Unit 8.indd 287 10/10/2022 10:37:38 AM288 chemistry
+Fig.8.16 Kjeldahl method. Nitrogen-containing compound is treated with concentrated H SO to get
+2 4
+ammonium sulphate which liberates ammonia on treating with NaOH; ammonia is absorbed
+in known volume of standard acid.
+taken and that left after the reaction gives the
+14×M×2(V−V /2) 100
+amount of acid reacted with ammonia. Percentageof N= 1 ×
+1000 m
+Organic compound + H SO → (NH ) SO
+2 4 4 2 4 1.4×M×2(V−V/2)
+=
+Na SO + 2NH + 2H O
+m
+2 4 3 2
+2NH + H SO → (NH ) SO
+3 2 4 4 2 4 Kjeldahl method is not applicable to
+Let the mass of organic compound taken = m g compounds containing nitrogen in nitro and
+Volume of H SO of molarity, M, azo groups and nitrogen present in the ring
+2 4
+taken = V mL (e.g. pyridine) as nitrogen of these compounds
+Volume of NaOH of molarity, M, used for does not change to ammonium sulphate
+titration of excess of H SO = V mL under these conditions.
+2 4 1
+V mL of NaOH of molarity M
+1 Problem 8.22
+= V /2 mL of H SO of molarity M
+1 2 4 During estimation of nitrogen present
+Volume of H SO of molarity M unused
+2 4 in an organic compound by Kjeldahl’s
+= (V - V /2) mL
+1 method, the ammonia evolved from
+(V- V /2) mL of H SO of molarity M
+0.5 g of the compound in Kjeldahl’s
+1 2 4
+= 2(V-V /2) mL of NH solution of estimation of nitrogen, neutralized 10 mL
+1 3
+molarity M. of 1 M H SO . Find out the percentage of
+2 4
+1000 mL of 1 M NH solution contains nitrogen in the compound.
+3
+17g NH or 14 g of N solution
+3
+2(V-V /2) mL of NH solution of molarity M
+1 3 1 M of 10 mL H SO =1M of 20 mL NH
+contains: 2 4 3
+1000 mL of 1M ammonia contains 14 g
+14×M×2(V−V /2)
+1 gN nitrogen
+1000 20 mL of 1M ammonia contains
+2024-25
+Unit 8.indd 288 10/10/2022 10:37:39 AMorganic chemistry – some basic principles and techniques 289
+14×20 Percentage of halogen
+g nitrogen
+1000 atomicmassof X×m g
+= 1
+14×20×100 molecularmassof AgX
+Percentageof nitrogen= =56.0%
+1000×0.5
+Problem 8.23
+8.10.3 halogens In Carius method of estimation of
+Carius method: A known mass of an organic halogen, 0.15 g of an organic compound
+compound is heated with fuming nitric acid in gave 0.12 g of AgBr. Find out the
+the presence of silver nitrate contained in a hard percentage of bromine in the compound.
+glass tube known as Carius tube, (Fig.8.17) solution
+Molar mass of AgBr = 108 + 80
+= 188 g mol-1
+188 g AgBr contains 80 g bromine
+80×0.12
+0.12 g AgBr contains gg bromine
+188
+80×0.12×100
+Percentageof bromine=
+188×0.15
+=34.04%
+8.10.4 sulphur
+A known mass of an organic compound is
+heated in a Carius tube with sodium peroxide
+or fuming nitric acid. Sulphur present in the
+compound is oxidised to sulphuric acid. It
+is precipitated as barium sulphate by adding
+excess of barium chloride solution in water.
+The precipitate is filtered, washed, dried and
+weighed. The percentage of sulphur can be
+Fig. 8.17 Carius method. Halogen containing calculated from the mass of barium sulphate.
+organic compound is heated with fuming
+Let the mass of organic
+nitric acid in the presence of silver
+nitrate. compound taken = m g
+and the mass of barium
+in a furnace. Carbon and hydrogen present in sulphate formed = m g
+1
+the compound are oxidised to carbon dioxide 1 mol of BaSO = 233 g BaSO = 32 g sulphur
+4 4
+and water. The halogen present forms the 32×m ×100
+m g BaSO contains 1 g sulphur
+corresponding silver halide (AgX). It is filtered, 1 4 233×m
+washed, dried and weighed.
+32×m ×100
+Let the mass of organic Percentageofsulphur = 1
+compound taken = m g 233×m
+Mass of AgX formed = m g
+1
+1 mol of AgX contains 1 mol of X
+Problem 8.24
+Mass of halogen in m g of AgX
+1
+atomicmassof X×m g In sulphur estimation, 0.157 g of an
+= 1
+organic compound gave 0.4813 g of
+molecularmassof AgX
+2024-25
+Unit 8.indd 289 10/10/2022 10:37:39 AM290 chemistry
+percentage composition (100) and the sum of
+barium sulphate. What is the percentage
+the percentages of all other elements. However,
+of sulphur in the compound?
+oxygen can also be estimated directly as follows:
+solution A definite mass of an organic compound is
+Molecular mass of BaSO = 137+32+64 decomposed by heating in a stream of nitrogen
+4
+gas. The mixture of gaseous products containing
+= 233 g
+oxygen is passed over red-hot coke when all
+233 g BaSO contains 32 g sulphur the oxygen is converted to carbon monoxide.
+4
+32×0.4813 This mixture is passed through warm iodine
+0.4813 g BaSO contains g
+4 pentoxide (I O ) when carbon monoxide is
+g sulphur 233 2 5
+oxidised to carbon dioxide producing iodine.
+Compound heat → O + other gaseous
+32×0.4813×100 2
+Percentageofsulphur = products
+233×0.157
+2C + O 1373K→ 2CO]× 5 (A)
+= 42.10% 2
+I O + 5CO → I + 5CO ]× 2 (B)
+2 5 2 2
+8.10.5 Phosphorus On making the amount of CO produced in
+equation (A) equal to the amount of CO used
+A known mass of an organic compound is
+in equation (B) by multiplying the equations
+heated with fuming nitric acid whereupon
+(A) and (B) by 5 and 2 respectively; we find
+phosphorus present in the compound is
+that each mole of oxygen liberated from
+oxidised to phosphoric acid. It is precipitated
+the compound will produce two moles of
+as ammonium phosphomolybdate, (NH )
+PO .12MoO , by adding ammonia an4 d3 carbondioxide.
+4 3
+ammonium molybdate. Alternatively, Thus 88 g carbon dioxide is obtained if 32 g
+phosphoric acid may be precipitated as oxygen is liberated.
+MgNH PO by adding magnesia mixture which Let the mass of organic compound taken be m g
+4 4
+on ignition yields Mg P O . Mass of carbon dioxide produced be m g
+2 2 7 1
+Let the mass of organic compound taken ∴ m g carbon dioxide is obtained from
+1
+= m g and mass of ammonium phospho 32×m
+1gO
+molydate = m 1g 88 2
+Molar mass of (NH ) PO .12MoO = 1877g 32×m ×100
+4 3 4 3 ∴Percentage of oxygen = 1 %
+31×m ×100 88×m
+Percentage of phosphorus = 1 %
+1877×m The percentage of oxygen can be derived
+from the amount of iodine produced also.
+If phosphorus is estimated as Mg P O ,
+2 2 7 Presently, the estimation of elements in
+62×m ×100 an organic compound is carried out by using
+Percentage of phosphorus = 1 × %
+222 microquantities of substances and automatic
+experimental techniques. The elements,
+where, 222 u is the molar mass of Mg P O ,
+2 2 7 carbon, hydrogen and nitrogen present in a
+m, the mass of organic compound taken,
+compound are determined by an apparatus
+m , the mass of Mg P O formed and 62, the
+1 2 2 7 known as CHN elemental analyser. The
+mass of two phosphorus atoms present in the
+analyser requires only a very small amount
+compound Mg P O .
+2 2 7 of the substance (1-3 mg) and displays the
+8.10.6 Oxygen values on a screen within a short time. A
+The percentage of oxygen in an organic compound detailed discussion of such methods is beyond
+is usually found by difference between the total the scope of this book.
+2024-25
+Unit 8.indd 290 10/10/2022 10:37:39 AMorganic chemistry – some basic principles and techniques 291
+summary
+In this unit, we have learnt some basic concepts in structure and reactivity of organic
+compounds, which are formed due to covalent bonding. The nature of the covalent bonding
+in organic compounds can be described in terms of orbitals hybridisation concept,
+according to which carbon can have sp3, sp2 and sp hybridised orbitals. The sp3, sp2 and sp
+hybridised carbons are found in compounds like methane, ethene and ethyne respectively.
+The tetrahedral shape of methane, planar shape of ethene and linear shape of ethyne can
+be understood on the basis of this concept. A sp3 hybrid orbital can overlap with 1s orbital
+of hydrogen to give a carbon - hydrogen (C–H) single bond (sigma, σ bond). Overlap of a sp2
+orbital of one carbon with sp2 orbital of another results in the formation of a carbon–carbon
+σ bond. The unhybridised p orbitals on two adjacent carbons can undergo lateral (side-
+by-side) overlap to give a pi (π) bond. Organic compounds can be represented by various
+structural formulas. The three dimensional representation of organic compounds on paper
+can be drawn by wedge and dash formula.
+Organic compounds can be classified on the basis of their structure or the functional
+groups they contain. A functional group is an atom or group of atoms bonded together in a
+unique fashion and which determines the physical and chemical properties of the compounds.
+The naming of the organic compounds is carried out by following a set of rules laid down by
+the International Union of Pure and Applied Chemistry (iuPac). In IUPAC nomenclature,
+the names are correlated with the structure in such a way that the reader can deduce the
+structure from the name.
+Organic reaction mechanism concepts are based on the structure of the substrate
+molecule, fission of a covalent bond, the attacking reagents, the electron displacement effects
+and the conditions of the reaction. These organic reactions involve breaking and making
+of covalent bonds. A covalent bond may be cleaved in heterolytic or homolytic fashion.
+A heterolytic cleavage yields carbocations or carbanions, while a homolytic cleavage gives
+free radicals as reactive intermediate. Reactions proceeding through heterolytic cleavage
+involve the complimentary pairs of reactive species. These are electron pair donor known as
+nucleophile and an electron pair acceptor known as electrophile. The inductive, resonance,
+electromeric and hyperconjugation effects may help in the polarisation of a bond making
+certain carbon atom or other atom positions as places of low or high electron densities.
+Organic reactions can be broadly classified into following types; substitution, addition,
+elimination and rearrangement reactions.
+Purification, qualitative and quantitative analysis of organic compounds are carried out
+for determining their structures. The methods of purification namely : sublimation, distillation
+and differential extraction are based on the difference in one or more physical properties.
+Chromatography is a useful technique of separation, identification and purification of
+compounds. It is classified into two categories : adsorption and partition chromatography.
+Adsorption chromatography is based on differential adsorption of various components of a
+mixture on an adsorbent. Partition chromatography involves continuous partitioning of the
+components of a mixture between stationary and mobile phases. After getting the compound
+in a pure form, its qualitative analysis is carried out for detection of elements present in it.
+Nitrogen, sulphur, halogens and phosphorus are detected by lassaigne’s test. Carbon and
+hydrogen are estimated by determining the amounts of carbon dioxide and water produced.
+Nitrogen is estimated by dumas or Kjeldahl’s method and halogens by Carius method.
+Sulphur and phosphorus are estimated by oxidising them to sulphuric and phosphoric acids
+respectively. The percentage of oxygen is usually determined by difference between the total
+percentage (100) and the sum of percentages of all other elements present.
+2024-25
+Unit 8.indd 291 10/10/2022 10:37:39 AM292 chemistry
+ExERCISES
+8.1 What are hybridisation states of each carbon atom in the following compounds ?
+CH =C=O, CH CH=CH , (CH ) CO, CH =CHCN, C H
+2 3 2 32 2 6 6
+8.2 Indicate the σ and π bonds in the following molecules :
+C H , C H , CH Cl , CH =C=CH , CH NO , HCONHCH
+6 6 6 12 2 2 2 2 3 2 3
+8.3 Write bond line formulas for : Isopropyl alcohol, 2,3-Dimethylbutanal, Heptan-4-one.
+8.4 Give the IUPAC names of the following compounds :
+(a) (b) (c)
+(d) (e) (f) Cl CHCH OH
+2 2
+8.5 Which of the following represents the correct IUPAC name for the compounds
+concerned ? (a) 2,2-Dimethylpentane or 2-Dimethylpentane (b)
+2,4,7-Trimethyloctane or 2,5,7-Trimethyloctane (c) 2-Chloro-4-methylpentane or
+4-Chloro-2-methylpentane (d) But-3-yn-1-ol or But-4-ol-1-yne.
+8.6 Draw formulas for the first five members of each homologous series beginning with
+the following compounds. (a) H–COOH (b) CH COCH (c) H–CH=CH
+3 3 2
+8.7 Give condensed and bond line structural formulas and identify the functional group(s)
+present, if any, for :
+(a) 2,2,4-Trimethylpentane
+(b) 2-Hydroxy-1,2,3-propanetricarboxylic acid
+(c) Hexanedial
+8.8 Identify the functional groups in the following compounds
+(a) (b) (c)
+8.9 Which of the two: O NCH CH O– or CH CH O– is expected to be more stable and
+2 2 2 3 2
+why?
+8.10 Explain why alkyl groups act as electron donors when attached to a π system.
+8.11 Draw the resonance structures for the following compounds. Show the electron shift
+using curved-arrow notation.
++
+(a) C H OH (b) C H NO (c) CH CH=CHCHO (d) C H –CHO (e) C H –CH
+6 5 6 5 2 3 6 5 6 5 2
++
+(f) CH CH=CH CH
+3 2
+8.12 What are electrophiles and nucleophiles ? Explain with examples.
+8.13 Identify the reagents shown in bold in the following equations as nucleophiles or
+electrophiles:
+(a) CH COOH + HO– → CH COO–+H O
+3 3 2
+2024-25
+Unit 8.indd 292 10/10/2022 10:37:40 AMorganic chemistry – some basic principles and techniques 293
+–
+(b) CH COCH + C N → (CH ) C(CN)(OH)
+3 3 32
+(c) C H + CH
+C+
+O → C H COCH
+6 6 3 6 5 3
+8.14 Classify the following reactions in one of the reaction type studied in this unit.
+(a) CH CH Br + HS– → CH CH SH + Br–
+3 2 3 2
+(b) (CH ) C = CH + HCI → (CH ) CIC – CH
+32 2 32 3
+(c) CH CH Br + HO– → CH = CH + H O + Br–
+3 2 2 2 2
+(d) (CH ) C– CH OH + HBr → (CH ) CBrCH CH CH + H O
+33 2 32 2 2 3 2
+8.15 What is the relationship between the members of following pairs of structures ?
+Are they structural or geometrical isomers or resonance contributors ?
+(a)
+(b)
+(c)
+8.16 For the following bond cleavages, use curved-arrows to show the electron flow and
+classify each as homolysis or heterolysis. Identify reactive intermediate produced
+as free radical, carbocation and carbanion.
+(a)
+(b)
+(c)
+(d)
+8.17 Explain the terms Inductive and Electromeric effects. Which electron displacement
+effect explains the following correct orders of acidity of the carboxylic acids?
+(a) Cl CCOOH > Cl CHCOOH > ClCH COOH
+3 2 2
+(b) CH CH COOH > (CH ) CHCOOH > (CH ) C.COOH
+3 2 32 33
+8.18 Give a brief description of the principles of the following techniques taking an
+example in each case.
+(a) Crystallisation (b) Distillation (c) Chromatography
+8.19 Describe the method, which can be used to separate two compounds with different
+solubilities in a solvent S.
+8.20 What is the difference between distillation, distillation under reduced pressure and
+steam distillation ?
+2024-25
+Unit 8.indd 293 10/10/2022 10:37:40 AM294 chemistry
+8.21 Discuss the chemistry of Lassaigne’s test.
+8.22 Differentiate between the principle of estimation of nitrogen in an organic compound
+by (i) Dumas method and (ii) Kjeldahl’s method.
+8.23 Discuss the principle of estimation of halogens, sulphur and phosphorus present
+in an organic compound.
+8.24 Explain the principle of paper chromatography.
+8.25 Why is nitric acid added to sodium extract before adding silver nitrate for testing
+halogens?
+8.26 Explain the reason for the fusion of an organic compound with metallic sodium for
+testing nitrogen, sulphur and halogens.
+8.27 Name a suitable technique of separation of the components from a mixture of
+calcium sulphate and camphor.
+8.28 Explain, why an organic liquid vaporises at a temperature below its boiling point
+in its steam distillation ?
+8.29 Will CCl give white precipitate of AgCl on heating it with silver nitrate? Give reason
+4
+for your answer.
+8.30 Why is a solution of potassium hydroxide used to absorb carbon dioxide evolved
+during the estimation of carbon present in an organic compound?
+8.31 Why is it necessary to use acetic acid and not sulphuric acid for acidification of
+sodium extract for testing sulphur by lead acetate test?
+8.32 An organic compound contains 69% carbon and 4.8% hydrogen, the remainder
+being oxygen. Calculate the masses of carbon dioxide and water produced when
+0.20 g of this substance is subjected to complete combustion.
+8.33 A sample of 0.50 g of an organic compound was treated according to Kjeldahl’s
+method. The ammonia evolved was absorbed in 50 ml of 0.5 M H SO . The residual
+2 4
+acid required 60 mL of 0.5 M solution of NaOH for neutralisation. Find the percentage
+composition of nitrogen in the compound.
+8.34 0.3780 g of an organic chloro compound gave 0.5740 g of silver chloride in Carius
+estimation. Calculate the percentage of chlorine present in the compound.
+8.35 In the estimation of sulphur by Carius method, 0.468 g of an organic sulphur
+compound afforded 0.668 g of barium sulphate. Find out the percentage of sulphur
+in the given compound.
+8.36 In the organic compound CH = CH – CH – CH – C ≡ CH, the pair of hydridised
+2 2 2
+orbitals involved in the formation of: C – C bond is:
+2 3
+(a) sp – sp2 (b) sp – sp3 (c) sp2 – sp3 (d) sp3 – sp3
+8.37 In the Lassaigne’s test for nitrogen in an organic compound, the Prussian blue
+colour is obtained due to the formation of:
+(a) Na [Fe(CN) ] (b) Fe [Fe(CN) ] (c) Fe [Fe(CN) ] (d) Fe [Fe(CN) ]
+4 6 4 63 2 6 3 64
+8.38 Which of the following carbocation is most stable ?
++ + + +
+(a) (CH ) C. C H (b) (CH ) C (c) CH CH C H (d) CH C H CH CH
+33 2 33 3 2 2 3 2 3
+8.39 The best and latest technique for isolation, purification and separation of organic
+compounds is:
+(a) Crystallisation (b) Distillation (c) Sublimation (d) Chromatography
+8.40 The reaction:
+CH CH I + KOH(aq) → CH CH OH + KI
+3 2 3 2
+is classified as :
+(a) electrophilic substitution (b) nucleophilic substitution
+(c) elimination (d) addition
+2024-25
+Unit 8.indd 294 10/10/2022 10:37:40 AM

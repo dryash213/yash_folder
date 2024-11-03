@@ -39,7 +39,9 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'myapp',
+    'icse_app',
+    'cbse_app',
+    'others_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

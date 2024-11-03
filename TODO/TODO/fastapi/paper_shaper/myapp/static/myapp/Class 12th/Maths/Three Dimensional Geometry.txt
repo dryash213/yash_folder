@@ -1,0 +1,2861 @@
+INTEGRALS 225
+7
+Chapter
+INTEGRALS
+v
+Just as a mountaineer climbs a mountain – because it is there, so
+a good mathematics student studies new material because
+v
+it is there. — JAMES B. BRISTOL
+7.1 Introduction
+Differential Calculus is centred on the concept of the
+derivative. The original motivation for the derivative was
+the problem of defining tangent lines to the graphs of
+functions and calculating the slope of such lines. Integral
+Calculus is motivated by the problem of defining and
+calculating the area of the region bounded by the graph of
+the functions.
+If a function f is differentiable in an interval I, i.e., its
+derivative f ′exists at each point of I, then a natural question
+arises that given f ′at each point of I, can we determine
+the function? The functions that could possibly have given
+function as a derivative are called anti derivatives (or G .W. Leibnitz
+primitive) of the function. Further, the formula that gives (1646-1716)
+all these anti derivatives is called the indefinite integral of the function and such
+process of finding anti derivatives is called integration. Such type of problems arise in
+many practical situations. For instance, if we know the instantaneous velocity of an
+object at any instant, then there arises a natural question, i.e., can we determine the
+position of the object at any instant? There are several such practical and theoretical
+situations where the process of integration is involved. The development of integral
+calculus arises out of the efforts of solving the problems of the following types:
+(a) the problem of finding a function whenever its derivative is given,
+(b) the problem of finding the area bounded by the graph of a function under certain
+conditions.
+These two problems lead to the two forms of the integrals, e.g., indefinite and
+definite integrals, which together constitute the Integral Calculus.
+Rationalised 2023-24226 MATHEMATICS
+There is a connection, known as the Fundamental Theorem of Calculus, between
+indefinite integral and definite integral which makes the definite integral as a practical
+tool for science and engineering. The definite integral is also used to solve many interesting
+problems from various disciplines like economics, finance and probability.
+In this Chapter, we shall confine ourselves to the study of indefinite and definite
+integrals and their elementary properties including some techniques of integration.
+7.2 Integration as an Inverse Process of Differentiation
+Integration is the inverse process of differentiation. Instead of differentiating a function,
+we are given the derivative of a function and asked to find its primitive, i.e., the original
+function. Such a process is called integration or anti differentiation.
+Let us consider the following examples:
+d
+We know that (sin x) = cos x ... (1)
+dx
+d x3
+( ) = x2 ... (2)
+dx 3
+d
+and (ex)=ex ... (3)
+dx
+We observe that in (1), the function cos x is the derived function of sin x. We say
+x3
+that sin x is an anti derivative (or an integral) of cos x. Similarly, in (2) and (3), and
+3
+ex are the anti derivatives (or integrals) of x2 and ex, respectively. Again, we note that
+for any real number C, treated as constant function, its derivative is zero and hence, we
+can write (1), (2) and (3) as follows :
+d d x3 d
+(sin x+C)=cosx, ( +C)=x2and (ex +C)=ex
+dx dx 3 dx
+Thus, anti derivatives (or integrals) of the above cited functions are not unique.
+Actually, there exist infinitely many anti derivatives of each of these functions which
+can be obtained by choosing C arbitrarily from the set of real numbers. For this reason
+C is customarily referred to as arbitrary constant. In fact, C is the parameter by
+varying which one gets different anti derivatives (or integrals) of the given function.
+d
+More generally, if there is a function F such that F(x)= f (x), ∀x ∈ I (interval),
+dx
+then for any arbitrary real number C, (also called constant of integration)
+d
+[F(x)+C] = f(x), x ∈ I
+dx
+Rationalised 2023-24INTEGRALS 227
+Thus, {F + C, C ∈ R} denotes a family of anti derivatives of f.
+Remark Functions with same derivatives differ by a constant. To show this, let g and h
+be two functions having the same derivatives on an interval I.
+Consider the function f = g – h defined by f(x) = g(x) – h(x), ∀x ∈ I
+df
+Then =f′ = g′ – h′ giving f′ (x) = g′ (x) – h′ (x) ∀x ∈ I
+dx
+or f′ (x) = 0, ∀x ∈ I by hypothesis,
+i.e., the rate of change of f with respect to x is zero on I and hence f is constant.
+In view of the above remark, it is justified to infer that the family {F + C, C ∈ R}
+provides all possible anti derivatives of f.
+We introduce a new symbol, namely, ∫ f(x)dx which will represent the entire
+class of anti derivatives read as the indefinite integral of f with respect to x.
+Symbolically, we write ∫ f(x)dx=F(x)+C.
+dy
+Notation Given that = f (x), we write y = ∫ f (x)dx.
+dx
+For the sake of convenience, we mention below the following symbols/terms/phrases
+with their meanings as given in the Table (7.1).
+Table 7.1
+Symbols/Terms/Phrases Meaning
+∫ f(x)dx Integral of f with respect to x
+f(x) in ∫ f(x)dx Integrand
+x in ∫ f(x)dx Variable of integration
+Integrate Find the integral
+An integral of f A function F such that
+F′(x) = f (x)
+Integration The process of finding the integral
+Constant of Integration Any real number C, considered as
+constant function
+Rationalised 2023-24228 MATHEMATICS
+We already know the formulae for the derivatives of many important functions.
+From these formulae, we can write down immediately the corresponding formulae
+(referred to as standard formulae) for the integrals of these functions, as listed below
+which will be used to find integrals of other functions.
+Derivatives Integrals (Anti derivatives)
+(i) d  xn+1  =xn ; ∫xn dx= x n+1 +C, n ≠ –1
+dx n+1 n+1
+Particularly, we note that
+d
+(x)=1 ; ∫dx= x+C
+dx
+d
+(ii) (sin x)=cos x ; ∫cosxdx=sin x+C
+dx
+d
+(iii) (–cosx)=sin x ; ∫sin xdx=–cos x+C
+dx
+d
+(iv) (tan x)=sec2x ; ∫sec2 xdx=tan x+C
+dx
+d
+(v) (–cot x)=cosec2x ; ∫cosec2 xdx=–cot x+C
+dx
+d
+(vi) (secx)=secxtan x ; ∫sec xtanxdx=secx+C
+dx
+d
+(vii) (–cosecx)=cosecxcot x ; ∫cosecxcotxdx=–cosec x+C
+dx
+d ( sin–1 x) = 1 ∫ dx = sin–1 x+C
+(viii) ;
+dx 1– x2 1– x2
+d ( –cos–1 x) = 1 ∫ dx =–cos–1 x+C
+(ix) ;
+dx 1– x2 1– x2
+d ( tan–1 x) = 1 ∫ dx =tan–1 x+C
+(x) ;
+dx 1+ x2 1+ x2
+d
+(xi) (ex)=ex ; ∫exdx=ex +C
+dx
+Rationalised 2023-24INTEGRALS 229
+d 1 1
+(xii) (log|x|)= ; ∫ dx=log|x|+C
+dx x x
+d  ax  ax
+(xiii)  =ax ; ∫axdx= +C
+dx log a log a
+A
+Note In practice, we normally do not mention the interval over which the various
+functions are defined. However, in any specific problem one has to keep it in mind.
+7.2.1 Some properties of indefinite integral
+In this sub section, we shall derive some properties of indefinite integrals.
+(I) The process of differentiation and integration are inverses of each other in the
+sense of the following results :
+d
+∫ f(x)dx = f(x)
+dx
+and ∫ f′(x)dx = f(x) + C, where C is any arbitrary constant.
+Proof Let F be any anti derivative of f, i.e.,
+d
+F(x) = f(x)
+dx
+Then ∫ f(x)dx = F(x) + C
+d d
+Therefore ∫ f(x)dx = (F(x)+C)
+dx dx
+d
+= F(x)= f(x)
+dx
+Similarly, we note that
+d
+f′(x) = f(x)
+dx
+and hence ∫ f′(x)dx = f(x) + C
+where C is arbitrary constant called constant of integration.
+(II) Two indefinite integrals with the same derivative lead to the same family of
+curves and so they are equivalent.
+Rationalised 2023-24230 MATHEMATICS
+Proof Let f and g be two functions such that
+d d
+∫ f(x)dx = ∫g(x)dx
+dx dx
+d
+or
+∫ f(x)dx–∫g(x)dx
+= 0
+ 
+dx
+Hence ∫ f(x)dx –∫g(x)dx= C, where C is any real number (Why?)
+or ∫ f(x)dx = ∫g(x)dx+C
+So the families of curves
+{∫
+f(x)dx+C ,C
+∈R}
+1 1
+and
+{∫g(x)dx+C
+,C
+∈R}
+are identical.
+2 2
+Hence, in this sense, ∫ f(x)dxand∫g(x)dx are equivalent.
+A
+Note The equivalence of the families
+{∫
+f(x)dx+C ,C
+∈R}
+and
+1 1
+{∫g(x)dx+C
+,C
+∈R}
+is customarily expressed by writing ∫ f(x)dx=∫g(x)dx,
+2 2
+without mentioning the parameter.
+(III)
+∫[f(x)+g(x)]dx=∫ f(x)dx+∫g(x)dx
+Proof By Property (I), we have
+d
+∫[ f(x)+g(x)]dx
+= f(x) + g(x) ... (1)
+ 
+dx
+On the otherhand, we find that
+d d d
+∫ f(x)dx+∫g(x)dx = ∫ f(x)dx+ ∫g(x)dx
+ 
+dx dx dx
+=f(x) + g(x) ... (2)
+Thus, in view of Property (II), it follows by (1) and (2) that
+∫( f(x)+ g(x))dx= ∫ f(x)dx+∫g(x)dx.
+(IV) For any real number k, ∫k f(x)dx=k ∫ f(x)dx
+Rationalised 2023-24INTEGRALS 231
+d
+Proof By the Property (I), ∫k f(x)dx=k f(x).
+dx
+d d
+Also  k ∫ f(x)dx = k ∫ f(x)dx=k f(x)
+ 
+dx dx
+Therefore, using the Property (II), we have ∫k f(x)dx=k ∫ f(x)dx.
+(V) Properties (III) and (IV) can be generalised to a finite number of functions
+f , f , ..., f and the real numbers, k , k , ..., k giving
+1 2 n 1 2 n
+∫[k f (x)+k f (x)+...+k f (x)]dx
+1 1 2 2 n n
+= k ∫ f (x)dx+k ∫ f (x)dx+...+k ∫ f (x)dx.
+1 1 2 2 n n
+To find an anti derivative of a given function, we search intuitively for a function
+whose derivative is the given function. The search for the requisite function for finding
+an anti derivative is known as integration by the method of inspection. We illustrate it
+through some examples.
+Example 1 Write an anti derivative for each of the following functions using the
+method of inspection:
+1
+(i) cos 2x (ii) 3x2 + 4x3 (iii) , x ≠ 0
+x
+Solution
+(i) We look for a function whose derivative is cos 2x. Recall that
+d
+sin 2x =2 cos 2x
+dx
+1 d d 1 
+or cos 2x = (sin 2x) =  sin2x
+2 dx dx 2 
+1
+Therefore, an anti derivative of cos 2x is sin2x.
+2
+(ii) We look for a function whose derivative is 3x2 + 4x3. Note that
+d ( x3 +x4)
+=3x2 + 4x3.
+dx
+Therefore, an anti derivative of 3x2 + 4x3 is x3 + x4.
+Rationalised 2023-24232 MATHEMATICS
+(iii) We know that
+d 1 d 1 1
+(log x)= ,x>0and [log(– x)]= (–1)= ,x<0
+dx x dx – x x
+d 1
+Combining above, we get ( log x) = ,x≠0
+dx x
+1 1
+Therefore, ∫ dx=log x is one of the anti derivatives of .
+x x
+Example 2 Find the following integrals:
+(i)
+∫x3 –1
+dx (ii)
+∫(x2
+3 +1)dx (iii) ∫
+(x3
+2 +2ex –
+1
+)dx
+x2 x
+Solution
+(i) We have
+x3 –1
+∫ dx= ∫xdx – ∫x–2 dx (by Property V)
+x2
+x1+1   x–2+1 
+=  1+1 +C 1 – –2+1+C 2 ; C 1, C 2 are constants of integration
+x2 x–1 x2 1
+= +C – –C = + +C –C
+2 1 –1 2 2 x 1 2
+x2 1
+= + +C, where C = C – C is another constant of integration.
+2 x 1 2
+A
+Note From now onwards, we shall write only one constant of integration in the
+final answer.
+(ii) We have
+2 2
+∫(x3 +1)dx= ∫x3 dx+ ∫dx
+2
++1
+x3 3 5
+= + x+C = x3 + x+C
+2 5
++1
+3
+Rationalised 2023-24INTEGRALS 233
+3 3
+1 1
+(iii) We have ∫(x2 +2ex – )dx= ∫x2 dx+ ∫2ex dx – ∫ dx
+x x
+3
++1
+x2
+= +2ex –log x +C
+3
++1
+2
+5
+2
+= x 2 +2ex –log x +C
+5
+Example 3 Find the following integrals:
+(i) ∫(sin x+cosx)dx (ii)∫cosecx(cosec x+cot x)dx
+1–sin x
+∫ dx
+(iii)
+cos2 x
+Solution
+(i) We have
+∫(sin x+cosx)dx=∫sin xdx+ ∫cosxdx
+= –cosx+sin x+C
+(ii) We have
+∫(cosecx(cosecx+cot x)dx=∫cosec2xdx+ ∫cosecxcot xdx
+= –cot x–cosecx+C
+(iii) We have
+1–sin x 1 sin x
+∫ dx=∫ dx – ∫ dx
+cos2x cos2x cos2x
+= ∫sec2xdx– ∫tan xsecxdx
+= tan x–secx+C
+Example 4 Find the anti derivative F of f defined by f (x) = 4x3 – 6, where F (0) = 3
+Solution One anti derivative of f (x) is x4 – 6x since
+d
+(x4 –6x) = 4x3 – 6
+dx
+Therefore, the anti derivative F is given by
+F(x) =x4 – 6x + C, where C is constant.
+Rationalised 2023-24234 MATHEMATICS
+Given that F(0) =3, which gives,
+3 = 0 – 6 × 0 + C or C = 3
+Hence, the required anti derivative is the unique function F defined by
+F(x) =x4 – 6x + 3.
+Remarks
+(i) We see that if F is an anti derivative of f, then so is F + C, where C is any
+constant. Thus, if we know one anti derivative F of a function f, we can write
+down an infinite number of anti derivatives of f by adding any constant to F
+expressed by F(x) + C, C ∈ R. In applications, it is often necessary to satisfy an
+additional condition which then determines a specific value of C giving unique
+anti derivative of the given function.
+(ii) Sometimes, F is not expressible in terms of elementary functions viz., polynomial,
+logarithmic, exponential, trigonometric functions and their inverses etc. We are
+therefore blocked for finding ∫ f(x)dx. For example, it is not possible to find
+∫e–x2 dx by inspection since we can not find a function whose derivative is e–x2
+(iii) When the variable of integration is denoted by a variable other than x, the integral
+formulae are modified accordingly. For instance
+y4+1 1
+∫y4 dy= +C= y5 +C
+4+1 5
+EXERCISE 7.1
+Find an anti derivative (or integral) of the following functions by the method of inspection.
+1. sin 2x 2. cos 3x 3. e2x
+4. (ax + b)2 5. sin 2x – 4 e3x
+Find the following integrals in Exercises 6 to 20:
+1
+6. ∫(4 e3x+ 1) dx 7. ∫x2(1– )dx 8. ∫(ax2 +bx+c)dx
+x2
+ 1 2 x3 +5x2 –4
+9. ∫(2x2 +ex)dx 10. ∫  x –  dx 11. ∫ dx
+ x  x2
+x3 +3x+4 x3 −x2 + x–1
+12. ∫ dx 13. ∫ dx14. ∫(1– x) x dx
+x x–1
+Rationalised 2023-24INTEGRALS 235
+15. ∫ x(3x2 +2x+3)dx 16. ∫(2x–3cos x+ex)dx
+17. ∫(2x2 –3sin x+5 x)dx 18. ∫sec x(sec x+tan x)dx
+19. ∫ sec2 x dx 20. ∫2–3sin x dx.
+cosec2 x cos2 x
+Choose the correct answer in Exercises 21 and 22.
+ 1 
+21. The anti derivative of  x +  equals
+ x 
+1 1 2
+1 2 1
+(A) x3 +2x2 +C (B) x3 + x2 +C
+3 3 2
+3 1 3 1
+2 3 1
+(C) x2 +2x2 +C (D) x2 + x2 +C
+3 2 2
+d 3
+22. If f(x)=4x3 − such that f(2) = 0. Then f(x) is
+dx x4
+1 129 1 129
+(A) x4 + − (B) x3 + +
+x3 8 x4 8
+1 129 1 129
+(C) x4 + + (D) x3 + −
+x3 8 x4 8
+7.3 Methods of Integration
+In previous section, we discussed integrals of those functions which were readily
+obtainable from derivatives of some functions. It was based on inspection, i.e., on the
+search of a function F whose derivative is f which led us to the integral of f. However,
+this method, which depends on inspection, is not very suitable for many functions.
+Hence, we need to develop additional techniques or methods for finding the integrals
+by reducing them into standard forms. Prominent among them are methods based on:
+1. Integration by Substitution
+2. Integration using Partial Fractions
+3. Integration by Parts
+7.3.1 Integration by substitution
+In this section, we consider the method of integration by substitution.
+The given integral ∫ f(x)dx can be transformed into another form by changing
+the independent variable x to t by substituting x = g (t).
+Rationalised 2023-24236 MATHEMATICS
+Consider I = ∫ f(x)dx
+dx
+Put x = g(t) so that = g′(t).
+dt
+We write dx = g′(t) dt
+Thus I = ∫ f(x)dx=∫ f(g(t)) g′(t)dt
+This change of variable formula is one of the important tools available to us in the
+name of integration by substitution. It is often important to guess what will be the useful
+substitution. Usually, we make a substitution for a function whose derivative also occurs
+in the integrand as illustrated in the following examples.
+Example 5 Integrate the following functions w.r.t. x:
+(i) sin mx (ii) 2x sin (x2 + 1)
+tan4 x sec2 x sin(tan–1 x)
+(iii) (iv)
+x 1+ x2
+Solution
+(i) We know that derivative of mx is m. Thus, we make the substitution
+mx = t so that mdx = dt.
+1 1 1
+Therefore, ∫sinmxdx= ∫sint dt = – cos t + C = – cos mx + C
+m m m
+(ii) Derivative of x2 + 1 is 2x. Thus, we use the substitution x2 + 1 = t so that
+2x dx = dt.
+Therefore, ∫2xsin(x2 +1)dx=∫sintdt = – cos t + C = – cos (x2 + 1) + C
+1 –1 1
+(iii) Derivative of x is x 2 = . Thus, we use the substitution
+2 2 x
+1
+x =tsothat dx=dtgiving dx = 2t dt.
+2 x
+tan4 x sec2 x 2ttan4tsec2t dt
+Thus, ∫ dx=∫ = 2∫tan4t sec2t dt
+x t
+Again, we make another substitution tan t = u so that sec2 t dt = du
+Rationalised 2023-24INTEGRALS 237
+u5
+Therefore, 2∫tan4tsec2t dt=2∫u4 du = 2 +C
+5
+2
+= tan5 t +C (since u = tan t)
+5
+2
+= tan5 x +C(sincet= x)
+5
+tan4 x sec2 x 2
+Hence, ∫ dx = tan5 x +C
+x 5
+Alternatively, make the substitution tan x =t
+1
+(iv) Derivative of tan–1x= . Thus, we use the substitution
+1+ x2
+dx
+tan–1 x = t so that = dt.
+1+ x2
+sin(tan–1x)
+Therefore , ∫ dx=∫sint dt = – cos t + C = – cos(tan –1x) + C
+1+ x2
+Now, we discuss some important integrals involving trigonometric functions and
+their standard integrals using substitution technique. These will be used later without
+reference.
+(i) ∫tan xdx=log sec x +C
+We have
+sin x
+∫tan xdx=∫ dx
+cos x
+Put cos x = t so that sin x dx = – dt
+dt
+Then ∫tan xdx=–∫ =–log t +C=–log cosx +C
+t
+or ∫tan xdx=log secx +C
+(ii) ∫cot xdx=log sinx +C
+cosx
+∫cot xdx=∫ dx
+We have
+sin x
+Rationalised 2023-24238 MATHEMATICS
+Put sin x = t so that cos x dx = dt
+dt
+Then ∫cot xdx=∫ = log t +C = log sin x +C
+t
+(iii) ∫sec xdx=log sec x+tan x +C
+We have
+secx(secx+tan x)
+∫sec xdx=∫ dx
+secx+tan x
+Put sec x + tan x = t so that sec x (tan x + sec x) dx = dt
+dt
+Therefore, ∫secxdx=∫ =log t +C=log secx+tan x +C
+t
+(iv) ∫cosec xdx=log cosec x –cot x +C
+We have
+cosec x(cosecx +cotx)
+∫cosecx dx=∫ dx
+(cosecx +cotx)
+Put cosec x + cot x = t so that – cosec x (cosec x + cot x) dx = dt
+dt
+So
+∫cosecx dx=–∫ =–log|t|=–log|cosecx +cotx|+C
+t
+cosec2 x−cot2 x
+= –log +C
+cosec x−cot x
+= log cosec x–cot x +C
+Example 6 Find the following integrals:
+sin x 1
+(i)
+∫sin3 xcos2 xdx
+(ii)
+∫ dx
+(iii)
+∫ dx
+sin(x+a) 1+tan x
+Solution
+(i) We have
+∫sin3 xcos2xdx= ∫sin2 xcos2x(sin x)dx
+=
+∫(1–cos2x)cos2x(sin x)dx
+Put t = cos x so that dt = – sin x dx
+Rationalised 2023-24INTEGRALS 239
+Therefore, ∫sin2xcos2x(sin x)dx = −∫(1–t2)t2 dt
+t3 t5 
+= –∫(t2 –t4)dt=– – +C
+ 3 5 
+1 1
+= – cos3x+ cos5x+C
+3 5
+(ii) Put x + a = t. Then dx = dt. Therefore
+sin x sin(t –a)
+∫ dx=∫ dt
+sin(x+a) sint
+sintcosa –costsina
+∫ dt
+=
+sint
+=
+cosa∫dt –sina∫cottdt
+= (cosa)t –(sina) log sint +C  
+1
+= (cosa)(x+a)–(sina) log sin(x+a) +C  
+1
+= xcosa+acosa–(sina)log sin(x+a) –C sina
+1
+sin x
+∫ dx
+Hence, = x cos a – sin a log |sin (x + a)| + C,
+sin(x+a)
+where, C = – C sin a + a cos a, is another arbitrary constant.
+1
+dx cosxdx
+∫ = ∫
+(iii)
+1+tan x cosx+sin x
+1 (cos x+sin x+cosx –sin x)dx
+∫
+=
+2 cosx+sin x
+1 1 cosx –sin x
+∫dx+ ∫ dx
+=
+2 2 cosx+sin x
+x C 1 cos x–sin x
++ 1 + ∫ dx
+= ... (1)
+2 2 2 cos x+sin x
+Rationalised 2023-24240 MATHEMATICS
+cos x–sin x
+Now, consider I=∫ dx
+cos x+sin x
+Put cos x + sin x = t so that (cos x – sin x) dx = dt
+dt
+Therefore I=∫ =log t +C = log cos x+sin x +C
+t 2 2
+Putting it in (1), we get
+dx x C 1 C
+∫ = + 1 + log cos x+sin x + 2
+1+tan x 2 2 2 2
+x 1 C C
+= + log cos x+sin x + 1 + 2
+2 2 2 2
+x 1  C C 
+= + log cosx+sin x +C,C= 1 + 2 
+2 2  2 2 
+EXERCISE 7.2
+Integrate the functions in Exercises 1 to 37:
+2x (log x)2 1
+1. 2. 3.
+1+ x2 x x+ xlog x
+4. sin xsin(cos x) 5. sin(ax+b)cos(ax+b)
+6. ax+b 7. x x+2 8. x 1+2x2
+1
+x
+9. (4x+2) x2 + x+1 10. 11. , x > 0
+x – x
+x+4
+1 x2 1
+12. (x3 –1)3 x5 13. 14. , x > 0, m≠1
+(2+3x3)3 x(log x)m
+x x
+15.
+9–4x2
+16. e2x+3 17.
+ex2
+etan–1x e2x –1 e2x –e–2x
+18. 19. 20.
+1+ x2 e2x +1 e2x +e–2x
+Rationalised 2023-24INTEGRALS 241
+sin–1x
+21. tan2 (2x – 3) 22. sec2 (7 – 4x) 23.
+1– x2
+2cosx–3sin x 1 cos x
+24. 25. 26.
+6cosx+4sin x cos2x(1–tan x)2 x
+cosx
+27. sin2x cos2x 28. 29. cot x log sin x
+1+sin x
+sin x sin x 1
+30.
+1+cosx
+31. (1+cosx)2 32.
+1+cot x
+1 tan x (1+log x)2
+33. 34. 35.
+1–tan x sin xcos x x
+(x+1)(x+log x)2 x3sin( tan–1x4)
+36. 37.
+x 1+x8
+Choose the correct answer in Exercises 38 and 39.
+10x9 +10xlog 10 dx
+38. ∫ e equals
+x10 +10x
+(A) 10x – x10 + C (B) 10x + x10 + C
+(C) (10x – x10)–1 + C (D) log (10x + x10) + C
+dx
+39. ∫ equals
+sin2xcos2x
+(A) tan x + cot x + C (B) tan x – cot x + C
+(C) tan x cot x + C (D) tan x – cot 2x + C
+7.3.2 Integration using trigonometric identities
+When the integrand involves some trigonometric functions, we use some known identities
+to find the integral as illustrated through the following example.
+Example 7 Find (i)
+∫cos2xdx
+(ii)
+∫sin2xcos3xdx
+(iii)
+∫sin3xdx
+Rationalised 2023-24242 MATHEMATICS
+Solution
+(i) Recall the identity cos 2x = 2 cos2 x – 1, which gives
+1+cos2x
+cos2x =
+2
+1 1 1
+Therefore, =
+∫(1+cos2x)dx= ∫dx+ ∫cos2xdx
+2 2 2
+x 1
+= + sin2x+C
+2 4
+1
+(ii) Recall the identity sin x cos y = [sin (x + y) + sin (x – y)] (Why?)
+2
+Then =
+1  1 
+= – cos5x+cosx +C
+2  5 
+1 1
+= – cos5x+ cosx+C
+10 2
+(iii) From the identity sin 3x = 3 sin x – 4 sin3 x, we find that
+3sin x–sin3x
+sin3x =
+4
+3 1
+Therefore, ∫sin3xdx = ∫sin xdx– ∫sin3xdx
+4 4
+3 1
+= – cos x+ cos3x+C
+4 12
+Alternatively, ∫sin3xdx=∫sin2xsin xdx = ∫(1–cos2x)sin xdx
+Put cos x = t so that – sin x dx = dt
+Therefore, ∫sin3xdx = −∫( 1–t2) dt = –∫dt+∫t2 dt=–t +
+t3
++C
+3
+1
+= –cosx+ cos3x+C
+3
+Remark It can be shown using trigonometric identities that both answers are equivalent.
+Rationalised 2023-24INTEGRALS 243
+EXERCISE 7.3
+Find the integrals of the functions in Exercises 1 to 22:
+1. sin2 (2x + 5) 2. sin 3x cos 4x 3. cos 2x cos 4x cos 6x
+4. sin3 (2x + 1) 5. sin3 x cos3 x 6. sin x sin 2x sin 3x
+1–cosx cosx
+7. sin 4x sin 8x 8. 9.
+1+cosx 1+cosx
+sin2 x
+10. sin4 x 11. cos4 2x 12.
+1+cosx
+cos2x–cos2α cosx–sin x
+13. 14. 15. tan3 2x sec 2x
+cos x–cosα 1+sin2x
+sin3 x+cos3 x cos2x+2sin2x
+16. tan4x 17. 18.
+sin2 xcos2 x cos2 x
+1 cos2x
+19. 20. 21. sin – 1 (cos x)
+sin xcos3x (cos x+sin x)2
+1
+22.
+cos(x –a)cos(x–b)
+Choose the correct answer in Exercises 23 and 24.
+sin2x−cos2x
+23. ∫ dxisequalto
+sin2xcos2x
+(A) tan x + cot x + C (B) tan x + cosec x + C
+(C) – tan x + cot x + C (D) tan x + sec x + C
+ex(1+x)
+24. ∫ dxequals
+cos2(exx)
+(A) – cot (exx) + C (B) tan (xex) + C
+(C) tan (ex) + C (D) cot (ex) + C
+7.4 Integrals of Some Particular Functions
+In this section, we mention below some important formulae of integrals and apply them
+for integrating many other related standard integrals:
+dx 1 x–a
+(1) ∫ = log +C
+x2 –a2 2a x+a
+Rationalised 2023-24244 MATHEMATICS
+dx 1 a+ x
+(2) ∫ = log +C
+a2 – x2 2a a– x
+dx 1 x
+(3) ∫ = tan–1 +C
+x2 +a2 a a
+dx
+(4) ∫ =log x+ x2 –a2 +C
+x2 –a2
+dx x
+(5) ∫ =sin–1 +C
+a2 – x2 a
+dx
+(6) ∫ =log x+ x2 +a2 +C
+x2 +a2
+We now prove the above results:
+1 1
+(1) We have =
+x2 –a2 (x–a)(x+a)
+1 (x+a)–(x–a) 1  1 1 
+=  =  – 
+2a  (x–a)(x+a)  2a x–a x+a
+dx 1  dx dx 
+Therefore, ∫ = ∫ – ∫ 
+x2 –a2 2a  x–a x+a
+1
+=
+[log|(x–a)|–log|(x+a)|]+C
+2a
+1 x–a
+= log +C
+2a x+a
+(2) In view of (1) above, we have
+1 1 (a+x)+(a−x) 1  1 1 
+a2 – x2 = 2a   (a+x)(a−x)   = 2a  a−x + a+x 
+Rationalised 2023-24INTEGRALS 245
+dx 1  dx dx 
+Therefore,
+∫
+=
+∫ +∫
+
+a2 –x2 2a  a−x a+x
+1
+= [−log|a−x|+log|a+x|]+C
+2a
+1 a+x
+= log +C
+2a a−x
+A
+Note The technique used in (1) will be explained in Section 7.5.
+(3) Put x = a tan θ. Then dx = a sec2 θ dθ.
+dx
+∫
+Therefore, =
+x2 +a2
+1 1 1 x
+= ∫dθ= θ+C= tan–1 +C
+a a a a
+(4) Let x = a secθ. Then dx = a secθ tanθ dθ.
+dx asecθtanθdθ
+∫ ∫
+Therefore, =
+x2 −a2 a2 sec2θ−a2
+= ∫secθdθ=log secθ+tanθ +C
+1
+x x2
+= log + –1 +C
+a a2 1
+= log x+ x2 –a2 −log a +C
+1
+= log x+ x2 –a2 +C, where C = C – log |a|
+1
+(5) Let x = a sinθ. Then dx = a cosθ dθ.
+dx acosθdθ
+∫ ∫
+Therefore, =
+a2 −x2 a2 –a2 sin2θ
+x
+= ∫dθ=θ+C=sin–1 +C
+a
+(6) Let x = a tanθ. Then dx = a sec2θ dθ.
+dx asec2θdθ
+∫ ∫
+Therefore, =
+x2 +a2 a2 tan2θ+a2
+= ∫secθdθ=log (secθ+tanθ) +C
+1
+Rationalised 2023-24246 MATHEMATICS
+x x2
+= log + +1 +C
+a a2 1
+= log x+ x2 +a2 −log|a|+C
+1
+= log x+ x2 +a2 +C, where C = C – log |a|
+1
+Applying these standard formulae, we now obtain some more formulae which
+are useful from applications point of view and can be applied directly to evaluate
+other integrals.
+dx
+∫
+(7) To find the integral , we write
+ax2 +bx+c
+ b c   b 2 c b2 
+ax2 + bx + c = a x2 + x+ =ax+  + – 
+ a a  2a a 4a2 
+b c b2
+Now, put x+ =tso that dx = dt and writing – =±k2 . We find the
+2a a 4a2
+1 dt c b2 
+integral reduced to the form ∫ depending upon the sign of  – 
+a t2 ±k2 a 4a2 
+and hence can be evaluated.
+(8) To find the integral of the type , proceeding as in (7), we
+obtain the integral using the standard formulae.
+px+q
+(9) To find the integral of the type ∫ dx, where p, q, a, b, c are
+ax2 +bx+c
+constants, we are to find real numbers A, B such that
+d
+px+q=A (ax2 +bx+c)+B=A(2ax+b)+B
+dx
+To determine A and B, we equate from both sides the coefficients of x and the
+constant terms. A and B are thus obtained and hence the integral is reduced to
+one of the known forms.
+Rationalised 2023-24INTEGRALS 247
+(px+q)dx
+∫
+(10) For the evaluation of the integral of the type , we proceed
+ax2 +bx+c
+as in (9) and transform the integral into known standard forms.
+Let us illustrate the above methods by some examples.
+Example 8 Find the following integrals:
+dx dx
+∫ ∫
+(i) (ii)
+x2 −16 2x−x2
+Solution
+dx dx 1 x–4
+(i) We have ∫ =∫ = log +C [by 7.4 (1)]
+x2 −16 x2 –42 8 x+4
+(ii)
+Put x – 1 = t. Then dx = dt.
+dx dt
+Therefore,
+∫
+=
+∫
+=
+sin–1(t)+C
+[by 7.4 (5)]
+2x−x2 1–t2
+= sin–1(x–1)+C
+Example 9 Find the following integrals :
+∫ dx ∫ dx ∫ dx
+(i) (ii) (iii)
+x2 −6x+13 3x2 +13x−10 5x2 −2x
+Solution
+(i) We have x2 – 6x + 13 = x2 – 6x + 32 – 32 + 13 = (x – 3)2 + 4
+dx 1
+So, ∫ = ∫ dx
+x2 −6x+13 (x–3)2 +22
+Let x – 3 =t. Then dx = dt
+dx dt 1 t
+Therefore, ∫ = ∫ = tan–1 +C [by 7.4 (3)]
+x2 −6x+13 t2 +22 2 2
+1 x–3
+= tan–1 +C
+2 2
+Rationalised 2023-24248 MATHEMATICS
+(ii) The given integral is of the form 7.4 (7). We write the denominator of the integrand,
+ 13x 10
+3x2 +13x–10 = 3x2 + – 
+ 3 3 
+  132 172
+= 3x+  –   (completing the square)
+ 6   6  
+dx 1 dx
+∫ ∫
+Thus =
+3x2 +13x−10 3  132 172
+x+  − 
+ 6   6 
+13
+Put x+ =t. Then dx = dt.
+6
+dx 1 dt
+∫ ∫
+Therefore, =
+3x2 +13x−10 3 172
+t2 − 
+ 6 
+17
+t–
+1 6
+= log +C [by 7.4 (i)]
+17 17 1
+3×2× t+
+6 6
+13 17
+x+ –
+1 6 6
+= log +C
+17 13 17 1
+x+ +
+6 6
+1 6x−4
+= log +C
+17 6x+30 1
+1 3x−2 1 1
+= log +C + log
+17 x+5 1 17 3
+1 3x−2 1 1
+= log +C, where C = C + log
+17 x+5 1 17 3
+Rationalised 2023-24INTEGRALS 249
+dx dx
+(iii) We have
+∫ =∫
+5x2 −2x  2x
+5x2 – 
+ 5 
+1 dx
+∫
+= (completing the square)
+5  12 12
+x–  – 
+ 5 5
+1
+Put x– =t. Then dx = dt.
+5
+dx 1 dt
+∫ ∫
+Therefore, =
+5x2 −2x 5 12
+t2 – 
+5
+1
+12
+= log t+ t2 –  +C [by 7.4 (4)]
+5 5
+1 1 2x
+= log x– + x2 – +C
+5 5 5
+Example 10 Find the following integrals:
+(i) ∫ x+2 dx (ii) ∫ x+3 dx
+2x2 +6x+5 5−4x– x2
+Solution
+(i) Using the formula 7.4 (9), we express
+x + 2 = A d ( 2x2 +6x+5) +B = A(4x+6)+B
+dx
+Equating the coefficients of x and the constant terms from both sides, we get
+1 1
+4A = 1 and 6A + B = 2 or A = and B = .
+4 2
+x+2 1 4x+6 1 dx
+Therefore, ∫ = ∫ dx+ ∫
+2x2 +6x+5 4 2x2 +6x+5 2 2x2 +6x+5
+1 1
+= I + I (say) ... (1)
+4 1 2 2
+Rationalised 2023-24250 MATHEMATICS
+In I , put 2x2 + 6x + 5 = t, so that (4x + 6) dx = dt
+1
+dt
+Therefore, I = ∫ =log t +C
+1 t 1
+= log|2x2 +6x+5|+C ... (2)
+1
+dx 1 dx
+and I = ∫ = ∫
+2 2x2 +6x+5 2 x2 +3x+ 5
+2
+1 dx
+∫
+=
+2  32 12
+x+  + 
+ 2 2
+3
+Put x+ =t, so that dx = dt, we get
+2
+1 dt 1
+I = ∫ = tan–12t+C [by 7.4 (3)]
+2 2 12 1 2
+t2 +  2×
+2
+2
+ 3
+= tan–12x+ +C = tan–1(2x+3)+C ... (3)
+ 2 2 2
+Using (2) and (3) in (1), we get
+x+2 1 1
+∫ dx= log 2x2 +6x+5 + tan–1(2x+3)+C
+2x2 +6x+5 4 2
+C C
+where, C = 1 + 2
+4 2
+(ii) This integral is of the form given in 7.4 (10). Let us express
+d
+x + 3 = A (5–4x–x2)+B= A (– 4 – 2x) + B
+dx
+Equating the coefficients of x and the constant terms from both sides, we get
+1
+– 2A = 1 and – 4 A + B = 3, i.e., A = – and B = 1
+2
+Rationalised 2023-24INTEGRALS 251
+x+3 1 (–4–2x)dx dx
+Therefore, ∫ dx = – ∫ +∫
+5−4x−x2 2 5−4x−x2 5−4x−x2
+1
+= – I + I ... (1)
+2 1 2
+In I , put 5 – 4x – x2 = t, so that (– 4 – 2x) dx = dt.
+1
+(–4−2x)dx dt
+Therefore, I = ∫ =∫ = 2 t +C
+1 5−4x−x2 t 1
+= 2 5–4x–x2 +C ... (2)
+1
+dx dx
+Now consider I =
+∫ =∫
+2 5−4x−x2 9–(x+2)2
+Put x + 2 = t, so that dx = dt.
+dt t
+Therefore, I = ∫ =sin–1 +C [by 7.4 (5)]
+2 32 −t2 3 2
+x+2
+= sin–1 +C ... (3)
+3 2
+Substituting (2) and (3) in (1), we obtain
+x+3 x+2 C
+∫ =– 5–4x– x2 +sin–1 +C, where C=C – 1
+5–4x–x2 3 2 2
+EXERCISE 7.4
+Integrate the functions in Exercises 1 to 23.
+3x2 1 1
+1. 2. 3.
+x6 +1 1+4x2 (2–x)2 +1
+1 3x x2
+4. 5. 6.
+9–25x2 1+2x4 1−x6
+x–1 x2 sec2x
+7. 8. 9.
+x2 –1 x6 +a6 tan2x+4
+Rationalised 2023-24252 MATHEMATICS
+1 1 1
+10. 11. 12.
+x2 +2x+2 9x2 +6x+5 7–6x– x2
+1 1 1
+13. 14. 15.
+(x–1)(x–2) 8+3x–x2 (x–a)(x–b)
+4x+1 x+2 5x−2
+16. 17. 18.
+2x2 + x–3 x2 –1 1+2x+3x2
+6x+7 x+2 x+2
+19. 20. 21.
+(x–5)(x–4) 4x–x2 x2 +2x+3
+x+3 5x+3
+22. 23. .
+x2 –2x−5 x2 +4x+10
+Choose the correct answer in Exercises 24 and 25.
+dx
+24. ∫ equals
+x2 +2x+2
+(A) x tan–1 (x + 1) + C (B) tan–1 (x + 1) + C
+(C) (x + 1) tan–1x + C (D) tan–1x + C
+dx
+25. ∫ equals
+9x−4x2
+1 9x−8 1 8x−9
+(A) sin–1  +C (B) sin–1  +C
+9  8  2  9 
+(C)
+1 sin–1 9x−8 
++C (D)
+1 sin–1 9x−8 
++C
+3  8  2  9 
+7.5 Integration by Partial Fractions
+Recall that a rational function is defined as the ratio of two polynomials in the form
+P(x)
+, where P (x) and Q(x) are polynomials in x and Q(x) ≠ 0. If the degree of P(x)
+Q(x)
+is less than the degree of Q(x), then the rational function is called proper, otherwise, it
+is called improper. The improper rational functions can be reduced to the proper rational
+Rationalised 2023-24INTEGRALS 253
+P(x) P(x) P(x)
+functions by long division process. Thus, if is improper, then =T(x)+ 1 ,
+Q(x) Q(x) Q(x)
+P(x)
+where T(x) is a polynomial in x and 1 is a proper rational function. As we know
+Q(x)
+how to integrate polynomials, the integration of any rational function is reduced to the
+integration of a proper rational function. The rational functions which we shall consider
+here for integration purposes will be those whose denominators can be factorised into
+P(x) P(x)
+linear and quadratic factors. Assume that we want to evaluate ∫ dx, where
+Q(x) Q(x)
+is proper rational function. It is always possible to write the integrand as a sum of
+simpler rational functions by a method called partial fraction decomposition. After this,
+the integration can be carried out easily using the already known methods. The following
+Table 7.2 indicates the types of simpler partial fractions that are to be associated with
+various kind of rational functions.
+Table 7.2
+S.No. Form of the rational function Form of the partial fraction
+px+q A B
+1. , a ≠ b +
+(x–a)(x–b) x–a x–b
+A B
+px+q +
+2.
+(x–a)2
+x–a (x–a)2
+px2 +qx+r A B C
+3. + +
+(x–a)(x–b)(x–c) x–a x–b x–c
+px2 +qx+r A B C
++ +
+4.
+(x –a)2 (x–b) x–a (x–a)2 x–b
+px2 +qx+r A Bx+C
+5. + ,
+(x–a)(x2 +bx+c) x–a x2 +bx+c
+where x2 + bx + c cannot be factorised further
+In the above table, A, B and C are real numbers to be determined suitably.
+Rationalised 2023-24254 MATHEMATICS
+dx
+∫
+Example 11 Find
+(x+1)(x+2)
+Solution The integrand is a proper rational function. Therefore, by using the form of
+partial fraction [Table 7.2 (i)], we write
+1 A B
+= + ... (1)
+(x+1)(x+2) x+1 x+2
+where, real numbers A and B are to be determined suitably. This gives
+1 = A (x + 2) + B (x + 1).
+Equating the coefficients of x and the constant term, we get
+A + B =0
+and 2A + B =1
+Solving these equations, we get A =1 and B = – 1.
+Thus, the integrand is given by
+1 1 –1
+= +
+(x+1)(x+2) x+1 x+2
+dx dx dx
+Therefore,
+∫
+=
+∫ –∫
+(x+1)(x+2) x+1 x+2
+= log x+1−log x+2 +C
+x+1
+= log +C
+x+2
+Remark The equation (1) above is an identity, i.e. a statement true for all (permissible)
+values of x. Some authors use the symbol ‘≡’ to indicate that the statement is an
+identity and use the symbol ‘=’ to indicate that the statement is an equation, i.e., to
+indicate that the statement is true only for certain values of x.
+x2 +1
+Example 12 Find ∫ dx
+x2 −5x+6
+x2 +1
+Solution Here the integrand is not proper rational function, so we divide
+x2 –5x+6
+x2 + 1 by x2 – 5x + 6 and find that
+Rationalised 2023-24INTEGRALS 255
+x2 +1 5x–5 5x–5
+1+ =1+
+=
+x2 –5x+6 x2 –5x+6 (x–2)(x–3)
+5x–5 A B
+Let = +
+(x–2)(x–3) x–2 x–3
+So that 5x – 5 =A (x – 3) + B (x – 2)
+Equating the coefficients of x and constant terms on both sides, we get A + B = 5
+and 3A + 2B = 5. Solving these equations, we get A = – 5 and B = 10
+x2 +1 5 10
+Thus, = 1− +
+x2 –5x+6 x–2 x–3
+x2 +1 1 dx
+Therefore, ∫ dx = ∫dx−5∫ dx+10∫
+x2 –5x+6 x–2 x–3
+=x – 5 log |x – 2| + 10 log |x – 3| + C.
+3x−2
+Example 13 Find ∫ dx
+(x+1)2(x+3)
+Solution The integrand is of the type as given in Table 7.2 (4). We write
+3x–2 A B C
+= + +
+(x+1)2(x+3) x+1 (x+1)2 x+3
+So that 3x – 2 =A (x + 1) (x + 3) + B (x + 3) + C (x + 1)2
+=A (x2 + 4x + 3) + B (x + 3) + C (x2 + 2x + 1 )
+Comparing coefficient of x2, x and constant term on both sides, we get
+A + C = 0, 4A + B + 2C = 3 and 3A + 3B + C = – 2. Solving these equations, we get
+11 –5 –11
+A= ,B= and C= . Thus the integrand is given by
+4 2 4
+3x−2 11 5 11
+– –
+=
+(x+1)2(x+3) 4(x+1) 2(x+1)2 4(x+3)
+3x−2 11 dx 5 dx 11 dx
+Therefore, ∫ = ∫ – ∫ − ∫
+(x+1)2(x+3) 4 x+1 2 (x+1)2 4 x+3
+11 5 11
+= log x+1 + − log x+3 +C
+4 2(x+1) 4
+11 x+1 5
+= log + +C
+4 x+3 2(x+1)
+Rationalised 2023-24256 MATHEMATICS
+x2
+Example 14 Find ∫ dx
+(x2 +1)(x2 +4)
+x2
+Solution Consider and put x2 = y.
+(x2 +1)(x2 +4)
+x2 y
+Then =
+(x2 +1)(x2 +4) (y+1)(y+4)
+y A B
+Write = +
+(y+1)(y+4) y+1 y+4
+So that y = A (y + 4) + B (y + 1)
+Comparing coefficients of y and constant terms on both sides, we get A + B = 1
+and 4A + B = 0, which give
+1 4
+A = − and B=
+3 3
+x2 1 4
+Thus, = – +
+(x2 +1)(x2 +4) 3(x2 +1) 3(x2 +4)
+x2dx 1 dx 4 dx
+Therefore, ∫ = – ∫ + ∫
+(x2 +1)(x2 +4) 3 x2 +1 3 x2 +4
+1 4 1 x
+= – tan–1x+ × tan–1 +C
+3 3 2 2
+1 2 x
+= – tan–1x+ tan–1 +C
+3 3 2
+In the above example, the substitution was made only for the partial fraction part
+and not for the integration part. Now, we consider an example, where the integration
+involves a combination of the substitution method and the partial fraction method.
+(3sinφ–2)cosφ
+Example 15 Find ∫ dφ
+5–cos2φ–4sinφ
+Solution Let y = sinφ
+Then dy = cosφ dφ
+Rationalised 2023-24INTEGRALS 257
+(3sinφ–2)cosφ (3y –2)dy
+Therefore, ∫ dφ = ∫
+5–cos2φ–4sinφ 5–(1– y2)–4y
+3y –2
+∫ dy
+=
+y2 –4y+4
+3y–2
+∫ =I(say)
+= (y–2)2
+3y –2 A B
+Now, we write = + [by Table 7.2 (2)]
+(y–2)2 y−2 (y−2)2
+Therefore, 3y – 2 =A (y – 2) + B
+Comparing the coefficients of y and constant term, we get A = 3 and B – 2A = – 2,
+which gives A = 3 and B = 4.
+Therefore, the required integral is given by
+3 4 dy dy
+I = ∫[ + ]dy = 3∫ +4∫
+y–2 (y–2)2 y–2 (y–2)2
+ 1 
+= 3log y−2 +4– +C
+ y−2
+4
+= 3log sinφ−2 + +C
+2–sinφ
+4
+= 3log(2−sinφ)+ +C (since, 2 – sinφ is always positive)
+2−sinφ
+x2 +x+1dx
+∫
+Example 16 Find
+(x+2)(x2 +1)
+Solution The integrand is a proper rational function. Decompose the rational function
+into partial fraction [Table 2.2(5)]. Write
+x2 +x+1 A Bx+C
+= +
+(x2 +1)(x+2) x+2 (x2 +1)
+Therefore, x2 + x + 1 =A (x2 + 1) + (Bx + C) (x + 2)
+Rationalised 2023-24258 MATHEMATICS
+Equating the coefficients of x2, x and of constant term of both sides, we get
+A + B =1, 2B + C = 1 and A + 2C = 1. Solving these equations, we get
+3 2 1
+A= ,B= andC=
+5 5 5
+Thus, the integrand is given by
+2 1
+x+
+x2 +x+1 3 5 5 3 12x+1
+= + = +  
+(x2 +1)(x+2) 5(x+2) x2 +1 5(x+2) 5 x2 +1
+x2 +x+1 3 dx 1 2x 1 1
+Therefore, ∫ dx = ∫ + ∫ dx+ ∫ dx
+(x2+1)(x+2) 5 x+2 5 x2 +1 5 x2 +1
+3 1 1
+= log x+2 + log x2 +1 + tan–1x+C
+5 5 5
+EXERCISE 7.5
+Integrate the rational functions in Exercises 1 to 21.
+x 1 3x–1
+1. 2. 3.
+(x+1)(x+2) x2 –9 (x–1)(x–2)(x–3)
+x 2x 1–x2
+4. 5. 6.
+(x–1)(x–2)(x–3) x2 +3x+2 x(1–2x)
+x x 3x+5
+7. 8. 9.
+(x2 +1)(x–1) (x–1)2 (x+2) x3 –x2 −x+1
+2x−3 5x x3 +x+1
+10. 11. 12.
+(x2 –1)(2x+3) (x+1)(x2 −4) x2 −1
+2 3x–1 1
+13. 14. 15.
+(1−x)(1+x2) (x+2)2 x4 −1
+1
+16. [Hint: multiply numerator and denominator by x n – 1 and put xn = t ]
+x(xn +1)
+cosx
+17. [Hint : Put sin x = t]
+(1–sin x)(2–sin x)
+Rationalised 2023-24INTEGRALS 259
+(x2 +1)(x2 +2) 2x 1
+18. 19. 20.
+(x2 +3)(x2 +4) (x2 +1)(x2 +3) x(x4 –1)
+1
+21. [Hint : Put ex = t]
+(ex –1)
+Choose the correct answer in each of the Exercises 22 and 23.
+xdx
+∫
+22. equals
+(x−1)(x−2)
+(x−1)2 (x−2)2
+(A) log +C (B) log +C
+x−2 x−1
+2
+ x−1
+(C) log   +C (D) log (x−1)(x−2) +C
+x−2
+dx
+23. ∫ equals
+x(x2 +1)
+1 1
+(A) log x − log(x2+1)+C (B) log x + log(x2+1)+C
+2 2
+1 1
+(C) −log x + log(x2+1)+C (D) log x +log(x2+1)+C
+2 2
+7.6 Integration by Parts
+In this section, we describe one more method of integration, that is found quite useful in
+integrating products of functions.
+If u and v are any two differentiable functions of a single variable x (say). Then, by
+the product rule of differentiation, we have
+d dv du
+(uv) = u +v
+dx dx dx
+Integrating both sides, we get
+dv du
+uv = ∫u dx+∫v dx
+dx dx
+dv du
+or ∫u dx = uv–∫v dx ... (1)
+dx dx
+dv
+Let u =f(x) and = g(x). Then
+dx
+du
+=f′(x) and v =
+∫g(x)dx
+dx
+Rationalised 2023-24260 MATHEMATICS
+Therefore, expression (1) can be rewritten as
+∫ f(x) g(x)dx = f(x)∫g(x)dx–∫[∫g(x)dx] f′(x)dx
+i.e., ∫ f(x) g (x)dx = f(x)∫g(x)dx–∫[ f′(x)∫g(x)dx]dx
+If we take f as the first function and g as the second function, then this formula
+may be stated as follows:
+“The integral of the product of two functions = (first function) × (integral
+of the second function) – Integral of [(differential coefficient of the first function)
+× (integral of the second function)]”
+Example 17 Find
+∫xcosxdx
+Solution Put f (x) = x (first function) and g (x) = cos x (second function).
+Then, integration by parts gives
+d
+∫xcosxdx = x∫cos xdx– ∫[ (x)∫cosxdx]dx
+dx
+= xsin x–∫sin xdx = x sin x + cos x + C
+Suppose, we take f(x) =cos x and g(x) = x. Then
+d
+∫xcosxdx
+=
+cosx∫xdx–∫[ (cosx)∫xdx]dx
+dx
+x2 x2
+= (cosx) +∫sin x dx
+2 2
+Thus, it shows that the integral ∫xcosxdx is reduced to the comparatively more
+complicated integral having more power of x. Therefore, the proper choice of the first
+function and the second function is significant.
+Remarks
+(i) It is worth mentioning that integration by parts is not applicable to product of
+functions in all cases. For instance, the method does not work for ∫ x sin xdx.
+The reason is that there does not exist any function whose derivative is
+x sin x.
+(ii) Observe that while finding the integral of the second function, we did not add
+any constant of integration. If we write the integral of the second function cos x
+Rationalised 2023-24INTEGRALS 261
+as sin x + k, where k is any constant, then
+∫xcosxdx = x(sin x+k)−∫(sin x+k)dx
+= x(sin x+k)−∫(sin xdx−∫k dx
+= x(sin x+k)−cosx–kx+C = xsin x+cosx+C
+This shows that adding a constant to the integral of the second function is
+superfluous so far as the final result is concerned while applying the method of
+integration by parts.
+(iii) Usually, if any function is a power of x or a polynomial in x, then we take it as the
+first function. However, in cases where other function is inverse trigonometric
+function or logarithmic function, then we take them as first function.
+Example 18 Find ∫log xdx
+Solution To start with, we are unable to guess a function whose derivative is log x. We
+take log x as the first function and the constant function 1 as the second function. Then,
+the integral of the second function is x.
+d
+Hence, ∫(logx.1)dx = log x∫1dx−∫[ (log x)∫1dx]dx
+dx
+1
+= (log x)⋅x–∫ xdx=xlog x–x+C.
+x
+Example 19 Find ∫xexdx
+Solution Take first function as x and second function as ex. The integral of the second
+function is ex.
+Therefore, ∫xexdx = xex −∫1⋅exdx = xex – ex + C.
+xsin–1x
+∫ dx
+Example 20 Find
+1−x2
+x
+Solution Let first function be sin – 1x and second function be .
+1−x2
+xdx
+First we find the integral of the second function, i.e., ∫ .
+1−x2
+Put t =1 – x2. Then dt = – 2x dx
+Rationalised 2023-24262 MATHEMATICS
+xdx 1 dt
+Therefore, ∫ = – ∫ = – t =− 1−x2
+1−x2 2 t
+xsin–1x ( ) 1
+Hence, ∫ dx = (sin–1x) – 1−x2 −∫ (– 1−x2)dx
+1−x2 1−x2
+= – 1−x2 sin−1x+x+C = x– 1−x2 sin−1x+C
+Alternatively, this integral can also be worked out by making substitution sin–1 x = θ and
+then integrating by parts.
+Example 21 Find ∫ex sin xdx
+Solution Take ex as the first function and sin x as second function. Then, integrating
+by parts, we have
+I=∫ex sin xdx=ex(–cosx)+∫excosxdx
+=– ex cos x + I (say) ... (1)
+1
+Taking exand cos x as the first and second functions, respectively, in I , we get
+1
+I = ex sin x–∫exsin xdx
+1
+Substituting the value of I in (1), we get
+1
+I = – ex cos x + ex sin x – I or 2I = ex (sin x – cos x)
+ex
+Hence, I = ∫ex sin xdx= (sin x–cosx)+C
+2
+Alternatively, above integral can also be determined by taking sin x as the first function
+and ex the second function.
+7.6.1 Integral of the type ∫ex[ f(x)+ f′(x)]dx
+We have I = ∫ex [ f(x)+ f′(x)]dx = ∫exf(x)dx+∫exf′(x)dx
+= I +∫exf′(x)dx,whereI =∫exf(x)dx ... (1)
+1 1
+Taking f(x) and ex as the first function and second function, respectively, in I and
+1
+integrating it by parts, we have I = f (x) ex – ∫ f′(x)exdx+C
+1
+Substituting I in (1), we get
+1
+I =
+exf(x)−∫ f′(x)exdx+∫exf′(x)dx+C
+= ex f (x) + C
+Rationalised 2023-24INTEGRALS 263
+Thus, ∫ex[ f(x)+ f′(x)]dx = ex f(x)+C
+1 (x2 +1)ex
+Example 22 Find (i) ∫ex(tan–1x+ )dx (ii) ∫ dx
+1+x2 (x+1)2
+Solution
+1
+(i) We have I =∫ex(tan–1x+ )dx
+1+x2
+1
+Consider f(x) = tan– 1x, then f′(x) =
+1+x2
+Thus, the given integrand is of the form ex [f (x) + f ′(x)].
+1
+Therefore, I=∫ex(tan–1x+ )dx = ex tan– 1x + C
+1+x2
+(x2 +1)ex x2 –1+1+1)
+(ii) We have I=∫ dx=∫ex[ ]dx
+(x+1)2 (x+1)2
+x2 –1 2 x–1 2
+=∫ex [ + ]dx =∫ex[ + ]dx
+(x+1)2 (x+1)2 x+1 (x+1)2
+x−1 2
+Consider f(x)= , then
+f′(x)=
+x+1
+(x+1)2
+Thus, the given integrand is of the form ex [f (x) + f ′(x)].
+x2 +1 x−1
+Therefore, ∫ exdx= ex +C
+(x+1)2 x+1
+EXERCISE 7.6
+Integrate the functions in Exercises 1 to 22.
+1. x sin x 2. x sin 3x 3. x2 ex 4. x log x
+5. x log 2x 6. x2 log x 7. x sin– 1x 8. x tan–1 x
+xcos−1x
+9. x cos–1 x 10. (sin–1x)2 11. 12. x sec2 x
+1−x2
+13. tan–1x 14. x (log x)2 15. (x2 + 1) log x
+Rationalised 2023-24264 MATHEMATICS
+xex 1+sin x 
+16. ex (sinx + cosx) 17. 18.
+ex
+ 
+(1+x)2 1+cosx
+1 1  (x−3)ex
+19. ex  –  20. 21. e2x sin x
+x x2  (x−1)3
+ 2x 
+22.
+sin–1
+ 
+1+x2 
+Choose the correct answer in Exercises 23 and 24.
+23. ∫x2ex3dx equals
+(A) 1 ex3 +C (B) 1 ex2 +C
+3 3
+(C) 1 ex3 +C (D) 1 ex2 +C
+2 2
+24. ∫exsecx(1+tanx)dx equals
+(A) ex cos x + C (B) ex sec x + C
+(C) ex sin x + C (D) ex tan x + C
+7.6.2 Integrals of some more types
+Here, we discuss some special types of standard integrals based on the technique of
+integration by parts :
+(i) ∫ x2 −a2 dx (ii) ∫ x2 +a2 dx (iii) ∫ a2 −x2 dx
+(i) Let I=∫ x2 −a2 dx
+Taking constant function 1 as the second function and integrating by parts, we
+have
+1 2x
+I = x x2 −a2 −∫ xdx
+2 x2 −a2
+= x x2 −a2 −∫
+x2
+dx = x x2 −a2
+−∫x2 −a2 +a2
+dx
+x2 −a2 x2 −a2
+Rationalised 2023-24INTEGRALS 265
+dx
+= x x2 −a2 −∫ x2 −a2 dx−a2∫
+x2 −a2
+dx
+= x x2 −a2 −I−a2∫
+x2 −a2
+dx
+or 2I = x x2 −a2 −a2∫
+x2 −a2
+x a2
+or I = ∫ x2 –a2 dx= x2 –a2 – log x+ x2 –a2 +C
+2 2
+Similarly, integrating other two integrals by parts, taking constant function 1 as the
+second function, we get
+1 a2
+(ii) ∫ x2 +a2dx= x x2 +a2 + log x+ x2 +a2 +C
+2 2
+(iii)
+Alternatively, integrals (i), (ii) and (iii) can also be found by making trigonometric
+substitution x = a secθ in (i), x = a tanθ in (ii) and x = a sinθ in (iii) respectively.
+Example 23 Find ∫ x2 +2x+5 dx
+Solution Note that
+∫ x2 +2x+5 dx = ∫ (x+1)2 +4 dx
+Put x + 1 = y, so that dx = dy. Then
+∫ x2 +2x+5 dx = ∫ y2 +22 dy
+1 4
+= y y2 +4+ log y+ y2 +4 +C [using 7.6.2 (ii)]
+2 2
+1
+= (x+1) x2 +2x+5+2log x+1+ x2 +2x+5 +C
+2
+Example 24 Find ∫ 3−2x−x2 dx
+Solution Note that ∫ 3−2x−x2 dx=∫ 4−(x+1)2 dx
+Rationalised 2023-24266 MATHEMATICS
+Put x + 1 = y so that dx = dy.
+Thus ∫ 3−2x−x2 dx = ∫ 4− y2 dy
+1 4 y
+= y 4− y2 + sin–1 +C [using 7.6.2 (iii)]
+2 2 2
+1 x+1
+= (x+1) 3−2x−x2 +2sin–1  +C
+2  2 
+EXERCISE 7.7
+Integrate the functions in Exercises 1 to 9.
+1. 4−x2 2. 1−4x2 3. x2 +4x+6
+4. x2 +4x+1 5. 1−4x−x2 6. x2 +4x−5
+x2
+7. 1+3x−x2 8. x2 +3x 9. 1+
+9
+Choose the correct answer in Exercises 10 to 11.
+10. ∫ 1+x2 dxis equal to
+x 1 ( )
+(A) 1+x2 + log x+ 1+x2 +C
+2 2
+3 3
+2 2
+(B) (1+x2)2 +C (C) x(1+x2)2 +C
+3 3
+x2 1
+(D) 1+x2 + x2log x+ 1+x2 +C
+2 2
+11. ∫ x2 −8x+7 dx is equal to
+1
+(A) (x−4) x2 −8x+7+9log x−4+ x2 −8x+7 +C
+2
+1
+(B) (x+4) x2 −8x+7+9log x+4+ x2 −8x+7 +C
+2
+1
+(C) (x−4) x2 −8x+7−3 2log x−4+ x2 −8x+7 +C
+2
+1 9
+(D) (x−4) x2 −8x+7− log x−4+ x2 −8x+7 +C
+2 2
+Rationalised 2023-24INTEGRALS 267
+7.7 Definite Integral
+In the previous sections, we have studied about the indefinite integrals and discussed
+few methods of finding them including integrals of some special functions. In this
+section, we shall study what is called definite integral of a function. The definite integral
+b
+has a unique value. A definite integral is denoted by ∫ f(x)dx, where a is called the
+a
+lower limit of the integral and b is called the upper limit of the integral. The definite
+integral is introduced either as the limit of a sum or if it has an anti derivative F in the
+interval [a, b], then its value is the difference between the values of F at the end
+points, i.e., F(b) – F(a).
+7.8 Fundamental Theorem of Calculus
+7.8.1 Area function
+b
+We have defined ∫ f(x)dx as the area of
+a
+the region bounded by the curve y = f(x),
+the ordinates x = a and x = b and x-axis. Let x
+x
+be a given point in [a, b]. Then ∫ f(x)dx
+a
+represents the area of the light shaded region
+in Fig 7.1 [Here it is assumed that f(x) > 0 for
+x ∈ [a, b], the assertion made below is
+equally true for other functions as well].
+The area of this shaded region depends upon Fig 7.1
+the value of x.
+In other words, the area of this shaded region is a function of x. We denote this
+function of x by A(x). We call the function A(x) as Area function and is given by
+x
+A(x) = ∫ f(x)dx ... (1)
+a
+Based on this definition, the two basic fundamental theorems have been given.
+However, we only state them as their proofs are beyond the scope of this text book.
+7.8.2 First fundamental theorem of integral calculus
+Theorem 1 Let f be a continuous function on the closed interval [a, b] and let A (x) be
+the area function. Then A′′′′′(x) = f (x), for all x ∈∈∈∈∈ [a, b].
+Rationalised 2023-24268 MATHEMATICS
+7.8.3 Second fundamental theorem of integral calculus
+We state below an important theorem which enables us to evaluate definite integrals
+by making use of anti derivative.
+Theorem 2 Let f be continuous function defined on the closed interval [a, b] and F be
+b
+an anti derivative of f. Then ∫ f(x)dx= [F(x)]b= F (b) – F(a).
+a
+a
+Remarks
+b
+(i) In words, the Theorem 2 tells us that ∫ f(x)dx= (value of the anti derivative F
+a
+of f at the upper limit b – value of the same anti derivative at the lower limit a).
+(ii) This theorem is very useful, because it gives us a method of calculating the
+definite integral more easily, without calculating the limit of a sum.
+(iii) The crucial operation in evaluating a definite integral is that of finding a function
+whose derivative is equal to the integrand. This strengthens the relationship
+between differentiation and integration.
+b
+(iv) In ∫ f(x)dx, the function f needs to be well defined and continuous in [a, b].
+a
+1
+For instance, the consideration of definite integral ∫ 3 x(x2 –1)2 dx is erroneous
+−2
+1
+since the function f expressed by f(x) = x(x2 –1)2 is not defined in a portion
+– 1 < x < 1 of the closed interval [– 2, 3].
+b
+Steps for calculating ∫ f(x)dx.
+a
+(i) Find the indefinite integral∫ f(x)dx. Let this be F(x). There is no need to keep
+integration constant C because if we consider F(x) + C instead of F(x), we get
+b
+∫ f(x)dx=[F(x)+C]b =[F(b)+C]–[F(a)+C]=F(b)–F(a).
+a
+a
+Thus, the arbitrary constant disappears in evaluating the value of the definite
+integral.
+(ii) Evaluate F(b) – F(a) = [F(x)]b, which is the value of ∫ b f(x)dx.
+a
+a
+We now consider some examples
+Rationalised 2023-24INTEGRALS 269
+Example 25 Evaluate the following integrals:
+(i) ∫ 3 x2 dx (ii) ∫ 9 x dx
+2 4 3
+(30– x2)2
+(iii) ∫ 2 xdx (iv) ∫ π 4sin32tcos2tdt
+1 (x+1)(x+2) 0
+Solution
+(i) Let I=∫ 3 x2 dx. Since ∫x2 dx=
+x3
+=F(x),
+2 3
+Therefore, by the second fundamental theorem, we get
+27 8 19
+I = F(3)–F(2)= – =
+3 3 3
+(ii) Let I=∫ 9 x dx. We first find the anti derivative of the integrand.
+4 3
+(30–x2)2
+3 3 2
+Put 30– x2 =t.Then – x dx=dt or x dx=– dt
+2 3
+ 
+x 2 dt 2 1 2  1 
+Thus, ∫ dx=– ∫ =   =  =F(x)
+3 3 t2 3 t 3 3
+(30–x2)2  (30– x2) 
+Therefore, by the second fundamental theorem of calculus, we have
+ 9
+2  1 
+I = F(9)–F(4)=  
+3 3
+ 
+(30– x2)
+4
+2  1 1  2 1 1  19
+=  −  =  − =
+3 (30–27) 30–8 3 3 22 99
+(iii) Let I=∫ 2 xdx
+1 (x+1)(x+2)
+Rationalised 2023-24270 MATHEMATICS
+x –1 2
+Using partial fraction, we get = +
+(x+1)(x+2) x+1 x+2
+xdx
+So ∫ = –log x+1 +2log x+2 =F(x)
+(x+1)(x+2)
+Therefore, by the second fundamental theorem of calculus, we have
+I = F(2) – F(1) = [– log 3 + 2 log 4] – [– log 2 + 2 log 3]
+32
+=– 3 log 3 + log 2 + 2 log 4 = log 
+27
+π
+(iv) Let I=∫ 4sin32tcos2t dt. Consider ∫sin32tcos2t dt
+0
+1
+Put sin 2t = u so that 2 cos 2t dt = du or cos 2t dt = du
+2
+1
+So
+∫sin32tcos2t dt
+=
+∫u3du
+2
+1 1
+=
+[u4]= sin42t=F(t)say
+8 8
+Therefore, by the second fundamental theorem of integral calculus
+π 1 π 1
+I =F( )–F(0)= [sin4 –sin40]=
+4 8 2 8
+EXERCISE 7.8
+Evaluate the definite integrals in Exercises 1 to 20.
+1. ∫1 (x+1)dx 2. ∫ 31 dx 3. ∫ 2 (4x3 –5x2 +6x+9)dx
+−1 2x 1
+π π π
+4. ∫ 4sin2xdx 5. ∫ 2cos2xdx 6. ∫ 5 exdx 7. ∫ 4tanxdx
+0 0 4 0
+π
+8. ∫ 4cosecxdx 9. ∫1 dx 10. ∫1 dx 11. ∫ 3 dx
+π 0 1–x2 01+x2 2x2 −1
+6
+Rationalised 2023-24INTEGRALS 271
+12. ∫ π 2cos2xdx 13. ∫ 3 xdx 14. ∫1 2x+3 dx 15. ∫1 xex2 dx
+0 2x2 +1 05x2 +1 0
+16. ∫ 2 5x2 17. ∫ π 4(2sec2 x+ x3 +2)dx 18. ∫ π (sin2 x –cos2 x )dx
+1 x2 +4x+3 0 0 2 2
+19. ∫ 26x+3 dx 20. ∫1 (xex +sin πx )dx
+0 x2 +4 0 4
+Choose the correct answer in Exercises 21 and 22.
+21. ∫ 3 dx equals
+1 1+x2
+π 2π π π
+(A) (B) (C) (D)
+3 3 6 12
+2
+dx
+22. ∫ 3 equals
+0 4+9x2
+π π π π
+(A) (B) (C) (D)
+6 12 24 4
+7.9 Evaluation of Definite Integrals by Substitution
+In the previous sections, we have discussed several methods for finding the indefinite
+integral. One of the important methods for finding the indefinite integral is the method
+of substitution.
+b
+To evaluate ∫ f(x)dx, by substitution, the steps could be as follows:
+a
+1. Consider the integral without limits and substitute, y = f(x) or x = g(y) to reduce
+the given integral to a known form.
+2. Integrate the new integrand with respect to the new variable without mentioning
+the constant of integration.
+3. Resubstitute for the new variable and write the answer in terms of the original
+variable.
+4. Find the values of answers obtained in (3) at the given limits of integral and find
+the difference of the values at the upper and lower limits.
+Rationalised 2023-24272 MATHEMATICS
+A
+Note In order to quicken this method, we can proceed as follows: After
+performing steps 1, and 2, there is no need of step 3. Here, the integral will be kept
+in the new variable itself, and the limits of the integral will accordingly be changed,
+so that we can perform the last step.
+Let us illustrate this by examples.
+Example 26 Evaluate
+∫1
+5x4 x5+1dx.
+−1
+Solution Put t = x5 + 1, then dt = 5x4 dx.
+3 3
+2 2
+Therefore, ∫5x4 x5 +1dx = ∫ tdt = t2 = ( x5 +1)2
+3 3
+ 31
+Hence, ∫1 5x4 x5+1dx = 2 (x5 +1)2
+−1 3  
+–1
+= 2  (15 +1)3 2 –( (–1)5 +1)3 2 
+3  
+2  3 3 2 4 2
+= 22 −02 = (2 2)=
+3   3 3
+Alternatively, first we transform the integral and then evaluate the transformed integral
+with new limits.
+Let t = x5 + 1. Then dt = 5 x4 dx.
+Note that, when x =– 1, t = 0 and when x = 1, t = 2
+Thus, as x varies from – 1 to 1, t varies from 0 to 2
+Therefore ∫1 5x4 x5+1dx = ∫ 2 t dt
+−1 0
+2
+2  3 2 3 3 2 4 2
+= t2 = 22 –02 = (2 2) =
+3   3  3 3
+0
+Example 27 Evaluate
+∫1
+tan–1x
+dx
+0 1+x2
+Rationalised 2023-24INTEGRALS 273
+1
+Solution Let t = tan– 1x, then dt= dx. The new limits are, when x = 0, t = 0 and
+1+x2
+π π
+when x = 1, t = . Thus, as x varies from 0 to 1, t varies from 0 to .
+4 4
+π
+Therefore ∫1 tan–1x dx= ∫ π 4tdt  t2 4 = 1  π2 –0 = π2
+0 1+x2 0 2 2 16  32
+0
+EXERCISE 7.9
+Evaluate the integrals in Exercises 1 to 8 using substitution.
+1.
+∫1 x
+dx 2. ∫
+π
+2 sinφcos5φdφ 3.
+∫1 sin–1
+
+2x 
+dx
+0 x2 +1 0 0 1+x2 
+π
+4. ∫ 2 x x+2 (Put x + 2 = t2) 5. ∫ 2 sinx dx
+0 0 1+cos2 x
+6. ∫ 2 dx 7. ∫1 dx 8. ∫ 2 1 – 1  e2xdx
+0 x+4– x2 −1x2 +2x+5 1 x 2x2 
+Choose the correct answer in Exercises 9 and 10.
+1
+1
+(x−x3)3
+9. The value of the integral ∫ dx is
+1 x4
+3
+(A) 6 (B) 0 (C) 3 (D) 4
+x
+10. If f(x) = ∫ tsint dt, then f′(x) is
+0
+(A) cosx + x sin x (B) x sinx
+(C) x cosx (D) sinx + x cosx
+7.10 Some Properties of Definite Integrals
+We list below some important properties of definite integrals. These will be useful in
+evaluating the definite integrals more easily.
+b b
+P : ∫ f(x)dx=∫ f(t)dt
+0 a a
+P : ∫ b f(x)dx=–∫ a f(x)dx. In particular, ∫ a f(x)dx=0
+1 a b a
+b c b
+P : ∫ f(x)dx=∫ f(x)dx+∫ f(x)dx
+2 a a c
+Rationalised 2023-24274 MATHEMATICS
+b b
+P : ∫ f(x)dx=∫ f(a+b−x)dx
+3 a a
+a a
+P : ∫ f(x)dx=∫ f(a−x)dx
+4 0 0
+(Note that P is a particular case of P )
+4 3
+P : ∫
+2a
+f(x)dx=∫
+a
+f(x)dx+∫
+a
+f(2a−x)dx
+5 0 0 0
+P : ∫
+2a
+f(x)dx=2∫
+a
+f(x)dx,if f(2a−x)= f(x) and
+6 0 0
+0 if f(2a – x) = – f(x)
+a a
+P : (i) ∫ f(x)dx=2∫ f(x)dx, if f is an even function, i.e., if f(– x) = f(x).
+7 −a 0
+a
+(ii) ∫ f(x)dx=0, if f is an odd function, i.e., if f(– x) = – f(x).
+−a
+We give the proofs of these properties one by one.
+Proof of P It follows directly by making the substitution x = t.
+0
+Proof of P Let F be anti derivative of f. Then, by the second fundamental theorem of
+1
+b a
+calculus, we have ∫ f(x)dx=F(b)–F(a)=–[F(a)−F(b)]=−∫ f(x)dx
+a b
+a
+Here, we observe that, if a = b, then ∫ f(x)dx=0.
+a
+Proof of P Let F be anti derivative of f. Then
+2
+b
+∫ f(x)dx = F(b) – F(a) ... (1)
+a
+c
+∫ f(x)dx = F(c) – F(a) ... (2)
+a
+b
+and ∫ f(x)dx = F(b) – F(c) ... (3)
+c
+c b b
+Adding (2) and (3), we get ∫ f(x)dx+∫ f(x)dx=F(b)–F(a)=∫ f(x)dx
+a c a
+This proves the property P .
+2
+Proof of P Let t = a + b – x. Then dt = – dx. When x = a, t = b and when x = b, t = a.
+3
+Therefore
+b a
+∫ f(x)dx = −∫ f(a+b–t)dt
+a b
+Rationalised 2023-24INTEGRALS 275
+b
+= ∫ f(a+b–t)dt (by P )
+a 1
+b
+= ∫ f(a+b–x)dx by P
+a 0
+Proof of P Put t = a – x. Then dt = – dx. When x = 0, t = a and when x = a, t = 0. Now
+4
+proceed as in P .
+3
+2a a 2a
+Proof of P Using P , we have ∫ f(x)dx=∫ f(x)dx+∫ f(x)dx.
+5 2 0 0 a
+Let t =2a – x in the second integral on the right hand side. Then
+dt =– dx. When x = a, t = a and when x = 2a, t = 0. Also x = 2a – t.
+Therefore, the second integral becomes
+∫ 2a f(x)dx = –∫ 0 f(2a–t)dt = ∫ a f(2a–t)dt = ∫ a f(2a–x)dx
+a a 0 0
+Hence ∫
+2a
+f(x)dx = ∫
+a
+f(x)dx+∫
+a
+f(2a−x)dx
+0 0 0
+2a a a
+Proof of P Using P , we have ∫ f(x)dx=∫ f(x)dx+∫ f(2a−x)dx ... (1)
+6 5 0 0 0
+Now, if f(2a – x) =f(x), then (1) becomes
+∫ 2a f(x)dx = ∫ a f(x)dx+∫ a f(x)dx=2∫ a f(x)dx,
+0 0 0 0
+and if f(2a – x) = – f(x), then (1) becomes
+∫ 2a f(x)dx = ∫ a f(x)dx−∫ a f(x)dx=0
+0 0 0
+Proof of P Using P , we have
+7 2
+∫ a f(x)dx = ∫ 0 f(x)dx+∫ a f(x)dx. Then
+−a −a 0
+Let t = – x in the first integral on the right hand side.
+dt = – dx. When x = – a, t = a and when
+x =0, t = 0. Also x = – t.
+Therefore ∫ a f(x)dx = –∫ 0 f(–t)dt+∫ a f(x)dx
+−a a 0
+a a
+= ∫ f(–x)dx+∫ f(x)dx (by P ) ... (1)
+0 0 0
+Rationalised 2023-24276 MATHEMATICS
+(i) Now, if f is an even function, then f(–x) = f(x) and so (1) becomes
+a a a a
+∫ f(x)dx=∫ f(x)dx+∫ f(x)dx=2∫ f(x)dx
+−a 0 0 0
+(ii) If f is an odd function, then f(–x) = – f(x) and so (1) becomes
+a a a
+∫ f(x)dx=−∫ f(x)dx+∫ f(x)dx=0
+−a 0 0
+2
+Example 28 Evaluate ∫ x3 –x dx
+−1
+Solution We note that x3 – x ≥ 0 on [– 1, 0] and x3 – x ≤ 0 on [0, 1] and that
+x3 – x ≥ 0 on [1, 2]. So by P we write
+2
+2 0 1 2
+∫ x3 – x dx = ∫ (x3 –x)dx+∫ –(x3 –x)dx+∫ (x3 –x)dx
+−1 −1 0 1
+0 1 2
+= ∫ (x3 – x)dx+∫ (x–x3)dx+∫ (x3 – x)dx
+−1 0 1
+x4 x20 x2 x41 x4 x22
+=  –  + –  + – 
+ 4 2   2 4   4 2 
+–1 0 1
+1 1 1 1 1 1
+= – – + – +(4–2)– – 
+4 2 2 4 4 2
+1 1 1 1 1 1 3 3 11
+= – + + − +2− + = − +2=
+4 2 2 4 4 2 2 4 4
+π
+Example 29 Evaluate ∫ 4 sin2xdx
+–π
+4
+Solution We observe that sin2 x is an even function. Therefore, by P (i), we get
+7
+π π
+∫ 4 sin2xdx
+=
+2∫ 4sin2xdx
+–π 0
+4
+π(1−cos2x) π
+= 2∫ 4 dx = ∫ 4(1−cos2x)dx
+0 2 0
+Rationalised 2023-24INTEGRALS 277
+π
+ 1 4 π 1 π π 1
+= x– sin2x  =  – sin –0= –
+ 2  4 2 2 4 2
+0
+Example 30 Evaluate ∫ π xsinx dx
+0 1+cos2 x
+Solution Let I = ∫ π xsinx dx. Then, by P , we have
+01+cos2 x 4
+∫ π (π−x)sin(π−x)dx
+I =
+0 1+cos2(π−x)
+= ∫ π (π−x)sin xdx = π∫ π sin xdx −I
+0 1+cos2 x 0 1+cos2x
+sin xdx
+π
+or 2 I = π∫
+0 1+cos2 x
+π ∫ π sin xdx
+or I =
+2 0 1+cos2x
+Put cos x = t so that – sin x dx = dt. When x = 0, t = 1 and when x = π, t = – 1.
+Therefore, (by P ) we get
+1
+I =
+–π ∫ −1 dt
+=
+π ∫1 dt
+2 1 1+t2 2 −11+t2
+=
+π∫1 dt
+(by P , since
+1
+is even function)
+0 1+t2 7 1+t2
+= π tan–1t 1 =π tan–11–tan−10 =π π –0  = π2
+0 4  4
+1
+Example 31 Evaluate ∫ sin5xcos4xdx
+−1
+Solution Let I =
+∫1
+sin5xcos4xdx. Let f(x) = sin5 x cos4 x. Then
+−1
+f(– x) = sin5 (– x) cos4 (– x) = – sin5 x cos4 x = – f(x), i.e., f is an odd function.
+Therefore, by P (ii), I = 0
+7
+Rationalised 2023-24278 MATHEMATICS
+π sin4x
+Example 32 Evaluate ∫ 2 dx
+0 sin4x+cos4 x
+π sin4x
+Solution Let I = ∫ 2 dx ... (1)
+0 sin4x+cos4 x
+Then, by P
+4
+π
+I =∫
+π
+2
+sin4 (
+2
+−x)
+dx = ∫
+π
+2
+cos4x
+dx ... (2)
+0 sin4(π −x)+cos4(π
+−x)
+0 cos4 x+sin4 x
+2 2
+Adding (1) and (2), we get
+π sin4 x+cos4 x π π π
+2I = ∫ 2 dx=∫ 2dx=[x]2 =
+0 sin4x+cos4 x 0 0 2
+π
+Hence I =
+4
+π
+dx
+Example 33 Evaluate ∫ 3
+π 1+ tanx
+6
+π π
+dx cosx dx
+Solution Let I = ∫ 3 =∫ 3 ... (1)
+π 1+ tanx π cosx + sinx
+6 6
+π π 
+π
+cos + −x dx
+3 6 
+Then, by P I = ∫ 3
+3 π π π  π π 
+6 cos + −x+ sin + −x
+3 6  3 6 
+π
+sinx
+= ∫ 3 dx ... (2)
+π sinx + cosx
+6
+Adding (1) and (2), we get
+π π
+2I = ∫ 3dx=[x]3 = π −π = π . Hence I= π
+π π 3 6 6 12
+6 6
+Rationalised 2023-24INTEGRALS 279
+π
+Example 34 Evaluate ∫ 2logsinxdx
+0
+π
+Solution Let I = ∫ 2 logsinxdx
+0
+Then, by P
+4
+π π
+π 
+I = ∫ 2 logsin −xdx=∫ 2logcosxdx
+0 2  0
+Adding the two values of I, we get
+π
+2I = ∫ 2(logsinx+logcosx)dx
+0
+π
+= ∫ 2(logsinxcosx+log2−log2)dx(by adding and subtracting log2)
+0
+π π
+= ∫ 2logsin2xdx−∫ 2log2dx (Why?)
+0 0
+π
+Put 2x = t in the first integral. Then 2 dx = dt, when x = 0, t = 0 and when x= ,
+2
+t = π.
+Therefore 2I = 1 ∫ π logsint dt−π log2
+2 0 2
+π
+2 π
+= ∫ 2logsint dt− log2 [by P as sin (π – t) = sin t)
+2 0 2 6
+π
+π
+= ∫2logsinxdx− log2 (by changing variable t to x)
+0 2
+π
+= I− log2
+2
+π
+–π
+Hence ∫ 2logsinxdx = log2.
+0 2
+Rationalised 2023-24280 MATHEMATICS
+EXERCISE 7.10
+By using the properties of definite integrals, evaluate the integrals in Exercises 1 to 19.
+3
+π π sinx π sin2 xdx
+1. ∫ 2cos2 xdx 2. ∫ 2 dx 3. ∫ 2
+0 0 sinx+ cosx 0 3 3
+sin2 x+cos2 x
+π cos5xdx 5 8
+4. ∫ 2 5. ∫ |x+2|dx 6. ∫ x−5 dx
+0 sin5x+cos5x −5 2
+π
+7. ∫1 x(1−x)ndx 8. ∫ 4log(1+tanx)dx 9. ∫ 2 x 2−x dx
+0 0 0
+π π
+10. ∫ 2(2logsinx−logsin2x)dx 11. ∫ 2 sin2xdx
+0 –π
+2
+π
+12. ∫ π xdx 13. ∫ 2 sin7 xdx 14. ∫ 2π cos5xdx
+01+sinx –π 0
+2
+15. ∫ π 2 sinx−cosx dx 16. ∫ π log(1+cosx)dx 17. ∫ a x dx
+0 1+sinxcosx 0 0 x + a−x
+4
+18. ∫ x−1 dx
+0
+a a
+19. Show that ∫ f(x)g(x)dx=2∫ f(x)dx, if f and g are defined as f(x) = f(a – x)
+0 0
+and g(x) + g(a – x) = 4
+Choose the correct answer in Exercises 20 and 21.
+π
+20. The value of ∫ 2 (x3+xcosx+tan5x+1)dx is
+−π
+2
+(A) 0 (B) 2 (C) π (D) 1
+π  4+3sinx 
+21. The value of ∫ 2log dx is
+0 4+3cosx
+3
+(A) 2 (B) (C) 0 (D) –2
+4
+Rationalised 2023-24INTEGRALS 281
+Miscellaneous Examples
+Example 35 Find ∫cos6x 1+sin6x dx
+Solution Put t = 1 + sin 6x, so that dt = 6 cos 6x dx
+1
+1
+Therefore ∫cos6x 1+sin6x dx= ∫t2dt
+6
+3 3
+1 2 1
+= × (t)2 +C= (1+sin6x)2 +C
+6 3 9
+1
+(x4 −x)4
+Example 36 Find ∫ dx
+x5
+1
+1
+1
+(1− )4
+Solution We have ∫(x4 −x)4 dx=∫ x3 dx
+x5 x4
+1 3
+Put 1− =1–x–3 =t,sothat dx=dt
+x3 x4
+1 5
+(x4 −x)4 1 1 1 4 5 4  1 4
+Therefore ∫ dx= ∫t4 dt = × t4 +C= 1−  +C
+x5 3 3 5 15 x3
+x4 dx
+∫
+Example 37 Find
+(x−1)(x2 +1)
+Solution We have
+x4 1
+= (x+1)+
+(x−1)(x2 +1) x3 −x2 +x−1
+1
+= (x+1)+ ... (1)
+(x−1)(x2 +1)
+1 A Bx+C
+Now express = + ... (2)
+(x−1)(x2 +1) (x−1) (x2 +1)
+Rationalised 2023-24282 MATHEMATICS
+So 1 = A (x2 + 1) + (Bx + C) (x – 1)
+=(A + B) x2 + (C – B) x + A – C
+Equating coefficients on both sides, we get A + B = 0, C – B = 0 and A – C = 1,
+1 1
+which give A= ,B=C=– . Substituting values of A, B and C in (2), we get
+2 2
+1 1 1 x 1
+= − − ... (3)
+(x−1)(x2 +1) 2(x−1) 2 (x2 +1) 2(x2 +1)
+Again, substituting (3) in (1), we have
+x4 1 1 x 1
+= (x+1)+ − −
+(x−1)(x2 +x+1) 2(x−1) 2 (x2 +1) 2(x2 +1)
+Therefore
+x4 x2 1 1 1
+∫ dx= +x+ log x−1 – log(x2 +1)– tan–1x+C
+(x−1)(x2 +x+1) 2 2 4 2
+ 1 
+Example 38 Find ∫ log(logx)+ dx
+
+(logx)2
+
+ 1 
+Solution Let I=∫ log(logx)+ dx
+
+(logx)2
+
+1
+= ∫log(logx)dx+∫ dx
+(logx)2
+In the first integral, let us take 1 as the second function. Then integrating it by
+parts, we get
+1 dx
+I =
+xlog(logx)−∫ xdx+∫
+xlogx (logx)2
+dx dx
+=
+xlog(logx)−∫ +∫
+... (1)
+logx (logx)2
+dx
+Again, consider ∫ , take 1 as the second function and integrate it by parts,
+logx
+dx  x  1 1 
+we have ∫ = –∫x–  dx ... (2)
+logx logx  (logx)2  x 
+Rationalised 2023-24INTEGRALS 283
+Putting (2) in (1), we get
+x dx dx x
+I= xlog(logx)− −∫ +∫ = xlog(logx)− +C
+logx (logx)2 (logx)2 logx
+Example 39 Find ∫   cotx+ tanx dx
+Solution We have
+I = ∫   cotx+ tanx dx =∫ tanx(1+cotx)dx
+Put tan x = t2, so that sec2 x dx = 2t dt
+2tdt
+or dx =
+1+t4
+ 1  2t
+Then I = ∫t1+  dt
+ t2 (1+t4)
+ 1   1 
+1+ dt 1+ dt
+(t2 +1)  t2   t2 
+= 2∫ dt =2∫ =2∫
+t4 +1   t2 + t1 2     t−1 t 2 +2
+1  1 
+Put t− = y, so that 1+  dt = dy. Then
+t  t2 
+ 1
+t− 
+dy y  t
+I = 2∫ = 2 tan–1 +C= 2 tan–1 +C
+y2 +( 2)2 2 2
+t2 −1  tanx−1
+= 2 tan–1   +C= 2 tan–1  +C
+ 2t   2tanx 
+sin2xcos2xdx
+Example 40 Find ∫
+9–cos4(2x)
+sin2xcos2x
+Solution Let I=∫ dx
+9–cos42x
+Rationalised 2023-24284 MATHEMATICS
+Put cos2 (2x) = t so that 4 sin 2x cos 2x dx = – dt
+1 dt 1 t  1 1 
+Therefore I=– ∫ =– sin–1  +C=− sin−1  cos22x +C
+4 9–t2 4 3 4 3 
+3
+Example 41 Evaluate ∫ 2 xsin(πx) dx
+−1
+xsinπxfor−1≤ x≤1
+
+Solution Here f(x) = |x sin πx | =  3
+−xsinπxfor1≤x≤
+ 2
+3 3
+Therefore ∫ 2 |xsinπx|dx = ∫1 xsinπxdx+∫ 2− xsinπxdx
+−1 −1 1
+3
+= ∫1 xsinπxdx−∫ 2xsinπxdx
+−1 1
+Integrating both integrals on righthand side, we get
+3
+∫ 2 |xsinπx|dx =
+−1
+2  1 1 3 1
+= − − − = +
+π  π2 π π π2
+∫ π xdx
+Example 42 Evaluate
+0 a2cos2 x+b2sin2x
+π xdx π (π−x)dx
+Solution Let I =
+∫ =∫
+(using P)
+0 a2cos2x+b2sin2 x 0 a2cos2(π−x)+b2sin2(π−x) 4
+= π ∫ π dx −∫ π xdx
+0 a2cos2x+b2sin2 x 0 a2cos2x+b2sin2 x
+= π ∫ π dx −I
+0 a2cos2 x+b2sin2x
+Thus 2I =
+π∫ π dx
+0 a2cos2 x+b2sin2 x
+Rationalised 2023-24INTEGRALS 285
+π
+or I = π ∫ π dx = π ⋅2∫ 2 dx (using P )
+2 0 a2cos2x+b2sin2 x 2 0 a2cos2x+b2sin2x 6
+ π π 
+dx dx
+π∫ 4 + ∫ 2 
+=  0 a2cos2 x+b2sin2 x π a2cos2x+b2sin2 x
+4
+ π sec2xdx π cosec2xdx 
+= π∫ 4 +∫ 2 
+ 0
+a2 +b2tan2x
+π
+a2cot2x+b2
+
+4
+ 1 dt 0 du 
+= π ∫ −∫ (puttanx=tandcotx=u)
+ a2 +b2t2 a2u2 +b2
+0 1
+=
+π  tan–1bt 1
+–
+π  tan–1au 0
+=
+π  tan–1b
++
+tan–1a
+=
+π2
+ab a  0 ab b  1 ab a b 2ab
+Miscellaneous Exercise on Chapter 7
+Integrate the functions in Exercises 1 to 23.
+1 1 1 a
+1. 2. 3. [Hint: Put x = ]
+x−x3 x+a + x+b x ax−x2 t
+1 1 1 1
+4. 5. [Hint: = , put x = t6]
+3 1 1 1 1 1 1 
+x2(x4 +1)4 x2 +x3 x2 +x3 x31+x6
+ 
+ 
+5x sinx e5logx −e4logx
+6. 7. 8.
+(x+1)(x2 +9) sin(x−a) e3logx −e2logx
+cosx sin8 −cos8x 1
+9. 10. 11.
+4−sin2x 1−2sin2 xcos2x cos(x+a)cos(x+b)
+x3 ex 1
+12. 13. 14.
+1−x8 (1+ex)(2+ex) (x2 +1)(x2 +4)
+15. cos3x elog sinx 16. e3 logx (x4 + 1)– 1 17. f′ (ax + b) [f(ax + b)]n
+Rationalised 2023-24286 MATHEMATICS
+1
+1− x 2+sin2x
+18. 19. 20.
+ex
+sin3xsin(x+α) 1+ x 1+cos2x
+x2 +x+1 1−x
+21. 22.
+tan–1
+(x+1)2 (x+2) 1+x
+x2 +1log(x2 +1)−2logx
+ 
+23.
+x4
+Evaluate the definite integrals in Exercises 24 to 31.
+24. ∫
+π ex 1−sinx 
+dx 25. ∫
+π
+4
+sinx cosx
+dx26. ∫
+π
+2
+cos2xdx
+π 1−cosx 0 cos4 x+sin4x 0 cos2x+4sin2x
+2
+π π
+27. ∫ 3 sinx+cosx dx 28. ∫1 dx 29. ∫ 4 sinx+cosx dx
+π sin2x 0 1+x − x 0 9+16sin2x
+6
+π
+30. ∫ 2sin2xtan−1(sinx)dx
+0
+4
+31. ∫ [|x−1|+|x−2|+|x−3|]dx
+1
+Prove the following (Exercises 32 to 37)
+32. ∫ 3 dx = 2 +log 2 33. ∫1 xexdx=1
+1 x2(x+1) 3 3 0
+34.
+∫1
+x17cos4xdx=0 35. ∫
+π
+2sin3xdx=
+2
+−1 0 3
+π
+36. ∫ 42tan3xdx=1−log2 37.
+∫1
+sin−1xdx=
+π
+−1
+0 0 2
+Choose the correct answers in Exercises 38 to 40
+dx
+38. ∫ is equal to
+ex +e−x
+(A) tan–1 (ex) + C (B) tan–1 (e–x) + C
+(C) log (ex – e–x) + C (D) log (ex + e–x) + C
+cos2x
+39. ∫ dx is equal to
+(sinx+cosx)2
+Rationalised 2023-24INTEGRALS 287
+–1
+(A) +C (B) log|sinx+cosx|+C
+sinx+cosx
+1
+(C) log|sinx−cosx|+C (D)
+(sinx+cosx)2
+b
+40. If f (a + b – x) = f (x), then ∫ x f(x)dx is equal to
+a
+(A) a+b ∫ b f(b−x)dx (B) a+b ∫ b f(b+x)dx
+2 a 2 a
+(C) b−a ∫ b f(x)dx (D) a+b ∫ b f(x)dx
+2 a 2 a
+Summary
+®
+Integration is the inverse process of differentiation. In the differential calculus,
+we are given a function and we have to find the derivative or differential of
+this function, but in the integral calculus, we are to find a function whose
+differential is given. Thus, integration is a process which is the inverse of
+differentiation.
+d
+Let F(x)= f(x). Then we write ∫ f(x)dx=F(x)+C. These integrals
+dx
+are called indefinite integrals or general integrals, C is called constant of
+integration. All these integrals differ by a constant.
+®
+Some properties of indefinite integrals are as follows:
+1. ∫[f(x)+g (x)]dx= ∫ f(x)dx+∫g(x)dx
+2. For any real number k, ∫k f(x)dx=k∫ f(x)dx
+More generally, if f , f , f , ... , f are functions and k , k , ... ,k are real
+1 2 3 n 1 2 n
+numbers. Then
+∫[k f (x)+k f (x)+...+k f (x)]dx
+1 1 2 2 n n
+= k ∫ f (x)dx+k ∫ f (x)dx+...+k ∫ f (x)dx
+1 1 2 2 n n
+®
+Some standard integrals
+xn+1
+(i) ∫xndx= +C, n ≠ – 1. Particularly, ∫dx= x+C
+n+1
+Rationalised 2023-24288 MATHEMATICS
+(ii)
+∫cosxdx=sinx+C
+(iii)
+∫sinxdx=–cosx+C
+(iv)
+∫sec2xdx=tanx+C
+(v)
+∫cosec2xdx=–cotx+C
+(vi)
+∫secxtanxdx=secx+C
+dx
+(vii) ∫cosec xcotxdx=–cosecx+C (viii) ∫ =sin−1x+C
+1−x2
+dx dx
+(ix)
+∫ =−cos−1x+C
+(x)
+∫ =tan−1x+C
+1−x2 1+x2
+dx
+(xi) ∫ =−cot−1x+C (xii) ∫exdx=ex +C
+1+x2
+ax 1
+(xiii) ∫axdx= +C (xiv) ∫ dx=log|x|+C
+loga x
+®
+Integration by partial fractions
+P(x)
+Recall that a rational function is ratio of two polynomials of the form ,
+Q(x)
+where P(x) and Q(x) are polynomials in x and Q(x) ≠ 0. If degree of the
+polynomial P(x) is greater than the degree of the polynomial Q(x), then we
+P(x) P(x)
+may divide P(x) by Q(x) so that =T(x)+ 1 , where T(x) is a
+Q(x) Q(x)
+polynomial in x and degree of P (x) is less than the degree of Q(x). T(x)
+1
+P(x)
+being polynomial can be easily integrated. 1 can be integrated by
+Q(x)
+P(x)
+expressing 1 as the sum of partial fractions of the following type:
+Q(x)
+px+q A B
+1. = + , a ≠ b
+(x−a)(x−b) x−a x−b
+px+q A B
++
+2. =
+(x−a)2 x−a (x−a)2
+Rationalised 2023-24INTEGRALS 289
+px2 +qx+r A B C
+3. = + +
+(x−a)(x−b)(x−c) x−a x−b x−c
+px2 +qx+r A B C
++ +
+4. =
+(x−a)2 (x−b) x−a (x−a)2 x−b
+px2 +qx+r A Bx+C
+5. = +
+(x−a)(x2 +bx+c) x−a x2 +bx+c
+where x2 + bx + c can not be factorised further.
+®
+Integration by substitution
+A change in the variable of integration often reduces an integral to one of the
+fundamental integrals. The method in which we change the variable to some
+other variable is called the method of substitution. When the integrand involves
+some trigonometric functions, we use some well known identities to find the
+integrals. Using substitution technique, we obtain the following standard
+integrals.
+(i) ∫tanxdx=log secx +C (ii) ∫cotxdx=log sinx +C
+(iii) ∫secxdx=log secx+tanx +C
+(iv) ∫cosecxdx=log cosecx −cotx +C
+®
+Integrals of some special functions
+dx 1 x−a
+(i) ∫ = log +C
+x2 −a2 2a x+a
+dx 1 a+x dx 1 x
+(ii) ∫ = log +C (iii) ∫ = tan−1 +C
+a2 −x2 2a a−x x2 +a2 a a
+dx x
+(iv) ∫ dx =log x+ x2 −a2 +C (v) ∫ =sin−1 +C
+x2 −a2
+a2 −x2 a
+dx
+∫ =log|x+ x2 +a2 |+C
+(vi)
+x2 +a2
+®
+Integration by parts
+For given functions f and f , we have
+1 2
+Rationalised 2023-24290 MATHEMATICS
+, i.e., the
+integral of the product of two functions = first function × integral of the
+second function – integral of {differential coefficient of the first function ×
+integral of the second function}. Care must be taken in choosing the first
+function and the second function. Obviously, we must take that function as
+the second function whose integral is well known to us.
+®
+∫ex[f(x)+ f′(x)]dx=∫exf(x)dx+C
+®
+Some special types of integrals
+x a2
+(i) ∫ x2 −a2 dx= x2 −a2 − log x+ x2 −a2 +C
+2 2
+x a2
+(ii) ∫ x2 +a2 dx= x2 +a2 + log x+ x2 +a2 +C
+2 2
+x a2 x
+(iii) ∫ a2 −x2 dx= a2 −x2 + sin−1 +C
+2 2 a
+dx dx
+(iv) Integrals of the types ∫ or ∫ can be
+ax2 +bx+c ax2 +bx+c
+transformed into standard form by expressing
+ b c   b 2 c b2 
+ax2 + bx + c = a x2 + x+ =ax+  + − 
+ a a  2a a 4a2 
+px+qdx px+qdx
+∫ or ∫
+(v) Integrals of the types can be
+ax2 +bx+c ax2 +bx+c
+transformed into standard form by expressing
+d
+px+q=A (ax2 +bx+c)+B=A(2ax+b)+B, where A and B are
+dx
+determined by comparing coefficients on both sides.
+® b
+We have defined ∫ f(x)dx as the area of the region bounded by the curve
+a
+y = f(x), a ≤ x ≤ b, the x-axis and the ordinates x = a and x = b. Let x be a
+Rationalised 2023-24INTEGRALS 291
+x
+given point in [a, b]. Then ∫ f(x)dx represents the Area function A(x).
+a
+This concept of area function leads to the Fundamental Theorems of Integral
+Calculus.
+®
+First fundamental theorem of integral calculus
+x
+Let the area function be defined by A(x) = ∫ f(x)dx for all x ≥ a, where
+a
+the function f is assumed to be continuous on [a, b]. Then A′(x) = f(x) for all
+x ∈ [a, b].
+®
+Second fundamental theorem of integral calculus
+Let f be a continuous function of x defined on the closed interval [a, b] and
+d
+let F be another function such that F(x)= f(x) for all x in the domain of
+dx
+f, then ∫ b f(x)dx=[F(x)+C]b =F(b)−F(a).
+a a
+This is called the definite integral of f over the range [a, b], where a and b
+are called the limits of integration, a being the lower limit and b the
+upper limit.
+—vvvvv—
+Rationalised 2023-24

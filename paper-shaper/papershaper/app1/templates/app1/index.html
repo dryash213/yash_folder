@@ -1,0 +1,179 @@
+<!-- app1/templates/app1/index.html -->
+{% extends "main/base.html" %}
+
+{% block title %}App 1{% endblock %}
+
+{% block extra_head %}
+<style>
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        display: none;
+        margin: auto;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Select Options</h2>
+    <form id="dropdownForm">
+        <div class="form-group">
+            <label for="dropdown1">Dropdown 1</label>
+            <select class="form-control" id="dropdown1" name="dropdown1" onchange="loadOptions(1)">
+                <option value="">Select an option</option>
+                <option value="Class 9th">Class 9th</option>
+                <option value="Class 10th">Class 10th</option>
+                <option value="Class 11th">Class 11th</option>
+                <option value="Class 12th">Class 12th</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown2">Dropdown 2</label>
+            <select class="form-control" id="dropdown2" name="dropdown2" onchange="loadOptions(2)" disabled>
+                <option value="">Select an option</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown3">Dropdown 3</label>
+            <select class="form-control" id="dropdown3" name="dropdown3" onchange="loadOptions(3)" disabled>
+                <option value="">Select an option</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown4">Dropdown 4</label>
+            <select class="form-control" id="dropdown4" name="dropdown4" disabled>
+                <option value="">Select an option</option>
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+    </form>
+    <div class="loader" id="loader"></div>
+    <div class="mt-4">
+        <textarea id="markdownOutput" class="form-control" rows="10" readonly></textarea>
+        <button id="downloadPdfBtn" class="btn btn-secondary mt-3" style="display: none;" onclick="downloadPdf()">Download as PDF</button>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.6/markdown-it.min.js"></script>
+<script>
+    function loadOptions(level) {
+        const selectedValue = document.getElementById(`dropdown${level}`).value;
+        const nextDropdown = document.getElementById(`dropdown${level + 1}`);
+        if (selectedValue) {
+            let url = `{% url 'app1:get_dynamic_options' %}?category1=${document.getElementById('dropdown1').value}`;
+            if (level >= 2) {
+                url += `&category2=${document.getElementById('dropdown2').value}`;
+            }
+            if (level >= 3) {
+                url += `&category3=${document.getElementById('dropdown3').value}`;
+            }
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    if (data[`category${level + 1}`]) {
+                        nextDropdown.innerHTML = '<option value="">Select an option</option>';
+                        data[`category${level + 1}`].forEach(option => {
+                            nextDropdown.innerHTML += `<option value="${option}">${option}</option>`;
+                        });
+                        nextDropdown.disabled = false;
+                    }
+                });
+        } else {
+            nextDropdown.innerHTML = '<option value="">Select an option</option>';
+            nextDropdown.disabled = true;
+        }
+        // Disable all subsequent dropdowns
+        for (let i = level + 2; i <= 4; i++) {
+            document.getElementById(`dropdown${i}`).innerHTML = '<option value="">Select an option</option>';
+            document.getElementById(`dropdown${i}`).disabled = true;
+        }
+    }
+
+    function submitForm() {
+        const loader = document.getElementById('loader');
+        const markdownOutput = document.getElementById('markdownOutput');
+        const formData = new FormData(document.getElementById('dropdownForm'));
+
+        loader.style.display = 'block';
+        markdownOutput.value = '';
+        document.getElementById('downloadPdfBtn').style.display = 'none';
+
+        const data = {
+            dropdown1: formData.get('dropdown1'),
+            dropdown2: formData.get('dropdown2'),
+            dropdown3: formData.get('dropdown3'),
+            dropdown4: formData.get('dropdown4')
+        };
+        console.log(JSON.stringify(data),"*******");
+
+        fetch("http://localhost:1234/api/endpoint/", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => {
+            console.log(response); // Log the response here
+            return response.json(); // Return the promise for the next .then()
+        })
+        .then(data => {
+            loader.style.display = 'none';
+            if (data.message) {
+                const md = window.markdownit();
+                markdownOutput.value = md.render(data.message);
+                document.getElementById('downloadPdfBtn').style.display = 'block';
+            } else {
+                markdownOutput.value = 'Error: ' + data.error;
+            }
+        })
+        .catch(error => {
+            loader.style.display = 'none';
+            markdownOutput.value = 'Error: ' + error;
+        });
+    }
+
+    function downloadPdf() {
+        const markdownOutput = document.getElementById('markdownOutput').value;
+        const data = { output: markdownOutput };
+
+        fetch("{% url 'generate_pdf' %}", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.blob())
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'output.pdf';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            // Refresh the page after the download is complete
+            window.location.reload();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+</script>
+{% endblock %}

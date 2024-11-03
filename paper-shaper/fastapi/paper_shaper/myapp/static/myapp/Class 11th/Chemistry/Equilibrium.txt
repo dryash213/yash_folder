@@ -1,0 +1,3397 @@
+Unit 6
+EqUilibriUm
+Chemical equilibria are important in numerous biological
+and environmental processes. For example, equilibria
+involving O molecules and the protein hemoglobin play
+2
+After studying this unit you will be
+a crucial role in the transport and delivery of O from
+able to 2
+our lungs to our muscles. Similar equilibria involving CO
+• identify dynamic nature of molecules and hemoglobin account for the toxicity of CO.
+equilibrium involved in physical
+and chemical processes; When a liquid evaporates in a closed container,
+• state the law of equilibrium; molecules with relatively higher kinetic energy escape
+• explain characteristics of the liquid surface into the vapour phase and number of
+equilibria involved in physical liquid molecules from the vapour phase strike the liquid
+and chemical processes; surface and are retained in the liquid phase. It gives rise
+• write expressions for equilibrium
+to a constant vapour pressure because of an equilibrium in
+constants;
+which the number of molecules leaving the liquid equals the
+• establish a relationship between
+number returning to liquid from the vapour. We say that
+K and K;
+p c the system has reached equilibrium state at this stage.
+• explain various factors that
+affect the equilibrium state of a However, this is not static equilibrium and there is a lot of
+reaction; activity at the boundary between the liquid and the vapour.
+• classify substances as acids or Thus, at equilibrium, the rate of evaporation is equal to the
+bases according to Arrhenius, rate of condensation. It may be represented by
+Bronsted-Lowry and Lewis
+concepts; H O (l) H O (vap)
+2 2
+• classify acids and bases as
+The double half arrows indicate that the processes
+weak or strong in terms of their
+in both the directions are going on simultaneously. The
+ionization constants;
+mixture of reactants and products in the equilibrium state
+• explain the dependence of degree
+of ionization on concentration is called an equilibrium mixture.
+of the electrolyte and that of the
+Equilibrium can be established for both physical
+common ion;
+processes and chemical reactions. The reaction may be
+• describe pH scale for representing
+hydrogen ion concentration; fast or slow depending on the experimental conditions and
+• explain ionisation of water and the nature of the reactants. When the reactants in a closed
+its duel role as acid and base; vessel at a particular temperature react to give products,
+• describe ionic product (K ) and the concentrations of the reactants keep on decreasing,
+w
+pK for water;
+w while those of products keep on increasing for some time
+• appreciate use of buffer
+after which there is no change in the concentrations
+solutions;
+of either of the reactants or products. This stage of the
+• calculate solubility product
+system is the dynamic equilibrium and the rates of the
+constant.
+forward and reverse reactions become equal. It is due to
+2024-25
+Unit 6.indd 168 9/12/2022 11:58:20 AMEQUILIBRIUM 169
+this dynamic equilibrium stage that there is characteristic features. We observe that the
+no change in the concentrations of various mass of ice and water do not change with
+species in the reaction mixture. Based on the time and the temperature remains constant.
+extent to which the reactions proceed to reach However, the equilibrium is not static.
+the state of chemical equilibrium, these may The intense activity can be noticed at the
+be classified in three groups. boundary between ice and water. Molecules
+from the liquid water collide against ice and
+(i) The reactions that proceed nearly
+adhere to it and some molecules of ice escape
+to completion and only negligible
+into liquid phase. There is no change of mass
+concentrations of the reactants are
+of ice and water, as the rates of transfer of
+left. In some cases, it may not be even
+molecules from ice into water and of reverse
+possible to detect these experimentally.
+transfer from water into ice are equal at
+(ii) The reactions in which only small
+atmospheric pressure and 273 K.
+amounts of products are formed and
+It is obvious that ice and water are in
+most of the reactants remain unchanged
+equilibrium only at particular temperature
+at equilibrium stage.
+and pressure. For any pure substance at
+(iii) The reactions in which the concentrations
+atmospheric pressure, the temperature at
+of the reactants and products are
+which the solid and liquid phases are at
+comparable, when the system is in
+equilibrium is called the normal melting point
+equilibrium.
+or normal freezing point of the substance. The
+The extent of a reaction in equilibrium system here is in dynamic equilibrium and we
+varies with the experimental conditions such can infer the following:
+as concentrations of reactants, temperature, (i) Both the opposing processes occur
+etc. Optimisation of the operational conditions simultaneously.
+is very important in industry and laboratory
+(ii) Both the processes occur at the same
+so that equilibrium is favorable in the rate so that the amount of ice and water
+direction of the desired product. Some remains constant.
+important aspects of equilibrium involving
+physical and chemical processes are dealt in 6.1.2 liquid-Vapour Equilibrium
+this unit along with the equilibrium involving This equilibrium can be better understood if
+ions in aqueous solutions which is called as we consider the example of a transparent box
+ionic equilibrium. carrying a U-tube with mercury (manometer).
+Drying agent like anhydrous calcium chloride
+6.1 EqUilibri Um in PHYSiCAl
+(or phosphorus penta-oxide) is placed for
+PrOCESSES
+a few hours in the box. After removing the
+The characteristics of system at equilibrium
+drying agent by tilting the box on one side, a
+are better understood if we examine some
+watch glass (or petri dish) containing water
+physical processes. The most familiar examples
+is quickly placed inside the box. It will be
+are phase transformation processes, e.g.,
+observed that the mercury level in the right
+solid liquid limb of the manometer slowly increases and
+liquid gas finally attains a constant value, that is, the
+solid gas pressure inside the box increases and reaches
+a constant value. Also the volume of water in
+6.1.1 Solid-liquid Equilibrium
+the watch glass decreases (Fig. 6.1). Initially
+Ice and water kept in a perfectly insulated
+there was no water vapour (or very less) inside
+thermos flask (no exchange of heat between its
+the box. As water evaporated the pressure in
+contents and the surroundings) at 273K and
+the box increased due to addition of water
+the atmospheric pressure are in equilibrium
+molecules into the gaseous phase inside
+state and the system shows interesting
+the box. The rate of evaporation is constant.
+2024-25
+Unit 6.indd 169 9/12/2022 11:58:20 AM170 chemistry
+Fig. 6.1 Measuring equilibrium vapour pressure of water at a constant temperature
+However, the rate of increase in pressure vapour to liquid state is much less than the
+decreases with time due to condensation rate of evaporation. These are open systems
+of vapour into water. Finally it leads to an and it is not possible to reach equilibrium in
+equilibrium condition when there is no net an open system.
+evaporation. This implies that the number
+Water and water vapour are in equilibrium
+of water molecules from the gaseous state
+position at atmospheric pressure (1.013 bar)
+into the liquid state also increases till the
+and at 100°C in a closed vessel. The boiling
+equilibrium is attained i.e.,
+point of water is 100°C at 1.013 bar pressure.
+rate of evaporation= rate of condensation
+For any pure liquid at one atmospheric
+H O(l) H O (vap)
+2 2 pressure (1.013 bar), the temperature
+At equilibrium the pressure exerted by at which the liquid and vapours are at
+the water molecules at a given temperature equilibrium is called normal boiling point of
+remains constant and is called the equilibrium the liquid. Boiling point of the liquid depends
+vapour pressure of water (or just vapour
+on the atmospheric pressure. It depends on
+pressure of water); vapour pressure of water
+the altitude of the place; at high altitude the
+increases with temperature. If the above
+boiling point decreases.
+experiment is repeated with methyl alcohol,
+acetone and ether, it is observed that different 6.1.3 Solid – Vapour Equilibrium
+liquids have different equilibrium vapour
+Let us now consider the systems where solids
+pressures at the same temperature, and the
+sublime to vapour phase. If we place solid
+liquid which has a higher vapour pressure is
+iodine in a closed vessel, after sometime
+more volatile and has a lower boiling point.
+the vessel gets filled up with violet vapour
+If we expose three watch glasses containing
+and the intensity of colour increases with
+separately 1mL each of acetone, ethyl alcohol,
+time. After certain time the intensity of
+and water to atmosphere and repeat the
+colour becomes constant and at this stage
+experiment with different volumes of the
+equilibrium is attained. Hence solid iodine
+liquids in a warmer room, it is observed
+sublimes to give iodine vapour and the iodine
+that in all such cases the liquid eventually
+vapour condenses to give solid iodine. The
+disappears and the time taken for complete
+equilibrium can be represented as,
+evaporation depends on (i) the nature of the
+liquid, (ii) the amount of the liquid and (iii) the I (solid) I (vapour)
+2 2
+temperature. When the watch glass is open
+Other examples showing this kind of
+to the atmosphere, the rate of evaporation
+equilibrium are,
+remains constant but the molecules are
+Camphor (solid) Camphor (vapour)
+dispersed into large volume of the room. As
+a consequence the rate of condensation from NH Cl (solid) NH Cl (vapour)
+4 4
+2024-25
+Unit 6.indd 170 9/12/2022 11:58:21 AMEQUILIBRIUM 171
+6.1.4 Equilibrium Involving Dissolution pressure of the gas above the solvent.
+of Solid or Gases in Liquids This amount decreases with increase of
+temperature. The soda water bottle is sealed
+Solids in liquids
+under pressure of gas when its solubility in
+We know from our experience that we can
+water is high. As soon as the bottle is opened,
+dissolve only a limited amount of salt or
+some of the dissolved carbon dioxide gas
+sugar in a given amount of water at room
+escapes to reach a new equilibrium condition
+temperature. If we make a thick sugar syrup
+required for the lower pressure, namely its
+solution by dissolving sugar at a higher
+partial pressure in the atmosphere. This is
+temperature, sugar crystals separate out if we
+how the soda water in bottle when left open
+cool the syrup to the room temperature. We call
+to the air for some time, turns ‘flat’. It can be
+it a saturated solution when no more of solute
+generalised that:
+can be dissolved in it at a given temperature.
+(i) For solid liquid equilibrium, there is
+The concentration of the solute in a saturated
+only one temperature (melting point) at
+solution depends upon the temperature. In
+1 atm (1.013 bar) at which the two
+a saturated solution, a dynamic equilibrium
+phases can coexist. If there is no
+exits between the solute molecules in the solid
+exchange of heat with the surroundings,
+state and in the solution:
+the mass of the two phases remains
+Sugar (solution) Sugar (solid), and
+constant.
+the rate of dissolution of sugar = rate of
+(ii) For liquid vapour equilibrium, the
+crystallisation of sugar.
+vapour pressure is constant at a given
+Equality of the two rates and dynamic
+temperature.
+nature of equilibrium has been confirmed with
+(iii) For dissolution of solids in liquids,
+the help of radioactive sugar. If we drop some
+the solubility is constant at a given
+radioactive sugar into saturated solution of
+temperature.
+non-radioactive sugar, then after some time
+radioactivity is observed both in the solution (iv) For dissolution of gases in liquids,
+and in the solid sugar. Initially there were no the concentration of a gas in liquid
+radioactive sugar molecules in the solution is proportional to the pressure
+but due to dynamic nature of equilibrium, (concentration) of the gas over the liquid.
+there is exchange between the radioactive These observations are summarised in
+and non-radioactive sugar molecules between Table 6.1
+the two phases. The ratio of the radioactive Table 6.1 Some Features of Physical Equilibria
+to non-radioactive molecules in the solution
+increases till it attains a constant value. Process Conclusion
+Liquid Vapour p constant at given
+Gases in liquids H2O
+H O (l) H O (g) temperature
+When a soda water bottle is opened, some of 2 2
+Solid Liquid Melting point is fixed at
+the carbon dioxide gas dissolved in it fizzes
+constant pressure
+out rapidly. The phenomenon arises due H O (s) H O (l)
+2 2
+to difference in solubility of carbon dioxide Solute(s) Solute Concentration of solute
+at different pressures. There is equilibrium (solution) in solution is constant
+between the molecules in the gaseous state Sugar(s) Sugar at a given temperature
+and the molecules dissolved in the liquid (solution)
+under pressure i.e.,
+Gas(g) Gas (aq) [gas(aq)]/[gas(g)] is
+CO (gas) CO (in solution) constant at a given
+2 2
+This equilibrium is governed by Henry’s temperature
+CO (g) CO (aq)
+law, which states that the mass of a gas 2 2 [CO (aq)]/[CO (g)] is
+2 2
+dissolved in a given mass of a solvent at constant at a given
+temperature
+any temperature is proportional to the
+2024-25
+Unit 6.indd 171 11/2/2022 4:10:42 PM172 chemistry
+6.1.5 General Characteristics of
+Equilibria Involving Physical
+Processes
+For the physical processes discussed above,
+following characteristics are common to the
+system at equilibrium:
+(i) Equilibrium is possible only in a closed
+system at a given temperature.
+(ii) Both the opposing processes occur at
+the same rate and there is a dynamic
+but stable condition.
+(iii) All measurable properties of the system
+remain constant.
+(iv) When equilibrium is attained for a
+physical process, it is characterised by Fig. 6.2 Attainment of chemical equilibrium.
+constant value of one of its parameters
+at a given temperature. Table 6.1 lists Eventually, the two reactions occur at the
+such quantities. same rate and the system reaches a state of
+equilibrium.
+(v) The magnitude of such quantities at any
+stage indicates the extent to which the Similarly, the reaction can reach the state
+physical process has proceeded before of equilibrium even if we start with only C and
+reaching equilibrium. D; that is, no A and B being present initially,
+as the equilibrium can be reached from either
+6.2 EQUILIBRIUM IN CHEMICAL
+direction.
+PROCESSES – DYNAMIC
+The dynamic nature of chemical
+EQUILIBRIUM
+equilibrium can be demonstrated in the
+Analogous to the physical systems chemical
+synthesis of ammonia by Haber’s process.
+reactions also attain a state of equilibrium.
+In a series of experiments, Haber started
+These reactions can occur both in forward
+with known amounts of dinitrogen and
+and backward directions. When the rates of
+dihydrogen maintained at high temperature
+the forward and reverse reactions become
+and pressure and at regular intervals
+equal, the concentrations of the reactants
+determined the amount of ammonia present.
+and the products remain constant. This
+He was successful in determining also the
+is the stage of chemical equilibrium. This
+concentration of unreacted dihydrogen and
+equilibrium is dynamic in nature as it consists
+dinitrogen. Fig. 6.4 (page 174) shows that after
+of a forward reaction in which the reactants
+a certain time the composition of the mixture
+give product(s) and reverse reaction in which
+remains the same even though some of the
+product(s) gives the original reactants.
+reactants are still present. This constancy in
+For a better comprehension, let us consider composition indicates that the reaction has
+a general case of a reversible reaction, reached equilibrium. In order to understand
+the dynamic nature of the reaction, synthesis
+A + B C + D
+of ammonia is carried out with exactly the
+With passage of time, there is
+same starting conditions (of partial pressure
+accumulation of the products C and D and
+and temperature) but using D (deuterium)
+2
+depletion of the reactants A and B (Fig. 6.2).
+in place of H . The reaction mixtures starting
+2
+This leads to a decrease in the rate of either with H or D reach equilibrium with
+2 2
+forward reaction and an increase in the rate the same composition, except that D and
+2
+of the reverse reaction, ND are present instead of H and NH . After
+3 2 3
+2024-25
+Unit 6.indd 172 11/2/2022 4:10:43 PMEQUILIBRIUM 173
+Dynamic Equilibrium – A Student’s Activity
+Equilibrium whether in a physical or in a chemical system, is always of dynamic nature. This can
+be demonstrated by the use of radioactive isotopes. This is not feasible in a school laboratory.
+However this concept can be easily comprehended by performing the following activity. The activity
+can be performed in a group of 5 or 6 students.
+Take two 100mL measuring cylinders (marked as 1 and 2) and two glass tubes each of
+30 cm length. Diameter of the tubes may be same or different in the range of 3-5mm. Fill
+nearly half of the measuring cylinder-1 with coloured water (for this purpose add a crystal
+of potassium permanganate to water) and keep second cylinder (number 2) empty.
+Put one tube in cylinder 1 and second in cylinder 2. Immerse one tube in cylinder 1,
+close its upper tip with a finger and transfer the coloured water contained in its lower portion to
+cylinder 2. Using second tube, kept in 2nd cylinder, transfer the coloured water in a similar manner
+from cylinder 2 to cylinder 1. In this way keep on transferring coloured water using the two glass
+tubes from cylinder 1 to 2 and from 2 to 1 till you notice that the level of coloured water in both
+the cylinders becomes constant.
+If you continue intertransferring coloured solution between the cylinders, there will not be
+any further change in the levels of coloured water in two cylinders. If we take analogy of ‘level’ of
+coloured water with ‘concentration’ of reactants and products in the two cylinders, we can say
+the process of transfer, which continues even after the constancy of level, is indicative of dynamic
+nature of the process. If we repeat the experiment taking two tubes of different diameters we find
+that at equilibrium the level of coloured water in two cylinders is different. How far diameters are
+responsible for change in levels in two cylinders? Empty cylinder (2) is an indicator of no product
+in it at the beginning.
+1 2 1 2
+(a) (b)
+Fig.6.3 Demonstrating dynamic nature of equilibrium. (a) initial stage (b) final stage after the
+equilibrium is attained.
+2024-25
+Unit 6.indd 173 9/12/2022 11:58:21 AM174 chemistry
+2NH (g) N (g) + 3H (g)
+3 2 2
+Similarly let us consider the reaction,
+H (g) + I (g) 2HI(g). If we start with
+2 2
+equal initial concentration of H and I , the
+2 2
+reaction proceeds in the forward direction
+and the concentration of H and I decreases
+2 2
+while that of HI increases, until all of these
+become constant at equilibrium (Fig. 6.5). We
+can also start with HI alone and make the
+reaction to proceed in the reverse direction;
+the concentration of HI will decrease and
+concentration of H and I will increase until
+2 2
+they all become constant when equilibrium is
+reached (Fig. 6.5). If total number of H and I
+atoms are same in a given volume, the same
+equilibrium mixture is obtained whether we
+Fig. 6.4 Depiction of equilibrium for the reaction
+start it from pure reactants or pure product.
+N g3H g 2NH g
+2 2 3
+equilibrium is attained, these two mixtures
+(H , N , NH and D , N , ND ) are mixed
+2 2 3 2 2 3
+together and left for a while. Later, when
+this mixture is analysed, it is found that the
+concentration of ammonia is just the same
+as before. However, when this mixture is
+analysed by a mass spectrometer, it is found
+that ammonia and all deuterium containing
+forms of ammonia (NH , NH D, NHD and
+3 2 2
+ND ) and dihydrogen and its deutrated forms
+3
+(H , HD and D ) are present. Thus one can
+2 2
+conclude that scrambling of H and D atoms in
+the molecules must result from a continuation
+of the forward and reverse reactions in the
+mixture. If the reaction had simply stopped
+Fig. 6.5 Chemical equilibrium in the reaction H (g)
+when they reached equilibrium, then there 2
++ I (g) 2HI(g) can be attained from
+would have been no mixing of isotopes in 2
+either direction
+this way.
+6.3 lAW OF CHEmiCAl EqUilibriUm
+Use of isotope (deuterium) in the formation
+AnD EqUilibriUm COnStAnt
+of ammonia clearly indicates that chemical
+A mixture of reactants and products in the
+reactions reach a state of dynamic
+equilibrium state is called an equilibrium
+equilibrium in which the rates of forward
+mixture. In this section we shall address a
+and reverse reactions are equal and there
+number of important questions about the
+is no net change in composition.
+composition of equilibrium mixtures: What is
+Equilibrium can be attained from both the relationship between the concentrations
+sides, whether we start reaction by taking, of reactants and products in an equilibrium
+H (g) and N (g) and get NH (g) or by taking mixture? How can we determine equilibrium
+2 2 3
+NH (g) and decomposing it into N (g) and H (g). concentrations from initial concentrations?
+3 2 2
+What factors can be exploited to alter the
+N (g) + 3H (g) 2NH (g)
+2 2 3
+2024-25
+Unit 6.indd 174 9/12/2022 11:58:21 AMEQUILIBRIUM 175
+composition of an equilibrium mixture? The Six sets of experiments with varying initial
+last question in particular is important when conditions were performed, starting with only
+choosing conditions for synthesis of industrial gaseous H and I in a sealed reaction vessel
+2 2
+chemicals such as H , NH , CaO etc. in first four experiments (1, 2, 3 and 4) and
+2 3
+To answer these questions, let us consider only HI in other two experiments (5 and 6).
+a general reversible reaction: Experiment 1, 2, 3 and 4 were performed
+taking different concentrations of H and / or
+A + B C + D 2
+I , and with time it was observed that intensity
+where A and B are the reactants, C and D 2
+of the purple colour remained constant and
+are the products in the balanced chemical
+equilibrium was attained. Similarly, for
+equation. On the basis of experimental studies
+of many reversible reactions, the Norwegian experiments 5 and 6, the equilibrium was
+chemists Cato Maximillian Guldberg and attained from the opposite direction.
+Peter Waage proposed in 1864 that the Data obtained from all six sets of
+concentrations in an equilibrium mixture
+experiments are given in Table 6.2.
+are related by the following equilibrium
+It is evident from the experiments 1, 2,
+equation,
+3 and 4 that number of moles of dihydrogen
+CD
+K  (6.1) reacted = number of moles of iodine reacted
+c AB
+= ½ (number of moles of HI formed). Also,
+(6.1) where K is the equilibrium constant and experiments 5 and 6 indicate that,
+c
+the expression on the right side is called the
+[H (g)] = [I (g)]
+equilibrium constant expression. 2 eq 2 eq
+Knowing the above facts, in order
+The equilibrium equation is also known as
+the law of mass action because in the early to establish a relationship between
+days of chemistry, concentration was called concentrations of the reactants and products,
+“active mass”. In order to appreciate their several combinations can be tried. Let us
+work better, let us consider reaction between consider the simple expression,
+gaseous H and I carried out in a sealed vessel
+2 2 [HI(g)] / [H (g)] [I (g)]
+at 731K. eq 2 eq 2 eq
+H (g) + I (g)   2HI(g) It can be seen from Table 6.3 that if we
+2 2
+put the equilibrium concentrations of the
+1 mol 1 mol 2 mol
+reactants and products, the above expression
+table 6.2 initial and Equilibrium Concentrations of H , i and Hi
+2 2
+2024-25
+Unit 6.indd 175 9/12/2022 11:58:21 AM176 chemistry
+table 6.3 Expression involving the The equilibrium constant for a general
+Equilibrium Concentration of reaction,
+reactants
+a A + b B c C + d D
+H (g) + i (g) 2Hi(g)
+2 2
+is expressed as,
+K = [C]c[D]d / [A]a[B]b (6.4)
+c
+where [A], [B], [C] and [D] are the equilibrium
+concentrations of the reactants and products.
+Equilibrium constant for the reaction,
+4NH (g) + 5O (g) 4NO(g) + 6H O(g) is written
+3 2 2
+as
+K = [NO]4[H O]6 / [NH ]4 [O ]5
+c 2 3 2
+Molar concentration of different species is
+is far from constant. However, if we consider indicated by enclosing these in square bracket
+the expression, and, as mentioned above, it is implied that
+these are equilibrium concentrations. While
+[HI(g)]2 / [H (g)] [I (g)]
+eq 2 eq 2 eq writing expression for equilibrium constant,
+we find that this expression gives constant
+symbol for phases (s, l, g) are generally ignored.
+value (as shown in Table 6.3) in all the six
+Let us write equilibrium constant for the
+cases. It can be seen that in this expression
+the power of the concentration for reactants reaction, H (g) + I (g) 2HI(g) (6.5)
+2 2
+and products are actually the stoichiometric
+as, K = [HI]2 / [H ] [I ] = x (6.6)
+coefficients in the equation for the chemical c 2 2
+reaction. Thus, for the reaction H (g) + I (g) The equilibrium constant for the reverse
+2 2
+2HI(g), following equation 6.1, the equilibrium reaction, 2HI(g) H (g) + I (g), at the same
+2 2
+constant K is written as, temperature is,
+c
+K = [HI(g)]2 / [H (g)] [I (g)] (6.2) K′ = [H ] [I ] / [HI]2 = 1/ x = 1 / K (6.7)
+c eq 2 eq 2 eq c 2 2 c
+Thus, K′ = 1 / K (6.8)
+Generally the subscript ‘eq’ (used for c c
+equilibrium) is omitted from the concentration Equilibrium constant for the reverse
+terms. It is taken for granted that the reaction is the inverse of the equilibrium
+concentrations in the expression for K are constant for the reaction in the forward
+c
+equilibrium values. We, therefore, write, direction.
+K = [HI(g)]2 / [H (g)] [I (g)] (6.3) If we change the stoichiometric coefficients
+c 2 2
+in a chemical equation by multiplying
+The subscript ‘c’ indicates that K is
+c throughout by a factor then we must make
+expressed in concentrations of mol L–1.
+sure that the expression for equilibrium
+At a given temperature, the product of
+constant also reflects that change. For
+concentrations of the reaction products
+example, if the reaction (6.5) is written as,
+raised to the respective stoichiometric
+½ H (g) + ½ I (g) HI(g) (6.9)
+coefficient in the balanced chemical
+2 2
+equation divided by the product of the equilibrium constant for the above
+concentrations of the reactants raised to reaction is given by
+their individual stoichiometric coefficients K″ = [HI] / [H ]1/2[I ]1/2 = {[HI]2 / [H ][I ]}1/2
+c 2 2 2 2
+has a constant value. this is known as
+= x1/2 = K1/2 (6.10)
+the Equilibrium law or law of Chemical c
+Equilibrium. On multiplying the equation (6.5) by n, we get
+2024-25
+Unit 6.indd 176 9/12/2022 11:58:22 AMEQUILIBRIUM 177
+nH (g) + nI (g) D 2nHI(g) (6.11)
+2 2
+N (g)+ O (g) 2NO(g)
+Therefore, equilibrium constant for the 2 2
+reaction is equal to K n. These findings are
+c Solution
+summarised in Table 6.4. It should be noted
+For the reaction equilibrium constant, K
+that because the equilibrium constants K c
+c can be written as,
+and K′ have different numerical values, it is
+importc ant to specify the form of the balanced NO 2
+K =
+chemical equation when quoting the value of c N O
+2 2
+an equilibrium constant.
+2.8
+10–3M2
+=
+Table 6.4 Relations between Equilibrium
+3.0 10 3M 4.2 10 3M
+Constants for a General Reaction
+and its Multiples.
+= 0.622
+Chemical equation Equilibrium
+constant
+a A + b B c C + dD K
+c 6.4 HOMOGENEOUS EQUILIBRIA
+c C + d D a A + b B K′ =(1/K ) In a homogeneous system, all the reactants
+c c
+and products are in the same phase.
+na A + nb B ncC + ndD K′″ = (Kn)
+c c For example, in the gaseous reaction,
+N (g) + 3H (g) 2NH (g), reactants and
+2 2 3
+products are in the homogeneous phase.
+Problem 6.1
+Similarly, for the reactions,
+The following concentrations were
+CH COOC H (aq) + H O (l) CH COOH (aq)
+obtained for the formation of NH from 3 2 5 2 3
+3 + C H OH (aq)
+N and H at equilibrium at 500K. 2 5
+2 2 and, Fe3+ (aq) + SCN–(aq) Fe(SCN)2+ (aq)
+[N ] = 1.5 × 10–2M. [H ] = 3.0 ×10–2 M and
+2 2
+[NH ] = 1.2 ×10–2M. Calculate equilibrium all the reactants and products are in
+3
+constant. homogeneous solution phase. We shall now
+consider equilibrium constant for some
+Solution
+homogeneous reactions.
+The equilibrium constant for the reaction,
+N (g) + 3H (g) 2NH (g) can be written as, 6.4.1 Equilibrium Constant in Gaseous
+2 2 3
+Systems
+NH g2 So far we have expressed equilibrium
+K =  3  constant of the reactions in terms of molar
+c N gH g3
+ 2  2  concentration of the reactants and products,
+1.21022 and used symbol, K
+c
+for it. For reactions
+= involving gases, however, it is usually more
+1.510233.01023
+convenient to express the equilibrium
+constant in terms of partial pressure.
+= 0.355 × 103 = 3.55 × 102
+The ideal gas equation is written as,
+pV = nRT
+Problem 6.2
+n
+At equilibrium, the concentrations of ⇒ p = RT
+V
+N =3.0 × 10–3M, O = 4.2 × 10–3M and
+2 2
+NO= 2.8 × 10–3M in a sealed vessel at 800K. Here, p is the pressure in Pa, n is the number
+What will be K for the reaction of moles of the gas, V is the volume in m3 and
+c
+T is the temperature in Kelvin
+2024-25178 chemistry
+Therefore,
+n/V is concentration expressed in mol/m3 NH (g)2[RT]−2
+If concentration c, is in mol/L or mol/dm3, =  3  = K (RT)−2
+N (g)H (g)3 c
+and p is in bar then  2  2 
+p = cRT,
+or K = K (RT)−2 (6.14)
+We can also write p = [gas]RT. p c
+Here, R= 0.0831 bar litre/mol K Similarly, for a general reaction
+At constant temperature, the pressure of a A + b B c C + d D
+the gas is proportional to its concentration i.e.,
+p ∝ [gas]
+K =
+(p Cc)(p Dd)
+=
+[C]c[D]d (RT)(c+d)
+For reaction in equilibrium
+p (pa)(pb) [A]a[B]b(RT)(a+b)
+A B
+H (g) + I (g) 2HI(g)
+2 2
+We can write either [C]c[D]d
+=
+(RT)(c+d)−(a+b)
+HI(g)2 [A]a[B]b
+ 
+K =
+c H (g)I (g)
+ 2  2  [C]c[D]d
+=
+(RT)∆n
+= K
+(RT)∆n
+(6.15)
+(p )2 [A]a[B]b c
+or K = HI (6.12)
+c ( p )( p ) where ∆n = (number of moles of gaseous
+H I
+2 2 products) – (number of moles of gaseous
+Further, since p = HI(g)RT reactants) in the balanced chemical equation.
+HI  
+It is necessary that while calculating the value
+p = I (g)RT
+I22  2  of K p, pressure should be expressed in bar
+p = H (g)RT because standard state for pressure is 1 bar.
+H2  2 
+We know from Unit 1 that :
+Therefore,
+1pascal, Pa=1Nm–2, and 1bar = 105 Pa
+K =
+(p HI)2
+=
+ HI(g) 2[RT]2 diffeK rp
+e
+nv ta l tu emes
+p
+f eo rr
+a
+ta
+u
+rfe ew
+s
+as re el e gc it ve ed
+n
+r ie na Tc ati bo ln es
+6
+a .5t
+p ( p )( p ) H (g)RT.I (g)RRT
+H2 I2  2   2 
+Table 6.5 Equilibrium Constants, Kp for
+ HI(g) 2 a Few Selected Reactions
+= = K (6.13)
+H (g)I (g) c
+ 2  2 
+In this example, K = K i.e., both
+p c
+equilibrium constants are equal. However,
+this is not always the case. For example in
+reaction
+N (g) + 3H (g) 2NH (g)
+2 2 3
+( )2
+p
+NH
+K = 3
+p ( )( )3
+p p
+N H
+2 2
+Problem 6.3
+NH
+(g)2[RT]2
+=  3  PCl , PCl and Cl are at equilibrium at 500
+N (g)RT.H (g)3(RT)3 K a5 nd ha3 ving co2 ncentration 1.59M PCl ,
+ 2   2  3
+1.59M Cl and 1.41 M PCl .
+2 5
+2024-25
+Unit 6.indd 178 11/30/2022 15:46:47EQUILIBRIUM 179
+Calculate K for the reaction, the value 0.194 should be neglected because
+c
+PCl PCl + Cl it will give concentration of the reactant
+5 3 2 which is more than initial concentration.
+Solution
+Hence the equilibrium concentrations are,
+The equilibrium constant K for the above
+reaction can be written as, c [CO ] = [H ] = x = 0.067 M
+2 2-
+PCl Cl  1.592 [CO] = [H O] = 0.1 – 0.067 = 0.033 M
+K  3 2  1.79 2
+c PCl  1.41
+5 Problem 6.5
+Problem 6.4 For the equilibrium,
+The value of K = 4.24 at 800K for the 2NOCl(g) 2NO(g) + Cl (g)
+c 2
+reaction,
+the value of the equilibrium constant, K is
+CO (g) + H O (g) CO (g) + H (g) 3.75 × 10–6 at 1069 K. Calculate the K c for
+2 2 2
+Calculate equilibrium concentrations of CO , p
+the reaction at this temperature?
+2
+H , CO and H O at 800 K, if only CO and
+2 2
+H O are present initially at concentrations Solution
+2
+of 0.10M each.
+We know that,
+Solution K = K(RT)∆n
+p c
+For the reaction, For the above reaction,
+∆n = (2+1) – 2 = 1
+CO (g) + H O (g) CO (g) + H (g)
+2 2 2
+K = 3.75 ×10–6 (0.0831 × 1069)
+Initial concentration: p
+K = 0.033
+0.1M 0.1M 0 0 p
+Let x mole per litre of each of the product
+be formed. 6.5 HEtErOGEnEOUS EqUilibriA
+At equilibrium: Equilibrium in a system having more than one
+(0.1-x) M (0.1-x) M x M x M phase is called heterogeneous equilibrium.
+The equilibrium between water vapour and
+where x is the amount of CO and H at
+2 2 liquid water in a closed container is an
+equilibrium.
+example of heterogeneous equilibrium.
+Hence, equilibrium constant can be written
+as, H O(l) H O(g)
+2 2
+K = x2/(0.1-x)2 = 4.24 In this example, there is a gas phase and
+c
+x2 = 4.24(0.01 + x2-0.2x) a liquid phase. In the same way, equilibrium
+x2 = 0.0424 + 4.24x2-0.848x between a solid and its saturated solution,
+3.24x2 – 0.848x + 0.0424 = 0 Ca(OH) (s) + (aq) Ca2+ (aq) + 2OH–(aq)
+2
+a = 3.24, b = – 0.848, c = 0.0424 is a heterogeneous equilibrium.
+(for quadratic equation ax2 + bx + c = 0, Heterogeneous equilibria often involve
+  pure solids or liquids. We can simplify
+b b2 4ac
+equilibrium expressions for the heterogeneous
+x 
+2a equilibria involving a pure liquid or a pure
+solid, as the molar concentration of a pure
+x = 0.848±√(0.848)2– 4(3.24)(0.0424)/
+solid or liquid is constant (i.e., independent
+(3.24×2)
+of the amount present). In other words if a
+x = (0.848 ± 0.4118)/ 6.48
+substance ‘X’ is involved, then [X(s)] and [X(l)]
+x = (0.848 – 0.4118)/6.48 = 0.067
+are constant, whatever the amount of ‘X’ is
+1
+x = (0.848 + 0.4118)/6.48 = 0.194 taken. Contrary to this, [X(g)] and [X(aq)] will
+2
+2024-25
+Unit 6.indd 179 9/12/2022 11:58:24 AM180 chemistry
+vary as the amount of X in a given volume This shows that at a particular
+varies. Let us take thermal dissociation of temperature, there is a constant concentration
+calcium carbonate which is an interesting and or pressure of CO in equilibrium with CaO(s)
+2
+important example of heterogeneous chemical and CaCO (s). Experimentally it has been
+3
+equilibrium. found that at 1100 K, the pressure of CO
+2
+in equilibrium with CaCO (s) and CaO(s), is
+CaCO (s) CaO (s) + CO (g) (6.16) 2.0 ×105 Pa. Therefore, equ3 ilibrium constant
+3 2
+On the basis of the stoichiometric equation, at 1100K for the above reaction is:
+we can write,
+K = P = 2 × 105 Pa/105 Pa = 2.00
+CaOsCO g
+p CO2
+K    2  Similarly, in the equilibrium between
+c  CaCO 3s  nickel, carbon monoxide and nickel carbonyl
+(used in the purification of nickel),
+Since [CaCO (s)] and [CaO(s)] are both
+3
+constant, therefore modified equilibrium Ni (s) + 4 CO (g) Ni(CO) (g),
+4
+constant for the thermal decomposition of the equilibrium constant is written as
+calcium carbonate will be
+NiCO 
+K´ = [CO (g)] (6.17) K 
+ 4
+c 2 c CO4
+or K = p (6.18)
+p CO2
+It must be remembered that for the
+existence of heterogeneous equilibrium pure
+Units of Equilibrium Constant solids or liquids must also be present (however
+small the amount may be) at equilibrium, but
+The value of equilibrium constant K can be
+c their concentrations or partial pressures do
+calculated by substituting the concentration
+terms in mol/L and for K partial pressure not appear in the expression of the equilibrium
+p
+is substituted in Pa, kPa, bar or atm. This constant. In the reaction,
+results in units of equilibrium constant based Ag O(s) + 2HNO (aq) 2AgNO (aq) +H O(l)
+2 3 3 2
+on molarity or pressure, unless the exponents
+of both the numerator and denominator are AgNO 2
+same. K = 3
+c HNO 2
+For the reactions,
+3
+H (g) + I (g) 2HI, K and K have no
+2 2 c p
+unit.
+N O (g) 2NO (g), K has unit mol/L
+2 4 2 c
+and K has unit bar Problem 6.6
+p
+Equilibrium constants can also be The value of K for the reaction,
+p
+expressed as dimensionless quantities if the CO (g) + C (s) 2CO (g)
+2
+standard state of reactants and products is 3.0 at 1000 K. If initially P = 0.48
+CO2
+are specified. For a pure gas, the standard bar and P = 0 bar and pure graphite is
+CO
+state is 1bar. Therefore a pressure of 4 bar present, calculate the equilibrium partial
+in standard state can be expressed as 4 pressures of CO and CO .
+2
+bar/1 bar = 4, which is a dimensionless
+Solution
+number. Standard state (c ) for a solute is 1
+0
+molar solution and all concentrations can be For the reaction,
+measured with respect to it. The numerical
+let ‘x’ be the decrease in pressure of CO ,
+value of equilibrium constant depends on the 2
+then
+standard state chosen. Thus, in this system
+CO (g) + C(s) 2CO(g)
+both K and K are dimensionless quantities 2
+p c Initial
+but have different numerical values due to
+pressure: 0.48 bar 0
+different standard states.
+2024-25
+Unit 6.indd 180 9/12/2022 11:58:24 AMEQUILIBRIUM 181
+5. The equilibrium constant K for a reaction
+At equilibrium:
+is related to the equilibrium constant
+(0.48 – x)bar 2x bar of the corresponding reaction, whose
+equation is obtained by multiplying or
+p2
+K = CO dividing the equation for the original
+p p reaction by a small integer.
+CO
+2
+Let us consider applications of equilibrium
+K = (2x)2/(0.48 – x) = 3
+p constant to:
+4x2 = 3(0.48 – x)
+• predict the extent of a reaction on the
+4x2 = 1.44 – x
+basis of its magnitude,
+4x2 + 3x – 1.44 = 0
+• predict the direction of the reaction, and
+a = 4, b = 3, c = –1.44
+• calculate equilibrium concentrations.
+ 
+b b2 4ac
+x  6.6.1 Predicting the Extent of a
+2a
+reaction
+= [–3 ± √(3)2– 4(4)(–1.44)]/2 × 4 The numerical value of the equilibrium
+constant for a reaction indicates the extent
+= (–3 ± 5.66)/8
+of the reaction. But it is important to note
+= (–3 + 5.66)/8 (as value of x cannot be
+that an equilibrium constant does not give
+negative hence we neglect that value)
+any information about the rate at which
+x = 2.66/8 = 0.33 the equilibrium is reached. The magnitude
+The equilibrium partial pressures are, of K or K is directly proportional to the
+c p
+concentrations of products (as these appear
+p = 2x = 2 × 0.33 = 0.66 bar
+CO2 in the numerator of equilibrium constant
+p = 0.48 – x = 0.48 – 0.33 = 0.15 bar
+CO2 expression) and inversely proportional to the
+concentrations of the reactants (these appear
+in the denominator). This implies that a high
+6.6 APPliCAtiOnS OF EqUilibriUm
+value of K is suggestive of a high concentration
+COnStAntS
+of products and vice-versa.
+Before considering the applications of
+We can make the following generalisations
+equilibrium constants, let us summarise the
+concerning the composition of equilibrium
+important features of equilibrium constants
+mixtures:
+as follows:
+1. Expression for equilibrium constant is • If K > 103, products predominate over
+c
+applicable only when concentrations of reactants, i.e., if K is very large, the
+c
+the reactants and products have attained reaction proceeds nearly to completion.
+constant value at equilibrium state. Consider the following examples:
+2. The value of equilibrium constant is (a) The reaction of H with O at 500 K
+2 2
+independent of initial concentrations of has a very large equilibrium constant,
+the reactants and products. K = 2.4 × 1047.
+c
+3. Equilibrium constant is temperature (b) H (g) + Cl (g) 2HCl(g) at 300K has
+2 2
+dependent having one unique value for K = 4.0 × 1031.
+c
+a particular reaction represented by a
+(c) H (g) + Br (g) 2HBr (g) at 300 K,
+balanced equation at a given temperature. K2 = 5.4 × 12 018
+c
+4. The equilibrium constant for the reverse
+• If K < 10–3, reactants predominate over
+reaction is equal to the inverse of the c
+products, i.e., if K is very small, the
+equilibrium constant for the forward c
+reaction proceeds rarely. Consider the
+reaction.
+following examples:
+2024-25
+Unit 6.indd 181 9/12/2022 11:58:24 AM182 chemistry
+(a) The decomposition of H O into H and If Q = K, the reaction mixture is already
+2 2 c c
+O at 500 K has a very small equilibrium at equilibrium.
+2
+constant, K = 4.1 × 10–48 Consider the gaseous reaction of H
+c 2
+(b) N (g) + O (g) 2NO(g), with I ,
+2 2 2
+at 298 K has K = 4.8 ×10–31. H (g) + I (g) 2HI(g); K = 57.0 at 700 K.
+c 2 2 c
+• If K is in the range of 10–3 to 103, Suppose we have molar concentrations
+c
+appreciable concentrations of both [H ]=0.10M, [I ] = 0.20 M and [HI] = 0.40 M.
+2 t 2 t t
+reactants and products are present. (the subscript t on the concentration symbols
+Consider the following examples: means that the concentrations were measured
+at some arbitrary time t, not necessarily at
+(a) For reaction of H with I to give HI,
+2 2 equilibrium).
+K = 57.0 at 700K.
+c
+Thus, the reaction quotient, Q at this
+(b) Also, gas phase decomposition of N O c
+2 4 stage of the reaction is given by,
+to NO is another reaction with a value
+2 Q = [HI]2 / [H ] [I ] = (0.40)2/ (0.10)×(0.20)
+of K = 4.64 × 10–3 at 25°C which is c t 2 t 2 t
+c
+neither too small nor too large. Hence, = 8.0
+equilibrium mixtures contain appreciable Now, in this case, Q (8.0) does not equal
+c
+concentrations of both N O and NO . K (57.0), so the mixture of H (g), I (g) and HI(g)
+2 4 2 c 2 2
+These generarlisations are illustrated in is not at equilibrium; that is, more H (g) and
+2
+Fig. 6.6 I (g) will react to form more HI(g) and their
+2
+concentrations will decrease till Q = K.
+c c
+The reaction quotient, Q is useful in
+c
+predicting the direction of reaction by
+comparing the values of Q and K.
+c c
+Thus, we can make the following
+generalisations concerning the direction of
+the reaction (Fig. 6.7) :
+Fig.6.6 Dependence of extent of reaction on K
+c
+6.6.2 Predicting the Direction of the
+reaction
+The equilibrium constant helps in predicting
+the direction in which a given reaction will
+proceed at any stage. For this purpose,
+we calculate the reaction quotient Q.
+The reaction quotient, Q (Q with molar
+c
+concentrations and Q with partial pressures) Fig. 6.7 Predicting the direction of the reaction
+P
+is defined in the same way as the equilibrium • If Q < K, net reaction goes from left to
+c c
+constant K except that the concentrations right
+c
+in Q are not necessarily equilibrium values. • If Q > K, net reaction goes from right to
+c c c
+For a general reaction: left.
+a A + b B c C + d D (6.19) • If Q = K, no net reaction occurs.
+c c
+Q = [C]c[D]d / [A]a[B]b (6.20)
+c Problem 6.7
+Then,
+The value of K for the reaction
+c
+If Q > K, the reaction will proceed in the 2A B + C is 2 × 10–3. At a given time,
+c c
+direction of reactants (reverse reaction). the composition of reaction mixture is
+[A] = [B] = [C] = 3 × 10–4 M. In which direction
+If Q < K, the reaction will proceed in the
+c c the reaction will proceed?
+direction of the products (forward reaction).
+2024-25
+Unit 6.indd 182 9/12/2022 11:58:25 AMEQUILIBRIUM 183
+Solution The total pressure at equilbrium was
+For the reaction the reaction quotient Q is found to be 9.15 bar. Calculate K, K and
+given by, c partial pressure at equilibrium. c p
+Q = [B][C]/ [A]2
+c Solution
+as [A] = [B] = [C] = 3 × 10–4M
+Q = (3 ×10–4)(3 × 10–4) / (3 ×10–4)2 = 1 We know pV = nRT
+c
+as Q > K so the reaction will proceed in the
+c c Total volume (V ) = 1 L
+reverse direction.
+Molecular mass of N O = 92 g
+2 4
+6.6.3 Calculating Equilibrium Number of moles = 13.8g/92 g = 0.15
+Concentrations of the gas (n)
+In case of a problem in which we know the Gas constant (R) = 0.083 bar L mol–1K–1
+initial concentrations but do not know any of
+Temperature (T ) = 400 K
+the equilibrium concentrations, the following
+pV = nRT
+three steps shall be followed:
+p × 1L = 0.15 mol × 0.083 bar L mol–1K–1
+Step 1. Write the balanced equation for the
+× 400 K
+reaction.
+Step 2. Under the balanced equation, make p = 4.98 bar
+a table that lists for each substance involved N O 2NO
+2 4 2
+in the reaction:
+Initial pressure: 4.98 bar 0
+(a) the initial concentration,
+At equilibrium: (4.98 – x) bar 2x bar
+(b) the change in concentration on going to Hence,
+equilibrium, and
+p at equilibrium = p + p
+(c) the equilibrium concentration.
+total N2O4 NO2
+9.15 = (4.98 – x) + 2x
+In constructing the table, define x as the
+9.15 = 4.98 + x
+concentration (mol/L) of one of the substances
+that reacts on going to equilibrium, then use x = 9.15 – 4.98 = 4.17 bar
+the stoichiometry of the reaction to determine
+Partial pressures at equilibrium are,
+the concentrations of the other substances in
+p = 4.98 – 4.17 = 0.81bar
+terms of x. N2O4
+p = 2x = 2 × 4.17 = 8.34 bar
+Step 3. Substitute the equilibrium NO2
+ 2
+concentrations into the equilibrium equation K = p /p
+p NO
+2
+N 2O
+4
+for the reaction and solve for x. If you are
+= (8.34)2/0.81 = 85.87
+to solve a quadratic equation choose the
+mathematical solution that makes chemical K = K (RT)∆n
+p c
+sense. 85.87 = K(0.083 × 400)1
+c
+Step 4. Calculate the equilibrium K = 2.586 = 2.6
+c
+concentrations from the calculated value of x.
+Problem 6.9
+Step 5. Check your results by substituting
+them into the equilibrium equation. 3.00 mol of PCl kept in 1L closed reaction
+5
+vessel was allowed to attain equilibrium
+at 380K. Calculate composition of the
+Problem 6.8 mixture at equilibrium. K= 1.80
+c
+13.8g of N O was placed in a 1L reaction Solution
+2 4
+vessel at 400K and allowed to attain
+PCl PCl + Cl
+equilibrium 5 3 2
+Initial
+N O (g) 2NO (g) concentration: 3.0 0 0
+2 4 2
+2024-25
+Unit 6.indd 183 9/12/2022 11:58:25 AM184 chemistry
+Taking antilog of both sides, we get,
+Let x mol per litre of PCl be dissociated,
+5 K = e–∆G/RT (6.23)
+At equilibrium:
+(3-x) x x Hence, using the equation (6.23), the
+reaction spontaneity can be interpreted in
+K = [PCl ][Cl ]/[PCl ]
+c 3 2 5 terms of the value of ∆G .
+1.8 = x2/ (3 – x)
+• If ∆G  < 0, then –∆G /RT is positive,
+x2 + 1.8x – 5.4 = 0
+and e –∆DG /RT>1, making K >1, which
+x = [–1.8 ± √(1.8)2 – 4(–5.4)]/2 implies a spontaneous reaction or the
+x = [–1.8 ± √3.24 + 21.6]/2 reaction which proceeds in the forward
+direction to such an extent that the
+x = [–1.8 ± 4.98]/2
+products are present predominantly.
+x = [–1.8 + 4.98]/2 = 1.59
+• If ∆G  > 0, then –∆G /RT is negative, and
+[PCl ] = 3.0 – x = 3 –1.59 = 1.41 M
+5 e –∆G </RT 1, that is , K < 1, which implies
+[PCl ] = [Cl ] = x = 1.59 M a non-spontaneous reaction or a reaction
+3 2
+which proceeds in the forward direction
+6.7 rElAtiOnSHiP bEtWEEn to such a small degree that only a very
+EqUilibriUm COnStAnt K, minute quantity of product is formed.
+rEACtiOn qUOtiEnt Q AnD
+GibbS EnErGY G Problem 6.10
+The value of K for a reaction does not depend The value of ∆G  for the phosphorylation of
+c
+on the rate of the reaction. However, as you glucose in glycolysis is 13.8 kJ/mol. Find
+have studied in Unit 5, it is directly related the value of K at 298 K.
+c
+to the thermodynamics of the reaction and
+Solution
+in particular, to the change in Gibbs energy,
+∆G. If, ∆G  = 13.8 kJ/mol = 13.8 × 103J/mol
+• ∆G is negative, then the reaction is
+Also, ∆G  = – RT lnK
+spontaneous and proceeds in the forward c
+Hence, ln K = –13.8 × 103J/mol
+direction. c
+(8.314 J mol–1K–1 × 298 K)
+• ∆G is positive, then reaction is considered
+ln K = – 5.569
+non-spontaneous. Instead, as reverse c
+reaction would have a negative ∆G, the K = e–5.569
+c
+products of the forward reaction shall be K = 3.81 × 10–3
+c
+converted to the reactants.
+Problem 6.11
+• ∆G is 0, reaction has achieved equilibrium;
+Hydrolysis of sucrose gives,
+at this point, there is no longer any free
+energy left to drive the reaction. Sucrose + H O Glucose + Fructose
+2
+A mathematical expression of this Equilibrium constant K for the reaction is
+c
+thermodynamic view of equilibrium can be 2 ×1013 at 300K. Calculate ∆G  at 300K.
+described by the following equation:
+Solution
+∆G = ∆G + RT lnQ (6.21)
+∆G  = – RT lnK
+where, G is standard Gibbs energy. ∆G  = – 8.314Jc mol–1K–1×
+At equilibrium, when ∆G = 0 and Q = K, 300K × ln(2×1013)
+c
+the equation (6.21) becomes, ∆G  = – 7.64 ×104 J mol–1
+∆G = ∆G + RT ln K = 0
+6.8 FACtOrS AFFECtinG EqUilibriA
+∆G = – RT lnK (6.22)
+One of the principal goals of chemical
+lnK = – ∆G / RT
+synthesis is to maximise the conversion of the
+2024-25
+Unit 6.indd 184 9/12/2022 11:58:25 AMEQUILIBRIUM 185
+reactants to products while minimising the “When the concentration of any of the
+expenditure of energy. This implies maximum reactants or products in a reaction at
+yield of products at mild temperature and equilibrium is changed, the composition
+pressure conditions. If it does not happen, of the equilibrium mixture changes so as
+then the experimental conditions need to be to minimize the effect of concentration
+adjusted. For example, in the Haber process changes”.
+for the synthesis of ammonia from N and
+2 Let us take the reaction,
+H , the choice of experimental conditions is
+2 H (g) + I (g) 2HI(g)
+of real economic importance. Annual world 2 2
+production of ammonia is about hundred If H is added to the reaction mixture
+2
+million tones, primarily for use as fertilisers. at equilibrium, then the equilibrium of the
+reaction is disturbed. In order to restore it,
+Equilibrium constant, K is independent
+c
+the reaction proceeds in a direction wherein
+of initial concentrations. But if a system at
+H is consumed, i.e., more of H and I react
+equilibrium is subjected to a change in the
+2 2 2
+to form HI and finally the equilibrium shifts
+concentration of one or more of the reacting
+in right (forward) direction (Fig.6.8). This is in
+substances, then the system is no longer at
+accordance with the Le Chatelier’s principle
+equilibrium; and net reaction takes place in
+which implies that in case of addition of a
+some direction until the system returns to
+reactant/product, a new equilibrium will
+equilibrium once again. Similarly, a change
+be set up in which the concentration of the
+in temperature or pressure of the system may
+reactant/product should be less than what it
+also alter the equilibrium. In order to decide
+was after the addition but more than what it
+what course the reaction adopts and make
+was in the original mixture.
+a qualitative prediction about the effect of a
+change in conditions on equilibrium we use
+Le Chatelier’s principle. It states that a
+change in any of the factors that determine
+the equilibrium conditions of a system
+will cause the system to change in such a
+manner so as to reduce or to counteract
+the effect of the change. This is applicable
+to all physical and chemical equilibria.
+We shall now be discussing factors which
+can influence the equilibrium.
+6.8.1 Effect of Concentration Change
+In general, when equilibrium is disturbed
+by the addition/removal of any reactant/
+products, Le Chatelier’s principle predicts
+that:
+• The concentration stress of an added
+reactant/product is relieved by net
+Fig. 6.8 Effect of addition of H on change
+reaction in the direction that consumes 2
+of concentration for the reactants
+the added substance.
+and products in the reaction,
+• The concentration stress of a removed H (g) + I2 (g) 2HI(g)
+2
+reactant/product is relieved by net
+reaction in the direction that replenishes The same point can be explained in terms
+the removed substance. of the reaction quotient, Q,
+c
+or in other words, Q = [HI]2/ [H ][I ]
+c 2 2
+2024-25
+Unit 6.indd 185 11/30/2022 15:48:33186 chemistry
+Addition of hydrogen at equilibrium concentration of [Fe(SCN)]2+ decreases, the
+results in value of Q being less than K . Thus, intensity of red colour decreases.
+c c
+in order to attain equilibrium again reaction
+Addition of aq. HgCl also decreases red
+moves in the forward direction. Similarly, 2
+colour because Hg2+ reacts with SCN– ions to
+we can say that removal of a product also
+form stable complex ion [Hg(SCN) ]2–. Removal
+boosts the forward reaction and increases 4
+of free SCN– (aq) shifts the equilibrium
+the concentration of the products and this
+in equation (6.24) from right to left to
+has great commercial application in cases replenish SCN– ions. Addition of potassium
+of reactions, where the product is a gas or a
+thiocyanate on the other hand increases the
+volatile substance. In case of manufacture of
+colour intensity of the solution as it shift the
+ammonia, ammonia is liquified and removed equilibrium to right.
+from the reaction mixture so that reaction
+keeps moving in forward direction. Similarly, 6.8.2 Effect of Pressure Change
+in the large scale production of CaO (used A pressure change obtained by changing the
+as important building material) from CaCO , volume can affect the yield of products in
+3
+constant removal of CO from the kiln drives case of a gaseous reaction where the total
+2
+the reaction to completion. It should be number of moles of gaseous reactants and
+remembered that continuous removal of a total number of moles of gaseous products are
+product maintains Q at a value less than K different. In applying Le Chatelier’s principle
+c c
+and reaction continues to move in the forward to a heterogeneous equilibrium the effect
+direction. of pressure changes on solids and liquids
+can be ignored because the volume (and
+Effect of Concentration – An experiment
+concentration) of a solution/liquid is nearly
+This can be demonstrated by the following independent of pressure.
+reaction:
+Consider the reaction,
+Fe3+(aq)+ SCN–(aq) [Fe(SCN)]2+(aq) (6.24)
+CO(g) + 3H (g) CH (g) + H O(g)
+yellow colourless deep red 2 4 2
+Here, 4 mol of gaseous reactants (CO + 3H )
+2
+become 2 mol of gaseous products (CH +
+4
+H O). Suppose equilibrium mixture (for above
+2
+(6.25) reaction) kept in a cylinder fitted with a piston
+at constant temperature is compressed to
+A reddish colour appears on adding two
+one half of its original volume. Then, total
+drops of 0.002 M potassium thiocynate solution
+pressure will be doubled (according to
+to 1 mL of 0.2 M iron(III) nitrate solution due
+pV = constant). The partial pressure and
+to the formation of [Fe(SCN)]2+. The intensity
+therefore, concentration of reactants and
+of the red colour becomes constant on
+products have changed and the mixture is no
+attaining equilibrium. This equilibrium can be
+longer at equilibrium. The direction in which
+shifted in either forward or reverse directions
+the reaction goes to re-establish equilibrium
+depending on our choice of adding a reactant
+can be predicted by applying the Le Chatelier’s
+or a product. The equilibrium can be shifted
+principle. Since pressure has doubled,
+in the opposite direction by adding reagents the equilibrium now shifts in the forward
+that remove Fe3+ or SCN– ions. For example, direction, a direction in which the number
+oxalic acid (H C O ), reacts with Fe3+ ions of moles of the gas or pressure decreases (we
+2 2 4
+to form the stable complex ion [Fe(C O ) ]3–, know pressure is proportional to moles of the
+2 4 3
+thus decreasing the concentration of free gas). This can also be understood by using
+Fe3+(aq). In accordance with the Le Chatelier’s reaction quotient, Q . Let [CO], [H ], [CH ]
+c 2 4
+principle, the concentration stress of removed and [H O] be the molar concentrations at
+2
+Fe3+ is relieved by dissociation of [Fe(SCN)]2+ equilibrium for methanation reaction. When
+to replenish the Fe3+ ions. Because the volume of the reaction mixture is halved, the
+2024-25
+Unit 6.indd 186 9/12/2022 11:58:25 AMEQUILIBRIUM 187
+partial pressure and the concentration are Production of ammonia according to the
+doubled. We obtain the reaction quotient by reaction,
+replacing each equilibrium concentration by
+N (g) + 3H (g) 2NH (g);
+double its value. 2 2 3
+∆H= – 92.38 kJ mol–1
+CH (g)H O(g)
+Q =  4  2  is an exothermic process. According to
+c CO(g)H (g)3 Le Chatelier’s principle, raising the
+  2 
+temperature shifts the equilibrium to left
+As Q < K , the reaction proceeds in the and decreases the equilibrium concentration
+c c
+forward direction. of ammonia. In other words, low temperature
+is favourable for high yield of ammonia, but
+In reaction C(s) + CO (g) 2CO(g), when
+2 practically very low temperatures slow down
+pressure is increased, the reaction goes in the
+the reaction and thus a catalyst is used.
+reverse direction because the number of moles
+of gas increases in the forward direction. Effect of Temperature – An experiment
+Effect of temperature on equilibrium can
+6.8.3 Effect of Inert Gas Addition
+be demonstrated by taking NO gas (brown
+If the volume is kept constant and an inert gas 2
+in colour) which dimerises into N O gas
+such as argon is added which does not take 2 4
+(colourless).
+part in the reaction, the equilibrium remains
+2NO (g) N O (g); ∆H = –57.2 kJ mol–1
+undisturbed. It is because the addition of 2 2 4
+an inert gas at constant volume does not NO gas prepared by addition of Cu
+2
+change the partial pressures or the molar turnings to conc. HNO is collected in two
+3
+5 mL test tubes (ensuring same intensity
+concentrations of the substance involved in
+of colour of gas in each tube) and stopper
+the reaction. The reaction quotient changes
+sealed with araldite. Three 250 mL beakers
+only if the added gas is a reactant or product
+1, 2 and 3 containing freesing mixture, water
+involved in the reaction.
+at room temperature and hot water (363K),
+6.8.4 Effect of Temperature Change respectively, are taken (Fig. 6.9). Both the test
+tubes are placed in beaker 2 for 8-10 minutes.
+Whenever an equilibrium is disturbed by
+After this one is placed in beaker 1 and the
+a change in the concentration, pressure or
+other in beaker 3. The effect of temperature
+volume, the composition of the equilibrium
+on direction of reaction is depicted very well
+mixture changes because the reaction
+in this experiment. At low temperatures in
+quotient, Q no longer equals the equilibrium
+c beaker 1, the forward reaction of formation of
+constant, K . However, when a change in
+c N O is preferred, as reaction is exothermic,
+temperature occurs, the value of equilibrium 2 4
+and thus, intensity of brown colour due
+constant, K is changed.
+c to NO decreases. While in beaker 3, high
+In general, the temperature dependence 2
+temperature favours the reverse reaction of
+of the equilibrium constant depends on the
+sign of ∆H for the reaction.
+• The equilibrium constant for an exothermic
+reaction (negative ∆H) decreases as the
+temperature increases.
+• The equilibrium constant for an
+endothermic reaction (positive ∆H)
+increases as the temperature increases.
+Temperature changes affect the Fig. 6.9 Effect of temperature on equilibrium for
+the reaction, 2NO (g) N O (g)
+equilibrium constant and rates of reactions. 2 2 4
+2024-25
+Unit 6.indd 187 11/2/2022 4:11:28 PM188 chemistry
+formation of NO and thus, the brown colour Similarly, in manufacture of sulphuric
+2
+intensifies. acid by contact process,
+Effect of temperature can also be seen in 2SO (g) + O (g) 2SO (g); K = 1.7 × 1026
+2 2 3 c
+an endothermic reaction, though the value of K is suggestive of reaction
+[Co(H O) ]3+(aq) + 4Cl–(aq) [CoCl ]2–(aq) + going to completion, but practically the
+2 6 4
+6H O(l) oxidation of SO to SO is very slow. Thus,
+2 2 3
+pink colourless blue platinum or divanadium penta-oxide (V O )
+2 5
+is used as catalyst to increase the rate of the
+At room temperature, the equilibrium
+reaction.
+mixture is blue due to [CoCl ]2–. When cooled
+4 Note: If a reaction has an exceedingly small
+in a freesing mixture, the colour of the mixture
+turns pink due to [Co(H O) ]3+. K, a catalyst would be of little help.
+2 6
+6.9 IONIC EQUILIBRIUM IN SOLUTION
+6.8.5 Effect of a Catalyst
+Under the effect of change of concentration
+A catalyst increases the rate of the chemical
+on the direction of equilibrium, you have
+reaction by making available a new low energy
+pathway for the conversion of reactants to incidently come across with the following
+products. It increases the rate of forward equilibrium which involves ions:
+and reverse reactions that pass through the Fe3+(aq) + SCN–(aq) [Fe(SCN)]2+(aq)
+same transition state and does not affect
+There are numerous equilibria that involve
+equilibrium. Catalyst lowers the activation
+ions only. In the following sections we will
+energy for the forward and reverse reactions
+study the equilibria involving ions. It is well
+by exactly the same amount. Catalyst does
+known that the aqueous solution of sugar
+not affect the equilibrium composition of
+does not conduct electricity. However, when
+a reaction mixture. It does not appear in
+common salt (sodium chloride) is added
+the balanced chemical equation or in the
+to water it conducts electricity. Also, the
+equilibrium constant expression.
+conductance of electricity increases with an
+Let us consider the formation of NH
+increase in concentration of common salt.
+3
+from dinitrogen and dihydrogen which is
+Michael Faraday classified the substances
+highly exothermic reaction and proceeds
+into two categories based on their ability
+with decrease in total number of moles
+to conduct electricity. One category of
+formed as compared to the reactants.
+substances conduct electricity in their
+Equilibrium constant decreases with increase
+aqueous solutions and are called electrolytes
+in temperature. At low temperature rate
+while the other do not and are thus, referred to
+decreases and it takes long time to reach at
+as non-electrolytes. Faraday further classified
+equilibrium, whereas high temperatures give
+electrolytes into strong and weak electrolytes.
+satisfactory rates but poor yields.
+Strong electrolytes on dissolution in water
+German chemist, Fritz Haber discovered are ionized almost completely, while the weak
+that a catalyst consisting of iron catalyse electrolytes are only partially dissociated.
+the reaction to occur at a satisfactory rate For example, an aqueous solution of
+at temperatures, where the equilibrium sodium chloride is comprised entirely of
+concentration of NH is reasonably favourable. sodium ions and chloride ions, while that
+3
+Since the number of moles formed in the of acetic acid mainly contains unionized
+reaction is less than those of reactants, the acetic acid molecules and only some acetate
+yield of NH can be improved by increasing
+ions and hydronium ions. This is because
+3
+the pressure.
+there is almost 100% ionization in case
+Optimum conditions of temperature of sodium chloride as compared to less
+and pressure for the synthesis of NH using than 5% ionization of acetic acid which is
+3
+catalyst are around 500°C and 200 atm. a weak electrolyte. It should be noted
+2024-25
+Unit 6.indd 188 11/2/2022 4:11:28 PMEQUILIBRIUM 189
+that in weak electrolytes, equilibrium is exists in solid state as a cluster of positively
+established between ions and the unionized charged sodium ions and negatively charged
+molecules. This type of equilibrium involving chloride ions which are held together due to
+ions in aqueous solution is called ionic electrostatic interactions between oppositely
+equilibrium. Acids, bases and salts come charged species (Fig.6.10). The electrostatic
+under the category of electrolytes and may act forces between two charges are inversely
+as either strong or weak electrolytes. proportional to dielectric constant of the
+medium. Water, a universal solvent, possesses
+6.10 ACiDS, bASES AnD SAltS a very high dielectric constant of 80. Thus,
+Acids, bases and salts find widespread when sodium chloride is dissolved in water,
+occurrence in nature. Hydrochloric acid the electrostatic interactions are reduced by
+present in the gastric juice is secreted by the a factor of 80 and this facilitates the ions to
+lining of our stomach in a significant amount move freely in the solution. Also, they are
+of 1.2-1.5 L/day and is essential for digestive well-separated due to hydration with water
+processes. Acetic acid is known to be the main molecules.
+constituent of vinegar. Lemon and orange
+juices contain citric and ascorbic acids, and
+tartaric acid is found in tamarind paste. As
+most of the acids taste sour, the word “acid”
+has been derived from a latin word “acidus”
+meaning sour. Acids are known to turn blue
+litmus paper into red and liberate dihydrogen
+on reacting with some metals. Similarly, bases
+are known to turn red litmus paper blue, taste
+bitter and feel soapy. A common example
+of a base is washing soda used for washing
+purposes. When acids and bases are mixed
+in the right proportion they react with each
+Fig.6.10 Dissolution of sodium chloride in water.
+other to give salts. Some commonly known
+Na+ and Cl– ions are stablised by their
+examples of salts are sodium chloride, barium
+hydration with polar water molecules.
+sulphate, sodium nitrate. Sodium chloride
+(common salt) is an important component of Comparing, the ionization of hydrochloric
+our diet and is formed by reaction between acid with that of acetic acid in water we find
+hydrochloric acid and sodium hydroxide. It that though both of them are polar covalent
+Faraday was born near London into a family of very limited means. At the age of
+14 he was an apprentice to a kind bookbinder who allowed Faraday to read the
+books he was binding. Through a fortunate chance he became laboratory assistant
+to Davy, and during 1813-4, Faraday accompanied him to the Continent. During
+this trip he gained much from the experience of coming into contact with many of the
+leading scientists of the time. In 1825, he succeeded Davy as Director of the Royal
+Institution laboratories, and in 1833 he also became the first Fullerian Professor of
+Chemistry. Faraday’s first important work was on analytical chemistry. After 1821
+Michael Faraday
+much of his work was on electricity and magnetism and different electromagnetic
+(1791–1867)
+phenomena. His ideas have led to the establishment of modern field theory.
+He discovered his two laws of electrolysis in 1834. Faraday was a very modest and kind hearted
+person. He declined all honours and avoided scientific controversies. He preferred to work alone and
+never had any assistant. He disseminated science in a variety of ways including his Friday evening
+discourses, which he founded at the Royal Institution. He has been very famous for his Christmas
+lecture on the ‘Chemical History of a Candle’. He published nearly 450 scientific papers.
+2024-25
+Unit 6.indd 189 9/12/2022 11:58:26 AM190 chemistry
+molecules, former is completely ionized into
+its constituent ions, while the latter is only Hydronium and Hydroxyl ions
+partially ionized (< 5%). The extent to which
+Hydrogen ion by itself is a bare proton with very
+ionization occurs depends upon the strength small size (~10–15 m radius) and intense electric
+of the bond and the extent of solvation field, binds itself with the water molecule at
+of ions produced. The terms dissociation one of the two available lone pairs on it giving
+and ionization have earlier been used with H O+. This species has been detected in many
+3
+different meaning. Dissociation refers to the compounds (e.g., H O+Cl–) in the solid state. In
+3
+process of separation of ions in water already aqueous solution the hydronium ion is further
+existing as such in the solid state of the solute, hydrated to give species like H O+, H O + and
+5 2 7 3
+H O+. Similarly the hydroxyl ion is hydrated
+as in sodium chloride. On the other hand, 9 4
+to give several ionic species like H O–, H O –
+ionization corresponds to a process in which 3 2 5 3
+and H O – etc.
+a neutral molecule splits into charged ions in 7 4
+the solution. Here, we shall not distinguish
+between the two and use the two terms
+interchangeably.
+6.10.1 Arrhenius Concept of Acids and
+bases
+H O+
+According to Arrhenius theory, acids are 9 4
+substances that dissociates in water to
+give hydrogen ions H+(aq) and bases are 6.10.2 the brönsted-lowry Acids and
+substances that produce hydroxyl ions bases
+OH–(aq). The ionization of an acid HX (aq) can
+The Danish chemist, Johannes Brönsted and
+be represented by the following equations:
+the English chemist, Thomas M. Lowry gave
+HX (aq) → H+(aq) + X– (aq) a more general definition of acids and bases.
+or According to Brönsted-Lowry theory, acid
+HX(aq) + H O(l) → H O+(aq) + X –(aq) is a substance that is capable of donating a
+2 3
+hydrogen ion H+ and bases are substances
+A bare proton, H+ is very reactive and
+capable of accepting a hydrogen ion, H+. In
+cannot exist freely in aqueous solutions.
+short, acids are proton donors and bases are
+Thus, it bonds to the oxygen atom of a solvent
+proton acceptors.
+water molecule to give trigonal pyramidal
+Consider the example of dissolution of NH
+hydronium ion, H O+ {[H (H O)]+} (see box). In 3
+3 2 in H O represented by the following equation:
+this chapter we shall use H+(aq) and H O+(aq) 2
+3
+interchangeably to mean the same i.e., a
+hydrated proton.
+Similarly, a base molecule like MOH
+ionizes in aqueous solution according to the
+equation:
+MOH(aq) → M+(aq) + OH–(aq)
+The hydroxyl ion also exists in the hydrated
+form in the aqueous solution. Arrhenius
+concept of acid and base, however, suffers The basic solution is formed due to the
+from the limitation of being applicable only to presence of hydroxyl ions. In this reaction,
+aqueous solutions and also, does not account water molecule acts as proton donor and
+for the basicity of substances like, ammonia ammonia molecule acts as proton acceptor
+which do not possess a hydroxyl group. and are thus, called Lowry-Brönsted acid and
+2024-25
+Unit 6.indd 190 9/12/2022 11:58:26 AMEQUILIBRIUM 191
+Arrhenius was born near Uppsala, Sweden. He presented his thesis, on the
+conductivities of electrolyte solutions, to the University of Uppsala in 1884. For the
+next five years he travelled extensively and visited a number of research centers
+in Europe. In 1895 he was appointed professor of physics at the newly formed
+University of Stockholm, serving its rector from 1897 to 1902. From 1905 until his
+death he was Director of physical chemistry at the Nobel Institute in Stockholm. He
+continued to work for many years on electrolytic solutions. In 1899 he discussed
+the temperature dependence of reaction rates on the basis of an equation, now
+usually known as Arrhenius equation.
+He worked in a variety of fields, and made important contributions to
+Svante Arrhenius
+immunochemistry, cosmology, the origin of life, and the causes of ice age. He was
+(1859-1927)
+the first to discuss the ‘green house effect’ calling by that name. He received Nobel
+Prize in Chemistry in 1903 for his theory of electrolytic dissociation and its use in
+the development of chemistry.
+base, respectively. In the reverse reaction, in case of ammonia it acts as an acid by
+H+ is transferred from NH+ to OH–. In this donating a proton.
+4
+case, NH+ acts as a Bronsted acid while
+4 Problem 6.12
+OH– acted as a Brönsted base. The acid-base
+What will be the conjugate bases for the
+pair that differs only by one proton is called
+following Brönsted acids: HF, H SO and
+a conjugate acid-base pair. Therefore, OH– 2 4
+HCO– ?
+is called the conjugate base of an acid H O 3
+2
+and NH+ is called conjugate acid of the base Solution
+4
+NH . If Brönsted acid is a strong acid then
+The conjugate bases should have one
+3
+its conjugate base is a weak base and vice- proton less in each case and therefore the
+versa. It may be noted that conjugate acid corresponding conjugate bases are: F–,
+has one extra proton and each conjugate base HSO– and CO2– respectively.
+4 3
+has one less proton.
+Problem 6.13
+Consider the example of ionization of
+Write the conjugate acids for the following
+hydrochloric acid in water. HCl(aq) acts as
+Brönsted bases: NH–, NH and HCOO–.
+an acid by donating a proton to H O molecule 2 3
+2
+which acts as a base. Solution
+The conjugate acid should have one extra
+proton in each case and therefore the
+corresponding conjugate acids are: NH ,
+3
+NH+ and HCOOH respectively.
+4
+Problem 6.14
+The species: H O, HCO–, HSO– and NH can
+2 3 4 3
+act both as Bronsted acids and bases. For
+each case give the corresponding conjugate
+It can be seen in the above equation, that acid and conjugate base.
+water acts as a base because it accepts the
+Solution
+proton. The species H O+ is produced when
+3 The answer is given in the following Table:
+water accepts a proton from HCl. Therefore,
+Cl– is a conjugate base of HCl and HCl is the Species Conjugate Conjugate
+conjugate acid of base Cl–. Similarly, H O is acid base
+2
+a conjugate base of an acid H O+ and H O+ is
+3 3 H O H O+ OH–
+a conjugate acid of base H O. 2 3
+2 HCO– H CO CO 2–
+It is interesting to observe the dual role 3 2 3 3
+HSO– H SO SO2–
+of water as an acid and a base. In case of 4 2 4 4
+NH NH + NH–
+reaction with HCl water acts as a base while 3 4 2
+2024-25
+Unit 6.indd 191 9/12/2022 11:58:26 AM192 chemistry
+6.10.3 lewis Acids and bases (HClO ), hydrochloric acid (HCl), hydrobromic
+4
+G.N. Lewis in 1923 defined an acid as a acid (HBr), hyrdoiodic acid (HI), nitric acid
+species which accepts electron pair and base (HNO ) and sulphuric acid (H SO ) are termed
+3 2 4
+which donates an electron pair. As far as bases strong because they are almost completely
+are concerned, there is not much difference dissociated into their constituent ions in an
+between Brönsted-Lowry and Lewis concepts, aqueous medium, thereby acting as proton
+as the base provides a lone pair in both the (H+) donors. Similarly, strong bases like
+cases. However, in Lewis concept many lithium hydroxide (LiOH), sodium hydroxide
+acids do not have proton. A typical example (NaOH), potassium hydroxide (KOH), caesium
+is reaction of electron deficient species BF hydroxide (CsOH) and barium hydroxide
+3
+with NH . Ba(OH) are almost completely dissociated
+3 2
+into ions in an aqueous medium giving
+BF does not have a proton but still acts
+3 hydroxyl ions, OH–. According to Arrhenius
+as an acid and reacts with NH by accepting
+3 concept they are strong acids and bases as
+its lone pair of electrons. The reaction can be
+they are able to completely dissociate and
+represented by,
+produce H O+ and OH– ions respectively in
+BF + :NH → BF :NH 3
+3 3 3 3 the medium. Alternatively, the strength of an
+Electron deficient species like AlCl , Co3+, acid or base may also be gauged in terms of
+3
+Mg2+, etc. can act as Lewis acids while species Brönsted-Lowry concept of acids and bases,
+like H O, NH , OH– etc. which can donate a wherein a strong acid means a good proton
+2 3
+pair of electrons, can act as Lewis bases. donor and a strong base implies a good proton
+acceptor. Consider, the acid-base dissociation
+Problem 6.15 equilibrium of a weak acid HA,
+Classify the following species into Lewis HA(aq) + H O(l)   H O+(aq) + A–(aq)
+2 3
+acids and Lewis bases and show how these conjugate conjugate
+act as such:
+acid base acid base
+(a) HO– (b) F– (c) H+ (d) BCl
+In section 6.10.2 we saw that acid (or
+3
+base) dissociation equilibrium is dynamic
+Solution
+involving a transfer of proton in forward and
+(a) Hydroxyl ion is a Lewis base as it can reverse directions. Now, the question arises
+donate an electron lone pair (:OH– ). that if the equilibrium is dynamic then with
+(b) Flouride ion acts as a Lewis base passage of time which direction is favoured?
+as it can donate any one of its four What is the driving force behind it? In order
+electron lone pairs. to answer these questions we shall deal
+(c) A proton is a Lewis acid as it can into the issue of comparing the strengths
+accept a lone pair of electrons from of the two acids (or bases) involved in the
+bases like hydroxyl ion and fluoride dissociation equilibrium. Consider the two
+ion. acids HA and H O+ present in the above
+3
+mentioned acid-dissociation equilibrium.
+(d) BCl acts as a Lewis acid as it can
+3 We have to see which amongst them is a
+accept a lone pair of electrons from
+stronger proton donor. Whichever exceeds
+species like ammonia or amine
+in its tendency of donating a proton over the
+molecules.
+other shall be termed as the stronger acid
+and the equilibrium will shift in the direction
+6.11 iOniZAtiOn OF ACiDS AnD bASES
+of weaker acid. Say, if HA is a stronger acid
+Arrhenius concept of acids and bases
+than H O+, then HA will donate protons and
+becomes useful in case of ionization of acids 3
+not H O+, and the solution will mainly contain
+and bases as mostly ionizations in chemical 3
+A– and H O+ ions. The equilibrium moves in
+and biological systems occur in aqueous 3
+the direction of formation of weaker acid
+medium. Strong acids like perchloric acid
+2024-25
+Unit 6.indd 192 9/12/2022 11:58:26 AMEQUILIBRIUM 193
+and weaker base because the stronger acid H O(l) + H O(l) H O+(aq) + OH–(aq)
+2 2 3
+donates a proton to the stronger base. acid base conjugate conjugate
+It follows that as a strong acid dissociates acid base
+completely in water, the resulting base formed The dissociation constant is represented by,
+would be very weak i.e., strong acids have
+K = [H O+] [OH–] / [H O] (6.26)
+very weak conjugate bases. Strong acids 3 2
+like perchloric acid (HClO ), hydrochloric acid The concentration of water is omitted from
+4
+(HCl), hydrobromic acid (HBr), hydroiodic acid the denominator as water is a pure liquid and
+(HI), nitric acid (HNO ) and sulphuric acid its concentration remains constant. [H O] is
+3 2
+(H SO ) will give conjugate base ions ClO–, Cl, incorporated within the equilibrium constant
+2 4 4
+Br–, I–, NO– and HSO– , which are much weaker to give a new constant, K , which is called the
+3 4 w
+bases than H O. Similarly a very strong base ionic product of water.
+2
+would give a very weak conjugate acid. On the K = [H+][OH–] (6.27)
+w
+other hand, a weak acid say HA is only partially
+The concentration of H+ has been found
+dissociated in aqueous medium and thus, the
+out experimentally as 1.0 × 10–7 M at 298 K.
+solution mainly contains undissociated HA
+And, as dissociation of water produces equal
+molecules. Typical weak acids are nitrous
+number of H+ and OH– ions, the concentration
+acid (HNO ), hydrofluoric acid (HF) and acetic
+2 of hydroxyl ions, [OH–] = [H+] = 1.0 × 10–7 M.
+acid (CH COOH). It should be noted that the
+3 Thus, the value of K at 298K,
+weak acids have very strong conjugate bases. w
+For example, NH –, O2– and H– are very good K = [H O+][OH–] = (1 × 10–7)2 = 1 × 10–14 M2
+2 w 3
+proton acceptors and thus, much stronger (6.28)
+bases than H O.
+2 The value of K is temperature dependent
+w
+Certain water soluble organic compounds as it is an equilibrium constant.
+like phenolphthalein and bromothymol blue
+The density of pure water is 1000 g / L
+behave as weak acids and exhibit different
+and its molar mass is 18.0 g /mol. From this
+colours in their acid (HIn) and conjugate base
+the molarity of pure water can be given as,
+(In– ) forms.
+[H O] = (1000 g /L)(1 mol/18.0 g) = 55.55 M.
+HIn(aq) + H O(l) H O+(aq) + In–(aq) 2
+2 3 Therefore, the ratio of dissociated water to
+acid conjugate conjugate
+that of undissociated water can be given as:
+indicator acid base
+10–7 / (55.55) = 1.8 × 10–9 or ~ 2 in 10–9 (thus,
+colour A colour B
+equilibrium lies mainly towards undissociated
+Such compounds are useful as indicators
+water)
+in acid-base titrations, and finding out H+ ion
+We can distinguish acidic, neutral and
+concentration.
+basic aqueous solutions by the relative values
+6.11.1 the ionization Constant of Water of the H O+ and OH– concentrations:
+3
+and its ionic Product
+Acidic: [H O+] > [OH– ]
+Some substances like water are unique in 3
+Neutral: [H O+] = [OH– ]
+their ability of acting both as an acid and a 3
+base. We have seen this in case of water in Basic : [H O+] < [OH–]
+3
+section 6.10.2. In presence of an acid, HA it
+accepts a proton and acts as the base while 6.11.2 the pH Scale
+in the presence of a base, B– it acts as an Hydronium ion concentration in molarity is
+acid by donating a proton. In pure water, one more conveniently expressed on a logarithmic
+H O molecule donates proton and acts as an scale known as the pH scale. The pH of a
+2
+acid and another water molecules accepts a solution is defined as the negative logarithm
+proton and acts as a base at the same time.  
+to base 10 of the activity a of hydrogen
+The following equilibrium exists: H
+2024-25
+Unit 6.indd 193 9/12/2022 11:58:26 AM194 chemistry
+ion. In dilute solutions (< 0.01 M), activity when the hydrogen ion concentration, [H+]
+of hydrogen ion (H+) is equal in magnitude changes by a factor of 100, the value of pH
+to molarity represented by [H+]. It should changes by 2 units. Now you can realise why
+be noted that activity has no units and is the change in pH with temperature is often
+defined as: ignored.
+= [H+] / mol L–1 Measurement of pH of a solution is very
+essential as its value should be known
+From the definition of pH, the following
+when dealing with biological and cosmetic
+can be written,
+applications. The pH of a solution can be
+pH = – log a = – log {[H+] / mol L–1} found roughly with the help of pH paper that
+H+
+Thus, an acidic solution of HCl (10–2 M) has different colour in solutions of different
+will have a pH = 2. Similarly, a basic solution pH. Now-a-days pH paper is available with
+of NaOH having [OH–] =10–4 M and [H O+] = four strips on it. The different strips have
+3
+10–10 M will have a pH = 10. At 25 °C, pure different colours (Fig. 6.11) at the same pH.
+water has a concentration of hydrogen ions, The pH in the range of 1-14 can be determined
+[H+] = 10–7 M. Hence, the pH of pure water is with an accuracy of ~0.5 using pH paper.
+given as:
+pH = –log(10–7) = 7
+Acidic solutions possess a concentration
+of hydrogen ions, [H+] > 10–7 M, while basic
+solutions possess a concentration of hydrogen
+ions, [H+] < 10–7 M. thus, we can summarise
+that
+Fig.6.11 pH-paper with four strips that may have
+Acidic solution has pH < 7
+different colours at the same pH
+Basic solution has pH > 7
+For greater accuracy pH meters are used.
+Neutral solution has pH = 7
+pH meter is a device that measures the
+Now again, consider the equation (6.28)
+pH-dependent electrical potential of the test
+at 298 K
+solution within 0.001 precision. pH meters
+K = [H O+] [OH–] = 10–14
+w 3 of the size of a writing pen are now available
+Taking negative logarithm on both sides in the market. The pH of some very common
+of equation, we obtain substances are given in Table 6.5 (page 195).
+–log K = – log {[H O+] [OH–]}
+w 3 Problem 6.16
+= – log [H O+] – log [OH–]
+3 The concentration of hydrogen ion in a
+= – log 10–14
+sample of soft drink is 3.8 × 10–3M. what
+pK = pH + pOH = 14 (6.29)
+w is its pH ?
+Note that although K may change
+w
+with temperature the variations in pH with Solution
+temperature are so small that we often pH = – log[3.8 × 10–3]
+ignore it.
+= – {log[3.8] + log[10–3]}
+pK is a very important quantity for = – {(0.58) + (– 3.0)} = – { – 2.42} = 2.42
+w
+aqueous solutions and controls the relative Therefore, the pH of the soft drink is 2.42
+concentrations of hydrogen and hydroxyl and it can be inferred that it is acidic.
+ions as their product is a constant. It should
+Problem 6.17
+be noted that as the pH scale is logarithmic,
+Calculate pH of a 1.0 × 10–8 M solution of
+a change in pH by just one unit also means
+HCl.
+change in [H+] by a factor of 10. Similarly,
+2024-25
+Unit 6.indd 194 9/12/2022 11:58:28 AMEQUILIBRIUM 195
+Table 6.5 The pH of Some Common Substances
+Name of the Fluid pH Name of the Fluid pH
+Saturated solution of NaOH ~15 Black Coffee 5.0
+0.1 M NaOH solution 13 Tomato juice ~4.2
+Lime water 10.5 Soft drinks and vinegar ~3.0
+Milk of magnesia 10 Lemon juice ~2.2
+Egg white, sea water 7.8 Gastric juice ~1.2
+Human blood 7.4 1M HCl solution ~0
+Milk 6.8 Concentrated HCl ~–1.0
+Human Saliva 6.4
+equilibrium constant for the above discussed
+Solution
+acid-dissociation equilibrium:
+2H O (l) H O+ (aq) + OH–(aq)
+2 3 K = c2α2 / c(1-α) = cα2 / 1-α
+a
+K = [OH–][H O+]
+w 3 K is called the dissociation or ionization
+= 10–14 a
+constant of acid HX. It can be represented
+Let, x = [OH–] = [H O+] from H O. The alternatively in terms of molar concentration
+3 2
+H O+ concentration is generated (i) from as follows,
+3
+the ionization of HCl dissolved i.e.,
+K = [H+][X–] / [HX] (6.30)
+HCl(aq) + H O(l) H O+ (aq) + Cl –(aq), a
+2 3 At a given temperature T, K is a
+and (ii) from ionization of H O. In these very a
+2 measure of the strength of the acid HX i.e.,
+dilute solutions, both sources of H O+ must
+3 larger the value of K , the stronger is the
+be considered: a
+acid. K is a dimensionless quantity with
+[H O+] = 10–8 + x the unda erstanding that the standard state
+3
+K = (10–8 + x)(x) = 10–14 concentration of all species is 1M.
+w
+or x2 + 10–8 x – 10–14 = 0 The values of the ionization constants
+[OH– ] = x = 9.5 × 10–8 of some selected weak acids are given in
+Table 6.6.
+So, pOH = 7.02 and pH = 6.98
+Table 6.6 The Ionization Constants of Some
+6.11.3 Ionization Constants of Weak Acids
+Selected Weak Acids (at 298K)
+Consider a weak acid HX that is partially
+Acid Ionization Constant,
+ionized in the aqueous solution. The
+K
+equilibrium can be expressed by: a
+Hydrofluoric Acid (HF) 3.5 × 10–4
+HX(aq) + H O(l) H O+(aq) + X–(aq)
+2 3 Nitrous Acid (HNO ) 4.5 × 10–4
+Initial 2
+Formic Acid (HCOOH) 1.8 × 10–4
+concentration (M)
+Niacin (C H NCOOH) 1.5 × 10–5
+c 0 0 5 4
+Let α be the extent of ionization Acetic Acid (CH COOH) 1.74 × 10–5
+3
+Change (M) Benzoic Acid (C H COOH) 6.5 × 10–5
+6 5
+-cα +cα +cα Hypochlorous Acid (HCIO) 3.0 × 10–8
+Equilibrium concentration (M) Hydrocyanic Acid (HCN) 4.9 × 10–10
+c-cα cα cα Phenol (C H OH) 1.3 × 10–10
+6 5
+Here, c = initial concentration of the
+undissociated acid, HX at time, t = 0. α = The pH scale for the hydrogen ion
+extent up to which HX is ionized into ions. concentration has been so useful that besides
+Using these notations, we can derive the pK , it has been extended to other species and
+w
+2024-25
+Unit 6.indd 195 11/2/2022 4:11:08 PM196 chemistry
+quantities. Thus, we have:
+Solution
+pK = –log (K ) (6.31)
+a a The following proton transfer reactions are
+Knowing the ionization constant, K possible:
+a
+of an acid and its initial concentration, c,
+1) HF + H O H O+ + F–
+it is possible to calculate the equilibrium 2 3
+K = 3.2 × 10–4
+concentration of all species and also the a
+2) H O + H O H O+ + OH–
+degree of ionization of the acid and the pH of 2 2 3
+the solution. K = 1.0 × 10–14
+w
+As K >> K , [1] is the principle reaction.
+A general step-wise approach can be a w
+adopted to evaluate the pH of the weak HF + H O H O+ + F–
+2 3
+electrolyte as follows: Initial
+Step 1. The species present before concentration (M)
+dissociation are identified as Brönsted-Lowry 0.02 0 0
+acids/bases.
+Change (M)
+Step 2. Balanced equations for all possible
+–0.02α +0.02α +0.02α
+reactions i.e., with a species acting both as
+Equilibrium
+acid as well as base are written.
+concentration (M)
+Step 3. The reaction with the higher K is
+a
+identified as the primary reaction whilst the 0.02 – 0.02 α 0.02 α 0.02α
+other is a subsidiary reaction. Substituting equilibrium concentrations
+Step 4. Enlist in a tabular form the following in the equilibrium reaction for principal
+reaction gives:
+values for each of the species in the primary
+reaction K = (0.02α)2 / (0.02 – 0.02α)
+a
+(a) Initial concentration, c. = 0.02 α2 / (1 –α) = 3.2 × 10–4
+(b) Change in concentration on proceeding We obtain the following quadratic equation:
+to equilibrium in terms of α, degree of α2 + 1.6 × 10–2α – 1.6 × 10–2 = 0
+ionization.
+The quadratic equation in α can be solved
+(c) Equilibrium concentration. and the two values of the roots are:
+α = + 0.12 and – 0.12
+Step 5. Substitute equilibrium concentrations
+into equilibrium constant equation for The negative root is not acceptable and
+hence,
+principal reaction and solve for α.
+Step 6. Calculate the concentration of species α = 0.12
+in principal reaction. This means that the degree of ionization,
+Step 7. Calculate pH = – log[H O+] α = 0.12, then equilibrium concentrations
+3 of other species viz., HF, F – and H O+ are
+The above mentioned methodology has 3
+given by:
+been elucidated in the following examples.
+[H O+] = [F –] = cα = 0.02 × 0.12
+3
+= 2.4 × 10–3 M
+Problem 6.18 [HF] = c(1 – α) = 0.02 (1 – 0.12)
+The ionization constant of HF is
+= 17.6 × 10-3 M
+3.2 × 10–4. Calculate the degree of
+dissociation of HF in its 0.02 M solution. pH = – log[H+] = –log(2.4 × 10–3) = 2.62
+Calculate the concentration of all species
+Problem 6.19
+present (H O+, F– and HF) in the solution
+3 The pH of 0.1M monobasic acid is 4.50.
+and its pH.
+Calculate the concentration of species H+, A–
+2024-25
+Unit 6.indd 196 11/2/2022 4:11:08 PMEQUILIBRIUM 197
+and HA at equilibrium. Also, determine the Percent dissociation
+value of K and pK of the monobasic acid.
+= {[HOCl] / [HOCl] }× 100
+a a
+dissociated initial
+Solution = 1.41 × 10–3 × 102/ 0.08 = 1.76 %.
+pH = –log(1.41 × 10–3) = 2.85.
+pH = – log [H+]
+Therefore, [H+] = 10 –pH = 10–4.50 6.11.4 ionization of Weak bases
+= 3.16 × 10–5 The ionization of base MOH can be represented
+by equation:
+[H+] = [A–] = 3.16 × 10–5
+MOH(aq) M+(aq) + OH–(aq)
+Thus, K = [H+][A-] / [HA]
+a In a weak base there is partial ionization
+[HA] = 0.1 – (3.16 × 10-5)  0.1 of MOH into M+ and OH–, the case is similar
+eqlbm
+to that of acid-dissociation equilibrium. The
+K = (3.16 × 10–5)2 / 0.1 = 1.0 × 10–8
+a equilibrium constant for base ionization
+pK = – log(10–8) = 8 is called base ionization constant and is
+a
+represented by K . It can be expressed in
+Alternatively, “Percent dissociation” is b
+terms of concentration in molarity of various
+another useful method for measure of
+strength of a weak acid and is given as: species in equilibrium by the following
+equation:
+Percent dissociation
+K = [M+][OH–] / [MOH] (6.33)
+= [HA] /[HA] × 100% (6.32) b
+dissociated initial
+Alternatively, if c = initial concentration
+Problem 6.20 of base and α = degree of ionization of base
+i.e. the extent to which the base ionizes.
+Calculate the pH of 0.08M solution of
+hypochlorous acid, HOCl. The ionization When equilibrium is reached, the equilibrium
+constant of the acid is 2.5 × 10–5. Determine constant can be written as:
+the percent dissociation of HOCl. K = (cα)2 / c (1-α) = cα2 / (1-α)
+b
+Solution The values of the ionization constants of
+some selected weak bases, K are given in
+HOCl(aq) + H O (l) H O+(aq) + ClO–(aq) b
+2 3 Table 6.7.
+Initial concentration (M)
+table 6.7 the Values of the ionization
+0.08 0 0
+Constant of Some Weak bases at
+Change to reach
+298 K
+equilibrium concentration
+base K
+b
+(M)
+Dimethylamine, (CH ) NH 5.4 × 10–4
+– x + x +x 32
+Triethylamine, (C H ) N 6.45 × 10–5
+equilibrium concentartion (M) 2 53
+Ammonia, NH or NH OH 1.77 × 10–5
+0.08 – x x x 3 4
+Quinine, (A plant product) 1.10 × 10–6
+K = {[H O+][ClO–] / [HOCl]}
+a 3 Pyridine, C H N 1.77 × 10–9
+5 5
+= x2 / (0.08 –x) Aniline, C H NH 4.27 × 10–10
+6 5 2
+As x << 0.08, therefore 0.08 – x  0.08 Urea, CO (NH ) 1.3 × 10–14
+22
+x2 / 0.08 = 2.5 × 10–5
+Many organic compounds like amines
+x2 = 2.0 × 10–6, thus, x = 1.41 × 10–3 are weak bases. Amines are derivatives of
+[H+] = 1.41 × 10–3 M. ammonia in which one or more hydrogen
+Therefore, atoms are replaced by another group. For
+example, methylamine, codeine, quinine and
+2024-25
+Unit 6.indd 197 9/12/2022 11:58:28 AM198 chemistry
+nicotine all behave as very weak bases due to
+K = 10–4.75 = 1.77 × 10–5 M
+their very small K . Ammonia produces OH– in b
+b
+aqueous solution: NH + H O NH+ + OH–
+3 2 4
+Initial concentration (M)
+NH (aq) + H O(l) NH+(aq) + OH–(aq)
+3 2 4
+0.10 0.20 0
+The pH scale for the hydrogen ion
+Change to reach
+concentration has been extended to get:
+pK = –log (K ) (6.34) equilibrium (M)
+b b
+–x +x +x
+At equilibrium (M)
+Problem 6.21
+0.10 – x 0.20 + x x
+The pH of 0.004M hydrazine solution is 9.7.
+K = [NH +][OH–] / [NH ]
+Calculate its ionization constant K and pK . b 4 3
+b b = (0.20 + x)(x) / (0.1 – x) = 1.77 × 10–5
+Solution
+As K is small, we can neglect x in comparison
+b
+NH NH + H O NH NH + + OH– to 0.1M and 0.2M. Thus,
+2 2 2 2 3
+From the pH we can calculate the hydrogen [OH–] = x = 0.88 × 10–5
+ion concentration. Knowing hydrogen ion Therefore, [H+] = 1.12 × 10–9
+concentration and the ionic product of
+pH = – log[H+] = 8.95.
+water we can calculate the concentration
+of hydroxyl ions. Thus we have:
+6.11.5 relation between K and K
+a b
+[H+] = antilog (–pH)
+As seen earlier in this chapter, K and K
+a b
+= antilog (–9.7) = 1.67 ×10–10 represent the strength of an acid and a base,
+[OH–] = K / [H+] = 1 × 10–14 / 1.67 × 10–10 respectively. In case of a conjugate acid-base
+w
+pair, they are related in a simple manner so
+= 5.98 × 10–5
+that if one is known, the other can be deduced.
+The concentration of the corresponding
+Considering the example of NH+ and NH
+hydrazinium ion is also the same as that 4 3
+we see,
+of hydroxyl ion. The concentration of both
+these ions is very small so the concentration NH+(aq) + H O(l) H O+(aq) + NH (aq)
+4 2 3 3
+of the undissociated base can be taken K = [H O+][ NH ] / [NH +] = 5.6 × 10–10
+equal to 0.004M. a 3 3 4
+NH (aq) + H O(l) NH +(aq) + OH–(aq)
+Thus, 3 2 4
+K =[ NH +][ OH–] / NH = 1.8 × 10–5
+K = [NH NH +][OH–] / [NH NH ] b 4 3
+b 2 3 2 2 Net: 2 H O(l) H O+(aq) + OH–(aq)
+= (5.98 × 10–5)2 / 0.004 = 8.96 × 10–7 2 3
+K = [H O+][ OH– ] = 1.0 × 10–14 M
+w 3
+pK = –logK = –log(8.96 × 10–7) = 6.04.
+b b Where, K represents the strength of NH+
+a 4
+Problem 6.22 as an acid and K represents the strength of
+b
+NH as a base.
+Calculate the pH of the solution in which 3
+0.2M NH Cl and 0.1M NH are present. The It can be seen from the net reaction that
+4 3
+pK of ammonia solution is 4.75. the equilibrium constant is equal to the
+b
+product of equilibrium constants K and K
+Solution a b
+for the reactions added. Thus,
+NH + H O NH+ + OH– K × K = {[H O+][ NH ] / [NH+ ]} × {[NH +]
+3 2 4 a b 3 3 4 4
+The ionization constant of NH , [OH–] / [NH ]}
+3 3
+K = antilog (–pK ) i.e. = [H O+][OH–] = K
+b b 3 w
+= (5.6 ×10–10) × (1.8 × 10–5) = 1.0 × 10–14 M
+2024-25
+Unit 6.indd 198 9/12/2022 11:58:28 AMEQUILIBRIUM 199
+This can be extended to make a
+NH + H O NH+ + OH–
+generalisation. the equilibrium constant 3 2 4
+We use equation (6.33) to calculate
+for a net reaction obtained after adding
+hydroxyl ion concentration,
+two (or more) reactions equals the product
+[OH–] = c α = 0.05 α
+of the equilibrium constants for individual
+reactions: K = 0.05 α2 / (1 – α)
+b
+The value of α is small, therefore the
+K = K × K × …… (6.35)
+NET 1 2 quadratic equation can be simplified by
+Similarly, in case of a conjugate acid-base
+neglecting α in comparison to 1 in the
+pair, denominator on right hand side of the
+K × K = K (6.36) equation,
+a b w
+Knowing one, the other can be obtained. Thus,
+It should be noted that a strong acid will have K = c α2 or α = √ (1.77 × 10–5 / 0.05)
+b
+a weak conjugate base and vice-versa.
+= 0.018.
+Alternatively, the above expression
+[OH–] = c α = 0.05 × 0.018 = 9.4 × 10–4M.
+K = K × K , can also be obtained by
+w a b [H+] = K / [OH–] = 10–14 / (9.4 × 10–4)
+considering the base-dissociation equilibrium w
+reaction: = 1.06 × 10–11
+B(aq) + H O(l) BH+(aq) + OH–(aq) pH = –log(1.06 × 10–11) = 10.97.
+2
+K = [BH+][OH–] / [B] Now, using the relation for conjugate
+b
+As the concentration of water remains acid-base pair,
+constant it has been omitted from the K × K = K
+a b w
+denominator and incorporated within the
+using the value of K of NH from
+dissociation constant. Then multiplying and b 3
+Table 6.7.
+dividing the above expression by [H+], we get:
+We can determine the concentration of
+K = [BH+][OH–][H+] / [B][H+]
+b conjugate acid NH+
+={[ OH–][H+]}{[BH+] / [B][H+]} 4
+K = K / K = 10–14 / 1.77 × 10–5
+= K / K a w b
+w a
+= 5.64 × 10–10.
+or K × K = K
+a b w
+It may be noted that if we take negative
+logarithm of both sides of the equation, then 6.11.6 Di- and Polybasic Acids and Di-
+pK values of the conjugate acid and base are and Polyacidic bases
+related to each other by the equation:
+Some of the acids like oxalic acid, sulphuric
+pK + pK = pK = 14 (at 298K) acid and phosphoric acids have more than
+a b w
+one ionizable proton per molecule of the
+Problem 6.23 acid. Such acids are known as polybasic or
+polyprotic acids.
+Determine the degree of ionization and pH of
+The ionization reactions for example for
+a 0.05M of ammonia solution. The ionization
+a dibasic acid H X are represented by the
+constant of ammonia can be taken from 2
+equations:
+Table 6.7. Also, calculate the ionization
+H X(aq) H+(aq) + HX–(aq)
+constant of the conjugate acid of ammonia. 2
+HX–(aq) H+(aq) + X2–(aq)
+Solution
+And the corresponding equilibrium
+The ionization of NH in water is represented
+3 constants are given below:
+by equation:
+K = {[H+][HX–]} / [H X] and
+a1 2
+2024-25
+Unit 6.indd 199 9/12/2022 11:58:28 AM200 chemistry
+K = {[H+][X2-]} / [HX-] In general, when strength of H-A bond
+a2
+decreases, that is, the energy required to break
+Here, K and K are called the first and second
+a1 a2 the bond decreases, HA becomes a stronger
+ionization constants respectively of the acid H
+2 acid. Also, when the H-A bond becomes more
+X. Similarly, for tribasic acids like H PO we
+3 4 polar i.e., the electronegativity difference
+have three ionization constants. The values
+between the atoms H and A increases and
+of the ionization constants for some common
+there is marked charge separation, cleavage
+polyprotic acids are given in Table 6.8.
+of the bond becomes easier thereby increasing
+table 6.8 the ionization Constants of Some the acidity.
+Common Polyprotic Acids (298K)
+But it should be noted that while comparing
+elements in the same group of the periodic
+table, H-A bond strength is a more important
+factor in determining acidity than its polar
+nature. As the size of A increases down the
+group, H-A bond strength decreases and so
+the acid strength increases. For example,
+Size increases
+HF << HCl << HBr << HI
+It can be seen that higher order ionization
+Acid strength increases
+constants (K , K ) are smaller than the
+a2 a3
+Similarly, H S is stronger acid than H O.
+lower order ionization constant (K ) of a 2 2
+polyprotic acid. The reason for this a i1 s that But, when we discuss elements in the same
+it is more difficult to remove a positively row of the periodic table, H-A bond polarity
+charged proton from a negative ion due to becomes the deciding factor for determining
+electrostatic forces. This can be seen in the the acid strength. As the electronegativity
+case of removing a proton from the uncharged of A increases, the strength of the acid also
+H CO as compared from a negatively charged increases. For example,
+2 3
+HCO–. Similarly, it is more difficult to remove
+3 Electronegativity of A increases
+a proton from a doubly charged HPO2– anion
+4
+as compared to H PO –. CH < NH < H O < HF
+2 4 4 3 2
+Polyprotic acid solutions contain a Acid strength increases
+mixture of acids like H A, HA– and A2– in case
+2 6.11.8 Common ion Effect in the
+of a diprotic acid. H A being a strong acid, the
+2 ionization of Acids and bases
+primary reaction involves the dissociation of
+H A, and H O+ in the solution comes mainly Consider an example of acetic acid dissociation
+2 3
+from the first dissociation step. equilibrium represented as:
+CH COOH(aq) H+(aq) + CH COO– (aq)
+6.11.7 Factors Affecting Acid Strength 3 3
+or HAc(aq) H+ (aq) + Ac– (aq)
+Having discussed quantitatively the strengths
+of acids and bases, we come to a stage where K = [H+][Ac– ] / [HAc]
+a
+we can calculate the pH of a given acid
+Addition of acetate ions to an acetic
+solution. But, the curiosity rises about why
+acid solution results in decreasing the
+should some acids be stronger than others?
+concentration of hydrogen ions, [H+]. Also,
+What factors are responsible for making
+if H+ ions are added from an external source
+them stronger? The answer lies in its being a
+then the equilibrium moves in the direction
+complex phenomenon. But, broadly speaking
+of undissociated acetic acid i.e., in a direction
+we can say that the extent of dissociation of
+of reducing the concentration of hydrogen
+an acid depends on the strength and polarity
+ions, [H+]. This phenomenon is an example
+of the H-A bond.
+2024-25
+Unit 6.indd 200 9/12/2022 11:58:28 AMEQUILIBRIUM 201
+of common ion effect. It can be defined as
+Thus, x = 1.33 × 10–3 = [OH–]
+a shift in equilibrium on adding a substance
+that provides more of an ionic species already Therefore, [H+] = K / [OH–] = 10–14 /
+w
+present in the dissociation equilibrium.
+(1.33 × 10–3) = 7.51 × 10–12
+Thus, we can say that common ion effect is
+pH = –log (7.5 × 10–12) = 11.12
+a phenomenon based on the Le Chatelier’s
+principle discussed in section 6.8. On addition of 25 mL of 0.1M HCl
+solution (i.e., 2.5 mmol of HCl) to 50
+In order to evaluate the pH of the solution
+mL of 0.1M ammonia solution (i.e., 5
+resulting on addition of 0.05M acetate ion to
+mmol of NH ), 2.5 mmol of ammonia
+0.05M acetic acid solution, we shall consider 3
+molecules are neutralized. The resulting
+the acetic acid dissociation equilibrium once
+75 mL solution contains the remaining
+again,
+unneutralized 2.5 mmol of NH molecules
+3
+HAc(aq) H+(aq) + Ac–(aq) and 2.5 mmol of NH+.
+4
+Initial concentration (M) NH + HCl → NH+ + Cl–
+3 4
+0.05 0 0.05 2.5 2.5 0 0
+At equilibrium
+Let x be the extent of ionization of acetic
+acid. 0 0 2.5 2.5
+Change in concentration (M) The resulting 75 mL of solution contains
+2.5 mmol of NH+ ions (i.e., 0.033 M) and
+–x +x +x 4
+2.5 mmol (i.e., 0.033 M ) of uneutralised
+Equilibrium concentration (M) NH molecules. This NH exists in the
+3 3
+0.05-x x 0.05+x following equilibrium:
+NH OH   NH+ + OH–
+Therefore, 4 4
+0.033M – y y y
+K = [H+][Ac– ]/[H Ac] = {(0.05+x)(x)}/(0.05-x)
+a
+where, y = [OH–] = [NH+]
+As K is small for a very weak acid, x<<0.05. 4
+a
+The final 75 mL solution after
+Hence, (0.05 + x) ≈ (0.05 – x) ≈ 0.05
+neutralisation already contains
+Thus,
+2.5 m mol NH+ ions (i.e. 0.033M), thus
+4
+1.8 × 10–5 = (x) (0.05 + x) / (0.05 – x) total concentration of NH + ions is given
+4
+as:
+= x(0.05) / (0.05) = x = [H+] = 1.8 × 10–5M
+[NH+] = 0.033 + y
+pH = – log(1.8 × 10–5) = 4.74 4
+As y is small, [NH OH]  0.033 M and
+4
+[NH +]  0.033M.
+Problem 6.24 4
+We know,
+Calculate the pH of a 0.10M ammonia
+solution. Calculate the pH after 50.0 mL K = [NH +][OH–] / [NH OH]
+b 4 4
+of this solution is treated with 25.0 mL of = y (0.033)/(0.033) = 1.77 × 10–5 M
+0.10M HCl. The dissociation constant of
+ammonia, K = 1.77 × 10–5 Thus, y = 1.77 × 10–5 = [OH–]
+b
+[H+] = 10–14 / 1.77 × 10–5 = 0.56 × 10–9
+Solution
+Hence, pH = 9.24
+NH + H O → NH + + OH–
+3 2 4
+K = [NH +][OH–] / [NH ] = 1.77 × 10–5
+b 4 3
+6.11.9 Hydrolysis of Salts and the pH of
+Before neutralization,
+their Solutions
+[NH +] = [OH–] = x
+4
+[NH ] = 0.10 – x  0.10 Salts formed by the reactions between acids
+3 and bases in definite proportions, undergo
+x2 / 0.10 = 1.77 × 10–5
+ionization in water. The cations/anions
+2024-25
+Unit 6.indd 201 9/12/2022 11:58:29 AM202 chemistry
+formed on ionization of salts either exist as increased of H+ ion concentration in solution
+hydrated ions in aqueous solutions or interact making the solution acidic. Thus, the pH of
+with water to reform corresponding acids/ NH Cl solution in water is less than 7.
+4
+bases depending upon the nature of salts.
+Consider the hydrolysis of CH COONH
+The later process of interaction between 3 4
+salt formed from weak acid and weak base.
+water and cations/anions or both of salts
+The ions formed undergo hydrolysis as follow:
+is called hydrolysis. The pH of the solution
+CH COO– + NH+ + H O CH COOH +
+gets affected by this interaction. The cations 3 4 2 3
+NH OH
+(e.g., Na+, K+, Ca2+, Ba2+, etc.) of strong bases 4
+and anions (e.g., Cl–, Br–, NO–, ClO – etc.) of CH COOH and NH OH, also remain into
+3 4 3 4
+strong acids simply get hydrated but do not partially dissociated form:
+hydrolyse, and therefore the solutions of CH COOH CH COO– + H+
+3 3
+salts formed from strong acids and bases are
+NH OH NH+ + OH–
+neutral i.e., their pH is 7. However, the other 4 4
+category of salts do undergo hydrolysis. H O H+ + OH–
+2
+We now consider the hydrolysis of the Without going into detailed calculation,
+salts of the following types : it can be said that degree of hydrolysis is
+(i) salts of weak acid and strong base e.g., independent of concentration of solution, and
+CH COONa. pH of such solutions is determined by their
+3
+pK values:
+(ii) salts of strong acid and weak base e.g.,
+NH Cl, and pH = 7 + ½ (pK – pK ) (6.38)
+4 a b
+(iii) salts of weak acid and weak base, e.g., The pH of solution can be greater than 7,
+CH COONH . if the difference is positive and it will be less
+3 4
+In the first case, CH COONa being a salt of than 7, if the difference is negative.
+3
+weak acid, CH COOH and strong base, NaOH
+3 Problem 6.25
+gets completely ionised in aqueous solution.
+The pK of acetic acid and pK of ammonium
+CH COONa(aq) → CH COO– (aq)+ Na+(aq) a b
+3 3 hydroxide are 4.76 and 4.75 respectively.
+Acetate ion thus formed undergoes Calculate the pH of ammonium acetate
+hydrolysis in water to give acetic acid and solution.
+OH– ions
+Solution
+CH COO–(aq)+H O(l) CH COOH(aq)+OH–(aq)
+3 2 3 pH = 7 + ½ [pK – pK ]
+Acetic acid being a weak acid a b
+= 7 + ½ [4.76 – 4.75]
+(K = 1.8 × 10–5) remains mainly unionised in
+a = 7 + ½ [0.01] = 7 + 0.005 = 7.005
+solution. This results in increase of OH– ion
+concentration in solution making it alkaline.
+The pH of such a solution is more than 7. 6.12 bUFFEr SOlUtiOnS
+Many body fluids e.g., blood or urine have
+Similarly, NH Cl formed from weak
+4 definite pH and any deviation in their pH
+base, NH OH and strong acid, HCl, in water
+4 indicates malfunctioning of the body. The
+dissociates completely.
+control of pH is also very important in
+NH Cl(aq) → NH+ (aq) +Cl– (aq)
+4 4 many chemical and biochemical processes.
+Ammonium ions undergo hydrolysis with Many medical and cosmetic formulations
+water to form NH OH and H+ ions require that these be kept and administered
+4
+NH+ (aq) + H O (1) NH OH(aq) + H+(aq) at a particular pH. the solutions which
+4 2 4
+Ammonium hydroxide is a weak base resist change in pH on dilution or with
+(K = 1.77 × 10–5) and therefore remains the addition of small amounts of acid or
+b
+almost unionised in solution. This results in alkali are called buffer Solutions. Buffer
+2024-25
+Unit 6.indd 202 9/12/2022 11:58:29 AMEQUILIBRIUM 203
+solutions of known pH can be prepared from acid present in the mixture. Since acid is a
+the knowledge of pK of the acid or pK of base weak acid, it ionises to a very little extent and
+a b
+and by controlling the ratio of the salt and acid concentration of [HA] is negligibly different
+or salt and base. A mixture of acetic acid and from concentration of acid taken to form
+sodium acetate acts as buffer solution around buffer. Also, most of the conjugate base, [A—],
+pH 4.75 and a mixture of ammonium chloride comes from the ionisation of salt of the acid.
+and ammonium hydroxide acts as a buffer Therefore, the concentration of conjugate
+around pH 9.25. You will learn more about base will be negligibly different from the
+buffer solutions in higher classes. concentration of salt. Thus, equation (6.40)
+takes the form:
+6.12.1 Designing buffer Solution
+[Salt]
+Knowledge of pK , pK and equilibrium pH=pK +log
+constant help us to pa reparb e the buffer solution a [Acid]
+of known pH. Let us see how we can do this.
+In the equation (6.39), if the concentration
+Preparation of Acidic buffer of [A—] is equal to the concentration of [HA],
+then pH = pK because value of log 1 is zero.
+To prepare a buffer of acidic pH we use weak a
+Thus if we take molar concentration of acid
+acid and its salt formed with strong base.
+and salt (conjugate base) same, the pH of the
+We develop the equation relating the pH, the
+buffer solution will be equal to the pK of the
+equilibrium constant, K of weak acid and a
+a acid. So for preparing the buffer solution of
+ratio of concentration of weak acid and its
+the required pH we select that acid whose pK
+conjugate base. For the general case where a
+is close to the required pH. For acetic acid
+the weak acid HA ionises in water,
+pK value is 4.76, therefore pH of the buffer
+a
+HA + H O  H O+ + A– solution formed by acetic acid and sodium
+2 3
+For which we can write the expression acetate taken in equal molar concentration
+will be around 4.76.
+A similar analysis of a buffer made with
+a weak base and its conjugate acid leads to
+Rearranging the expression we have,
+the result,
++
+[Conjugate acid,BH ]
+pOH=pK +log
+b [Base,B]
+Taking logarithm on both the sides and (6.41)
+rearranging the terms we get — pH of the buffer solution can be calculated
+by using the equation pH + pOH =14.
+We know that pH + pOH = pK and
+w
+pK + pK = pK . On putting these values in
+Or a b w
+equation (6.41) it takes the form as follows:
+
+(6.39) [Conjugate acid,BH ]
+pK - pH=pK pK log
+w w a [Base,B]
+or
++
+[Conjugate acid,BH ]
+pH=pK +log
+(6.40) a [Base,B]
+(6.42)
+The expression (6.40) is known as If molar concentration of base and its
+Henderson–Hasselbalch equation. The conjugate acid (cation) is same then pH of
+the buffer solution will be same as pK for the
+a
+quantity is the ratio of concentration base. pK value for ammonia is s9.25; therefore
+a
+a buffer of pH close to 9.25 can be obtained
+of conjugate base (anion) of the acid and the by taking ammonia solution and ammonium
+2024-25
+Unit 6.indd 203 9/12/2022 11:58:29 AM204 chemistry
+chloride solution of same molar concentration. We shall now consider the equilibrium
+For a buffer solution formed by ammonium between the sparingly soluble ionic salt and
+chloride and ammonium hydroxide, equation its saturated aqueous solution.
+(6.42) becomes:
++ 6.13.1 Solubility Product Constant
+[Conjugate acid,BH ]
+pH=9.25+log Let us now have a solid like barium sulphate
+[Base,B]
+in contact with its saturated aqueous solution.
+pH of the buffer solution is not affected by The equilibrium between the undisolved solid
+dilution because ratio under the logarithmic and the ions in a saturated solution can be
+term remains unchanged. represented by the equation:
+6.13 SOlUbilitY EqUilibriA OF BaSO (s)  Ba2+(aq) + SO2–(aq),
+4 4
+SPArinGlY SOlUblE SAltS
+We have already known that the solubility of The equilibrium constant is given by the
+ionic solids in water varies a great deal. Some of equation:
+these (like calcium chloride) are so soluble that K = {[Ba2+][SO2–]} / [BaSO ]
+4 4
+they are hygroscopic in nature and even absorb
+For a pure solid substance the
+water vapour from atmosphere. Others (such
+concentration remains constant and we can
+as lithium fluoride) have so little solubility
+write
+that they are commonly termed as insoluble.
+The solubility depends on a number of factors K = K[BaSO ] = [Ba2+][SO2–] (6.43)
+sp 4 4
+important amongst which are the lattice We call K the solubility product constant
+sp
+enthalpy of the salt and the solvation enthalpy or simply solubility product. The experimental
+of the ions in a solution. For a salt to dissolve value of K in above equation at 298K is
+sp
+in a solvent the strong forces of attraction
+1.1 × 10–10. This means that for solid barium
+between its ions (lattice enthalpy) must be
+sulphate in equilibrium with its saturated
+overcome by the ion-solvent interactions. The
+solution, the product of the concentrations
+solvation enthalpy of ions is referred to in
+of barium and sulphate ions is equal
+terms of solvation which is always negative i.e.
+to its solubility product constant. The
+energy is released in the process of solvation.
+concentrations of the two ions will be equal to
+The amount of solvation enthalpy depends on
+the molar solubility of the barium sulphate.
+the nature of the solvent. In case of a non- If molar solubility is S, then
+polar (covalent) solvent, solvation enthalpy is
+1.1 × 10–10 = (S)(S) = S2
+small and hence, not sufficient to overcome
+or S = 1.05 × 10–5.
+lattice enthalpy of the salt. Consequently, the
+salt does not dissolve in non-polar solvent. As Thus, molar solubility of barium sulphate
+a general rule, for a salt to be able to dissolve will be equal to 1.05 × 10–5 mol L–1.
+in a particular solvent its solvation enthalpy A salt may give on dissociation two or
+must be greater than its lattice enthalpy so more than two anions and cations carrying
+that the latter may be overcome by former. different charges. For example, consider a salt
+Each salt has its characteristic solubility which like zirconium phosphate of molecular formula
+depends on temperature. We classify salts on (Zr4+) (PO 3–) . It dissociates into 3 zirconium
+3 4 4
+the basis of their solubility in the following cations of charge +4 and 4 phosphate
+anions of charge –3. If the molar solubility of
+three categories.
+zirconium phosphate is S, then it can be seen
+Category I Soluble Solubility > 0.1M
+from the stoichiometry of the compound that
+Category II Slightly 0.01M<Solubility< 0.1M
+[Zr4+] = 3S and [PO3–] = 4S
+Soluble 4
+and K = (3S)3 (4S)4 = 6912 (S)7
+Category III Sparingly Solubility < 0.01M
+sp
+Soluble or S = {K / (33 × 44)}1/7 = (K / 6912)1/7
+sp sp
+2024-25
+Unit 6.indd 204 9/12/2022 11:58:30 AMEQUILIBRIUM 205
+A solid salt of the general formula
+Mp Xq
+table 6.9 the Solubility Product Constants,
+x y
+with molar solubility S in equilibrium with K of Some Common ionic Salts at
+sp
+its saturated solution may be represented by 298K.
+the equation:
+M X (s) xMp+(aq) + yXq– (aq)
+x y
+(where x × p+ = y × q–)
+And its solubility product constant is
+given by:
+K = [Mp+]x[Xq– ]y = (xS)x(yS)y (6.44)
+sp
+= xx . yy . S(x + y)
+S(x + y) = K / xx . yy
+sp
+S = (K / xx . yy)1 / x + y (6.45)
+sp
+The term K in equation is given by Q
+sp sp
+(section 6.6.2) when the concentration of one
+or more species is not the concentration under
+equilibrium. Obviously under equilibrium
+conditions K = Q but otherwise it gives the
+sp sp
+direction of the processes of precipitation or
+dissolution. The solubility product constants
+of a number of common salts at 298K are
+given in Table 6.9.
+Problem 6.26
+Calculate the solubility of A X in pure
+2 3
+water, assuming that neither kind of ion
+reacts with water. The solubility product of
+A X , K = 1.1 × 10–23.
+2 3 sp
+Solution
+A X → 2A3+ + 3X2–
+2 3
+K = [A3+]2 [X2–]3 = 1.1 × 10–23
+sp
+If S = solubility of A X , then
+2 3
+[A3+] = 2S; [X2–] = 3S
+therefore, K = (2S)2(3S)3 = 108S5
+sp
+= 1.1 × 10–23
+thus, S5 = 1 × 10–25
+S = 1.0 × 10–5 mol/L.
+Problem 6.27
+The values of K of two sparingly soluble
+sp
+salts Ni(OH) and AgCN are 2.0 × 10–15 and
+2
+6 × 0–17 respectively. Which salt is more
+soluble? Explain.
+Solution
+AgCN Ag+ + CN–
+2024-25
+Unit 6.indd 205 9/12/2022 11:58:30 AM206 chemistry
+K = [Ag+][CN–] = 6 × 10–17 Dissolution of S mol/L of Ni(OH) provides
+sp 2
+Ni(OH) Ni2+ + 2OH– S mol/L of Ni2+ and 2S mol/L of OH–, but
+2 the total concentration of OH– = (0.10 + 2S)
+K = [Ni2+][OH–]2 = 2 × 10–15
+sp mol/L because the solution already contains
+Let [Ag+] = S , then [CN-] = S 0.10 mol/L of OH– from NaOH.
+1 1
+Let [Ni2+] = S , then [OH–] = 2S
+2 2 K = 2.0 × 10–15 = [Ni2+] [OH–]2
+S 2 = 6 × 10–17 , S = 7.8 × 10–9 sp
+1 1 = (S) (0.10 + 2S)2
+(S )(2S )2 = 2 × 10–15, S = 0.58 × 10–4
+2 2 2 As K is small, 2S << 0.10,
+sp
+Ni(OH) is more soluble than AgCN.
+2 thus, (0.10 + 2S) ≈ 0.10
+6.13.2 Common ion Effect on Solubility Hence,
+of ionic Salts 2.0 × 10–15 = S (0.10)2
+It is expected from Le Chatelier’s principle S = 2.0 × 10–13 M = [Ni2+]
+that if we increase the concentration of any
+one of the ions, it should combine with the
+ion of its opposite charge and some of the The solubility of salts of weak acids like
+salt will be precipitated till once again K = phosphates increases at lower pH. This is
+sp
+Q . Similarly, if the concentration of one of because at lower pH the concentration of the
+sp
+the ions is decreased, more salt will dissolve anion decreases due to its protonation. This
+to increase the concentration of both the ions in turn increase the solubility of the salt so
+till once again K = Q . This is applicable that K = Q . We have to satisfy two equilibria
+sp sp sp sp
+even to soluble salts like sodium chloride simultaneously i.e.,
+except that due to higher concentrations
+K = [M+] [X–],
+of the ions, we use their activities instead sp
+of their molarities in the expression for
+Q . Thus if we take a saturated solution of
+sp
+sodium chloride and pass HCl gas through it,
+then sodium chloride is precipitated due to
+increased concentration (activity) of chloride
+[X–] / [HX] = K /[H+]
+ion available from the dissociation of HCl. a
+Sodium chloride thus obtained is of very Taking inverse of both side and adding 1
+high purity and we can get rid of impurities we get
+like sodium and magnesium sulphates. The HX  H
+
+common ion effect is also used for almost 1 1
+complete precipitation of a particular ion  X  K a
+as its sparingly soluble salt, with very low
+HXH HK
+value of solubility product for gravimetric      a
+estimation. Thus we can precipitate silver ion  X  K a
+as silver chloride, ferric ion as its hydroxide
+Now, again taking inverse, we get
+(or hydrated ferric oxide) and barium ion as
+its sulphate for quantitative estimations. [X–] / {[X–] + [HX]} = f = K /(K + [H+]) and it
+a a
+can be seen that ‘f’ decreases as pH decreases.
+Problem 6.28
+If S is the solubility of the salt at a given
+Calculate the molar solubility of Ni(OH) in pH then
+2
+0.10 M NaOH. The ionic product of Ni(OH)
+2 K = [S] [f S] = S2 {K /(K + [H+])} and
+is 2.0 × 10–15. sp a a
+S = {K ([H+] + K )/K }1/2 (6.46)
+Solution sp a a
+Thus solubility S increases with increase
+Let the solubility of Ni(OH) be equal to S.
+2 in [H+] or decrease in pH.
+2024-25
+Unit 6.indd 206 9/12/2022 11:58:30 AMEQUILIBRIUM 207
+SUmmArY
+When the number of molecules leaving the liquid to vapour equals the number of molecules
+returning to the liquid from vapour, equilibrium is said to be attained and is dynamic in
+nature. Equilibrium can be established for both physical and chemical processes and at
+this stage rate of forward and reverse reactions are equal. Equilibrium constant, K is
+c
+expressed as the concentration of products divided by reactants, each term raised to the
+stoichiometric coefficient.
+For reaction, a A + b B c C +d D
+K = [C]c[D]d/[A]a[B]b
+c
+Equilibrium constant has constant value at a fixed temperature and at this stage all the
+macroscopic properties such as concentration, pressure, etc. become constant. For a gaseous
+reaction equilibrium constant is expressed as K and is written by replacing concentration
+p
+terms by partial pressures in K expression. The direction of reaction can be predicted by
+c
+reaction quotient Q which is equal to K at equilibrium. le Chatelier’s principle states that
+c c
+the change in any factor such as temperature, pressure, concentration, etc. will cause the
+equilibrium to shift in such a direction so as to reduce or counteract the effect of the change.
+It can be used to study the effect of various factors such as temperature, concentration,
+pressure, catalyst and inert gases on the direction of equilibrium and to control the yield of
+products by controlling these factors. Catalyst does not effect the equilibrium composition
+of a reaction mixture but increases the rate of chemical reaction by making available a new
+lower energy pathway for conversion of reactants to products and vice-versa.
+All substances that conduct electricity in aqueous solutions are called electrolytes. Acids,
+bases and salts are electrolytes and the conduction of electricity by their aqueous solutions
+is due to anions and cations produced by the dissociation or ionization of electrolytes
+in aqueous solution. The strong electrolytes are completely dissociated. In weak electrolytes
+there is equilibrium between the ions and the unionized electrolyte molecules. According to
+Arrhenius, acids give hydrogen ions while bases produce hydroxyl ions in their aqueous
+solutions. brönsted-lowry on the other hand, defined an acid as a proton donor and a base as
+a proton acceptor. When a Brönsted-Lowry acid reacts with a base, it produces its conjugate
+base and a conjugate acid corresponding to the base with which it reacts. Thus a conjugate
+pair of acid-base differs only by one proton. lewis further generalised the definition of an
+acid as an electron pair acceptor and a base as an electron pair donor. The expressions
+for ionization (equilibrium) constants of weak acids (K ) and weak bases (K ) are developed
+a b
+using Arrhenius definition. The degree of ionization and its dependence on concentration and
+common ion are discussed. The pH scale (pH = –log[H+]) for the hydrogen ion concentration
+(activity) has been introduced and extended to other quantities (pOH = – log[OH–]); pK = –log[K];
+a a
+pK = –log[K ]; and pK = –log[K ] etc.). The ionization of water has been considered and we
+b b w w
+note that the equation: pH + pOH = pK is always satisfied. The salts of strong acid and
+w
+weak base, weak acid and strong base, and weak acid and weak base undergo hydrolysis in
+aqueous solution. The definition of buffer solutions, and their importance are discussed
+briefly. The solubility equilibrium of sparingly soluble salts is discussed and the equilibrium
+constant is introduced as solubility product constant (K ). Its relationship with solubility
+sp
+of the salt is established. The conditions of precipitation of the salt from their solutions
+or their dissolution in water are worked out. The role of common ion and the solubility of
+sparingly soluble salts is also discussed.
+2024-25
+Unit 6.indd 207 9/12/2022 11:58:31 AM208 chemistry
+SUGGEStED ACtiVitiES FOr StUDEntS rEGArDinG tHiS Unit
+(a) The student may use pH paper in determining the pH of fresh juices of various vegetables
+and fruits, soft drinks, body fluids and also that of water samples available.
+(b) The pH paper may also be used to determine the pH of different salt solutions and from
+that he/she may determine if these are formed from strong/weak acids and bases.
+(c) They may prepare some buffer solutions by mixing the solutions of sodium acetate and
+acetic acid and determine their pH using pH paper.
+(d) They may be provided with different indicators to observe their colours in solutions of
+varying pH.
+(e) They may perform some acid-base titrations using indicators.
+(f) They may observe common ion effect on the solubility of sparingly soluble salts.
+(g) If pH meter is available in their school, they may measure the pH with it and compare
+the results obtained with that of the pH paper.
+EXErCiSES
+6.1 A liquid is in equilibrium with its vapour in a sealed container at a fixed temperature.
+The volume of the container is suddenly increased.
+a) What is the initial effect of the change on vapour pressure?
+b) How do rates of evaporation and condensation change initially?
+c) What happens when equilibrium is restored finally and what will be the final vapour
+pressure?
+6.2 What is K for the following equilibrium when the equilibrium concentration of each
+c
+substance is: [SO ]= 0.60M, [O ] = 0.82M and [SO ] = 1.90M ?
+2 2 3
+2SO (g) + O (g) 2SO (g)
+2 2 3
+6.3 At a certain temperature and total pressure of 105Pa, iodine vapour contains 40% by
+volume of I atoms
+I (g) 2I (g)
+2
+Calculate K for the equilibrium.
+p
+6.4 Write the expression for the equilibrium constant, K for each of the following reactions:
+c
+(i) 2NOCl (g) 2NO (g) + Cl (g)
+2
+(ii) 2Cu(NO ) (s) 2CuO (s) + 4NO (g) + O (g)
+32 2 2
+(iii) CH COOC H (aq) + H O(l) CH COOH (aq) + C H OH (aq)
+3 2 5 2 3 2 5
+(iv) Fe3+ (aq) + 3OH– (aq) Fe(OH) (s)
+3
+(v) I (s) + 5F 2IF
+2 2 5
+6.5 Find out the value of K for each of the following equilibria from the value of K :
+c p
+(i) 2NOCl (g) 2NO (g) + Cl (g); K = 1.8 × 10–2 at 500 K
+2 p
+(ii) CaCO (s) CaO(s) + CO (g); K = 167 at 1073 K
+3 2 p
+2024-25
+Unit 6.indd 208 9/12/2022 11:58:31 AMEQUILIBRIUM 209
+6.6 For the following equilibrium, K= 6.3 × 1014 at 1000 K
+c
+NO (g) + O (g) NO (g) + O (g)
+3 2 2
+Both the forward and reverse reactions in the equilibrium are elementary bimolecular
+reactions. What is K, for the reverse reaction?
+c
+6.7 Explain why pure liquids and solids can be ignored while writing the equilibrium
+constant expression?
+6.8 Reaction between N and O takes place as follows:
+2 2–
+2N (g) + O (g) 2N O (g)
+2 2 2
+If a mixture of 0.482 mol N and 0.933 mol of O is placed in a 10 L reaction vessel
+2 2
+and allowed to form N O at a temperature for which K= 2.0 × 10–37, determine the
+2 c
+composition of equilibrium mixture.
+6.9 Nitric oxide reacts with Br and gives nitrosyl bromide as per reaction given below:
+2
+2NO (g) + Br (g) 2NOBr (g)
+2
+When 0.087 mol of NO and 0.0437 mol of Br are mixed in a closed container at
+2
+constant temperature, 0.0518 mol of NOBr is obtained at equilibrium. Calculate
+equilibrium amount of NO and Br .
+2
+6.10 At 450K, K = 2.0 × 1010/bar for the given reaction at equilibrium.
+p
+2SO (g) + O (g) 2SO (g)
+2 2 3
+What is K at this temperature ?
+c
+6.11 A sample of HI(g) is placed in flask at a pressure of 0.2 atm. At equilibrium the partial
+pressure of HI(g) is 0.04 atm. What is K for the given equilibrium ?
+p
+2HI (g) H (g) + I (g)
+2 2
+6.12 A mixture of 1.57 mol of N , 1.92 mol of H and 8.13 mol of NH is introduced into
+2 2 3
+a 20 L reaction vessel at 500 K. At this temperature, the equilibrium constant, K
+c
+for the reaction N (g) + 3H (g) 2NH (g) is 1.7 × 102. Is the reaction mixture at
+2 2 3
+equilibrium? If not, what is the direction of the net reaction?
+6.13 The equilibrium constant expression for a gas reaction is,
+NH 4O 5
+K  3 2
+c NO4H O6
+2
+Write the balanced chemical equation corresponding to this expression.
+6.14 One mole of H O and one mole of CO are taken in 10 L vessel and heated to
+2
+725 K. At equilibrium 40% of water (by mass) reacts with CO according to the equation,
+H O (g) + CO (g) H (g) + CO (g)
+2 2 2
+Calculate the equilibrium constant for the reaction.
+6.15 At 700 K, equilibrium constant for the reaction:
+H (g) + I (g) 2HI (g)
+2 2
+is 54.8. If 0.5 mol L–1 of HI(g) is present at equilibrium at 700 K, what are the
+concentration of H (g) and I (g) assuming that we initially started with HI(g) and
+2 2
+allowed it to reach equilibrium at 700K?
+2024-25
+Unit 6.indd 209 9/12/2022 11:58:31 AM210 chemistry
+6.16 What is the equilibrium concentration of each of the substances in the equilibrium
+when the initial concentration of ICl was 0.78 M ?
+2ICl (g) I (g) + Cl (g); K = 0.14
+2 2 c
+6.17 K = 0.04 atm at 899 K for the equilibrium shown below. What is the equilibrium
+p
+concentration of C H when it is placed in a flask at 4.0 atm pressure and allowed
+2 6
+to come to equilibrium?
+C H (g) C H (g) + H (g)
+2 6 2 4 2
+6.18 Ethyl acetate is formed by the reaction between ethanol and acetic acid and the
+equilibrium is represented as:
+CH COOH (l) + C H OH (l) CH COOC H (l) + H O (l)
+3 2 5 3 2 5 2
+(i) Write the concentration ratio (reaction quotient), Q, for this reaction (note: water
+c
+is not in excess and is not a solvent in this reaction)
+(ii) At 293 K, if one starts with 1.00 mol of acetic acid and 0.18 mol of ethanol, there
+is 0.171 mol of ethyl acetate in the final equilibrium mixture. Calculate the
+equilibrium constant.
+(iii) Starting with 0.5 mol of ethanol and 1.0 mol of acetic acid and maintaining it at
+293 K, 0.214 mol of ethyl acetate is found after sometime. Has equilibrium been
+reached?
+6.19 A sample of pure PCl was introduced into an evacuated vessel at 473
+5
+K. After equilibrium was attained, concentration of PCl was found to be
+5
+0.5 × 10–1 mol L–1. If value of K is 8.3 × 10–3, what are the concentrations of PCl and
+c 3
+Cl at equilibrium?
+2
+PCl (g) PCl (g) + Cl (g)
+5 3 2
+6.20 One of the reaction that takes place in producing steel from iron ore is the reduction
+of iron(II) oxide by carbon monoxide to give iron metal and CO .
+2
+FeO (s) + CO (g) Fe (s) + CO (g); K = 0.265 atm at 1050K
+2 p
+What are the equilibrium partial pressures of CO and CO at 1050 K if the initial
+2
+partial pressures are: p = 1.4 atm and = 0.80 atm?
+CO
+6.21 Equilibrium constant, K for the reaction
+c
+N (g) + 3H (g) 2NH (g) at 500 K is 0.061
+2 2 3
+At a particular time, the analysis shows that composition of the reaction mixture is
+3.0 mol L–1 N , 2.0 mol L–1 H and 0.5 mol L–1 NH . Is the reaction at equilibrium? If
+2 2 3
+not in which direction does the reaction tend to proceed to reach equilibrium?
+6.22 Bromine monochloride, BrCl decomposes into bromine and chlorine and reaches the
+equilibrium:
+2BrCl (g) Br (g) + Cl (g)
+2 2
+for which K= 32 at 500 K. If initially pure BrCl is present at a concentration of
+c
+3.3 × 10–3 mol L–1, what is its molar concentration in the mixture at equilibrium?
+6.23 At 1127 K and 1 atm pressure, a gaseous mixture of CO and CO in equilibrium with
+2
+soild carbon has 90.55% CO by mass
+C (s) + CO (g) 2CO (g)
+2
+Calculate K for this reaction at the above temperature.
+c
+2024-25
+Unit 6.indd 210 9/12/2022 11:58:31 AMEQUILIBRIUM 211
+6.24 Calculate a) ∆G and b) the equilibrium constant for the formation of NO from NO
+2
+and O at 298K
+2
+NO (g) + ½ O (g) NO (g)
+2 2
+where
+∆G (NO ) = 52.0 kJ/mol
+f 2
+∆G (NO) = 87.0 kJ/mol
+f
+∆G (O ) = 0 kJ/mol
+f 2
+6.25 Does the number of moles of reaction products increase, decrease or remain same
+when each of the following equilibria is subjected to a decrease in pressure by
+increasing the volume?
+(a) PCl5 (g) PCl3 (g) + Cl2 (g)
+(b) CaO (s) + CO2 (g) CaCO3 (s)
+(c) 3Fe (s) + 4H O (g) Fe O (s) + 4H (g)
+2 3 4 2
+6.26 Which of the following reactions will get affected by increasing the pressure?
+Also, mention whether change will cause the reaction to go into forward or
+backward direction.
+(i) COCl (g) CO (g) + Cl (g)
+2 2
+(ii) CH4 (g) + 2S2 (g) CS2 (g) + 2H2S (g)
+(iii) CO2 (g) + C (s) 2CO (g)
+(iv) 2H2 (g) + CO (g) CH3OH (g)
+(v) CaCO3 (s) CaO (s) + CO2 (g)
+(vi) 4 NH (g) + 5O (g) 4NO (g) + 6H O(g)
+3 2 2
+6.27 The equilibrium constant for the following reaction is 1.6 ×105 at 1024K
+H (g) + Br (g) 2HBr(g)
+2 2
+Find the equilibrium pressure of all gases if 10.0 bar of HBr is introduced into a
+sealed container at 1024K.
+6.28 Dihydrogen gas is obtained from natural gas by partial oxidation with steam as per
+following endothermic reaction:
+CH (g) + H O (g) CO (g) + 3H (g)
+4 2 2
+(a) Write as expression for Kp for the above reaction.
+(b) How will the values of Kp and composition of equilibrium mixture be
+affected by
+(i) increasing the pressure
+(ii) increasing the temperature
+(iii) using a catalyst?
+6.29 Describe the effect of:
+a) addition of H2
+b) addition of CH3OH
+c) removal of CO
+d) removal of CH OH
+3
+on the equilibrium of the reaction:
+2H (g) + CO (g) CH OH (g)
+2 3
+6.30 At 473 K, equilibrium constant K for decomposition of phosphorus pentachloride,
+c
+PCl is 8.3 ×10-3. If decomposition is depicted as,
+5
+2024-25
+Unit 6.indd 211 9/12/2022 11:58:31 AM212 chemistry
+PCl (g) PCl (g) + Cl (g) ∆H = 124.0 kJ mol–1
+5 3 2 r
+a) write an expression for Kc for the reaction.
+b) what is the value of Kc for the reverse reaction at the same temperature?
+c) what would be the effect on K if (i) more PCl is added (ii) pressure is increased
+c 5
+(iii) the temperature is increased ?
+6.31 Dihydrogen gas used in Haber’s process is produced by reacting methane from
+natural gas with high temperature steam. The first stage of two stage reaction
+involves the formation of CO and H . In second stage, CO formed in first stage is
+2
+reacted with more steam in water gas shift reaction,
+CO (g) + H O (g) CO (g) + H (g)
+2 2 2
+If a reaction vessel at 400°C is charged with an equimolar mixture of CO and steam
+such that p = p = 4.0 bar, what will be the partial pressure of H at equilibrium?
+co H2O 2
+K = 10.1 at 400°C
+p
+6.32 Predict which of the following reaction will have appreciable concentration of reactants
+and products:
+a) Cl2 (g) 2Cl (g) Kc = 5 ×10–39
+b) Cl2 (g) + 2NO (g) 2NOCl (g) Kc = 3.7 × 108
+c) Cl2 (g) + 2NO (g) 2NO Cl (g) K = 1.8
+2 2 c
+6.33 The value of K for the reaction 3O (g) 2O (g) is 2.0 ×10–50 at 25°C. If the
+c 2 3
+equilibrium concentration of O in air at 25°C is 1.6 ×10–2, what is the concentration
+2
+of O ?
+3
+6.34 The reaction, CO(g) + 3H (g) CH (g) + H O(g)
+2 4 2
+is at equilibrium at 1300 K in a 1L flask. It also contain 0.30 mol of CO, 0.10 mol of
+H and 0.02 mol of H O and an unknown amount of CH in the flask. Determine the
+2 2 4
+concentration of CH in the mixture. The equilibrium constant, K for the reaction
+4 c
+at the given temperature is 3.90.
+6.35 What is meant by the conjugate acid-base pair? Find the conjugate acid/base for
+the following species:
+HNO , CN–, HClO F –, OH–, CO , and S2–
+2 4,
+6.36 Which of the followings are Lewis acids? H O, BF , H+, and NH+
+2 3 4
+6.37 What will be the conjugate bases for the Brönsted acids: HF, H SO and HCO– ?
+2 4 3
+6.38 Write the conjugate acids for the following Brönsted bases: NH–, NH and HCOO–.
+2 3
+6.39 The species: H O, HCO–, HSO – and NH can act both as Brönsted acids and bases.
+2 3 4 3
+For each case give the corresponding conjugate acid and base.
+6.40 Classify the following species into Lewis acids and Lewis bases and show how these
+act as Lewis acid/base: (a) OH– (b) F– (c) H+ (d) BCl .
+3
+6.41 The concentration of hydrogen ion in a sample of soft drink is 3.8 × 10–3 M. What is
+its pH?
+6.42 The pH of a sample of vinegar is 3.76. Calculate the concentration of hydrogen ion
+in it.
+6.43 The ionization constant of HF, HCOOH and HCN at 298K are 6.8 × 10–4,
+1.8 × 10–4 and 4.8 × 10–9 respectively. Calculate the ionization constants of the
+corresponding conjugate base.
+2024-25
+Unit 6.indd 212 11/30/2022 17:00:00EQUILIBRIUM 213
+6.44 The ionization constant of phenol is 1.0 × 10–10. What is the concentration of phenolate
+ion in 0.05 M solution of phenol? What will be its degree of ionization if the solution
+is also 0.01M in sodium phenolate?
+6.45 The first ionization constant of H S is 9.1 × 10–8. Calculate the concentration
+2
+of HS– ion in its 0.1M solution. How will this concentration be affected if the
+solution is 0.1M in HCl also? If the second dissociation constant of H S is
+2
+1.2 × 10–13, calculate the concentration of S2– under both conditions.
+6.46 The ionization constant of acetic acid is 1.74 × 10–5. Calculate the degree of
+dissociation of acetic acid in its 0.05 M solution. Calculate the concentration of
+acetate ion in the solution and its pH.
+6.47 It has been found that the pH of a 0.01M solution of an organic acid is 4.15. Calculate
+the concentration of the anion, the ionization constant of the acid and its pK .
+a
+6.48 Assuming complete dissociation, calculate the pH of the following solutions:
+(a) 0.003 M HCl (b) 0.005 M NaOH (c) 0.002 M HBr (d) 0.002 M KOH
+6.49 Calculate the pH of the following solutions:
+a) 2 g of TlOH dissolved in water to give 2 litre of solution.
+b) 0.3 g of Ca(OH) dissolved in water to give 500 mL of solution.
+2
+c) 0.3 g of NaOH dissolved in water to give 200 mL of solution.
+d) 1mL of 13.6 M HCl is diluted with water to give 1 litre of solution.
+6.50 The degree of ionization of a 0.1M bromoacetic acid solution is 0.132. Calculate the
+pH of the solution and the pK of bromoacetic acid.
+a
+6.51 The pH of 0.005M codeine (C H NO ) solution is 9.95. Calculate its ionization
+18 21 3
+constant and pK .
+b
+6.52 What is the pH of 0.001M aniline solution? The ionization constant of aniline
+can be taken from Table 6.7. Calculate the degree of ionization of aniline in the
+solution. Also calculate the ionization constant of the conjugate acid of aniline.
+6.53 Calculate the degree of ionization of 0.05M acetic acid if its pK value is 4.74.
+a
+How is the degree of dissociation affected when its solution also contains
+(a) 0.01M (b) 0.1M in HCl ?
+6.54 The ionization constant of dimethylamine is 5.4 × 10–4. Calculate its degree of
+ionization in its 0.02M solution. What percentage of dimethylamine is ionized if the
+solution is also 0.1M in NaOH?
+6.55 Calculate the hydrogen ion concentration in the following biological fluids whose
+pH are given below:
+(a) Human muscle-fluid, 6.83 (b) Human stomach fluid, 1.2
+(c) Human blood, 7.38 (d) Human saliva, 6.4.
+6.56 The pH of milk, black coffee, tomato juice, lemon juice and egg white are 6.8, 5.0,
+4.2, 2.2 and 7.8 respectively. Calculate corresponding hydrogen ion concentration
+in each.
+6.57 If 0.561 g of KOH is dissolved in water to give 200 mL of solution at 298 K. Calculate
+the concentrations of potassium, hydrogen and hydroxyl ions. What is its pH?
+6.58 The solubility of Sr(OH) at 298 K is 19.23 g/L of solution. Calculate the concentrations
+2
+of strontium and hydroxyl ions and the pH of the solution.
+2024-25
+Unit 6.indd 213 11/30/2022 17:00:00214 chemistry
+6.59 The ionization constant of propanoic acid is 1.32 × 10–5. Calculate the degree of
+ionization of the acid in its 0.05M solution and also its pH. What will be its degree
+of ionization if the solution is 0.01M in HCl also?
+6.60 The pH of 0.1M solution of cyanic acid (HCNO) is 2.34. Calculate the ionization
+constant of the acid and its degree of ionization in the solution.
+6.61 The ionization constant of nitrous acid is 4.5 × 10–4. Calculate the pH of 0.04 M
+sodium nitrite solution and also its degree of hydrolysis.
+6.62 A 0.02M solution of pyridinium hydrochloride has pH = 3.44. Calculate the ionization
+constant of pyridine.
+6.63 Predict if the solutions of the following salts are neutral, acidic or basic:
+NaCl, KBr, NaCN, NH NO , NaNO and KF
+4 3 2
+6.64 The ionization constant of chloroacetic acid is 1.35 × 10–3. What will be the pH of
+0.1M acid and its 0.1M sodium salt solution?
+6.65 Ionic product of water at 310 K is 2.7 × 10–14. What is the pH of neutral water at
+this temperature?
+6.66 Calculate the pH of the resultant mixtures:
+a) 10 mL of 0.2M Ca(OH) + 25 mL of 0.1M HCl
+2
+b) 10 mL of 0.01M H SO + 10 mL of 0.01M Ca(OH)
+2 4 2
+c) 10 mL of 0.1M H SO + 10 mL of 0.1M KOH
+2 4
+6.67 Determine the solubilities of silver chromate, barium chromate, ferric hydroxide,
+lead chloride and mercurous iodide at 298K from their solubility product constants
+given in Table 6.9. Determine also the molarities of individual ions.
+6.68 The solubility product constant of Ag CrO and AgBr are 1.1 × 10–12 and
+2 4
+5.0 × 10–13 respectively. Calculate the ratio of the molarities of their saturated
+solutions.
+6.69 Equal volumes of 0.002 M solutions of sodium iodate and cupric chlorate are
+mixed together. Will it lead to precipitation of copper iodate? (For cupric iodate
+K = 7.4 × 10–8 ).
+sp
+6.70 The ionization constant of benzoic acid is 6.46 × 10–5 and K for silver benzoate is
+sp
+2.5 × 10–13. How many times is silver benzoate more soluble in a buffer of pH 3.19
+compared to its solubility in pure water?
+6.71 What is the maximum concentration of equimolar solutions of ferrous sulphate and
+sodium sulphide so that when mixed in equal volumes, there is no precipitation of
+iron sulphide? (For iron sulphide, K = 6.3 × 10–18).
+sp
+6.72 What is the minimum volume of water required to dissolve 1g of calcium sulphate
+at 298 K? (For calcium sulphate, K is 9.1 × 10–6).
+sp
+6.73 The concentration of sulphide ion in 0.1M HCl solution saturated with hydrogen
+sulphide is 1.0 × 10–19 M. If 10 mL of this is added to 5 mL of 0.04 M solution of the
+following: FeSO , MnCl , ZnCl and CdCl . in which of these solutions precipitation
+4 2 2 2
+will take place?
+2024-25
+Unit 6.indd 214 11/30/2022 17:00:00

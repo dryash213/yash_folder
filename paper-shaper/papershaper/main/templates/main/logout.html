@@ -1,0 +1,14 @@
+<!-- main/templates/main/logout.html -->
+{% extends "main/base.html" %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Logout</h2>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+</div>
+{% endblock %}

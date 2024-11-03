@@ -1,0 +1,30 @@
+<!-- main/templates/main/view_contact_us.html -->
+{% extends "main/base.html" %}
+
+{% block title %}Contact Us Submissions{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Contact Us Submissions</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+                <th>Submitted At</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for submission in submissions %}
+                <tr>
+                    <td>{{ submission.name }}</td>
+                    <td>{{ submission.email }}</td>
+                    <td>{{ submission.message }}</td>
+                    <td>{{ submission.created_at }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

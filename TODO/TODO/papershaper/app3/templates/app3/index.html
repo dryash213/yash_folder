@@ -1,0 +1,114 @@
+<!-- app1/templates/app1/index.html -->
+{% extends "main/base.html" %}
+
+{% block title %}App 1{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.6/markdown-it.min.css">
+<style>
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        display: none;
+        margin: auto;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Select Options</h2>
+    <form id="dropdownForm">
+        <div class="form-group">
+            <label for="dropdown1">Dropdown 1</label>
+            <select class="form-control" id="dropdown1" name="dropdown1">
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown2">Dropdown 2</label>
+            <select class="form-control" id="dropdown2" name="dropdown2">
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown3">Dropdown 3</label>
+            <select class="form-control" id="dropdown3" name="dropdown3">
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown4">Dropdown 4</label>
+            <select class="form-control" id="dropdown4" name="dropdown4">
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+    </form>
+    <div class="loader" id="loader"></div>
+    <div class="mt-4">
+        <textarea id="markdownOutput" class="form-control" rows="10" readonly></textarea>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.6/markdown-it.min.js"></script>
+<script>
+    function submitForm() {
+        const loader = document.getElementById('loader');
+        const markdownOutput = document.getElementById('markdownOutput');
+        const formData = new FormData(document.getElementById('dropdownForm'));
+
+        loader.style.display = 'block';
+        markdownOutput.value = '';
+
+        const data = {
+            dropdown1: formData.get('dropdown1'),
+            dropdown2: formData.get('dropdown2'),
+            dropdown3: formData.get('dropdown3'),
+            dropdown4: formData.get('dropdown4')
+        };
+
+        fetch("http://0.0.0.0:1234/api/endpoint/", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            loader.style.display = 'none';
+            if (data.message) {
+                const md = window.markdownit();
+                markdownOutput.value = md.render(data.message);
+            } else {
+                markdownOutput.value = 'Error: ' + data.error;
+            }
+        })
+        .catch(error => {
+            loader.style.display = 'none';
+            markdownOutput.value = 'Error: ' + error;
+        });
+    }
+</script>
+{% endblock %}

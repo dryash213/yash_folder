@@ -1,0 +1,99 @@
+<!-- main/templates/main/need_help.html -->
+{% extends "main/base.html" %}
+
+{% block title %}Need Help{% endblock %}
+
+{% block extra_head %}
+<style>
+    .carousel-item {
+        padding: 20px;
+    }
+    .card {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: none;
+        border-radius: 10px;
+    }
+    .card-header {
+        background-color: #3498db;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Need Help?</h2>
+    <div id="faqCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>FAQ 1</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>How do I reset my password?</p>
+                        <p>To reset your password, click on the "Forgot Password" link on the login page and follow the instructions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>FAQ 2</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>How do I contact support?</p>
+                        <p>You can contact support by clicking on the "Contact Us" link in the navigation bar and filling out the contact form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>FAQ 3</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>How do I update my profile information?</p>
+                        <p>To update your profile information, go to the "Profile" page and click on the "Edit Profile" button.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more FAQs as needed -->
+        </div>
+        <a class="carousel-control-prev" href="#faqCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#faqCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <h2 class="mt-5">Submit a Help Request</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    {% if messages %}
+        <div class="mt-3">
+            {% for message in messages %}
+                <div class="alert alert-success">{{ message }}</div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            interval: 5000
+        });
+    });
+</script>
+{% endblock %}

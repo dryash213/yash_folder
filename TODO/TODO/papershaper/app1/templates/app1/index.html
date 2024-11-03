@@ -1,0 +1,238 @@
+<!-- app1/templates/app1/index.html -->
+{% extends "main/base.html" %}
+
+{% block title %}App 1{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.6/markdown-it.min.css">
+<style>
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    display: none;
+    margin: auto;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2>Select Options</h2>
+  <form id="dropdownForm">
+    <div class="form-group">
+      <label for="dropdown1">Dropdown 1</label>
+      <select class="form-control" id="dropdown1" name="dropdown1" onchange="loadDropdown2()">
+        <option value="">Select an option</option>
+        <option value="Class 9th">Class 9th</option>
+        <option value="Class 10th">Class 10th</option>
+        <option value="Class 11th">Class 11th</option>
+        <option value="Class 12th">Class 12th</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="dropdown2-container" style="display:none;">
+      <label for="dropdown2">Dropdown 2</label>
+      <select class="form-control" id="dropdown2" name="dropdown2" onchange="loadDropdown3()">
+        <option value="">Select an option</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="dropdown3-container" style="display:none;">
+      <label for="dropdown3">Dropdown 3</label>
+      <select class="form-control" id="dropdown3" name="dropdown3" onchange="loadDropdown4()">
+        <option value="">Select an option</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="dropdown4-container" style="display:none;">
+      <label for="dropdown4">Dropdown 4</label>
+      <select class="form-control" id="dropdown4" name="dropdown4">
+        <option value="">Select an option</option>
+      </select>
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+  </form>
+
+  <div class="loader" id="loader"></div>
+
+  <div class="mt-4">
+    <textarea id="markdownOutput" class="form-control" rows="10" readonly></textarea>
+    <button id="downloadPdfBtn" class="btn btn-secondary mt-3" style="display:none;" onclick="downloadPdf()">Download as PDF</button>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.6/markdown-it.min.js"></script>
+
+<script>
+function loadDropdown2() {
+    const selectedValue = document.getElementById('dropdown1').value;
+    if (selectedValue) {
+        fetch('/get-options-for-dropdown2/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify({ selectedValue })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const dropdown2 = document.getElementById('dropdown2');
+            dropdown2.innerHTML = '<option value="">Select an option</option>';
+            if (data.options && data.options.length > 0) {
+                data.options.forEach(option => {
+                    dropdown2.innerHTML += `<option value="${option.value}">${option.label}</option>`;
+                });
+                document.getElementById('dropdown2-container').style.display = 'block';
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+}
+
+function loadDropdown3() {
+    const selectedValue = document.getElementById('dropdown2').value;
+    if (selectedValue) {
+        fetch('/get-options-for-dropdown3/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify({ selectedValue })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const dropdown3 = document.getElementById('dropdown3');
+            dropdown3.innerHTML = '<option value="">Select an option</option>';
+            if (data.options && data.options.length > 0) {
+                data.options.forEach(option => {
+                    dropdown3.innerHTML += `<option value="${option.value}">${option.label}</option>`;
+                });
+                document.getElementById('dropdown3-container').style.display = 'block';
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+}
+
+function loadDropdown4() {
+    const selectedValue = document.getElementById('dropdown3').value;
+    if (selectedValue) {
+        fetch('/get-options-for-dropdown4/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify({ selectedValue })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const dropdown4 = document.getElementById('dropdown4');
+            dropdown4.innerHTML = '<option value="">Select an option</option>';
+            if (data.options && data.options.length > 0) {
+                data.options.forEach(option => {
+                    dropdown4.innerHTML += `<option value="${option.value}">${option.label}</option>`;
+                });
+                document.getElementById('dropdown4-container').style.display = 'block';
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+}
+
+
+  function submitForm() {
+    const loader = document.getElementById('loader');
+    const markdownOutput = document.getElementById('markdownOutput');
+    const formData = new FormData(document.getElementById('dropdownForm'));
+
+    loader.style.display = 'block';
+    markdownOutput.value = '';
+    document.getElementById('downloadPdfBtn').style.display = 'none';
+
+    const data = {
+      dropdown1: formData.get('dropdown1'),
+      dropdown2: formData.get('dropdown2'),
+      dropdown3: formData.get('dropdown3'),
+      dropdown4: formData.get('dropdown4')
+    };
+
+    fetch("http://0.0.0.0:1234/api/endpoint/", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': '{{ csrf_token }}'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+      loader.style.display = 'none';
+      if (data.message) {
+        const md = window.markdownit();
+        markdownOutput.value = md.render(data.message);
+        document.getElementById('downloadPdfBtn').style.display = 'block';
+      } else {
+        markdownOutput.value = 'Error: ' + data.error;
+      }
+    })
+    .catch(error => {
+      loader.style.display = 'none';
+      markdownOutput.value = 'Error: ' + error;
+    });
+  }
+
+  function downloadPdf() {
+    const markdownOutput = document.getElementById('markdownOutput').value;
+    const data = { output: markdownOutput };
+
+    fetch("{% url 'generate_pdf' %}", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': '{{ csrf_token }}'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => response.blob())
+    .then(blob => {
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = url;
+      a.download = 'output.pdf';
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      window.location.reload();
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+  }
+</script>
+{% endblock %}
